@@ -1,14 +1,8 @@
 {
+  "/favicon.ico/route": "app/favicon.ico/route.js",
+  "/_not-found/page": "app/_not-found/page.js",
   "/(pages)/page": "app/(pages)/page.js",
-  "/(pages)/page1/page": "app/(pages)/page1/page.js",
   "/(pages)/page2/page": "app/(pages)/page2/page.js",
   "/(pages)/page3/page": "app/(pages)/page3/page.js",
-  "/(root)/page1/page": "app/(root)/page1/page.js",
-  "/_not-found/page": "app/_not-found/page.js",
-  "/dashboard/page": "app/dashboard/page.js",
-  "/favicon.ico/route": "app/favicon.ico/route.js",
-  "/page": "app/page.js",
-  "/page1/page": "app/page1/page.js",
-  "/page2/page": "app/page2/page.js",
-  "/page3/page": "app/page3/page.js"
+  "/(pages)/page1/page": "app/(pages)/page1/page.js"
 }

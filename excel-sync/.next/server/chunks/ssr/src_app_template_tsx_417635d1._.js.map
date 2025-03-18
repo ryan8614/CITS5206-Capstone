@@ -1,6 +1,0 @@
-{
-  "version": 3,
-  "sources": [],
-  "sections": [
-    {"offset": {"line": 7, "column": 0}, "map": {"version":3,"sources":["file:///Users/ryan/Documents/Code/ServerlessAutoContact/excel-sync/src/app/template.tsx"],"sourcesContent":["export default function Template({ children }: {children: React.ReactNode}) {\n  return <div className=\"template\">\n    {children}\n    </div>;\n}"],"names":[],"mappings":";;;;;AAAe,SAAS,SAAS,EAAE,QAAQ,EAA+B;IACxE,qBAAO,8OAAC;QAAI,WAAU;kBACnB;;;;;;AAEL","debugId":null}}]
-}
