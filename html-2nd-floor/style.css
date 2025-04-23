@@ -1,0 +1,123 @@
+/* ==========================
+   Typography
+   ========================== */
+
+*{
+  font-size:10px; /* set to 10 for easier calculate rem value */
+}
+
+.title{
+  font-size: 3em;
+  margin:4em;
+}
+
+p {
+  margin: 0;
+  line-height: 1.2;
+}
+
+/* ==========================
+   Room Blocks
+   ========================== */
+.container-fluid {
+  margin: 20px;
+  padding: 5px;  
+  width: 100%;
+  max-width: 100%;
+}
+
+.row.flex-nowrap {
+  min-width: max-content; /* Ensures content doesn't wrap */
+}
+
+.room-box {
+  border: 1px solid #000;
+  padding: 0.5rem;
+  text-align: center;
+  min-width: 6rem;
+}
+
+/* ==========================
+   Color-coding for different rooms
+   ========================== */
+ /* casual, part-time */
+.blue-box {
+  background-color: #aee4f5;
+}
+
+/* orange: visiting */
+.orange-box{
+  background-color: #FFC107;
+}
+
+/* vacant */
+.yellow-box{
+  background-color:	#FFFF00;
+}
+
+/* phd,master of phil, RA */
+.green-box{
+  background-color: #DDE5B6;
+}
+
+
+/* ==========================
+   different Margins 
+   ========================== */
+.margin-left-50{
+  margin-left: 50rem;
+}
+.margin-left-15{
+  margin-left: 15rem;
+}
+
+.margin-left-30{
+  margin-left: 30rem;
+}
+
+/* ==========================
+   Other specific styles 
+   ========================== */
+
+.text-small { font-size: 0.9rem; }
+.full-height { height: 210px; } /* Match tall boxes like Print Room or Seating Area */
+
+.room { font-weight: bold; }
+.name, .ext, .key-locker { margin: 0; }
+
+/* .oval{
+  display: flex;
+  text-align: center;
+  width: 20em; 
+  height: 20em; 
+  border-radius: 50%;
+} */
+
+.rounded-pill{
+  height: 15rem;
+  width:16rem;
+}
+
+.fire{
+  position: relative;
+  z-index:1 ;
+}
+
+#R201{
+  height: 15rem;
+  width:16rem;
+  margin-left: 5rem;
+}
+
+#R242{
+  height: 20rem;
+  width:21rem;
+}
+
+.vertical-text {
+  writing-mode: vertical-rl;
+  text-orientation: mixed;
+  transform: rotate(180deg);
+  white-space: nowrap;
+ 
+}
