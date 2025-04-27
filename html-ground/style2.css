@@ -295,7 +295,37 @@
   .d-flex.flex-column.justify-content-start > .room-box {
     flex-grow: 0; /* Prevent printer boxes from stretching excessively */
   }
+
+  /* 位置定位容器 */
+  .stacked-top-container {
+    position: absolute;
+    top: -200px; /* 向上偏移120px，使其位于G56上方 */
+    right: -708px;    /* 与G56右对齐 */
+    width: 101px;
+    z-index: 10;
+  }
   
+  /* G54和G55的样式 */
+  .stacked-top-container .room-box {
+    height: 100px;
+    min-height: 60px;
+    padding: 0.3rem;
+    margin-bottom: 2px;
+  }
+  
+
+  /* 确保G56可见 */
+  #G56 {
+    position: relative;
+    z-index: 5;
+  }
+  
+  /* 绿色背景 */
+  .green-box {
+    background-color: #4CAF50;
+    color: white;
+  }
+
   /* ==========================
      Responsive Overrides
      ========================== */
