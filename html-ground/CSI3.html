@@ -1,4 +1,3 @@
-html -->
 <!doctype html>
 <html lang="en">
 <head>
@@ -80,13 +79,27 @@ html -->
     <div class="row flex-nowrap g-0 mt-2 bottom-row">
       <div class="col-7 px-0">
         <div class="d-flex">
+          <!-- Blank area with same dimensions as kitchen (leftmost) -->
+          <div class="kitchen-container">
+            <div class="room-box" style="height: 72px; visibility: hidden;">
+              <span>Blank</span>
+            </div>
+            <div class="d-flex justify-content-center mt-2">
+              <i class="fa-solid fa-restroom fa-2x"></i>
+            </div>
+          </div>
+          
           <!-- 厨房垂直文本 -->
           <div class="kitchen-container">
             <div class="room-box vertical-text" style="height: 72px;">
               <span>Kitchen</span>
             </div>
-            <div class="d-flex justify-content-center mt-2">
-              <i class="fa-solid fa-restroom fa-2x"></i>
+          </div>
+          
+          <!-- Another blank area between kitchen and offices -->
+          <div class="kitchen-container">
+            <div class="room-box" style="height: 72px; visibility: hidden;">
+              <span>Blank</span>
             </div>
           </div>
           
