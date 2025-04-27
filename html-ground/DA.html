@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Floor Map</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 20px;
+      position: relative;
+    }
+    .floor-map {
+      position: relative;
+      width: 2500px;
+      height: 1500px;
+      border: 1px solid #ccc;
+      background-color: white;
+    }
+    .room {
+      position: absolute;
+      border: 2px solid #000;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      box-sizing: border-box;
+      padding: 5px;
+      font-size: 12px;
+    }
+    .room-number {
+      font-weight: bold;
+      margin-bottom: 3px;
+    }
+    .person-name {
+      margin-bottom: 2px;
+    }
+    .key-locker {
+      color: green;
+      font-size: 10px;
+    }
+    .vacant {
+      background-color: yellow;
+    }
+    .staff-room {
+      background-color: #d4f0c8; /* Light green */
+    }
+    .cafe {
+      background-color: white;
+    }
+    .courtyard {
+      background-color: white;
+    }
+    .case-study {
+      border-radius: 50%;
+      background-color: white;
+    }
+    .printer-info {
+      color: red;
+      font-size: 11px;
+    }
+    .furniture {
+      position: absolute;
+      background-color: #6495ED;
+      border: 1px solid #000;
+    }
+    .round-table {
+      border-radius: 50%;
+    }
+    .restroom {
+      font-size: 22px;
+      color: blue;
+    }
+  </style>
+</head>
+<body>
+  <div class="floor-map">
+    <!-- Cafe (+200px) -->
+    <div class="room cafe" style="top: 20px; left: 220px; width: 200px; height: 150px;">
+      <span class="room-number">CAFE</span>
+    </div>
+
+    <!-- Woodside Courtyard (+200px) -->
+    <div class="room courtyard" style="top: 20px; left: 600px; width: 1500px; height: 150px;">
+      <span>Woodside Courtyard</span>
+    </div>
+
+    <!-- Case Study Room (+200px) -->
+    <div class="room case-study" style="top: 230px; left: 290px; width: 150px; height: 150px;">
+      <span class="room-number">Case Study Room G62</span>
+      <span class="person-name">Michael Cherry Case Study Room</span>
+      <span class="key-locker">Key Locker<br>591261</span>
+    </div>
+
+    <!-- Top Row Rooms (G32-G37) (+200px) -->
+    <div class="room staff-room" style="top: 180px; left: 430px; width: 100px; height: 80px;">
+      <span class="room-number">G32</span>
+      <span class="person-name">Michal Akubuwal</span>
+      <span class="key-locker">Key Locker<br>591102</span>
+    </div>
+
+    <div class="room staff-room" style="top: 180px; left: 540px; width: 100px; height: 80px;">
+      <span class="room-number">G33</span>
+      <span class="person-name">Apollo Chu</span>
+      <span class="key-locker">Key Locker<br>591103</span>
+    </div>
+
+    <div class="room staff-room" style="top: 180px; left: 650px; width: 100px; height: 80px;">
+      <span class="room-number">G34</span>
+      <span class="person-name">Matilda Schwartzman</span>
+      <span class="key-locker">Key Locker<br>591104</span>
+    </div>
+
+    <div class="room staff-room" style="top: 180px; left: 760px; width: 100px; height: 80px;">
+      <span class="room-number">G35</span>
+      <span class="person-name">Tegan Lopez<br>+ G313</span>
+      <span class="key-locker">Key Locker<br>591105</span>
+    </div>
+
+    <div class="room staff-room" style="top: 180px; left: 870px; width: 100px; height: 80px;">
+      <span class="room-number">G36</span>
+      <span class="person-name">Miguel Lynch</span>
+      <span class="key-locker">Key Locker<br>591106</span>
+    </div>
+
+    <div class="room staff-room" style="top: 180px; left: 980px; width: 100px; height: 80px;">
+      <span class="room-number">G37</span>
+      <span class="person-name">Matthew Byron</span>
+      <span class="key-locker">Key Locker<br>591107</span>
+    </div>
+
+    <!-- Printer Info (+200px) -->
+    <div style="position: absolute; top: 280px; left: 950px;">
+      <span class="printer-info">PTR 801/Printer Serial</span>
+    </div>
+
+    <!-- Restrooms (+200px) -->
+    <div style="position: absolute; top: 280px; left: 1075px;" class="restroom">
+      <span>🚹🚺</span>
+    </div>
+
+    <!-- G38 Row (+200px) -->
+    <div class="room staff-room" style="top: 310px; left: 430px; width: 80px; height: 80px;">
+      <span class="room-number">G38A</span>
+      <span class="person-name">Qing Li</span>
+      <span class="key-locker">76194</span>
+    </div>
+
+    <div class="room vacant" style="top: 310px; left: 520px; width: 80px; height: 80px;">
+      <span class="room-number">G38D</span>
+      <span class="person-name">Vacant</span>
+      <span>66797</span>
+    </div>
+
+    <div class="room vacant" style="top: 310px; left: 610px; width: 80px; height: 80px;">
+      <span class="room-number">G39B</span>
+      <span class="person-name">VACANT</span>
+      <span>76388</span>
+    </div>
+
+    <div class="room staff-room" style="top: 310px; left: 700px; width: 80px; height: 80px;">
+      <span class="room-number">G39J</span>
+      <span class="person-name">Poozhel Zhiang</span>
+      <span>X6387</span>
+    </div>
+
+    <div class="room staff-room" style="top: 310px; left: 790px; width: 80px; height: 80px;">
+      <span class="room-number">G38</span>
+      <span class="person-name">Olivia Clarke</span>
+      <span class="key-locker">Key Locker<br>591148</span>
+    </div>
+
+    <div class="room staff-room" style="top: 310px; left: 880px; width: 80px; height: 80px;">
+      <span class="room-number">G39</span>
+      <span class="person-name">Yifan Zhang</span>
+      <span class="key-locker">Key Locker<br>591149</span>
+    </div>
+
+    <div class="room staff-room" style="top: 310px; left: 970px; width: 80px; height: 80px;">
+      <span class="room-number">G40</span>
+      <span class="person-name">Sara Smith</span>
+      <span>44979</span>
+    </div>
+
+    <div class="room staff-room" style="top: 310px; left: 1060px; width: 80px; height: 80px;">
+      <span class="room-number">G41</span>
+      <span class="person-name">Paul Stuart</span>
+      <span class="key-locker">X4858</span>
+      <span class="key-locker">Key Locker<br>591151</span>
+    </div>
+
+    <div class="room staff-room" style="top: 310px; left: 1150px; width: 80px; height: 80px;">
+      <span class="room-number">G42</span>
+      <span class="person-name">Mayumi Kubota</span>
+      <span>X4142</span>
+      <span class="key-locker">Key Locker<br>591152</span>
+    </div>
+
+    <!-- Bottom Row Rooms (+200px) -->
+    <div class="room staff-room" style="top: 400px; left: 430px; width: 80px; height: 80px;">
+      <span class="room-number">G38E</span>
+      <span class="person-name">Kun (Scott) Zhang</span>
+      <span>76877</span>
+    </div>
+
+    <div class="room staff-room" style="top: 400px; left: 520px; width: 80px; height: 80px;">
+      <span class="room-number">G38F</span>
+      <span class="person-name">Garima Malik</span>
+      <span>76881</span>
+    </div>
+
+    <div class="room vacant" style="top: 400px; left: 610px; width: 80px; height: 80px;">
+      <span class="room-number">G39H</span>
+      <span class="person-name">Vacant</span>
+    </div>
+
+    <div class="room staff-room" style="top: 400px; left: 700px; width: 80px; height: 80px;">
+      <span class="room-number">G39K</span>
+      <span class="person-name">Kristi</span>
+      <span>x5462</span>
+    </div>
+
+    <div class="room staff-room" style="top: 490px; left: 430px; width: 80px; height: 80px;">
+      <span class="room-number">G38C</span>
+      <span class="person-name">Muhammad Hafiz RAMLI</span>
+    </div>
+
+    <div class="room staff-room" style="top: 490px; left: 520px; width: 80px; height: 80px;">
+      <span class="room-number">G38F</span>
+      <span class="person-name">Srikant Chakrabarty</span>
+    </div>
+
+    <div class="room staff-room" style="top: 490px; left: 610px; width: 80px; height: 80px;">
+      <span class="room-number">G39I</span>
+      <span class="person-name">Gary Ellis</span>
+    </div>
+
+    <div class="room vacant" style="top: 490px; left: 700px; width: 80px; height: 80px;">
+      <span class="room-number">G39L</span>
+      <span class="person-name">Vacant</span>
+      <span>x5918</span>
+    </div>
+
+    <!-- Furniture pieces (+200px) -->
+    <div class="furniture" style="top: 190px; left: 380px; width: 10px; height: 30px;"></div>
+    <div class="furniture" style="top: 190px; left: 410px; width: 10px; height: 30px;"></div>
+    <div class="furniture round-table" style="top: 190px; left: 392px; width: 16px; height: 16px;"></div>
+  </div>
+</body>
+</html>
