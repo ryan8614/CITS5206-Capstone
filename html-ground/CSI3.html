@@ -1,0 +1,160 @@
+html -->
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+    <link rel="stylesheet" href="style2.css">
+    <title>Ground Floor Layout</title>
+    <style>
+      /* 添加自定义样式 */
+      .office-container {
+        display: flex;
+        flex-wrap: nowrap;
+        width: 100%;
+      }
+      
+      .office-box {
+        flex: 1;
+        min-width: 0;
+      }
+      
+      /* 确保垂直文本居中 */
+      .kitchen-container {
+        width: 30px;
+        margin-right: 2px;
+      }
+      
+      /* 覆盖style2.css中的负边距，防止边框重叠问题 */
+      .office-box .room-box {
+        margin-bottom: 0;
+      }
+      
+      /* 确保底部行在小屏幕上仍然保持不换行 */
+      .bottom-row {
+        overflow-x: auto;
+      }
+    </style>
+</head>
+<body>
+  <p class="h1 text-center">Ground Floor</p>
+
+  <div class="container-fluid mt-3">
+    <!-- 顶部行 -->
+    <div class="row flex-nowrap align-items-stretch g-0">
+      <!-- 左列：讲堂 -->
+      <div class="col-3 py-2"> 
+        <div class="room-box large-box d-flex align-items-center justify-content-center" id="lecture-theatre">
+          <p class="name">Ernst & Young Lecture Theatre</p>
+        </div>  
+      </div>
+
+      <!-- 中间列：实验室、打印机、研究生室 -->
+      <div class="col-4 py-2 d-flex flex-column">
+        <!-- 计算机实验室和打印机行 -->
+        <div class="row g-2">
+          <div class="col"> <!-- 实验室栈 -->
+            <div class="room-box computer-lab" id="G85"><span class="room">G85</span> (x91842)<br>Computer Lab 1<br><span class="key-locker-info">Key Locker 590000</span></div>
+            <div class="room-box computer-lab" id="G86"><span class="room">G86</span> (x91843)<br>Computer Lab 2<br><span class="key-locker-info">Key Locker 590000</span></div>
+            <div class="room-box computer-lab" id="G87"><span class="room">G87</span> (x91847)<br>Computer Lab 3<br><span class="key-locker-info">Key Locker 590000</span></div>
+          </div>
+          <div class="col-auto d-flex flex-column justify-content-start"> <!-- 打印机列 -->
+             <div class="room-box printer-box" id="PTR389"><span class="room">PTR 389</span> Printer<br><span class="printer-info">Serial #<br>SAA2J041<br>015476</span></div>
+             <div class="room-box printer-box" id="PTR392"><span class="room">PTR 392</span> Printer<br><span class="printer-info">Serial #<br>SA93E04700<br>0641</span></div>
+          </div>
+        </div>
+        <!-- 研究生室 -->
+        <div class="room-box postgrad-room" id="G78"><span class="room">G78</span> Postgrad Room</div>
+      </div>
+
+      <!-- 右列：庭院 -->
+      <div class="col-5 p-2">
+        <div class="room-box large-box d-flex align-items-center justify-content-center" id="courtyard">
+          <p class="name">BHP Billiton Courtyard</p>
+        </div>
+      </div>
+    </div>
+    
+    <!-- 底部行 - 严格按照上方行布局 -->
+    <div class="row flex-nowrap g-0 mt-2 bottom-row">
+      <div class="col-7 px-0">
+        <div class="d-flex">
+          <!-- 厨房垂直文本 -->
+          <div class="kitchen-container">
+            <div class="room-box vertical-text" style="height: 72px;">
+              <span>Kitchen</span>
+            </div>
+            <div class="d-flex justify-content-center mt-2">
+              <i class="fa-solid fa-restroom fa-2x"></i>
+            </div>
+          </div>
+          
+          <!-- 办公室容器 -->
+          <div class="office-container">
+            <!-- G73 录音室 -->
+            <div class="office-box">
+              <div class="room-box" id="G73">
+                <p class="room">G73</p>
+                <p>Recording Studio</p>
+                <p class="key-locker-info">Key Locker 591144</p>
+              </div>
+            </div>
+            
+            <!-- G72 Donna Oxenham -->
+            <div class="office-box">
+              <div class="room-box" id="G72">
+                <p class="room">G72</p>
+                <p>Donna Oxenham</p>
+                <p class="key-locker-info">Key Locker 591143</p>
+              </div>
+            </div>
+            
+            <!-- G71 Barbara Paulson -->
+            <div class="office-box">
+              <div class="room-box" id="G71">
+                <p class="room">G71</p>
+                <p>Barbara Paulson</p>
+                <p class="key-locker-info">Key Locker 591142</p>
+              </div>
+            </div>
+            
+            <!-- G70 Zoe Callis -->
+            <div class="office-box">
+              <div class="room-box" id="G70">
+                <p class="room">G70</p>
+                <p>Zoe Callis</p>
+                <p class="key-locker-info">Key Locker 591141</p>
+              </div>
+            </div>
+            
+            <!-- G69 Caryn Earnshaw -->
+            <div class="office-box">
+              <div class="room-box" id="G69">
+                <p class="room">G69</p>
+                <p>Caryn Earnshaw</p>
+                <p class="key-locker-info">Key Locker 593110</p>
+              </div>
+            </div>
+            
+            <!-- G68 Carole Katz -->
+            <div class="office-box">
+              <div class="room-box" id="G68">
+                <p class="room">G68</p>
+                <p>Carole Katz</p>
+                <p class="key-locker-info">Key Locker 593103</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <!-- 补充空列以匹配上方布局 -->
+      <div class="col-5"></div>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous"></script>
+  <script src="https://kit.fontawesome.com/d5165f1477.js" crossorigin="anonymous"></script>
+</body>
+</html>

@@ -1,0 +1,155 @@
+/* ==========================
+   Typography
+   ========================== */
+
+   *{
+    font-size:10px; /* set to 10 for easier calculate rem value */
+    box-sizing: border-box; /* Include padding and border in element's total width and height */
+  }
+
+  body {
+    padding: 0;
+    margin: 0;
+  }
+
+  p {
+    margin-bottom: 0.2rem; /* Smaller margin within boxes */
+    line-height: 1.1;
+  }
+  .room-box p:last-child {
+    margin-bottom: 0;
+  }
+
+  /* ==========================
+     Room Containers
+     ========================== */
+     .container-fluid {
+        margin: 0 auto; /* Change from 20px auto to 0 auto */
+        padding: 5px;
+        width: 100%; /* Change from calc(100% - 40px) to 100% */
+        max-width: 100%;
+    }
+
+  .row.flex-nowrap {
+    min-width: max-content; /* Ensures content doesn't wrap */
+  }
+
+  .room-box {
+    border: 1px solid #000; /* Standard border on all sides */
+    padding: 0.5rem;
+    text-align: center;
+    width: 100%; /* Make boxes fill their column space */
+    background-color: #fff; /* Default background */
+    min-height: 4rem; /* Minimum height for smaller boxes */
+    display: flex; /* Use flexbox for internal alignment */
+    flex-direction: column; /* Stack p tags vertically */
+    justify-content: center; /* Center content vertically */
+    position: relative; /* For border overlap */
+    margin-bottom: -1px; /* Use negative margin for vertical overlap */
+  }
+   /* Remove negative margin from the very last box in the main column */
+  .col-4 > .room-box:last-child {
+      margin-bottom: 0;
+  }
+   /* Remove negative margin from the last box within the nested lab/printer columns */
+  .col > .room-box:last-child,
+  .col-auto > .room-box:last-child {
+      margin-bottom: 0;
+  }
+
+
+  /* ==========================
+     Specific Box Sizes & Styles
+     ========================== */
+
+  .large-box {
+    min-height: 30rem; /* Make lecture theatre and courtyard significantly taller */
+    margin-bottom: 0; /* Large boxes don't overlap */
+  }
+
+  .computer-lab {
+    min-height: 7rem; /* Approximate height for lab boxes */
+  }
+
+  .postgrad-room {
+    min-height: 5rem; /* Slightly shorter */
+    flex-grow: 1; /* Allow this box to grow vertically */
+    margin-top: -1px; /* Overlap with the row above */
+    margin-bottom: 0; /* It's the last item in its column */
+  }
+
+  .printer-box {
+    min-height: 6rem; /* Approximate height */
+    font-size: 9px; /* Smaller text for printers */
+  }
+
+
+  /* ==========================
+     Text Styles
+     ========================== */
+
+  .room { font-weight: bold; }
+  .name {}
+  .key-locker-info {
+      font-size: 9px;
+      color: green; /* Style for key locker text */
+  }
+  .printer-info {
+      font-size: 9px;
+      color: red; /* Style for printer serial text */
+  }
+
+
+  /* ==========================
+     Color-coding (Placeholders)
+     ========================== */
+  /* .blue-box { background-color: #aee4f5; } */
+  /* .orange-box { background-color: #FFC107; } */
+  /* .yellow-box { background-color: #FFFF00; } */
+  /* .green-box { background-color: #DDE5B6; } */
+
+  /* ==========================
+     Margins & Alignment Helpers
+     ========================== */
+  .me-3 {
+      margin-right: 1rem !important; /* Bootstrap spacing utility */
+  }
+  .ms-3 {
+      margin-left: 1rem !important; /* Bootstrap spacing utility */
+  }
+
+
+  /* Ensure columns in the main row stretch */
+  .row.align-items-stretch > [class^="col-"] {
+    /* display: flex; */ /* Let default block or added flex behavior handle it */
+    /* flex-direction: column; */
+  }
+  /* Make sure the direct children (boxes or nested rows) fill the column */
+  /* .row.align-items-stretch > [class^="col-"] > * { */
+   /* flex-grow: 1; */ /* Avoid applying this globally */
+  /* } */
+
+  /* Middle column flex setup */
+  /* .col-4 { */ /* Already handled by adding d-flex flex-column in HTML */
+      /* display: flex; */
+      /* flex-direction: column; */
+  /* } */
+
+  .col-4 > .row { /* Row containing labs/printers */
+      flex-shrink: 0; /* Prevent this row from shrinking */
+  }
+
+  /* Adjust flex behavior for printer column if needed */
+  .d-flex.flex-column.justify-content-start > .room-box {
+      flex-grow: 0; /* Prevent printer boxes from stretching excessively */
+  }
+
+.vertical-text {
+   writing-mode: vertical-rl;
+   text-orientation: mixed;
+   transform: rotate(180deg);
+   white-space: nowrap;
+   padding: 0.5rem;
+   width: auto;
+   min-width: 2rem;
+ }
