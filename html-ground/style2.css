@@ -139,7 +139,7 @@
   
   .office-box .room-box {
     height: 120px;
-    min-height: 120px;
+    min-height: 0px;
   }
   
   /* 办公室容器固定宽度 */
