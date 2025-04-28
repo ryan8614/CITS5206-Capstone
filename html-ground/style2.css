@@ -52,7 +52,7 @@
     position: relative; /* For border overlap */
     margin-bottom: -1px; /* Use negative margin for vertical overlap */
     height: 100%;
-    min-height: 96px;
+    min-height: 60px;
     box-sizing: border-box;
     word-wrap: break-word;
     word-break: normal;

@@ -51,32 +51,32 @@
     <div class="floor-title">Ground Floor Goldfields: Centre For Data Analytics</div>
     
     <div class="row flex-nowrap g-0">
-      <!-- CAFE and Left Section -->
+      <!-- Left Section with CAFE -->
       <div style="position: relative;">
-        <!-- G30 Room 保持原位置不变 -->
+        <!-- G30 Room -->
         <div class="room-box" style="width: 100px; height: 150px; position: absolute; top: 400px; left: 0;">
           <p class="room">G30</p>
         </div>
         
-        <!-- CAFE 向右移动200px -->
+        <!-- CAFE Area -->
         <div class="room-box" style="width: 350px; height: 200px; margin-right: 10px; position: absolute; left: 120px;">
           <p class="room">CAFÉ</p>
         </div>
         
-        <!-- Case Study Room (Circular) 向右移动200px -->
+        <!-- Circular Case Study Room -->
         <div class="room-box case-study-room" style="position: absolute; top: 350px; left: 180px; display: flex; flex-direction: column; align-items: center; justify-content: center;">
           <p class="room">Case Study Room G42</p>
           <p>Michael Chaney Case Study Room</p>
           <p class="key-locker-info">Key Locker<br>591201</p>
         </div>
         
-        <!-- Furniture items (small blue shapes) 向右移动200px -->
+        <!-- Furniture items (small blue shapes) -->
         <div class="furniture" style="position: absolute; top: 260px; left: 310px; width: 10px; height: 25px;"></div>
         <div class="furniture round-table" style="position: absolute; top: 270px; left: 320px; width: 15px; height: 15px;"></div>
         <div class="furniture" style="position: absolute; top: 260px; left: 340px; width: 10px; height: 25px;"></div>
       </div>
       
-      <!-- Woodside Courtyard and Main Office Section 向右移动200px-->
+      <!-- Woodside Courtyard and Main Office Section -->
       <div style="position: relative; margin-left: 500px;">
         <!-- Woodside Courtyard -->
         <div class="room-box" style="width: 900px; height: 200px;">
@@ -88,31 +88,31 @@
         <div style="display: flex; margin-top: 230px; margin-left:-930px;">
           <div class="room-box" style="width: 189px; height: 80px; margin-right: 2px;">
             <p class="room">G32</p>
-            <p>Mehdi Asadabadi</p>
+            <p>{name}</p>
             <p class="key-locker-info">Key Locker<br>591103</p>
           </div>
           
           <div class="room-box" style="width: 189px; height: 80px; margin-right: 2px;">
             <p class="room">G33</p>
-            <p>Ronnie Das</p>
+            <p>{name}</p>
             <p class="key-locker-info">Key Locker<br>591104</p>
           </div>
           
           <div class="room-box" style="width: 189px; height: 80px; margin-right: 2px;">
             <p class="room">G34</p>
-            <p>Maduka Subasinghe</p>
+            <p>{name}</p>
             <p class="key-locker-info">Key Locker<br>591105</p>
           </div>
           
           <div class="room-box" style="width: 189px; height: 80px; margin-right: 2px;">
             <p class="room">G35</p>
-            <p>Tianyi Long<br>+ 4313</p>
+            <p>{name}<br>+ 4313</p>
             <p class="key-locker-info">Key Locker<br>591106</p>
           </div>
           
           <div class="room-box" style="width: 189px; height: 80px; margin-right: 2px;">
             <p class="room">G36</p>
-            <p>Miguel Loyola<br>5680</p>
+            <p>{name}<br>5680</p>
             <p class="key-locker-info">Key Locker<br>591107</p>
           </div>
           
@@ -128,96 +128,100 @@
           <div class="room-box kitchen" style="width: 30px; height: 80px;">
             <p>Kitchen</p>
           </div>
+          <div class="room-box" style="width: 150px; height: 60px; position: absolute; top: 380px; left:1450px;">
+              <p class="room">PTR 391</p>
+              <p class="key-locker-info" style="color: red;">Printer Serial #<br>SAF93E047000643</p>
+   
         </div>
-        
+        </div>
 
 
         <div class="small-office-column" style="display: flex; flex-direction: column; gap: 2px; width: 65px; position: absolute; top: 450px; left: 480px;">
-          <div class="room-box" id="G70A" style="height: 34px; font-size: 9px; padding: 2px;">
+          <div class="room-box" id="G70A" style="height: 96px; font-size: 9px; padding: 2px;">
             <p class="room" style="margin-bottom: 0px;">G70A</p>
-            <p style="margin-bottom: 0px;">Winsome<br>MacLaurin</p>
+            <p style="margin-bottom: 0px;">{name}</p>
           </div>
-          <div class="room-box" id="G70B" style="height: 34px; font-size: 9px; padding: 2px;">
+          <div class="room-box" id="G70B" style="height: 96px; font-size: 9px; padding: 2px;">
             <p class="room" style="margin-bottom: 0px;">G70B</p>
-            <p style="margin-bottom: 0px;">Jason<br>Barrow</p>
+            <p style="margin-bottom: 0px;">{name}</p>
           </div>
-          <div class="room-box" id="G70B" style="height: 34px; font-size: 9px; padding: 2px;">
+          <div class="room-box" id="G70B" style="height: 96px; font-size: 9px; padding: 2px;">
             <p class="room" style="margin-bottom: 0px;">G70B</p>
-            <p style="margin-bottom: 0px;">Jason<br>Barrow</p>
+            <p style="margin-bottom: 0px;">{name}</p>
           </div>
         </div>
 
-        <!-- 空格 -->
+        <!-- Empty Space -->
         <div style="width: 20px;"></div>
 
         <div class="small-office-column" style="display: flex; flex-direction: column; gap: 2px; width: 65px; position: absolute; top: 450px; left: 600px;">
-          <div class="room-box" id="G70A" style="height: 34px; font-size: 9px; padding: 2px;">
+          <div class="room-box" id="G70A" style="height: 96px; font-size: 9px; padding: 2px;">
             <p class="room" style="margin-bottom: 0px;">G70A</p>
-            <p style="margin-bottom: 0px;">Winsome<br>MacLaurin</p>
+            <p style="margin-bottom: 0px;">{name}</p>
           </div>
-          <div class="room-box" id="G70B" style="height: 34px; font-size: 9px; padding: 2px;">
+          <div class="room-box" id="G70B" style="height: 96px; font-size: 9px; padding: 2px;">
             <p class="room" style="margin-bottom: 0px;">G70B</p>
-            <p style="margin-bottom: 0px;">Jason<br>Barrow</p>
+            <p style="margin-bottom: 0px;">{name}</p>
           </div>
-          <div class="room-box" id="G70B" style="height: 34px; font-size: 9px; padding: 2px;">
+          <div class="room-box" id="G70B" style="height: 96px; font-size: 9px; padding: 2px;">
             <p class="room" style="margin-bottom: 0px;">G70B</p>
-            <p style="margin-bottom: 0px;">Jason<br>Barrow</p>
+            <p style="margin-bottom: 0px;">{name}</p>
           </div>
         </div>
 
         <div class="small-office-column" style="display: flex; flex-direction: column; gap: 2px; width: 65px; position: absolute; top: 450px; left: 665px;">
-          <div class="room-box" id="G70A" style="height: 34px; font-size: 9px; padding: 2px;">
+          <div class="room-box" id="G70A" style="height: 96px; font-size: 9px; padding: 2px;">
             <p class="room" style="margin-bottom: 0px;">G70A</p>
-            <p style="margin-bottom: 0px;">Winsome<br>MacLaurin</p>
+            <p style="margin-bottom: 0px;">{name}</p>
           </div>
-          <div class="room-box" id="G70B" style="height: 34px; font-size: 9px; padding: 2px;">
+          <div class="room-box" id="G70B" style="height: 96px; font-size: 9px; padding: 2px;">
             <p class="room" style="margin-bottom: 0px;">G70B</p>
-            <p style="margin-bottom: 0px;">Jason<br>Barrow</p>
+            <p style="margin-bottom: 0px;">{name}</p>
           </div>
-          <div class="room-box" id="G70B" style="height: 34px; font-size: 9px; padding: 2px;">
+          <div class="room-box" id="G70B" style="height: 96px; font-size: 9px; padding: 2px;">
             <p class="room" style="margin-bottom: 0px;">G70B</p>
-            <p style="margin-bottom: 0px;">Jason<br>Barrow</p>
+            <p style="margin-bottom: 0px;">{name}</p>
           </div>
         </div>
 
         <div style="width: 20px;"></div>
         <div class="small-office-column" style="display: flex; flex-direction: column; gap: 2px; width: 65px; position: absolute; top: 450px; left: 790px;">
-          <div class="room-box" id="G70A" style="height: 34px; font-size: 9px; padding: 2px;">
+          <div class="room-box" id="G70A" style="height: 96px; font-size: 9px; padding: 2px;">
             <p class="room" style="margin-bottom: 0px;">G70A</p>
-            <p style="margin-bottom: 0px;">Winsome<br>MacLaurin</p>
+            <p style="margin-bottom: 0px;">{name}</p>
           </div>
-          <div class="room-box" id="G70B" style="height: 34px; font-size: 9px; padding: 2px;">
+          <div class="room-box" id="G70B" style="height: 96px; font-size: 9px; padding: 2px;">
             <p class="room" style="margin-bottom: 0px;">G70B</p>
-            <p style="margin-bottom: 0px;">Jason<br>Barrow</p>
+            <p style="margin-bottom: 0px;">{name}</p>
           </div>
-          <div class="room-box" id="G70B" style="height: 34px; font-size: 9px; padding: 2px;">
+          <div class="room-box" id="G70B" style="height: 96px; font-size: 9px; padding: 2px;">
             <p class="room" style="margin-bottom: 0px;">G70B</p>
-            <p style="margin-bottom: 0px;">Jason<br>Barrow</p>
+            <p style="margin-bottom: 0px;">{name}</p>
           </div>
         </div>
 
         <div style="display: flex; margin-top: 411px; margin-left:-820px;">
         <div class="room-box" style="width: 189px; height: 290px; margin-right: 2px;">
           <p class="room">G33</p>
-          <p>Ronnie Das</p>
+          <p>{name}</p>
           <p class="key-locker-info">Key Locker<br>591104</p>
         </div>
         
         <div class="room-box" style="width: 189px; height: 290px; margin-right: 2px;">
           <p class="room">G34</p>
-          <p>Maduka Subasinghe</p>
+          <p>{name}</p>
           <p class="key-locker-info">Key Locker<br>591105</p>
         </div>
         
         <div class="room-box" style="width: 189px; height: 290px; margin-right: 2px;">
           <p class="room">G35</p>
-          <p>Tianyi Long<br>+ 4313</p>
+          <p>{name}<br>+ 4313</p>
           <p class="key-locker-info">Key Locker<br>591106</p>
         </div>
         
         <div class="room-box" style="width: 189px; height: 290px; margin-right: 2px;">
           <p class="room">G36</p>
-          <p>Miguel Loyola<br>5680</p>
+          <p>{name}<br>5680</p>
           <p class="key-locker-info">Key Locker<br>591107</p>
         </div>
         
