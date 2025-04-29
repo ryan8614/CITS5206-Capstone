@@ -8,6 +8,7 @@ import {
   FolderOutlined,
 } from '@ant-design/icons';
 import { Button, Layout, Menu, theme } from 'antd';
+import content_map from '@/app/components/ContentMap'
 
 const { Header, Sider, Content } = Layout;
 
@@ -17,14 +18,17 @@ const App: React.FC = () => {
     token: { colorBgContainer, borderRadiusLG },
   } = theme.useToken();
 
+  const [selectedKey, setSelectedKey] = useState('11');
+
   return (
-    <Layout className='w-full h-full'>
+    <Layout className='w-full h-full pt-1'>
         <Sider trigger={null} collapsible collapsed={collapsed} theme='light'>
           <div className="demo-logo-vertical" />
             <Menu
             theme="light"
             mode="inline"
             defaultSelectedKeys={['1']}
+            onClick={({ key }) => setSelectedKey(key)}
             items={[
                 {
                 key: '1',
@@ -125,7 +129,7 @@ const App: React.FC = () => {
                 borderRadius: borderRadiusLG,
             }}
           >
-          Content123
+            {content_map[selectedKey] || <div>No content found</div>}
           </Content>
         </Layout>
     </Layout>

@@ -1,7 +1,7 @@
 'use client'
 import { AntdRegistry } from '@ant-design/nextjs-registry';
 import { useRouter } from 'next/navigation'
-import Header from './components/header';
+import Header from './components/Header';
 
 export default function Home() {
   const router = useRouter()

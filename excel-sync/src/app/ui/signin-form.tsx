@@ -14,7 +14,7 @@ export default function SigninForm() {
       if (state?.message) {
         const timeout = setTimeout(() => {
           router.push('/') // Redirect to home page after 2 seconds
-        }, 2000)
+        }, 1000)
         return () => clearTimeout(timeout)
       }
     }, [state?.message, router])

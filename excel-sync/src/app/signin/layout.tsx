@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import React from 'react';
 import { AntdRegistry } from '@ant-design/nextjs-registry';
-import Header from "@/app/components/header";
+import Header from "@/app/components/Header";
 
 export const metadata: Metadata = {
   title: "Create Next App",

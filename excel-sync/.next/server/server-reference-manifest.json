@@ -1,54 +1,17 @@
 {
   "node": {
-    "0041053c77dc3fe336a1873226a89ede7fe0764e14": {
+    "001bc5ccc98941601401ef3249bdaaa41cee76c27a": {
       "workers": {
-        "app/authen/excel-edit/page": {
-          "moduleId": "[project]/.next-internal/server/app/authen/excel-edit/page/actions.js { ACTIONS_MODULE0 => \"[project]/src/app/actions/auth.tsx [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
-          "async": false
-        },
         "app/authen/upload/page": {
           "moduleId": "[project]/.next-internal/server/app/authen/upload/page/actions.js { ACTIONS_MODULE0 => \"[project]/src/app/actions/auth.tsx [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
           "async": false
-        },
-        "app/page": {
-          "moduleId": "[project]/.next-internal/server/app/page/actions.js { ACTIONS_MODULE0 => \"[project]/src/app/actions/auth.tsx [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
-          "async": false
-        },
-        "app/signin/page": {
-          "moduleId": "[project]/.next-internal/server/app/signin/page/actions.js { ACTIONS_MODULE0 => \"[project]/src/app/actions/auth.tsx [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
-          "async": false
         }
       },
       "layer": {
-        "app/authen/excel-edit/page": "action-browser",
-        "app/authen/upload/page": "action-browser",
-        "app/page": "action-browser",
-        "app/signin/page": "action-browser"
-      }
-    },
-    "6072685ec9711cfb2fb4ae4ff9352a32d4c06a0692": {
-      "workers": {
-        "app/signin/page": {
-          "moduleId": "[project]/.next-internal/server/app/signin/page/actions.js { ACTIONS_MODULE0 => \"[project]/src/app/actions/auth.tsx [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
-          "async": false
-        }
-      },
-      "layer": {
-        "app/signin/page": "action-browser"
-      }
-    },
-    "600e68cbff4e3666c0715c68107fe15c19ae69aee4": {
-      "workers": {
-        "app/signup/page": {
-          "moduleId": "[project]/.next-internal/server/app/signup/page/actions.js { ACTIONS_MODULE0 => \"[project]/src/app/actions/auth.tsx [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
-          "async": false
-        }
-      },
-      "layer": {
-        "app/signup/page": "action-browser"
+        "app/authen/upload/page": "action-browser"
       }
     }
   },
   "edge": {},
-  "encryptionKey": "svHlukjp3nuKXYjV1V08DoCg/0z9UCeyouoBVzZFF28="
+  "encryptionKey": "4g/5PVrExBpKVwH0wEpQDl7tA7HWrcG+SPN5kcxQdNk="
 }

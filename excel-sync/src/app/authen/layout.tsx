@@ -1,6 +1,6 @@
 import React from "react";
 import { AntdRegistry } from '@ant-design/nextjs-registry';
-import Header from '@/app/components/header';
+import Header from '@/app/components/Header';
 
 export default function AuthenLayout({ children }: { children: React.ReactNode }) {
     return (
