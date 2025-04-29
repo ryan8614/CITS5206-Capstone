@@ -326,6 +326,45 @@
     color: white;
   }
 
+  .floor-title {
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
+  .case-study-room {
+    border-radius: 50%;
+    height: 300px;
+    width: 250px;
+  }
+  
+  .furniture {
+    background-color: #6495ED;
+    border: 1px solid #000;
+  }
+  
+  .round-table {
+    border-radius: 50%;
+  }
+  
+  .restroom-icons {
+    font-size: 20px;
+    color: blue;
+    text-align: center;
+  }
+  
+  .vacant-room {
+    background-color: #fff;
+  }
+  
+  .kitchen {
+    writing-mode: vertical-rl;
+    transform: rotate(180deg);
+    padding: 10px;
+    height: 100px;
+  }
+
   /* ==========================
      Responsive Overrides
      ========================== */
