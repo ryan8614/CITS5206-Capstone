@@ -1,15 +1,21 @@
 {
   "app": {
-    "[project]/src/app/excel-edit/page": [
+    "[project]/src/app/_not-found/page": [
       "static/media/KFOhCnGXkPOLlhx6jD8_b1ZEOsbSkKJMc3s-s.p.434f018d.woff2"
     ],
-    "[project]/src/app/login/page": [
+    "[project]/src/app/authen/excel-edit/page": [
+      "static/media/KFOhCnGXkPOLlhx6jD8_b1ZEOsbSkKJMc3s-s.p.434f018d.woff2"
+    ],
+    "[project]/src/app/authen/upload/page": [
       "static/media/KFOhCnGXkPOLlhx6jD8_b1ZEOsbSkKJMc3s-s.p.434f018d.woff2"
     ],
     "[project]/src/app/page": [
       "static/media/KFOhCnGXkPOLlhx6jD8_b1ZEOsbSkKJMc3s-s.p.434f018d.woff2"
     ],
-    "[project]/src/app/upload/page": [
+    "[project]/src/app/signin/page": [
+      "static/media/KFOhCnGXkPOLlhx6jD8_b1ZEOsbSkKJMc3s-s.p.434f018d.woff2"
+    ],
+    "[project]/src/app/signup/page": [
       "static/media/KFOhCnGXkPOLlhx6jD8_b1ZEOsbSkKJMc3s-s.p.434f018d.woff2"
     ]
   },

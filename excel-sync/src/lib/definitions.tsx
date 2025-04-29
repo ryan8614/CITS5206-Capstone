@@ -1,10 +1,13 @@
+
 import { z } from 'zod'
- 
+
 export const SignupFormSchema = z.object({
   username: z
     .string()
     .min(2, { message: 'Username must be at least 2 characters long.' })
     .trim(),
+  email: z
+    .string().email({ message: 'Please enter a valid email.' }).trim(),
   password: z
     .string()
     .min(8, { message: 'Be at least 8 characters long' })
@@ -15,13 +18,28 @@ export const SignupFormSchema = z.object({
     })
     .trim(),
 })
- 
+
+export const SigninFormSchema = z.object({
+  username: z.string().min(2, { message: 'Username must be at least 2 characters long.' }).trim(),
+  password: z.string().min(1, { message: 'Password cannot be empty.' }).trim(), 
+});
+
 export type FormState =
   | {
       errors?: {
-        username?: string[]
+        name?: string[]
+        email?: string[]
         password?: string[]
+        username?: string[]
       }
       message?: string
     }
   | undefined
+
+
+// Session payload
+export type SessionPayload = {
+  userId: string;
+  expiresAt: Date;
+  role?: string; // Optional role information
+};
