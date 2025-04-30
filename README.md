@@ -9,10 +9,10 @@ This project is a web application that allows users to synchronize their Excel f
 ### Technical architecture
 
 📌 User operation process
-1️⃣ User uploads fileA.xlsx and fileB.xlsx
-2️⃣ User modify the fileA.xlsx on the web page
-3️⃣ System records the change and updates fileB. xlsx
-4️⃣ User downloads updated fileB.xlsx
+1️⃣ User uploads fileA.xlsx and fileB.xlsx.  
+2️⃣ User modify the fileA.xlsx on the web page.  
+3️⃣ System records the change and updates fileB. xlsx.  
+4️⃣ User downloads updated fileB.xlsx.  
 
 📌 System architecture
 Frontend: Next.js (user uploads Excel)
