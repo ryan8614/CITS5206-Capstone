@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+  <link rel="stylesheet" href="style2.css">
+  <title>Floor Map</title>
+</head>
+<body>
+  <div class="container-fluid" style="width: 1400px; max-width: 1400px; min-width: 1400px; position: relative;">
+    <div class="floor-title">Ground Floor Goldfields: Centre For Data Analytics</div>
+    
+    <div class="row flex-nowrap g-0">
+      <!-- Left Section with CAFE -->
+      <div style="position: relative;">
+        <!-- G30 Room -->
+        <div class="room-box" style="width: 100px; height: 150px; position: absolute; top: 400px; left: 0;">
+          <p class="room">G30</p>
+        </div>
+        
+        <!-- CAFE Area -->
+        <div class="room-box" style="width: 350px; height: 200px; margin-right: 10px; position: absolute; left: 120px;">
+          <p class="room">CAFÉ</p>
+        </div>
+        
+        <!-- Circular Case Study Room -->
+        <div class="room-box case-study-room" style="position: absolute; top: 350px; left: 180px; display: flex; flex-direction: column; align-items: center; justify-content: center;">
+          <p class="room">Case Study Room G42</p>
+          <p>Michael Chaney Case Study Room</p>
+          <p class="key-locker-info">Key Locker<br>591201</p>
+        </div>
+        
+        <!-- Furniture items (small blue shapes) -->
+        <div class="furniture" style="position: absolute; top: 260px; left: 310px; width: 10px; height: 25px;"></div>
+        <div class="furniture round-table" style="position: absolute; top: 270px; left: 320px; width: 15px; height: 15px;"></div>
+        <div class="furniture" style="position: absolute; top: 260px; left: 340px; width: 10px; height: 25px;"></div>
+      </div>
+      
+      <!-- Woodside Courtyard and Main Office Section -->
+      <div style="position: relative; margin-left: 500px;">
+        <!-- Woodside Courtyard -->
+        <div class="room-box" style="width: 900px; height: 200px;">
+          <p>Woodside Courtyard</p>
+        </div>
+      </div>
+        
+        <!-- Top Row Offices (G32-G37) -->
+        <div style="display: flex; margin-top: 230px; margin-left:-930px;">
+          <div class="room-box" style="width: 189px; height: 80px; margin-right: 2px;">
+            <p class="room">G32</p>
+            <p>{name}</p>
+            <p class="key-locker-info">Key Locker<br>591103</p>
+          </div>
+          
+          <div class="room-box" style="width: 189px; height: 80px; margin-right: 2px;">
+            <p class="room">G33</p>
+            <p>{name}</p>
+            <p class="key-locker-info">Key Locker<br>591104</p>
+          </div>
+          
+          <div class="room-box" style="width: 189px; height: 80px; margin-right: 2px;">
+            <p class="room">G34</p>
+            <p>{name}</p>
+            <p class="key-locker-info">Key Locker<br>591105</p>
+          </div>
+          
+          <div class="room-box" style="width: 189px; height: 80px; margin-right: 2px;">
+            <p class="room">G35</p>
+            <p>{name}</p>
+            <p class="key-locker-info">Key Locker<br>591106</p>
+          </div>
+          
+          <div class="room-box" style="width: 189px; height: 80px; margin-right: 2px;">
+            <p class="room">G36</p>
+            <p>{name}</p>
+            <p class="key-locker-info">Key Locker<br>591107</p>
+          </div>
+          
+          <div class="room-box" style="width: 189px; height: 80px; margin-right: 2px;">
+            <p class="room">G37</p>
+            <p>Meeting Room</p>
+            <p class="key-locker-info">Key Locker<br>591201</p>
+          </div>
+
+          <div style="width: 26px;"></div>
+
+          <!-- Kitchen vertical text -->
+          <div class="room-box kitchen" style="width: 30px; height: 80px;">
+            <p>Kitchen</p>
+          </div>
+          <div class="room-box" style="width: 150px; height: 60px; position: absolute; top: 380px; left:1500px;">
+              <p class="room">PTR 391</p>
+              <p class="key-locker-info" style="color: red;">Printer Serial #<br>SAF93E047000643</p>
+          </div>
+        </div>
+          <!-- Restroom icon row -->
+          <div class="restroom-container" style="position: absolute; top: 380px; left:1700px;">
+            <i class="fa-solid fa-restroom fa-2x"></i>
+          </div>
+
+        <div class="small-office-column" style="display: flex; flex-direction: column; gap: 2px; width: 65px; position: absolute; top: 450px; left: 480px;">
+          <div class="room-box" id="G305A" style="height: 96px; font-size: 9px; padding: 2px;">
+            <p class="room" style="margin-bottom: 0px;">G305A</p>
+            <p style="margin-bottom: 0px;">{name}</p>
+          </div>
+          <div class="room-box" id="G305B" style="height: 96px; font-size: 9px; padding: 2px;">
+            <p class="room" style="margin-bottom: 0px;">G305B</p>
+            <p style="margin-bottom: 0px;">{name}</p>
+          </div>
+          <div class="room-box" id="G305C" style="height: 96px; font-size: 9px; padding: 2px;">
+            <p class="room" style="margin-bottom: 0px;">G305C</p>
+            <p style="margin-bottom: 0px;">{name}</p>
+          </div>
+        </div>
+
+
+        <div class="small-office-column" style="display: flex; flex-direction: column; gap: 2px; width: 65px; position: absolute; top: 450px; left: 600px;">
+          <div class="room-box" id="G305D" style="height: 96px; font-size: 9px; padding: 2px;">
+            <p class="room" style="margin-bottom: 0px;">G305D</p>
+            <p style="margin-bottom: 0px;">{name}</p>
+          </div>
+          <div class="room-box" id="G305E" style="height: 96px; font-size: 9px; padding: 2px;">
+            <p class="room" style="margin-bottom: 0px;">G305E</p>
+            <p style="margin-bottom: 0px;">{name}</p>
+          </div>
+          <div class="room-box" id="G305F" style="height: 96px; font-size: 9px; padding: 2px;">
+            <p class="room" style="margin-bottom: 0px;">G305F</p>
+            <p style="margin-bottom: 0px;">{name}</p>
+          </div>
+        </div>
+
+        <!-- Office column 3-->
+        <div class="small-office-column" style="display: flex; flex-direction: column; gap: 2px; width: 65px; position: absolute; top: 450px; left: 666px; ">
+          <div class="room-box" id="G305G" style="height: 96px; font-size: 9px; padding: 2px;">
+            <p class="room" style="margin-bottom: 0px;">G305G</p>
+            <p style="margin-bottom: 0px;">{name}</p>
+          </div>
+          <div class="room-box" id="G305H" style="height: 96px; font-size: 9px; padding: 2px;">
+            <p class="room" style="margin-bottom: 0px;">G305H</p>
+            <p style="margin-bottom: 0px;">{name}</p>
+          </div>
+          <div class="room-box" id="G305I" style="height: 96px; font-size: 9px; padding: 2px;">
+            <p class="room" style="margin-bottom: 0px;">G305I</p>
+            <p style="margin-bottom: 0px;">{name}</p>
+          </div>
+        </div>
+
+        <!-- Office column 4-->
+        <div class="small-office-column" style="display: flex; flex-direction: column; gap: 2px; width: 65px; position: absolute; top: 450px; left: 790px; ">
+          <div class="room-box" id="G305J" style="height: 96px; font-size: 9px; padding: 2px;">
+            <p class="room" style="margin-bottom: 0px;">G305J</p>
+            <p style="margin-bottom: 0px;">{name}</p>
+          </div>
+          <div class="room-box" id="G305K" style="height: 96px; font-size: 9px; padding: 2px;">
+            <p class="room" style="margin-bottom: 0px;">G305K</p>
+            <p style="margin-bottom: 0px;">{name}</p>
+          </div>
+          <div class="room-box" id="G305L" style="height: 96px; font-size: 9px; padding: 2px;">
+            <p class="room" style="margin-bottom: 0px;">G305L</p>
+            <p style="margin-bottom: 0px;">{name}</p>
+          </div>
+        </div>
+
+        <!-- Bottom row of rooms  -->
+        <div style="display: flex; margin-top: 411px; margin-left:-820px; transform: none;">
+        <div class="room-box" style="width: 189px; height: 290px; margin-right: 2px;">
+          <p class="room">G38</p>
+          <p>{name}</p>
+          <p class="key-locker-info">Key Locker<br>591148</p>
+        </div>
+        
+        <div class="room-box" style="width: 189px; height: 290px; margin-right: 2px;">
+          <p class="room">G39</p>
+          <p>{name}</p>
+          <p class="key-locker-info">Key Locker<br>591149</p>
+        </div>
+        
+        <div class="room-box" style="width: 189px; height: 290px; margin-right: 2px;">
+          <p class="room">G40</p>
+          <p>{name}</p>
+          <p class="key-locker-info">Key Locker<br>591150</p>
+        </div>
+        
+        <div class="room-box" style="width: 189px; height: 290px; margin-right: 2px;">
+          <p class="room">G41</p>
+          <p>{name}</p>
+          <p class="key-locker-info">Key Locker<br>591151</p>
+        </div>
+        
+        <div class="room-box" style="width: 189px; height: 290px; margin-right: 2px;">
+          <p class="room">G43</p>
+          <p>Meeting Room</p>
+          <p class="key-locker-info">Key Locker<br>591152</p>
+        </div>
+        
+
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

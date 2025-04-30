@@ -1,0 +1,654 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Accounting & Finance</title>
+</head>
+<body>
+  <p class="h1 text-center">Second Floor Pilbara and Goldfields: Accounting & Finance</p>
+  
+  <div class="container-fluid mt-5">
+    <!-- top row -->
+    <div class="row flex-nowrap g-2">
+
+      <!-- 1st row key locker -->
+      <div class="col-1" style="position: relative; z-index: 1;">
+        <div class="room-box full-height d-flex flex-column justify-content-center align-items-center rounded-pill" id="R201" style="position: relative; top: 10%;">
+          
+            <div class="room m-0">201</div>
+            <div class="name m-0">Case Study Room</div>
+            <div class="key-locker m-0">Key Locker <br>591201</div>
+           
+
+        </div>
+      </div>
+
+      <!-- 2 rows, 6 columns -->
+       <!-- padding problme not fixed yet -->
+      <div class="col-3 margin-left-10">
+        <div class="row">
+          <div class="col-2 pe-0">
+            <div class="room-box green-box" id="R202A">
+              <p class="room">202A</p>
+              <p class="name">{name}</p>
+              <p class="ext">{ext}</p>
+            </div>
+          </div>
+          <div class="col-2 ps-0">
+            <div class="room-box green-box" id="R202B">
+              <p class="room">202B</p>
+              <p class="name">{name}</p>
+              <p class="ext">{ext}</p>
+            </div>
+          </div>
+          <div class="col-2 pe-0">
+            <div class="room-box green-box" id="R202C">
+              <p class="room">202C</p>
+              <p class="name">{name}</p>
+              <p class="ext">{ext}</p>
+            </div>
+          </div>
+          <div class="col-2 ps-0">
+            <div class="room-box green-box" id="R202D">
+              <p class="room">202D</p>
+              <p class="name">{name}</p>
+              <p class="ext">{ext}</p>
+            </div>
+          </div>
+          <div class="col-2 pe-0">
+            <div class="room-box green-box" id="R02E">
+              <p class="room">202E</p>
+              <p class="name">{name}</p>
+              <p class="ext">{ext}</p>
+            </div>
+          </div>
+          <div class="col-2 ps-0">
+            <div class="room-box green-box" id="R202F">
+              <p class="room">202F</p>
+              <p class="name">{name}</p>
+              <p class="ext">{ext}</p>
+            </div>
+          </div>
+          <div class="col-2 pe-0">
+            <div class="room-box green-box" id="R2O2L">
+              <p class="room">202L</p>
+              <p class="name">{name}</p>
+              <p class="ext">{ext}</p>
+            </div>
+          </div>
+          <div class="col-2 ps-0">
+            <div class="room-box green-box" id="R202K">
+              <p class="room">202K</p>
+              <p class="name">{name}</p>
+              <p class="ext">{ext}</p>
+            </div>
+          </div>
+          <div class="col-2 pe-0">
+            <div class="room-box green-box" id="R202J">
+              <p class="room">202J</p>
+              <p class="name">{name}</p>
+              <p class="ext">{ext}</p>
+            </div>
+          </div>
+          <div class="col-2 ps-0">
+            <div class="room-box green-box" id="R202I">
+              <p class="room">2O2I</p>
+              <p class="name">{name}</p>
+              <p class="ext">{ext}</p>
+            </div>
+          </div>
+          <div class="col-2 pe-0">
+            <div class="room-box" id="R2O2H">
+              <p class="room">202H</p>
+              <p class="name">{name}</p>
+              <p class="ext">{ext}</p>
+            </div>
+          </div>
+          <div class="col-2 ps-0">
+            <div class="room-box" id="R202G">
+              <p class="room">202G</p>
+              <p class="name">{name}</p>
+              <p class="ext">{ext}</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- top row right side-->
+      <div class="col-auto pe-0" >
+        <div class="room-box d-flex align-items-center justify-content-center" style="height:100px;">
+          <p class="name vertical-text m-0">Stationery</p>
+        </div>
+      </div>
+      <div class="col-auto px-0">
+        <div class="room-box" style="height:100px;" id="R210">
+          <p class="room">210</p>
+          <p class="name">{name}</p>
+          <p class="ext">{ext}</p>
+          <p class="key-locker">Key Locker<br>591507</p>
+        </div>
+      </div>
+      <div class="col-auto px-0">
+        <div class="room-box" style="height:100px;" id="R212">
+          <p class="room">212</p>
+          <p class="name">{name}</p>
+          <p class="ext">{ext}</p>
+          <p class="key-locker">Key Locker<br>591509</p>
+        </div>
+      </div>
+      <div class="col-auto px-0">
+        <div class="room-box" style="height:100px;" id="R214">
+          <p class="room">214</p>
+          <p class="name">{name}</p>
+          <p class="ext">{ext}</p>
+          <p class="key-locker">Key Locker<br>591511</p>
+        </div>
+      </div>
+      <div class="col-auto px-0">
+        <div class="room-box" style="height:100px;" id="R216">
+          <p class="room">216</p>
+          <p class="name">{name}</p>
+          <p class="ext">{ext}</p>
+          <p class="key-locker">Key Locker<br>591513</p>
+        </div>
+      </div>
+      <div class="col-auto px-0">
+        <div class="room-box" style="height:100px;" id="R218">
+          <p class="room">218</p>
+          <p class="name">{name}</p>
+          <p class="ext">{ext}</p>
+          <p class="key-locker">Key Locker<br>591515</p>
+        </div>
+      </div>
+      <div class="col-auto px-0">
+        <div class="room-box" style="height:100px;" id="R220">
+          <p class="room">220</p>
+          <p class="name">{name}</p>
+          <p class="ext">{ext}</p>
+          <p class="key-locker">Key Locker<br>591517</p>
+        </div>
+      </div>
+       <!-- Print Room -->
+       <div class="col-auto">
+        <div class="room-box" style="height:100px;" id="R224">
+        <p class="room">224</p>
+        <p class="name">Print Room</p>
+        <p class="key-locker">Key Locker<br>591201</p>
+        <p class="ptr">PTR 397</p>
+        <p class="printer-serial">Printer Serial<br>SAA2J041014161</p>
+        </div>
+        <i class="fa-solid fa-restroom fa-3x justify-content-end mt-5 ps-5"></i>
+      </div>
+    </div>
+    
+    <!-- 2nd row -->
+    <div class="row flex-nowrap g-2 margin-left-25">
+
+      <div class="col-auto pe-0">
+        <div class="room-box full-height" id="R203">
+          <p class="room">203</p>
+          <p class="name">{name}</p>
+          <p class="ext">{ext}</p>
+          <p class="key-locker">Key Locker<br>591501</p>
+        </div>
+      </div>
+      <div class="col-auto px-0">
+        <div class="room-box full-height" id="R204">
+          <p class="room">204</p>
+          <p class="name">{name}</p>
+          <p class="ext">{ext}</p>
+          <p class="key-locker">Key Locker<br>591502</p>
+        </div>
+      </div>
+      <div class="col-auto px-0">
+        <div class="room-box full-height" id="R205">
+          <p class="room">205</p>
+          <p class="name">{name}</p>
+          <p class="ext">{ext}</p>
+          <p class="key-locker">Key Locker<br>591503</p>
+        </div>
+      </div>
+      <div class="col-auto px-0">
+        <div class="room-box full-height" id="R206">
+          <p class="room">206</p>
+          <p class="name">{name}</p>
+          <p class="ext">{ext}</p>
+          <p class="key-locker">Key Locker<br>591504</p>
+        </div>
+      </div>
+      <div class="col-auto px-0">
+        <div class="room-box full-height"  id="R207">
+          <p class="room">207</p>
+          <p class="name">{name}</p>
+          <p class="ext">{ext}</p>
+          <p class="key-locker">Key Locker<br>591505</p>
+        </div>
+      </div>
+      <div class="col-auto px-0">
+        <div class="room-box full-height" id="R208">
+          <p class="room">208</p>
+          <p class="name">{name}</p>
+          <p class="ext">{ext}</p>
+          <p class="key-locker">Key Locker<br>591506</p>
+        </div>
+      </div>
+      <div class="col-auto px-0">
+        <div class="room-box full-height" id="R209">
+          <p class="room">209</p>
+          <p class="name">{name}</p>
+          <p class="ext">{ext}</p>
+          <p class="key-locker">Key Locker<br>591508</p>
+        </div>
+      </div>
+      <div class="col-auto px-0">
+        <div class="room-box full-height" id="R211">
+          <p class="room">211</p>
+          <p class="name">{name}</p>
+          <p class="ext">{ext}</p>
+          <p class="key-locker">Key Locker<br>591510</p>
+        </div>
+      </div>
+      <div class="col-auto px-0">
+        <div class="room-box full-height"  id="R213">
+          <p class="room">213</p>
+          <p class="name">{name}</p>
+          <p class="ext">{ext}</p>
+          <p class="key-locker">Key Locker<br>591512</p>
+        </div>
+      </div>
+      <div class="col-auto px-0">
+        <div class="room-box full-height"  id="R215">
+          <p class="room">215</p>
+          <p class="name">{name}</p>
+          <p class="ext">{ext}</p>
+          <p class="key-locker">Key Locker<br>591514</p>
+        </div>
+      </div>
+      <div class="col-auto px-0">
+        <div class="room-box full-height"  id="R217">
+          <p class="room">217</p>
+          <p class="name">{name}</p>
+          <p class="ext">{ext}</p>
+          <p class="key-locker">Key Locker<br>591516</p>
+        </div>
+      </div>
+      <div class="col-auto px-0">
+        <div class="room-box full-height" id="R219">
+          <p class="room">219</p>
+          <p class="name">{name}</p>
+          <p class="ext">{ext}</p>
+          <p class="key-locker">Key Locker<br>591518</p>
+        </div>
+      </div>
+       <!-- Print Room -->
+       <div class="col-auto">
+        <div class="room-box full-height vertical-text" style="height:72px;" >
+        <p class="name">Kitchen</p>
+        </div>
+      </div>
+    </div>
+    <!-- 3rd row big block -->
+    <div class="row flex-nowrap ">
+        
+      <div class="col-auto">
+        <div class="row">
+       <!-- bottom left -->
+      <div class="row d-flex g-0">
+        <!-- 3 cols 7 rows -->
+      <div class="col-auto px-0">
+        <div class="row">
+           <!-- First Column -->
+           <div class="col-auto px-0">
+            <div class="room-box green-box mb-5" id="R240A">
+              <p class="room">240A</p>
+              <p class="name">{name}</p>
+              <p class="ext">{ext}</p>
+            </div>
+            
+            <div class="room-box green-box" id="R240D">
+              <p class="room">240D</p>
+              <p class="name">{name}</p>
+              <p class="ext">{ext}</p>
+            </div>
+            <div class="room-box green-box mb-5" id="R240G">
+              <p class="room">240G</p>
+              <p class="name">{name}</p>
+              <p class="ext">{ext}</p>
+            </div>
+            <div class="room-box green-box" id="R240J">
+              <p class="room">240J</p>
+              <p class="name">{name}</p>
+              <p class="ext">{ext}</p>
+            </div>
+            <div class="room-box green-box mb-5" id="R240O">
+              <p class="room">240O</p>
+              <p class="name">{name}</p>
+              <p class="ext">{ext}</p>
+            </div>
+            <div class="room-box green-box" id="R240P">
+              <p class="room">240P</p>
+              <p class="name">{name}</p>
+              <p class="ext">{ext}</p>
+            </div>
+            <div class="room-box green-box" id="R240S">
+              <p class="room">240S</p>
+              <p class="name">{name}</p>
+              <p class="ext">{ext}</p>
+            </div>
+            
+          </div>
+
+          <!-- Second Column -->
+          <div class="col-auto px-0">
+            <div class="room-box green-box mb-5 mx-0" id="R240B">
+              <p class="room">240B</p>
+              <p class="name">{name}</p>
+              <p class="ext">{ext}</p>
+            </div>
+            
+            <div class="room-box yellow-box mx-0" id="R240E">
+              <p class="room">240E</p>
+              <p class="name">Vacant</p>
+              <p class="ext">{ext}</p>
+            </div>
+            <div class="room-box yellow-box mb-5" id="R240H">
+              <p class="room">240H</p>
+              <p class="name">Vacant</p>
+              <p class="ext">{ext}</p>
+            </div>
+            <div class="room-box yellow-box" id="R240K">
+              <p class="room">240K</p>
+              <p class="name">Vacant</p>
+              <p class="ext">{ext}</p>
+            </div>
+            <div class="room-box green-box mb-5" id="R240N">
+              <p class="room">240N</p>
+              <p class="name">{name}</p>
+              <p class="ext">{ext}</p>
+            </div>
+            <div class="room-box green-box" id="R40Q">
+              <p class="room">240Q</p>
+              <p class="name">{name}</p>
+              <p class="ext">{ext}</p>
+            </div>
+            <div class="room-box green-box" id="R240T">
+              <p class="room">240T</p>
+              <p class="name">{name}</p>
+              <p class="ext">{ext}</p>
+            </div>
+            
+          </div>
+          <!-- 3rd column -->
+          <div class="col-auto ps-0">
+            <div class="room-box green-box mb-5" id="R240C">
+              <p class="room">240C</p>
+              <p class="name">{name}</p>
+              <p class="ext">{ext}</p>
+            </div>
+            
+            <div class="room-box green-box" id="R240F">
+              <p class="room">240F</p>
+              <p class="name">{name}</p>
+              <p class="ext">{ext}</p>
+            </div>
+            <div class="room-box green-box mb-5" id="R240I">
+              <p class="room">240I</p>
+              <p class="name">{name}</p>
+              <p class="ext">{ext}</p>
+            </div>
+            <div class="room-box green-box" id="R240L">
+              <p class="room">240L</p>
+              <p class="name">{name}</p>
+              <p class="ext">{ext}</p>
+            </div>
+            <div class="room-box green-box mb-5" id="R240M">
+              <p class="room">240M</p>
+              <p class="name">{name}</p>
+              <p class="ext">{ext}</p>
+            </div>
+            <div class="room-box green-box" id="R240R">
+              <p class="room">240R</p>
+              <p class="name">{name}</p>
+              <p class="ext">{ext}</p>
+            </div>
+            <div class="room-box green-box" id="R240U">
+              <p class="room">240U</p>
+              <p class="name">{name}</p>
+              <p class="ext">{ext}</p>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+      </div>
+      </div>
+    </div>
+    <!-- bottom middle -->
+     <!-- 1 col 7 rows -->
+      <div class="col-auto">
+        <div class="d-flex flex-column">
+        <div class="room-box" id="R233">
+          <p class="room">233</p>
+          <p class="name">{name}</p>
+          <p class="ext">{ext}</p>
+          <p class="key-locker">Key Locker<br> 591519</p>
+        </div>
+    
+        <div class="room-box" id="R234">
+          <p class="room">234</p>
+          <p class="name">{name}</p>
+          <p class="ext">{ext}</p>
+          <p class="key-locker">Key Locker<br> 591520</p>
+        </div>
+    
+        <div class="room-box" id="R235">
+          <p class="room">235</p>
+          <p class="name">{name}</p>
+          <p class="ext">{ext}</p>
+          <p class="key-locker">Key Locker<br> 591521</p>
+        </div>
+    
+        <div class="room-box" id="R236">
+          <p class="room">236</p>
+          <p class="name">{name}</p>
+          <p class="ext">{ext}</p>
+          <p class="key-locker">Key Locker<br> 591522</p>
+        </div>
+        <div class="room-box" id="R237">
+          <p class="room">237</p>
+          <p class="name">{name}</p>
+          <p class="ext">{ext}</p>
+          <p class="key-locker">Key Locker<br> 591523</p>
+        </div>
+        <div class="room-box" id="R238">
+          <p class="room">238</p>
+          <p class="name">{name}</p>
+          <p class="ext">{ext}</p>
+          <p class="key-locker">Key Locker<br> 591524</p>
+        </div>
+    
+        <div class="room-box" id="R239">
+          <p class="room">239</p>
+          <p class="name">{name}</p>
+          <p class="ext">{ext}</p>
+          <p class="key-locker">Key Locker<br> 591525</p>
+        </div>
+        
+      </div>
+      </div>
+      <!-- bottom right -->
+      <div class="col-auto py-3">
+        <div class="d-flex room-box h-100 d-flex justify-content-center align-items-center" style="width: 80rem;">
+          <p>Woodside Courtyard</p>
+        </div>
+      </div>
+
+      </div>
+  <!-- 4th row -->
+   <!-- 1 row 11 cols -->
+  <div class="row flex-nowrap">
+
+    <div class="col-auto pe-0">
+      <div class="room-box orange-box" id="R240V">
+        <p class="room">240V</p>
+        <p class="name">{name}</p>
+        <p class="ext">{ext}</p>
+      </div>
+    </div>
+    <div class="col-auto ps-0 me-1">
+      <div class="room-box orange-box" id="R240W">
+        <p class="room">240W</p>
+        <p class="name">{name}</p>
+        <p class="ext">{ext}</p>
+      </div>
+    </div>
+    <div class="col-auto pe-0 ms-5">
+      <div class="room-box fire">
+        <p class="room" style="font-size: 8px; color:red;">Fire Hydrant</p>
+      </div>
+    </div>
+    <div class="col-auto px-0 pb-3">
+      <div class="room-box full-height" id="R243">
+        <p class="room">243</p>
+        <p class="name">{name}</p>
+        <p class="ext">{ext}</p>
+        <p class="key-locker">Key Locker<br> 591539</p>
+      </div>
+    </div>
+    <div class="col-auto px-0">
+      <div class="room-box full-height" id="R244">
+        <p class="room">244</p>
+        <p class="name">{name}</p>
+        <p class="ext">{ext}</p>
+        <p class="key-locker">Key Locker<br> 591526</p>
+      </div>
+    </div>
+    <div class="col-auto px-0">
+      <div class="room-box full-height" id="R245">
+        <p class="room">245</p>
+        <p class="name">{name}</p>
+        <p class="ext">{ext}</p>
+        <p class="key-locker">Key Locker<br> 591527</p>
+      </div>
+    </div>
+    <div class="col-auto px-0">
+      <div class="room-box full-height" id="R246">
+        <p class="room">246</p>
+        <p class="name">{name}</p>
+        <p class="ext">{ext}</p>
+        <p class="key-locker">Key Locker<br> 591528</p>
+      </div>
+    </div>
+    <div class="col-auto px-0">
+      <div class="room-box full-height" id="R247">
+        <p class="room">247</p>
+        <p class="name">{name}</p>
+        <p class="ext">{ext}</p>
+        <p class="key-locker">Key Locker<br> 591530</p>
+      </div>
+    </div>
+    <div class="col-auto px-0">
+      <div class="room-box full-height" id="R248">
+        <p class="room">248</p>
+        <p class="name">{name}</p>
+        <p class="ext">{ext}</p>
+        <p class="key-locker">Key Locker<br> 591532</p>
+      </div>
+    </div>
+    <div class="col-auto px-0">
+      <div class="room-box full-height"  id="R249">
+        <p class="room">249</p>
+        <p class="name">{name}</p>
+        <p class="ext">{ext}</p>
+        <p class="key-locker">Key Locker<br> 591534</p>
+      </div>
+    </div>
+     <!-- Kitchen -->
+     <div class="col-auto">
+      <div class="room-box full-height vertical-text" style="height: 72px;">
+      <p class="name">Kitchen</p>
+      </div>
+      <i class="fa-solid fa-restroom fa-3x justify-content-end mt-5"></i>
+    </div>
+  </div>
+  <!-- last row -->
+   <!-- 1 row 8 cols -->
+  <div class="row flex-nowrap margin-left-10 mt-5">
+    <div class="col-auto px-0" style="position: relative; z-index: 1;">
+      <div class="room-box full-height d-flex flex-column justify-content-center align-items-center rounded-pill me-5" id="R242" style="position: relative; bottom: 50%;">
+        <div class="room">242</div>
+        <div class="name">Case Study Room</div>
+        <div class="key-locker m-0">Key Locker <br>591201</div>
+      </div>
+    </div>
+    <div class="col-auto px-0">
+      <div class="room-box" style="height:100px;" id="R259">
+        <p class="room">259</p>
+        <p class="name">{name}</p>
+        <p class="ext">{ext}</p>
+        <p class="key-locker">Key Locker<br> 591538</p>
+      </div>
+    </div>
+    
+    <div class="col-auto px-0">
+      <div class="room-box" style="height:100px;" id="R258">
+        <p class="room">258</p>
+        <p class="name">{name}</p>
+        <p class="ext">{ext}</p>
+        <p class="key-locker">Key Locker<br> 591535</p>
+      </div>
+    </div>
+    
+    <div class="col-auto px-0">
+      <div class="room-box" style="height:100px;"  id="R257">
+        <p class="room">257</p>
+        <p class="name">{name}</p>
+        <p class="ext">{ext}</p>
+        <p class="key-locker">Key Locker<br> 591536</p>
+      </div>
+    </div>
+    <div class="col-auto px-0">
+      <div class="room-box" style="height:100px;"  id="R256">
+        <p class="room">256</p>
+        <p class="name">{name}</p>
+        <p class="ext">{ext}</p>
+        <p class="key-locker">Key Locker<br> 591537</p>
+      </div>
+    </div>
+    <div class="col-auto px-0">
+      <div class="room-box" style="height:100px;"  id="R255">
+        <p class="room">255</p>
+        <p class="name">{name}</p>
+        <p class="ext">{ext}</p>
+        <p class="key-locker">Key Locker<br> 591531</p>
+      </div>
+    </div>
+    <div class="col-auto px-0">
+      <div class="room-box" style="height:100px;" id="R254">
+        <p class="room">254</p>
+        <p class="name">{name}</p>
+        <p class="ext">{ext}</p>
+        <p class="key-locker">Key Locker<br> 591533</p>
+      </div>
+    </div>
+    <div class="col-auto px-0">
+      <div class="room-box" style="height:100px;" id="R253">
+        <p class="room">253</p>
+        <p class="name">Meeting Room & Print Room</p>
+        <p class="key-locker">Key Locker<br> 591201</p>
+        <P class="ptr">PRT 400</P>
+        <p class="printer-serial">Printer Serial<br># SAA2J041014115</p>
+      </div>
+    </div>
+  </div>
+</div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous">
+
+  </script>
+   <!-- font-awesome link -->
+   <script src="https://kit.fontawesome.com/d5165f1477.js" crossorigin="anonymous"></script>
+</body>
+</html>
