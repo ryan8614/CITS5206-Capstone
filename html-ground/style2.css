@@ -1,0 +1,377 @@
+/* ==========================
+   Typography
+   ========================== */
+
+   *{
+    font-size: 10px; /* set to 10 for easier calculate rem value */
+    box-sizing: border-box; /* Include padding and border in element's total width and height */
+  }
+  
+  body {
+    padding: 0;
+    margin: 0;
+    min-width: 1200px;
+    overflow-x: auto;
+  }
+  
+  p {
+    margin-bottom: 0.2rem; /* Smaller margin within boxes */
+    line-height: 1.1;
+  }
+  
+  .room-box p:last-child {
+    margin-bottom: 0;
+  }
+  
+  /* ==========================
+     Room Containers
+     ========================== */
+  .container-fluid {
+    margin: 0 auto;
+    padding: 5px;
+    width: 1200px;
+    min-width: 1200px;
+    max-width: 1200px;
+    box-sizing: border-box;
+  }
+  
+  .row.flex-nowrap {
+    min-width: max-content; /* Ensures content doesn't wrap */
+  }
+  
+  .room-box {
+    border: 1px solid #000; /* Standard border on all sides */
+    padding: 0.5rem;
+    text-align: center;
+    width: 100%; /* Make boxes fill their column space */
+    background-color: #fff; /* Default background */
+    min-height: 4rem; /* Minimum height for smaller boxes */
+    display: flex; /* Use flexbox for internal alignment */
+    flex-direction: column; /* Stack p tags vertically */
+    justify-content: center; /* Center content vertically */
+    position: relative; /* For border overlap */
+    margin-bottom: -1px; /* Use negative margin for vertical overlap */
+    height: 100%;
+    min-height: 60px;
+    box-sizing: border-box;
+    word-wrap: break-word;
+    word-break: normal;
+  }
+  
+  /* Remove negative margin from the very last box in the main column */
+  .col-4 > .room-box:last-child {
+    margin-bottom: 0;
+  }
+  
+  /* Remove negative margin from the last box within the nested lab/printer columns */
+  .col > .room-box:last-child,
+  .col-auto > .room-box:last-child {
+    margin-bottom: 0;
+  }
+  
+  /* ==========================
+     Column & Width Settings
+     ========================== */
+  /* 固定列宽度 */
+  .col-3 {
+    width: 300px !important;
+    min-width: 300px;
+    max-width: 300px;
+    flex: 0 0 300px !important;
+  }
+  
+  .col-4 {
+    width: 400px !important;
+    min-width: 400px;
+    max-width: 400px;
+    flex: 0 0 400px !important;
+    padding-left: 0 !important; /* 确保实验室对齐G78 */
+  }
+  
+  .col-5 {
+    width: 500px !important;
+    min-width: 500px;
+    max-width: 500px;
+    flex: 0 0 500px !important;
+  }
+  
+  .col-7 {
+    width: 700px !important;
+    min-width: 700px;
+    max-width: 700px;
+    flex: 0 0 700px !important;
+  }
+  
+  /* ==========================
+     Row Settings
+     ========================== */
+  /* 行稳定性 */
+  .row {
+    display: flex;
+    width: 1200px;
+    min-width: 1200px;
+    max-width: 1200px;
+    margin: 0;
+  }
+  
+  .row.flex-nowrap {
+    flex-wrap: nowrap;
+    width: 1200px;
+    min-width: 1200px;
+  }
+  
+  /* 底部行溢出控制 */
+  .bottom-row {
+    overflow: visible;
+    position: relative;
+  }
+  
+  /* ==========================
+     Office Area Settings
+     ========================== */
+  /* 办公室布局固定 */
+  .office-box {
+    flex: 0 0 auto;
+    width: 101px; /* 略微增加宽度 */
+    min-width: 101px;
+    max-width: 101px;
+  }
+  
+  .office-box .room-box {
+    height: 120px;
+    min-height: 0px;
+  }
+  
+  /* 办公室容器固定宽度 */
+  .office-container {
+    display: flex;
+    flex-wrap: nowrap;
+    width: 1260px; /* 12 offices x 105px */
+    min-width: 1260px;
+  }
+  
+  /* 厕所图标容器样式 */
+  .restroom-container {
+    position: absolute;
+    left: 0;
+    top: 100%; /* 放在厨房下面 */
+    margin-top: 8px;
+  }
+  
+  /* ==========================
+     Kitchen & Special Areas
+     ========================== */
+  /* 厨房容器 */
+  .kitchen-container {
+    width: 30px;
+    min-width: 30px;
+    max-width: 30px;
+    margin-right: 2px;
+    flex: 0 0 30px;
+  }
+  
+  /* 垂直文本稳定 */
+  .vertical-text {
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+    transform: rotate(180deg);
+    white-space: nowrap;
+    height: 120px !important;
+    min-height: 120px !important;
+    padding: 0.5rem;
+    width: auto;
+    min-width: 2rem;
+  }
+  
+  /* ==========================
+     Box Type Settings
+     ========================== */
+  /* 大盒子稳定性 */
+  .large-box {
+    height: 480px;
+    min-height: 480px;
+    margin-bottom: 0; /* Large boxes don't overlap */
+  }
+  
+  /* 实验室和打印机固定高度 */
+  .computer-lab {
+    height: 112px;
+    min-height: 112px;
+    position: relative;
+    width: 100%;
+    overflow: visible !important;
+    z-index: 5;
+    display: block;
+    min-height: 7rem; /* Approximate height for lab boxes */
+  }
+  
+  .printer-box {
+    height: 112px;
+    min-height: 112px;
+    min-height: 6rem; /* Approximate height */
+    font-size: 9px; /* Smaller text for printers */
+  }
+  
+  /* 研究生室固定高度 */
+  .postgrad-room {
+    height: 90px;
+    min-height: 90px;
+    min-height: 5rem; /* Slightly shorter */
+    flex-grow: 1; /* Allow this box to grow vertically */
+    margin-top: -1px; /* Overlap with the row above */
+    margin-bottom: 0; /* It's the last item in its column */
+  }
+  
+  /* ==========================
+     Text Styles
+     ========================== */
+  .room { 
+    font-weight: bold; 
+  }
+  
+  .key-locker-info {
+    font-size: 9px;
+    color: green; /* Style for key locker text */
+  }
+  
+  .printer-info {
+    font-size: 9px;
+    color: red; /* Style for printer serial text */
+  }
+  
+  /* ==========================
+     Lab Area Settings
+     ========================== */
+  /* 确保实验室内容可见 */
+  .computer-lab span, 
+  .computer-lab br {
+    display: inline !important;
+  }
+  
+  /* 实验室文本大小确保可读性 */
+  .computer-lab,
+  .computer-lab span.room,
+  .computer-lab span.key-locker-info {
+    font-size: 12px;
+    line-height: 1.4;
+  }
+  
+  /* 实验室列固定宽度和内容显示 */
+  .row.g-2 .col {
+    width: 300px !important;
+    min-width: 300px;
+    max-width: 300px;
+    flex: 0 0 300px !important;
+    padding-left: 0 !important; /* 确保实验室左对齐 */
+  }
+  
+  /* 打印机列固定宽度 */
+  .row.g-2 .col-auto {
+    width: 100px !important;
+    min-width: 100px;
+    max-width: 100px;
+    flex: 0 0 100px !important;
+  }
+  
+  /* 确保实验室嵌套行固定 */
+  .col-4 .row.g-2 {
+    width: 400px;
+    min-width: 400px;
+    max-width: 400px;
+    margin: 0;
+    display: flex;
+    padding-left: 0;
+    margin-left: 0;
+  }
+  
+  /* G78和实验室左对齐 */
+  .col-4 > .row.g-2,
+  .col-4 > .room-box.postgrad-room {
+    margin-left: 0;
+    padding-left: 0;
+  }
+  
+  /* 调整打印机列的flex行为 */
+  .d-flex.flex-column.justify-content-start > .room-box {
+    flex-grow: 0; /* Prevent printer boxes from stretching excessively */
+  }
+
+  /* 位置定位容器 */
+  .stacked-top-container {
+    position: absolute;
+    top: -200px; /* 向上偏移120px，使其位于G56上方 */
+    right: -708px;    /* 与G56右对齐 */
+    width: 101px;
+    z-index: 10;
+  }
+  
+  /* G54和G55的样式 */
+  .stacked-top-container .room-box {
+    height: 100px;
+    min-height: 60px;
+    padding: 0.3rem;
+    margin-bottom: 2px;
+  }
+  
+
+  /* 确保G56可见 */
+  #G56 {
+    position: relative;
+    z-index: 5;
+  }
+  
+  /* 绿色背景 */
+  .green-box {
+    background-color: #4CAF50;
+    color: white;
+  }
+
+  .floor-title {
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
+  .case-study-room {
+    border-radius: 50%;
+    height: 300px;
+    width: 250px;
+  }
+  
+  .furniture {
+    background-color: #6495ED;
+    border: 1px solid #000;
+  }
+  
+  .round-table {
+    border-radius: 50%;
+  }
+  
+  .restroom-icons {
+    font-size: 20px;
+    color: blue;
+    text-align: center;
+  }
+  
+  .vacant-room {
+    background-color: #fff;
+  }
+  
+  .kitchen {
+    writing-mode: vertical-rl;
+    transform: rotate(180deg);
+    padding: 10px;
+    height: 100px;
+  }
+
+  /* ==========================
+     Responsive Overrides
+     ========================== */
+  /* 覆盖 Bootstrap 响应式布局 */
+  @media (min-width: 768px) {
+    .col-md-auto, .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, 
+    .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
+      flex: 0 0 auto !important;
+    }
+  }
