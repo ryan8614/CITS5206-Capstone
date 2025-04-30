@@ -14,7 +14,7 @@ This folder contains an early prototype of the 2nd floor plan interface using st
 4. Blue(#aee4f5): casual/part-time staff
 5. No color: other regular staff
 
-### attributes
+### Attributes
 1. Each room has its id strat with "R" and followed by the room number, no space between them
 2. All rooms have a same class "room-box"
 3. Rooms with specified colors have color classes, for example "green-box" "yellow-box" etc.
