@@ -1,6 +1,10 @@
 {
+  "/_not-found/page": "app/_not-found/page.js",
   "/api/session/route": "app/api/session/route.js",
-  "/api/upload/route": "app/api/upload/route.js",
+  "/authen/excel-edit/page": "app/authen/excel-edit/page.js",
+  "/authen/testExcel/page": "app/authen/testExcel/page.js",
   "/authen/upload/page": "app/authen/upload/page.js",
-  "/favicon.ico/route": "app/favicon.ico/route.js"
+  "/favicon.ico/route": "app/favicon.ico/route.js",
+  "/page": "app/page.js",
+  "/signin/page": "app/signin/page.js"
 }
