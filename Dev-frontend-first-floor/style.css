@@ -15,18 +15,26 @@
    }
    .row.flex-nowrap{ min-width:max-content; }
    
-   .room-box{
+   /* .room-box{
      min-width:120px;
      min-height:80px;
      margin:0;
      box-sizing:border-box;
      border:1px solid #333;
-     background:#fff;                 /* White background */
+     background:#fff;                 White background
      display:flex;
      flex-direction:column;
      align-items:center;
      justify-content:center;
-   }
+   } */
+
+    /* resolve style conflicts and make consistent room size with 2nd floor */
+   .room-box {
+    border: 1px solid #000;
+    padding: 0.5rem;
+    text-align: center;
+    min-width: 6rem;
+  }
    
    /* ==========================
       Optional color classes
