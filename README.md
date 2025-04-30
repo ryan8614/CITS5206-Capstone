@@ -10,7 +10,7 @@ This project is a web application that allows users to synchronize their Excel f
 
 📌 User operation process
 
-1️⃣ User uploads fileA.xlsx and fileB.xlsx.  
+1️⃣ User uploads fileA.xlsx and fileB.xlsx.
 
 2️⃣ User modify the fileA.xlsx on the web page.
 
@@ -20,11 +20,11 @@ This project is a web application that allows users to synchronize their Excel f
 
 📌 System architecture
 
-Frontend: Next.js (user uploads Excel)
+- Frontend: Next.js (user uploads Excel)
 
-Backend: Vercel Serverless (Node.js + Express)
+- Backend: Vercel Serverless (Node.js + Express)
 
-Database: Prisma
+- Database: Prisma
 
 This is a [Next.js](https://nextjs.org) project Tailwinded with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
