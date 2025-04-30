@@ -7,18 +7,44 @@ import { useRouter } from 'next/navigation';
 import { useEffect } from 'react';
 import { logout } from '@/app/actions/auth'
 
+/**
+ * @constant {Array<Object>} linkData - Array of navigation links.
+ * @property {string} name - The display name of the link.
+ * @property {string} href - The URL the link points to.
+ */
 const linkData = [
   { name: 'Edit', href: '/authen/excel-edit' },
   { name: 'Upload', href: '/authen/upload' },
   { name: 'Download', href: '/authen/download' },
 ]
 
+/**
+ * @function Header - Functional component for the main header of the application.
+ * @returns {JSX.Element} - Returns the JSX for the header.
+ */
 export default function Header () {
+    /**
+     * @state {boolean} isLoggedIn - State to track if the user is logged in.
+     * @function setIsLoggedIn - Function to update the login state.
+     */
     const [isLoggedIn, setIsLoggedIn] = useState(false)
+    /**
+     * @constant {string} pathname - Current path of the route.
+     */
     const pathname = usePathname();
+    /**
+     * @constant {NextRouter} router - Router instance from next/navigation.
+     */
     const router = useRouter()
 
+    /**
+     * @useEffect - useEffect hook to check login status on component mount.
+     */
     useEffect(() => {
+      /**
+       * @async @function checkLogin - Checks if the user is logged in by calling the /api/session endpoint.
+       * @returns {Promise<void>}
+       */
       const checkLogin = async () => {
         const res = await fetch('/api/session')
         const data = await res.json()
@@ -27,8 +53,17 @@ export default function Header () {
       checkLogin()
     }, [])
 
+    /**
+     * @function isActive - Checks if the current path matches the link's href.
+     * @param {string} href - The href of the link.
+     * @returns {boolean} - Returns true if the path matches, false otherwise.
+     */
     const isActive = (href: string) => pathname === href
 
+    /**
+     * @async @function handleLogout - Logs out the user and redirects to the home page.
+     * @returns {Promise<void>}
+     */
     const handleLogout = async () => {
       await logout()
       router.push('/')

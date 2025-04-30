@@ -8,6 +8,17 @@ import { cookies } from 'next/headers'
 const protectedRoutes = ['/authen']
 const publicRoutes = ['/', '/login', '/signup']
  
+/**
+ * @function middleware
+ * @async
+ * @description Middleware function to handle authentication and route protection.
+ * It checks if the user is authenticated based on the session cookie and redirects
+ * them to the appropriate page.
+ *
+ * @param {NextRequest} req - The Next.js request object.
+ * @returns {Promise<NextResponse>} - A promise that resolves to a Next.js response object,
+ * which can be either a redirect or the next middleware in the chain.
+ */
 export default async function middleware(req: NextRequest) {
 
   // 2. Check if the current route is protected or public
@@ -41,7 +52,12 @@ export default async function middleware(req: NextRequest) {
   return NextResponse.next()
 }
  
-// Routes Middleware should not run on
+/**
+ * @constant {object} config
+ * @description Configuration object for the middleware.
+ * Defines the matcher to specify the routes that the middleware should run on.
+ * It excludes API routes, static files, and images.
+ */
 export const config = {
   matcher: ['/((?!api|_next/static|_next/image|.*\\.png$).*)'],
 }
