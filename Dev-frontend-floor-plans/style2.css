@@ -72,7 +72,7 @@
   /* ==========================
      Column & Width Settings
      ========================== */
-  /* 固定列宽度 */
+ 
   .col-3 {
     width: 300px !important;
     min-width: 300px;
@@ -85,7 +85,7 @@
     min-width: 400px;
     max-width: 400px;
     flex: 0 0 400px !important;
-    padding-left: 0 !important; /* 确保实验室对齐G78 */
+    padding-left: 0 !important; 
   }
   
   .col-5 {
@@ -105,7 +105,7 @@
   /* ==========================
      Row Settings
      ========================== */
-  /* 行稳定性 */
+ 
   .row {
     display: flex;
     width: 1200px;
@@ -120,7 +120,7 @@
     min-width: 1200px;
   }
   
-  /* 底部行溢出控制 */
+ 
   .bottom-row {
     overflow: visible;
     position: relative;
@@ -129,10 +129,10 @@
   /* ==========================
      Office Area Settings
      ========================== */
-  /* 办公室布局固定 */
+ 
   .office-box {
     flex: 0 0 auto;
-    width: 101px; /* 略微增加宽度 */
+    width: 101px; 
     min-width: 101px;
     max-width: 101px;
   }
@@ -142,7 +142,7 @@
     min-height: 0px;
   }
   
-  /* 办公室容器固定宽度 */
+
   .office-container {
     display: flex;
     flex-wrap: nowrap;
@@ -150,7 +150,7 @@
     min-width: 1260px;
   }
   
-  /* 厕所图标容器样式 */
+ 
   .restroom-container {
     position: absolute;
     left: 0;
@@ -161,7 +161,7 @@
   /* ==========================
      Kitchen & Special Areas
      ========================== */
-  /* 厨房容器 */
+
   .kitchen-container {
     width: 30px;
     min-width: 30px;
@@ -170,7 +170,7 @@
     flex: 0 0 30px;
   }
   
-  /* 垂直文本稳定 */
+
   .vertical-text {
     writing-mode: vertical-rl;
     text-orientation: mixed;
@@ -186,14 +186,14 @@
   /* ==========================
      Box Type Settings
      ========================== */
-  /* 大盒子稳定性 */
+
   .large-box {
     height: 480px;
     min-height: 480px;
     margin-bottom: 0; /* Large boxes don't overlap */
   }
   
-  /* 实验室和打印机固定高度 */
+ 
   .computer-lab {
     height: 112px;
     min-height: 112px;
@@ -212,7 +212,7 @@
     font-size: 9px; /* Smaller text for printers */
   }
   
-  /* 研究生室固定高度 */
+  
   .postgrad-room {
     height: 90px;
     min-height: 90px;
@@ -242,13 +242,11 @@
   /* ==========================
      Lab Area Settings
      ========================== */
-  /* 确保实验室内容可见 */
   .computer-lab span, 
   .computer-lab br {
     display: inline !important;
   }
   
-  /* 实验室文本大小确保可读性 */
   .computer-lab,
   .computer-lab span.room,
   .computer-lab span.key-locker-info {
@@ -256,16 +254,15 @@
     line-height: 1.4;
   }
   
-  /* 实验室列固定宽度和内容显示 */
   .row.g-2 .col {
     width: 300px !important;
     min-width: 300px;
     max-width: 300px;
     flex: 0 0 300px !important;
-    padding-left: 0 !important; /* 确保实验室左对齐 */
+    padding-left: 0 !important; 
   }
   
-  /* 打印机列固定宽度 */
+  
   .row.g-2 .col-auto {
     width: 100px !important;
     min-width: 100px;
@@ -273,7 +270,7 @@
     flex: 0 0 100px !important;
   }
   
-  /* 确保实验室嵌套行固定 */
+ 
   .col-4 .row.g-2 {
     width: 400px;
     min-width: 400px;
@@ -284,28 +281,28 @@
     margin-left: 0;
   }
   
-  /* G78和实验室左对齐 */
+
   .col-4 > .row.g-2,
   .col-4 > .room-box.postgrad-room {
     margin-left: 0;
     padding-left: 0;
   }
   
-  /* 调整打印机列的flex行为 */
+ 
   .d-flex.flex-column.justify-content-start > .room-box {
     flex-grow: 0; /* Prevent printer boxes from stretching excessively */
   }
 
-  /* 位置定位容器 */
+
   .stacked-top-container {
     position: absolute;
-    top: -200px; /* 向上偏移120px，使其位于G56上方 */
-    right: -708px;    /* 与G56右对齐 */
+    top: -200px; 
+    right: -708px;    
     width: 101px;
     z-index: 10;
   }
   
-  /* G54和G55的样式 */
+ 
   .stacked-top-container .room-box {
     height: 100px;
     min-height: 60px;
@@ -314,13 +311,11 @@
   }
   
 
-  /* 确保G56可见 */
   #G56 {
     position: relative;
     z-index: 5;
   }
   
-  /* 绿色背景 */
   .green-box {
     background-color: #4CAF50;
     color: white;
@@ -368,7 +363,6 @@
   /* ==========================
      Responsive Overrides
      ========================== */
-  /* 覆盖 Bootstrap 响应式布局 */
   @media (min-width: 768px) {
     .col-md-auto, .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, 
     .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
