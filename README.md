@@ -4,7 +4,7 @@ Information Technology Capstone Project -- SEM 1 2025
 
 # Overview
 
-This project is a web application that allows users to synchronize their Excel files with a Google Sheets document. The application is built using Next.js and Google Sheets API. The user can select an Excel file and a Google Sheets document, and the application will read the data from the Excel file and write it to the Google Sheets document. The user can also select a specific range of cells in the Excel file to synchronize, and the application will only write the selected range of cells to the Google Sheets document.
+This project is a web application that allows users to synchronize their Excel files on the web page. The application is built using Next.js. The user can select an Excel file and a Google Sheets document, and the application will read the data from the Excel file and write it to the Google Sheets document. The user can also select a specific range of cells in the Excel file to synchronize, and the application will only write the selected range of cells to the Google Sheets document.
 
 ### Technical architecture
 
