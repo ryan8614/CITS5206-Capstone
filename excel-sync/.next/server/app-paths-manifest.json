@@ -1,0 +1,6 @@
+{
+  "/api/session/route": "app/api/session/route.js",
+  "/api/upload/route": "app/api/upload/route.js",
+  "/authen/upload/page": "app/authen/upload/page.js",
+  "/favicon.ico/route": "app/favicon.ico/route.js"
+}

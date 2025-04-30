@@ -1,0 +1,17 @@
+{
+  "node": {
+    "001bc5ccc98941601401ef3249bdaaa41cee76c27a": {
+      "workers": {
+        "app/authen/upload/page": {
+          "moduleId": "[project]/.next-internal/server/app/authen/upload/page/actions.js { ACTIONS_MODULE0 => \"[project]/src/app/actions/auth.tsx [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false
+        }
+      },
+      "layer": {
+        "app/authen/upload/page": "action-browser"
+      }
+    }
+  },
+  "edge": {},
+  "encryptionKey": "4g/5PVrExBpKVwH0wEpQDl7tA7HWrcG+SPN5kcxQdNk="
+}
