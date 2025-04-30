@@ -8,7 +8,7 @@
   <title>Floor Map</title>
 </head>
 <body>
-  <div class="container-fluid" style="width: 1400px; max-width: 1400px; min-width: 1400px;">
+  <div class="container-fluid" style="width: 1400px; max-width: 1400px; min-width: 1400px; position: relative;">
     <div class="floor-title">Ground Floor Goldfields: Centre For Data Analytics</div>
     
     <div class="row flex-nowrap g-0">
@@ -99,7 +99,7 @@
             <i class="fa-solid fa-restroom fa-2x"></i>
           </div>
 
-        <div class="small-office-column" style="display: flex; flex-direction: column; gap: 2px; width: 65px; position: absolute; top: 450px; left: 540px;">
+        <div class="small-office-column" style="display: flex; flex-direction: column; gap: 2px; width: 65px; position: absolute; top: 450px; left: 480px;">
           <div class="room-box" id="G305A" style="height: 96px; font-size: 9px; padding: 2px;">
             <p class="room" style="margin-bottom: 0px;">G305A</p>
             <p style="margin-bottom: 0px;">{name}</p>
@@ -114,10 +114,8 @@
           </div>
         </div>
 
-        <!-- Empty Space -->
-        <div style="width: 60px;"></div>
 
-        <div class="small-office-column" style="display: flex; flex-direction: column; gap: 2px; width: 65px; position: absolute; top: 450px; left: 660px;">
+        <div class="small-office-column" style="display: flex; flex-direction: column; gap: 2px; width: 65px; position: absolute; top: 450px; left: 600px;">
           <div class="room-box" id="G305D" style="height: 96px; font-size: 9px; padding: 2px;">
             <p class="room" style="margin-bottom: 0px;">G305D</p>
             <p style="margin-bottom: 0px;">{name}</p>
@@ -132,7 +130,8 @@
           </div>
         </div>
 
-        <div class="small-office-column" style="display: flex; flex-direction: column; gap: 2px; width: 65px; position: absolute; top: 450px; left: 725px;">
+        <!-- Office column 3-->
+        <div class="small-office-column" style="display: flex; flex-direction: column; gap: 2px; width: 65px; position: absolute; top: 450px; left: 666px; ">
           <div class="room-box" id="G305G" style="height: 96px; font-size: 9px; padding: 2px;">
             <p class="room" style="margin-bottom: 0px;">G305G</p>
             <p style="margin-bottom: 0px;">{name}</p>
@@ -147,9 +146,8 @@
           </div>
         </div>
 
-        <div style="width: 20px;"></div>
-
-        <div class="small-office-column" style="display: flex; flex-direction: column; gap: 2px; width: 65px; position: absolute; top: 450px; left: 850px;">
+        <!-- Office column 4-->
+        <div class="small-office-column" style="display: flex; flex-direction: column; gap: 2px; width: 65px; position: absolute; top: 450px; left: 790px; ">
           <div class="room-box" id="G305J" style="height: 96px; font-size: 9px; padding: 2px;">
             <p class="room" style="margin-bottom: 0px;">G305J</p>
             <p style="margin-bottom: 0px;">{name}</p>
@@ -164,7 +162,8 @@
           </div>
         </div>
 
-        <div style="display: flex; margin-top: 411px; margin-left:-820px;">
+        <!-- Bottom row of rooms  -->
+        <div style="display: flex; margin-top: 411px; margin-left:-820px; transform: none;">
         <div class="room-box" style="width: 189px; height: 290px; margin-right: 2px;">
           <p class="room">G38</p>
           <p>{name}</p>
