@@ -24,11 +24,35 @@
 
       <!-- 1212~1203 + toilet (Grid) -->
       <div class="room-row-1212 me-3">
-        <div class="room-box"><div class="room-number">1212</div><div class="room-info">{name}<br>{ext}<br>Key Locker<br>591201</div></div>
-        <div class="room-box"><div class="room-number">1208</div><div class="room-info">{name}<br>{ext}<br>Key Locker<br>591434</div></div>
-        <div class="room-box"><div class="room-number">1207</div><div class="room-info">{name}<br>{ext}<br>Key Locker<br>591433</div></div>
-        <div class="room-box"><div class="room-number">1206</div><div class="room-info">{name}<br>{ext}<br>Key Locker<br>591432</div></div>
-        <div class="room-box yellow-box"><div class="room-number">1203</div><div class="room-info">VACANT<br>Key Locker<br>591431</div></div>
+        <div id="R1212" class="room-box">
+          <div class="room">1212</div>
+          <div class="name">{name}</div>
+          <div class="ext">{ext}</div>
+          <p class="key-locker">Key Locker<br>591201</p>
+        </div>
+        <div id="R1208" class="room-box">
+          <div class="room">1208</div>
+          <div class="name">{name}</div>
+          <div class="ext">{ext}</div>
+          <p class="key-locker">Key Locker<br>591434</p>
+        </div>
+        <div id="R1207" class="room-box">
+          <div class="room">1207</div>
+          <div class="name">{name}</div>
+          <div class="ext">{ext}</div>
+          <p class="key-locker">Key Locker<br>591433</p>
+        </div>
+        <div id="R1206" class="room-box">
+          <div class="room">1206</div>
+          <div class="name">{name}</div>
+          <div class="ext">{ext}</div>
+          <p class="key-locker">Key Locker<br>591432</p>
+        </div>
+        <div id="R1203" class="room-box yellow-box">
+          <div class="room">1203</div>
+          <div class="name">VACANT</div>
+          <p class="key-locker">Key Locker<br>591431</p>
+        </div>
         <!-- Toilet icon falls to the second row, directly below 1212 -->
         <i class="fa-solid fa-restroom fa-2x toilet-1212"></i>
       </div>
@@ -36,20 +60,44 @@
       <!-- 1204E~1204J 2×3 -->
       <div class="d-flex ms-3">
         <div class="d-flex flex-column">
-          <div class="room-box"><div class="room-number">1204E</div><div class="room-info">{name}</div></div>
-          <div class="room-box mt-2"><div class="room-number">1204G</div><div class="room-info">{name}</div></div>
-          <div class="room-box mt-2"><div class="room-number">1204I</div><div class="room-info">{name}<br>{ext}</div></div>
+          <div id="R1204E" class="room-box">
+            <div class="room">1204E</div>
+            <div class="name">{name}</div>
+            <div class="ext">{ext}</div>
+          </div>
+          <div id="R1204G" class="room-box mt-2">
+            <div class="room">1204G</div>
+            <div class="name">{name}</div>
+            <div class="ext">{ext}</div>
+          </div>
+          <div id="R1204I" class="room-box mt-2">
+            <div class="room">1204I</div>
+            <div class="name">{name}</div>
+            <div class="ext">{ext}</div>
+          </div>
         </div>
         <div class="d-flex flex-column ms-2">
-          <div class="room-box"><div class="room-number">1204F</div><div class="room-info">{name}</div></div>
-          <div class="room-box mt-2"><div class="room-number">1204H</div><div class="room-info">{name}</div></div>
-          <div class="room-box mt-2"><div class="room-number">1204J</div><div class="room-info">{name}</div></div>
+          <div id="R1204F" class="room-box">
+            <div class="room">1204F</div>
+            <div class="name">{name}</div>
+            <div class="ext">{ext}</div>
+          </div>
+          <div id="R1204H" class="room-box mt-2">
+            <div class="room">1204H</div>
+            <div class="name">{name}</div>
+            <div class="ext">{ext}</div>
+          </div>
+          <div id="R1204J" class="room-box mt-2">
+            <div class="room">1204J</div>
+            <div class="name">{name}</div>
+            <div class="ext">{ext}</div>
+          </div>
         </div>
       </div>
 
       <!-- Wesfarmers Lecture Theatre -->
       <div class="lecture-box ms-4 flex-grow-1">
-        Wesfarmers Lecture Theatre
+        <div class="room">Wesfarmers Lecture Theatre</div>
       </div>
     </div>
 
@@ -58,27 +106,57 @@
     <!-- ===================================================================== -->
     <div class="d-flex align-items-stretch mt-3">
       <div class="col-auto">
-        <div class="room-box" style="min-width:48px; min-height:120px; writing-mode: vertical-rl; text-align:center; font-weight:bold;">Kitchen</div>
+        <div class="room-box" style="min-width:48px; min-height:120px; writing-mode: vertical-rl; text-align:center; font-weight:bold;">
+          <div class="room">Kitchen</div>
+        </div>
       </div>
       <div class="col-auto d-flex">
-        <div class="room-box"><div class="room-number">1205</div><div class="room-info">{name}<br>{ext}<br>Key Locker<br>591441</div></div>
-        <div class="room-box ms-2"><div class="room-number">1202</div><div class="room-info">{name}<br>{ext}<br>Key Locker<br>591442</div></div>
-        <div class="room-box ms-2"><div class="room-number">1201</div><div class="room-info">{name}<br>{ext}<br>Key Locker<br>91422</div></div>
+        <div id="R1205" class="room-box">
+          <div class="room">1205</div>
+          <div class="name">{name}</div>
+          <div class="ext">{ext}</div>
+          <p class="key-locker">Key Locker<br>591441</p>
+        </div>
+        <div id="R1202" class="room-box ms-2">
+          <div class="room">1202</div>
+          <div class="name">{name}</div>
+          <div class="ext">{ext}</div>
+          <p class="key-locker">Key Locker<br>591442</p>
+        </div>
+        <div id="R1201" class="room-box ms-2">
+          <div class="room">1201</div>
+          <div class="name">{name}</div>
+          <div class="ext">{ext}</div>
+          <p class="key-locker">Key Locker<br>91422</p>
+        </div>
       </div>
       <div class="col-auto d-flex flex-column ms-2">
         <div class="d-flex">
-          <div class="room-box yellow-box me-1"><div class="room-number">1204A</div><div class="room-info">VACANT<br>{ext}</div></div>
-          <div class="room-box yellow-box"><div class="room-number">1204B</div><div class="room-info">VACANT<br>{ext}</div></div>
+          <div id="R1204A" class="room-box yellow-box me-1">
+            <div class="room">1204A</div>
+            <div class="name">VACANT</div>
+          </div>
+          <div id="R1204B" class="room-box yellow-box">
+            <div class="room">1204B</div>
+            <div class="name">VACANT</div>
+          </div>
         </div>
         <div class="d-flex mt-2">
-          <div class="room-box yellow-box me-1"><div class="room-number">1204C</div><div class="room-info">VACANT<br>{ext}</div></div>
-          <div class="room-box yellow-box"><div class="room-number">1204D</div><div class="room-info">VACANT<br>{ext}</div></div>
+          <div id="R1204C" class="room-box yellow-box me-1">
+            <div class="room">1204C</div>
+            <div class="name">VACANT</div>
+          </div>
+          <div id="R1204D" class="room-box yellow-box">
+            <div class="room">1204D</div>
+            <div class="name">VACANT</div>
+          </div>
         </div>
       </div>
       <div class="col-auto">
         <div class="room-box ms-2" style="min-width:150px; min-height:40px; display:flex; align-items:flex-start; justify-content:flex-start; padding:4px 8px;">
           <div style="color:#d00; font-size:15px; font-weight:500; line-height:1.2;">
-            PTR 385 Printer Serial #<br>SAA2J041015456
+            <p class="ptr">PTR 385</p>
+            <p class="printer-serial">Serial # SAA2J041015456</p>
           </div>
         </div>
       </div>
@@ -90,60 +168,150 @@
     <div class="d-flex align-items-start mt-3">
       <!-- Ernst & Young Lecture Theatre -->
       <div class="room-box" style="min-width:320px; min-height:600px; border:2px solid #888; font-size:1.2em; display:flex; align-items:center; justify-content:center; margin-right:32px;">
-        Ernst & Young Lecture Theatre
+        <div class="room">Ernst & Young Lecture Theatre</div>
       </div>
 
-              <!-- 1213A~P (8 rows × 2 columns) -->
+      <!-- 1213A~P (8 rows × 2 columns) -->
       <div class="d-flex flex-column justify-content-stretch" style="margin-right:32px;">
         <!-- 2 per row, 8 rows total -->
         <div class="d-flex">
-          <div class="room-box flex-fill"><div class="room-number">1213A</div><div class="room-info">{name}<br>{ext}</div></div>
-          <div class="room-box yellow-box flex-fill ms-2"><div class="room-number">1213B</div><div class="room-info">VACANT<br>{ext}</div></div>
+          <div id="R1213A" class="room-box flex-fill">
+            <div class="room">1213A</div>
+            <div class="name">{name}</div>
+            <div class="ext">{ext}</div>
+          </div>
+          <div id="R1213B" class="room-box yellow-box flex-fill ms-2">
+            <div class="room">1213B</div>
+            <div class="name">VACANT</div>
+          </div>
         </div>
         <div class="d-flex mt-1">
-          <div class="room-box flex-fill"><div class="room-number">1213C</div><div class="room-info">{name}<br>{ext}</div></div>
-          <div class="room-box yellow-box flex-fill ms-2"><div class="room-number">1213D</div><div class="room-info">VACANT<br>{ext}</div></div>
+          <div id="R1213C" class="room-box flex-fill">
+            <div class="room">1213C</div>
+            <div class="name">{name}</div>
+            <div class="ext">{ext}</div>
+          </div>
+          <div id="R1213D" class="room-box yellow-box flex-fill ms-2">
+            <div class="room">1213D</div>
+            <div class="name">VACANT</div>
+          </div>
         </div>
         <div class="d-flex mt-1">
-          <div class="room-box yellow-box flex-fill"><div class="room-number">1213E</div><div class="room-info">VACANT<br>{ext}</div></div>
-          <div class="room-box flex-fill ms-2"><div class="room-number">1213F</div><div class="room-info">{name}<br>{ext}</div></div>
+          <div id="R1213E" class="room-box yellow-box flex-fill">
+            <div class="room">1213E</div>
+            <div class="name">VACANT</div>
+          </div>
+          <div id="R1213F" class="room-box flex-fill ms-2">
+            <div class="room">1213F</div>
+            <div class="name">{name}</div>
+            <div class="ext">{ext}</div>
+          </div>
         </div>
         <div class="d-flex mt-1">
-          <div class="room-box yellow-box flex-fill"><div class="room-number">1213G</div><div class="room-info">VACANT<br>{ext}</div></div>
-          <div class="room-box flex-fill ms-2"><div class="room-number">1213H</div><div class="room-info">{name}<br>{ext}</div></div>
+          <div id="R1213G" class="room-box yellow-box flex-fill">
+            <div class="room">1213G</div>
+            <div class="name">VACANT</div>
+          </div>
+          <div id="R1213H" class="room-box flex-fill ms-2">
+            <div class="room">1213H</div>
+            <div class="name">{name}</div>
+            <div class="ext">{ext}</div>
+          </div>
         </div>
         <div class="d-flex mt-1">
-          <div class="room-box flex-fill"><div class="room-number">1213I</div><div class="room-info">{name}<br>{ext}</div></div>
-          <div class="room-box yellow-box flex-fill ms-2"><div class="room-number">1213J</div><div class="room-info">VACANT<br>{ext}</div></div>
+          <div id="R1213I" class="room-box flex-fill">
+            <div class="room">1213I</div>
+            <div class="name">{name}</div>
+            <div class="ext">{ext}</div>
+          </div>
+          <div id="R1213J" class="room-box yellow-box flex-fill ms-2">
+            <div class="room">1213J</div>
+            <div class="name">VACANT</div>
+          </div>
         </div>
         <div class="d-flex mt-1">
-          <div class="room-box flex-fill"><div class="room-number">1213K</div><div class="room-info">{name}<br>{ext}</div></div>
-          <div class="room-box yellow-box flex-fill ms-2"><div class="room-number">1213L</div><div class="room-info">VACANT<br>{ext}</div></div>
+          <div id="R1213K" class="room-box flex-fill">
+            <div class="room">1213K</div>
+            <div class="name">{name}</div>
+            <div class="ext">{ext}</div>
+          </div>
+          <div id="R1213L" class="room-box yellow-box flex-fill ms-2">
+            <div class="room">1213L</div>
+            <div class="name">VACANT</div>
+          </div>
         </div>
         <div class="d-flex mt-1">
-          <div class="room-box flex-fill"><div class="room-number">1213M</div><div class="room-info">{name}<br>{ext}</div></div>
-          <div class="room-box yellow-box flex-fill ms-2"><div class="room-number">1213N</div><div class="room-info">VACANT<br>{ext}</div></div>
+          <div id="R1213M" class="room-box flex-fill">
+            <div class="room">1213M</div>
+            <div class="name">{name}</div>
+            <div class="ext">{ext}</div>
+          </div>
+          <div id="R1213N" class="room-box yellow-box flex-fill ms-2">
+            <div class="room">1213N</div>
+            <div class="name">VACANT</div>
+          </div>
         </div>
         <div class="d-flex mt-1">
-          <div class="room-box yellow-box flex-fill"><div class="room-number">1213O</div><div class="room-info">VACANT<br>{ext}</div></div>
-          <div class="room-box yellow-box flex-fill ms-2"><div class="room-number">1213P</div><div class="room-info">VACANT<br>{ext}</div></div>
+          <div id="R1213O" class="room-box yellow-box flex-fill">
+            <div class="room">1213O</div>
+            <div class="name">VACANT</div>
+          </div>
+          <div id="R1213P" class="room-box yellow-box flex-fill ms-2">
+            <div class="room">1213P</div>
+            <div class="name">VACANT</div>
+          </div>
         </div>
       </div>
 
       <!-- 1214~1220 single column -->
       <div class="d-flex flex-column justify-content-stretch" style="margin-right:32px;">
-        <div class="room-box"><div class="room-number">1214</div><div class="room-info">{name}<br>{ext}<br><span style="color:#009688;">Key Locker<br>591421</span></div></div>
-        <div class="room-box mt-2"><div class="room-number">1215</div><div class="room-info">{name}<br>{ext}<br><span style="color:#009688;">Key Locker<br>591420</span></div></div>
-        <div class="room-box mt-2"><div class="room-number">1216</div><div class="room-info">{name}<br>{ext}<br><span style="color:#009688;">Key Locker<br>591418</span></div></div>
-        <div class="room-box mt-2"><div class="room-number">1217</div><div class="room-info">{name}<br>{ext}<br><span style="color:#009688;">Key Locker<br>591417</span></div></div>
-        <div class="room-box mt-2"><div class="room-number">1218</div><div class="room-info">{name}<br>{ext}<br><span style="color:#009688;">Key Locker<br>591416</span></div></div>
-        <div class="room-box mt-2"><div class="room-number">1219</div><div class="room-info">{name}<br>{ext}<br><span style="color:#009688;">Key Locker<br>591415</span></div></div>
-        <div class="room-box mt-2"><div class="room-number">1220</div><div class="room-info">{name}<br>{ext}<br><span style="color:#009688;">Key Locker<br>591414</span></div></div>
+        <div id="R1214" class="room-box">
+          <div class="room">1214</div>
+          <div class="name">{name}</div>
+          <div class="ext">{ext}</div>
+          <p class="key-locker">Key Locker<br>591421</p>
+        </div>
+        <div id="R1215" class="room-box mt-2">
+          <div class="room">1215</div>
+          <div class="name">{name}</div>
+          <div class="ext">{ext}</div>
+          <p class="key-locker">Key Locker<br>591420</p>
+        </div>
+        <div id="R1216" class="room-box mt-2">
+          <div class="room">1216</div>
+          <div class="name">{name}</div>
+          <div class="ext">{ext}</div>
+          <p class="key-locker">Key Locker<br>591418</p>
+        </div>
+        <div id="R1217" class="room-box mt-2">
+          <div class="room">1217</div>
+          <div class="name">{name}</div>
+          <div class="ext">{ext}</div>
+          <p class="key-locker">Key Locker<br>591417</p>
+        </div>
+        <div id="R1218" class="room-box mt-2">
+          <div class="room">1218</div>
+          <div class="name">{name}</div>
+          <div class="ext">{ext}</div>
+          <p class="key-locker">Key Locker<br>591416</p>
+        </div>
+        <div id="R1219" class="room-box mt-2">
+          <div class="room">1219</div>
+          <div class="name">{name}</div>
+          <div class="ext">{ext}</div>
+          <p class="key-locker">Key Locker<br>591415</p>
+        </div>
+        <div id="R1220" class="room-box mt-2">
+          <div class="room">1220</div>
+          <div class="name">{name}</div>
+          <div class="ext">{ext}</div>
+          <p class="key-locker">Key Locker<br>591414</p>
+        </div>
       </div>
 
       <!-- Right Lecture Theatre (now in the same row) -->
       <div class="room-box" style="min-width:320px; min-height:600px; border:2px solid #888; font-size:1.2em; display:flex; align-items:center; justify-content:center;">
-        Lecture Theatre
+        <div class="room">Lecture Theatre</div>
       </div>
     </div>
 
@@ -151,19 +319,81 @@
     <!-- Fourth section: Kitchen + 185A + 185 … 170 (single horizontal row) -->
     <!-- ===================================================================== -->
     <div class="d-flex align-items-stretch mt-3">
-      <div class="room-box d-flex flex-column justify-content-center align-items-center" style="min-width:48px; writing-mode: vertical-rl; text-align:center; font-weight:bold;">Kitchen</div>
-      <div class="room-box ms-2"><div class="room-number">185A</div><div class="room-info">{name}<br>{ext}<br>Key Locker<br>591436</div></div>
-      <div class="room-box ms-2"><div class="room-number">185</div><div class="room-info">{name}<br>{ext}<br>Key Locker<br>591413</div></div>
-      <div class="room-box yellow-box ms-2"><div class="room-number">184</div><div class="room-info">VACANT<br>Visitor<br>Key Locker<br>591412</div></div>
-      <div class="room-box ms-2"><div class="room-number">183</div><div class="room-info">{name}<br>{ext}<br>Key Locker<br>591437</div></div>
-      <div class="room-box ms-2"><div class="room-number">181</div><div class="room-info">{name}<br>{ext}<br>Key Locker<br>591411</div></div>
-      <div class="room-box ms-2"><div class="room-number">180</div><div class="room-info">{name}<br>{ext}<br>Key Locker<br>591410</div></div>
-      <div class="room-box ms-2"><div class="room-number">179</div><div class="room-info">{name}<br>{ext}<br>Key Locker<br>591409</div></div>
-      <div class="room-box ms-2"><div class="room-number">178</div><div class="room-info">{name}<br>{ext}<br>Key Locker<br>591408</div></div>
-      <div class="room-box ms-2"><div class="room-number">177</div><div class="room-info">{name}<br>{ext}<br>Key Locker<br>591407</div></div>
-      <div class="room-box ms-2"><div class="room-number">176</div><div class="room-info">{name}<br>{ext}<br>Key Locker<br>591405</div></div>
-      <div class="room-box ms-2"><div class="room-number">175</div><div class="room-info">{name}<br>{ext}<br>Key Locker<br>591404</div></div>
-      <div class="room-box ms-2"><div class="room-number">170</div><div class="room-info">{name}<br>{ext}<br>Key Locker<br>591415</div></div>
+      <div class="room-box d-flex flex-column justify-content-center align-items-center" style="min-width:48px; writing-mode: vertical-rl; text-align:center; font-weight:bold;">
+        <div class="room">Kitchen</div>
+      </div>
+      <div id="R185A" class="room-box ms-2">
+        <div class="room">185A</div>
+        <div class="name">{name}</div>
+        <div class="ext">{ext}</div>
+        <p class="key-locker">Key Locker<br>591436</p>
+      </div>
+      <div id="R185" class="room-box ms-2">
+        <div class="room">185</div>
+        <div class="name">{name}</div>
+        <div class="ext">{ext}</div>
+        <p class="key-locker">Key Locker<br>591413</p>
+      </div>
+      <div id="R184" class="room-box yellow-box ms-2">
+        <div class="room">184</div>
+        <div class="name">VACANT</div>
+        <div class="ext">Visitor</div>
+        <p class="key-locker">Key Locker<br>591412</p>
+      </div>
+      <div id="R183" class="room-box ms-2">
+        <div class="room">183</div>
+        <div class="name">{name}</div>
+        <div class="ext">{ext}</div>
+        <p class="key-locker">Key Locker<br>591437</p>
+      </div>
+      <div id="R181" class="room-box ms-2">
+        <div class="room">181</div>
+        <div class="name">{name}</div>
+        <div class="ext">{ext}</div>
+        <p class="key-locker">Key Locker<br>591411</p>
+      </div>
+      <div id="R180" class="room-box ms-2">
+        <div class="room">180</div>
+        <div class="name">{name}</div>
+        <div class="ext">{ext}</div>
+        <p class="key-locker">Key Locker<br>591410</p>
+      </div>
+      <div id="R179" class="room-box ms-2">
+        <div class="room">179</div>
+        <div class="name">{name}</div>
+        <div class="ext">{ext}</div>
+        <p class="key-locker">Key Locker<br>591409</p>
+      </div>
+      <div id="R178" class="room-box ms-2">
+        <div class="room">178</div>
+        <div class="name">{name}</div>
+        <div class="ext">{ext}</div>
+        <p class="key-locker">Key Locker<br>591408</p>
+      </div>
+      <div id="R177" class="room-box ms-2">
+        <div class="room">177</div>
+        <div class="name">{name}</div>
+        <div class="ext">{ext}</div>
+        <p class="key-locker">Key Locker<br>591407</p>
+      </div>
+      <div id="R176" class="room-box ms-2">
+        <div class="room">176</div>
+        <div class="name">{name}</div>
+        <div class="ext">{ext}</div>
+        <p class="key-locker">Key Locker<br>591405</p>
+      </div>
+      <div id="R175" class="room-box ms-2">
+        <div class="room">175</div>
+        <div class="name">{name}</div>
+        <div class="ext">{ext}</div>
+        <p class="key-locker">Key Locker<br>591404</p>
+      </div>
+      <div id="R170" class="room-box ms-2">
+        <div class="room">170</div>
+        <div class="name">{name}</div>
+        <div class="ext">{ext}</div>
+        <p class="key-locker">Key Locker<br>591415</p>
+      </div>
     </div>
 
     <!-- ===================================================================== -->
@@ -174,83 +404,184 @@
       <!-- Toilet + 189 -->
       <div class="d-flex flex-column align-items-center me-4">
         <i class="fa-solid fa-restroom fa-2x mb-2"></i>
-        <div class="room-box" style="min-width:120px; min-height:120px;">
-          <div class="room-number">189</div>
-          <div class="room-info">{name}<br>{ext}<br>Key Locker<br>501201<br>PTR 501<br>Printer Serial #<br>SAA2J041014488</div>
+        <div id="R189" class="room-box" style="min-width:120px; min-height:120px;">
+          <div class="room">189</div>
+          <div class="name">{name}</div>
+          <div class="ext">{ext}</div>
+          <p class="key-locker">Key Locker<br>501201</p>
+          <p class="ptr">PTR 501</p>
+          <p class="printer-serial">Serial # SAA2J041014488</p>
         </div>
       </div>
 
       <!-- 182A/182B -->
       <div class="d-flex flex-column ms-2 me-4">
-        <div class="room-box yellow-box" style="min-width:120px; min-height:80px;">
-          <div class="room-number">182A</div><div class="room-info">VACANT<br>{ext}</div>
+        <div id="R182A" class="room-box yellow-box" style="min-width:120px; min-height:80px;">
+          <div class="room">182A</div>
+          <div class="name">VACANT</div>
         </div>
-        <div class="room-box mt-2" style="min-width:120px; min-height:80px;">
-          <div class="room-number">182B</div><div class="room-info">{name}<br>{ext}</div>
+        <div id="R182B" class="room-box mt-2" style="min-width:120px; min-height:80px;">
+          <div class="room">182B</div>
+          <div class="name">{name}</div>
+          <div class="ext">{ext}</div>
         </div>
       </div>
 
       <!-- 182C~182H 2×3 -->
       <div class="d-flex ms-2 me-4">
         <div class="d-flex flex-column">
-          <div class="room-box" style="min-width:80px; min-height:60px;"><div class="room-number">182C</div><div class="room-info">{name}<br>{ext}</div></div>
-          <div class="room-box mt-2" style="min-width:80px; min-height:60px;"><div class="room-number">182D</div><div class="room-info">{name}<br>{ext}</div></div>
-          <div class="room-box mt-2" style="min-width:80px; min-height:60px;"><div class="room-number">182E</div><div class="room-info">{name}<br>{ext}</div></div>
+          <div id="R182C" class="room-box" style="min-width:80px; min-height:60px;">
+            <div class="room">182C</div>
+            <div class="name">{name}</div>
+            <div class="ext">{ext}</div>
+          </div>
+          <div id="R182D" class="room-box mt-2" style="min-width:80px; min-height:60px;">
+            <div class="room">182D</div>
+            <div class="name">{name}</div>
+            <div class="ext">{ext}</div>
+          </div>
+          <div id="R182E" class="room-box mt-2" style="min-width:80px; min-height:60px;">
+            <div class="room">182E</div>
+            <div class="name">{name}</div>
+            <div class="ext">{ext}</div>
+          </div>
         </div>
         <div class="d-flex flex-column ms-2">
-          <div class="room-box" style="min-width:80px; min-height:60px;"><div class="room-number">182F</div><div class="room-info">{name}<br>{ext}</div></div>
-          <div class="room-box yellow-box mt-2" style="min-width:80px; min-height:60px;"><div class="room-number">182G</div><div class="room-info">VACANT-hotDesk<br>{ext}</div></div>
-          <div class="room-box mt-2" style="min-width:80px; min-height:60px;"><div class="room-number">182H</div><div class="room-info">{name}<br>{ext}</div></div>
+          <div id="R182F" class="room-box" style="min-width:80px; min-height:60px;">
+            <div class="room">182F</div>
+            <div class="name">{name}</div>
+            <div class="ext">{ext}</div>
+          </div>
+          <div id="R182G" class="room-box yellow-box mt-2" style="min-width:80px; min-height:60px;">
+            <div class="room">182G</div>
+            <div class="name">VACANT-hotDesk</div>
+          </div>
+          <div id="R182H" class="room-box mt-2" style="min-width:80px; min-height:60px;">
+            <div class="room">182H</div>
+            <div class="name">{name}</div>
+            <div class="ext">{ext}</div>
+          </div>
         </div>
       </div>
 
       <!-- 182I~182Q 2×3 -->
       <div class="d-flex ms-2 me-4">
         <div class="d-flex flex-column">
-          <div class="room-box" style="min-width:80px; min-height:60px;"><div class="room-number">182I</div><div class="room-info">{name}<br>{ext}</div></div>
-          <div class="room-box mt-2" style="min-width:80px; min-height:60px;"><div class="room-number">182J</div><div class="room-info">{name}<br>{ext}</div></div>
-          <div class="room-box mt-2" style="min-width:80px; min-height:60px;"><div class="room-number">182K</div><div class="room-info">{name}<br>{ext}</div></div>
+          <div id="R182I" class="room-box" style="min-width:80px; min-height:60px;">
+            <div class="room">182I</div>
+            <div class="name">{name}</div>
+            <div class="ext">{ext}</div>
+          </div>
+          <div id="R182J" class="room-box mt-2" style="min-width:80px; min-height:60px;">
+            <div class="room">182J</div>
+            <div class="name">{name}</div>
+            <div class="ext">{ext}</div>
+          </div>
+          <div id="R182K" class="room-box mt-2" style="min-width:80px; min-height:60px;">
+            <div class="room">182K</div>
+            <div class="name">{name}</div>
+            <div class="ext">{ext}</div>
+          </div>
         </div>
         <div class="d-flex flex-column ms-2">
-          <div class="room-box" style="min-width:80px; min-height:60px;"><div class="room-number">182L</div><div class="room-info">{name}<br>{ext}</div></div>
-          <div class="room-box mt-2" style="min-width:80px; min-height:60px;"><div class="room-number">182M</div><div class="room-info">{name}<br>{ext}</div></div>
-          <div class="room-box mt-2" style="min-width:80px; min-height:60px;"><div class="room-number">182Q</div><div class="room-info">{name}<br>{ext}</div></div>
+          <div id="R182L" class="room-box" style="min-width:80px; min-height:60px;">
+            <div class="room">182L</div>
+            <div class="name">{name}</div>
+            <div class="ext">{ext}</div>
+          </div>
+          <div id="R182M" class="room-box mt-2" style="min-width:80px; min-height:60px;">
+            <div class="room">182M</div>
+            <div class="name">{name}</div>
+            <div class="ext">{ext}</div>
+          </div>
+          <div id="R182Q" class="room-box mt-2" style="min-width:80px; min-height:60px;">
+            <div class="room">182Q</div>
+            <div class="name">{name}</div>
+            <div class="ext">{ext}</div>
+          </div>
         </div>
       </div>
 
       <!-- 182N/182O/182P -->
       <div class="d-flex flex-column ms-2 me-4">
-        <div class="room-box yellow-box" style="min-width:80px; min-height:60px;"><div class="room-number">182N</div><div class="room-info">VACANT<br>{ext}</div></div>
-        <div class="room-box mt-2" style="min-width:80px; min-height:60px;"><div class="room-number">182O</div><div class="room-info">{name}<br>{ext}</div></div>
-        <div class="room-box mt-2" style="min-width:80px; min-height:60px;"><div class="room-number">182P</div><div class="room-info">{name}<br>{ext}</div></div>
+        <div id="R182N" class="room-box yellow-box" style="min-width:80px; min-height:60px;">
+          <div class="room">182N</div>
+          <div class="name">VACANT</div>
+        </div>
+        <div id="R182O" class="room-box mt-2" style="min-width:80px; min-height:60px;">
+          <div class="room">182O</div>
+          <div class="name">{name}</div>
+          <div class="ext">{ext}</div>
+        </div>
+        <div id="R182P" class="room-box mt-2" style="min-width:80px; min-height:60px;">
+          <div class="room">182P</div>
+          <div class="name">{name}</div>
+          <div class="ext">{ext}</div>
+        </div>
       </div>
 
       <!-- Horizontal row 193/192/191   174/173/171/172 + Circular 190 -->
       <div class="staff-grid mt-3">
 
         <!-- Row 1: Rectangle rooms -->
-        <div class="room-box"><div class="room-number">193</div><div class="room-info">{name}<br>{ext}<br>Key Locker<br>591440</div></div>
-        <div class="room-box"><div class="room-number">192</div><div class="room-info">{name}<br>{ext}<br>Key Locker<br>591439</div></div>
-        <div class="room-box"><div class="room-number">191</div><div class="room-info">{name}<br>{ext}<br>Key Locker<br>591438</div></div>
+        <div id="R193" class="room-box">
+          <div class="room">193</div>
+          <div class="name">{name}</div>
+          <div class="ext">{ext}</div>
+          <p class="key-locker">Key Locker<br>591440</p>
+        </div>
+        <div id="R192" class="room-box">
+          <div class="room">192</div>
+          <div class="name">{name}</div>
+          <div class="ext">{ext}</div>
+          <p class="key-locker">Key Locker<br>591439</p>
+        </div>
+        <div id="R191" class="room-box">
+          <div class="room">191</div>
+          <div class="name">{name}</div>
+          <div class="ext">{ext}</div>
+          <p class="key-locker">Key Locker<br>591438</p>
+        </div>
 
         <!-- Row 1 Column 4: Placeholder for 190 alignment -->
         <div class="spacer"></div>
 
-        <div class="room-box"><div class="room-number">174</div><div class="room-info">{name}<br>{ext}<br>Key Locker<br>591404</div></div>
-        <div class="room-box"><div class="room-number">173</div><div class="room-info">{name}<br>{ext}<br>Key Locker<br>591403</div></div>
+        <div id="R174" class="room-box">
+          <div class="room">174</div>
+          <div class="name">{name}</div>
+          <div class="ext">{ext}</div>
+          <p class="key-locker">Key Locker<br>591404</p>
+        </div>
+        <div id="R173" class="room-box">
+          <div class="room">173</div>
+          <div class="name">{name}</div>
+          <div class="ext">{ext}</div>
+          <p class="key-locker">Key Locker<br>591403</p>
+        </div>
 
         <!-- Vertical stack 171/172 in column 7 -->
         <div class="d-flex flex-column align-items-center">
-          <div class="room-box"><div class="room-number">171</div><div class="room-info">{name}<br>{ext}<br>Key Locker<br>591411</div></div>
-          <div class="room-box mt-0"><div class="room-number">172</div><div class="room-info">{name}<br>{ext}<br>Key Locker<br>591402</div></div>
+          <div id="R171" class="room-box">
+            <div class="room">171</div>
+            <div class="name">{name}</div>
+            <div class="ext">{ext}</div>
+            <p class="key-locker">Key Locker<br>591411</p>
+          </div>
+          <div id="R172" class="room-box mt-0">
+            <div class="room">172</div>
+            <div class="name">{name}</div>
+            <div class="ext">{ext}</div>
+            <p class="key-locker">Key Locker<br>591402</p>
+          </div>
         </div>
 
-        <!-- Row 2: Circular 190, positioned in column 4 (between 191 and 174) -->
-        <div class="staff-room-circle">
-          190 StaffRoom<br>Key Locker<br>591201
+        <!-- Row 2: circular Staff Room 190 -->
+        <div id="R190" class="staff-room-circle room-box">
+          <div class="room">190</div>
+          <div class="name">Staff Room</div>
+          <p class="key-locker">Key Locker<br>591201</p>
         </div>
-      </div>
-
+      </div><!-- /.staff-grid -->
     </div>
 
   </div><!-- /.container-fluid -->
