@@ -64,7 +64,7 @@ const [selectedKey, setSelectedKey] = useState('11');
 
 The Ant Design \<Menu> is configured with nested items:
 
-```json
+```
 items={[
   {
     key: '1',
@@ -111,7 +111,7 @@ import HR from '../pages/contact_list/HR';
 
 4. Add a corresponding menu item:
 
-```json
+```
 {
   key: '26',
   label: 'Human Resources',
