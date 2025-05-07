@@ -4,22 +4,29 @@ Information Technology Capstone Project -- SEM 1 2025
 
 # Overview
 
-This project is a web application that allows users to synchronize their Excel files with a Google Sheets document. The application is built using Next.js and Google Sheets API. The user can select an Excel file and a Google Sheets document, and the application will read the data from the Excel file and write it to the Google Sheets document. The user can also select a specific range of cells in the Excel file to synchronize, and the application will only write the selected range of cells to the Google Sheets document.
+This project is a web application that allows users to synchronize their Excel files on a web page. The application is built with Next.js. Users can select an Excel file and upload it, and the application will read the data from the Excel file and present it on the front-end page. Users can edit the file content on the front-end page, and the changed content will be synchronized to all files on the back-end. The application provides a download link for the modified file.
 
 ### Technical architecture
 
 📌 User operation process
-1️⃣ User uploads fileA.xlsx
-2️⃣ System reads fileA.xlsx and updates fileB.xlsx
-3️⃣ User downloads updated fileB.xlsx
+
+1️⃣ User uploads fileA.xlsx and fileB.xlsx.
+
+2️⃣ User modify the fileA.xlsx on the web page.
+
+3️⃣ System records the change and updates fileB. xlsx.
+
+4️⃣ User downloads updated fileB.xlsx.  
 
 📌 System architecture
-Frontend: Next.js (user uploads Excel)
-Backend: Vercel Serverless (Node.js + Express)
-Storage: AWS S3 / Google Drive (store Excel)
-Database: No database required, directly process Excel file
 
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+- Frontend: Next.js (user uploads Excel)
+
+- Backend: Vercel Serverless (Node.js + Express)
+
+- Database: Prisma
+
+This is a [Next.js](https://nextjs.org) project Tailwinded with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
 
