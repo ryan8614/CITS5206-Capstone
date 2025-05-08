@@ -44,7 +44,9 @@
    .yellow-box { background:#FFFF00;}
    .green-box  { background:#DDE5B6; }
    
-   /* ==========================  Utility classes  ========================== */
+   /* ==========================  
+   Utility classes  
+   ========================== */
    .margin-left-10{ margin-left:10rem; }
    .margin-left-25{ margin-left:25rem; }
    
@@ -152,7 +154,8 @@
      margin-top:6px;
    }
    
-  /* ===============  Horizontal row 193~172 + Circle 190 layout  =============== */
+  /* ===============  
+  Horizontal row 193~172 + Circle 190 layout  =============== */
 .staff-grid{
   display:grid;
   grid-template-columns:repeat(7,120px);   /* 7 columns, each 120px */
@@ -166,7 +169,9 @@
   grid-row:2;
 }
 
-/* ============  Made-up desk horizontal bar  ============ */
+/* ============  
+Made-up desk horizontal bar  
+============ */
 .madeup-desk-bar{
   width:100px;          /* Same width as room box */
   height:24px;          /* Slightly shorter than rooms */
