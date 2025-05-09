@@ -29,8 +29,26 @@ This project is a web application that allows users to synchronize their Excel f
 This is a [Next.js](https://nextjs.org) project Tailwinded with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
+This is a Next.js project with TypeScript, Tailwind CSS, and Ant Design. Here are the steps you need to take before running the code:
 
-First, run the development server:
+1. First, make sure you have Node.js installed (version 18.17 or later recommended for Next.js 14). You can check your Node.js version with:
+```bash
+node --version
+```
+2. Install the project dependencies. In the project root directory run:
+```bash
+npm install
+```
+This will install all the required dependencies defined in your package.json, including:
+- Next.js
+- React
+- TypeScript
+- Tailwind CSS
+- Ant Design components (@ant-design/nextjs-registry)
+- Zod (for form validation)
+
+
+3. After the installation is complete, you can start the development server with:
 
 ```bash
 npm run dev
