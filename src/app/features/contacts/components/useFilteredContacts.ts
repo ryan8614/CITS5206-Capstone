@@ -1,4 +1,4 @@
-import contact_list from '@/app/features/contacts/data/contact_list_1.json'
+import contact_list from '@/app/features/contacts/data/contact_list.json'
 import { StaffEntry } from './types'
 
 /**
