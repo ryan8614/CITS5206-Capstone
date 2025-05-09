@@ -1,0 +1,1394 @@
+[
+  {
+    "type": "merged",
+    "rowStart": 3,
+    "colStart": 27,
+    "rowEnd": 4,
+    "colEnd": 28,
+    "content": "102G\n\nManh VU\n",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    }
+  },
+  {
+    "type": "merged",
+    "rowStart": 5,
+    "colStart": 27,
+    "rowEnd": 6,
+    "colEnd": 28,
+    "content": "102R\n\nPu Li \n",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    }
+  },
+  {
+    "type": "merged",
+    "rowStart": 3,
+    "colStart": 29,
+    "rowEnd": 4,
+    "colEnd": 30,
+    "content": "102H \n\nDamian Lenzo\n",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    }
+  },
+  {
+    "type": "merged",
+    "rowStart": 5,
+    "colStart": 29,
+    "rowEnd": 6,
+    "colEnd": 30,
+    "content": "102S\n\nAustin Wingard\n",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    }
+  },
+  {
+    "type": "merged",
+    "rowStart": 3,
+    "colStart": 17,
+    "rowEnd": 4,
+    "colEnd": 18,
+    "content": "102C\n\nAcwin Saputra\n x 5674",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    }
+  },
+  {
+    "type": "merged",
+    "rowStart": 5,
+    "colStart": 17,
+    "rowEnd": 6,
+    "colEnd": 18,
+    "content": "102N\n\nVACANT\n x91742",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    }
+  },
+  {
+    "type": "merged",
+    "rowStart": 3,
+    "colStart": 20,
+    "rowEnd": 4,
+    "colEnd": 21,
+    "content": "102D\n\nHao Wang \n x1079",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    }
+  },
+  {
+    "type": "merged",
+    "rowStart": 5,
+    "colStart": 20,
+    "rowEnd": 6,
+    "colEnd": 21,
+    "content": "102O\n\nVACANT\n x 3879",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    }
+  },
+  {
+    "type": "merged",
+    "rowStart": 3,
+    "colStart": 24,
+    "rowEnd": 4,
+    "colEnd": 25,
+    "content": "102F\n\nYekti Pratiwi\n",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    }
+  },
+  {
+    "type": "merged",
+    "rowStart": 5,
+    "colStart": 24,
+    "rowEnd": 6,
+    "colEnd": 25,
+    "content": "102Q\n\nXichen WANG\n",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    }
+  },
+  {
+    "type": "merged",
+    "rowStart": 5,
+    "colStart": 13,
+    "rowEnd": 6,
+    "colEnd": 14,
+    "content": "102L\n\nHenderi\n x 5397",
+    "bgColor": "FFFFFF",
+    "comment": "April Wen:\nEOI - move to 143H",
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    }
+  },
+  {
+    "type": "merged",
+    "rowStart": 20,
+    "colStart": 9,
+    "rowEnd": 21,
+    "colEnd": 10,
+    "content": "130A\nVACANT\n",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    }
+  },
+  {
+    "type": "merged",
+    "rowStart": 20,
+    "colStart": 11,
+    "rowEnd": 21,
+    "colEnd": 11,
+    "content": "130B\nVACANT\n",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    }
+  },
+  {
+    "type": "merged",
+    "rowStart": 20,
+    "colStart": 12,
+    "rowEnd": 21,
+    "colEnd": 12,
+    "content": "130C\nVACANT\n",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    }
+  },
+  {
+    "type": "merged",
+    "rowStart": 22,
+    "colStart": 9,
+    "rowEnd": 23,
+    "colEnd": 10,
+    "content": "130D\nVACANT\n",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    }
+  },
+  {
+    "type": "merged",
+    "rowStart": 22,
+    "colStart": 11,
+    "rowEnd": 23,
+    "colEnd": 11,
+    "content": "130E\nVACANT\n",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    }
+  },
+  {
+    "type": "merged",
+    "rowStart": 22,
+    "colStart": 12,
+    "rowEnd": 23,
+    "colEnd": 12,
+    "content": "130F\nVACANT\n",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    }
+  },
+  {
+    "type": "merged",
+    "rowStart": 4,
+    "colStart": 3,
+    "rowEnd": 7,
+    "colEnd": 9,
+    "content": "Case Study Room 101\n\nDon Voelte & Nancy Keegan Case Study Room\n\n\nKey Locker 591201",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    }
+  },
+  {
+    "type": "merged",
+    "rowStart": 45,
+    "colStart": 19,
+    "rowEnd": 45,
+    "colEnd": 26,
+    "content": null,
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": null,
+      "right": null,
+      "top": null,
+      "bottom": null
+    }
+  },
+  {
+    "type": "merged",
+    "rowStart": 46,
+    "colStart": 19,
+    "rowEnd": 46,
+    "colEnd": 26,
+    "content": null,
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": null,
+      "right": null,
+      "top": null,
+      "bottom": null
+    }
+  },
+  {
+    "type": "merged",
+    "rowStart": 47,
+    "colStart": 19,
+    "rowEnd": 47,
+    "colEnd": 26,
+    "content": null,
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": null,
+      "right": null,
+      "top": null,
+      "bottom": null
+    }
+  },
+  {
+    "type": "merged",
+    "rowStart": 37,
+    "colStart": 34,
+    "rowEnd": 40,
+    "colEnd": 36,
+    "content": "155\n\nMeeting Room & Print Room   Key Locker 591201 \nPTR 388\nPrinter Serial # SAA7N047000781",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    }
+  },
+  {
+    "type": "merged",
+    "rowStart": 39,
+    "colStart": 27,
+    "rowEnd": 40,
+    "colEnd": 29,
+    "content": "143J \n\nThomas Leckie\nx 5652",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    }
+  },
+  {
+    "type": "merged",
+    "rowStart": 44,
+    "colStart": 19,
+    "rowEnd": 44,
+    "colEnd": 26,
+    "content": null,
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": null,
+      "right": null,
+      "top": null,
+      "bottom": null
+    }
+  },
+  {
+    "type": "merged",
+    "rowStart": 37,
+    "colStart": 27,
+    "rowEnd": 38,
+    "colEnd": 29,
+    "content": "143E\n\nKesavarajah Kesavan\n x 5647",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    }
+  },
+  {
+    "type": "merged",
+    "rowStart": 37,
+    "colStart": 31,
+    "rowEnd": 40,
+    "colEnd": 33,
+    "content": "151\n\nKen Clements\nx2898    \nKey Locker \n591336",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    }
+  },
+  {
+    "type": "merged",
+    "rowStart": 39,
+    "colStart": 12,
+    "rowEnd": 40,
+    "colEnd": 14,
+    "content": "143K\n\nAdhipradana Prabu Swasito\t\nx 2585",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    }
+  },
+  {
+    "type": "merged",
+    "rowStart": 39,
+    "colStart": 15,
+    "rowEnd": 40,
+    "colEnd": 17,
+    "content": "143F\n\nMUBIN Muhammad Khoerul \nx 5648",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    }
+  },
+  {
+    "type": "merged",
+    "rowStart": 39,
+    "colStart": 18,
+    "rowEnd": 40,
+    "colEnd": 20,
+    "content": "143G\n\nNugraheni Kusumaningsih\nx 5649",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    }
+  },
+  {
+    "type": "merged",
+    "rowStart": 39,
+    "colStart": 21,
+    "rowEnd": 40,
+    "colEnd": 23,
+    "content": "143H\n\nSineth Koralalage\nx 5650",
+    "bgColor": "FFFFFF",
+    "comment": "April Wen:\nHenderi will move in when Sineth finish - Michael Palmer has approved\n",
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    }
+  },
+  {
+    "type": "merged",
+    "rowStart": 39,
+    "colStart": 24,
+    "rowEnd": 40,
+    "colEnd": 26,
+    "content": "143I\n\nErica Lukas\nx 5651",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    }
+  },
+  {
+    "type": "merged",
+    "rowStart": 37,
+    "colStart": 12,
+    "rowEnd": 38,
+    "colEnd": 14,
+    "content": "143L\n\nPaul Azzalini\nx2694",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    }
+  },
+  {
+    "type": "merged",
+    "rowStart": 37,
+    "colStart": 15,
+    "rowEnd": 38,
+    "colEnd": 17,
+    "content": "143A\n\nXian Chen\nx 5643",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    }
+  },
+  {
+    "type": "merged",
+    "rowStart": 37,
+    "colStart": 18,
+    "rowEnd": 38,
+    "colEnd": 20,
+    "content": "143B\n\nSania Khalil\nx 5644",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    }
+  },
+  {
+    "type": "merged",
+    "rowStart": 37,
+    "colStart": 21,
+    "rowEnd": 38,
+    "colEnd": 23,
+    "content": "143C\n\nYaofangshu Jin (Apphia)\nx 5645",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    }
+  },
+  {
+    "type": "merged",
+    "rowStart": 37,
+    "colStart": 24,
+    "rowEnd": 38,
+    "colEnd": 26,
+    "content": "143D\n\nEnni XU (Annie)\nx 5646",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    }
+  },
+  {
+    "type": "merged",
+    "rowStart": 31,
+    "colStart": 35,
+    "rowEnd": 34,
+    "colEnd": 35,
+    "content": "Kitchen",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    }
+  },
+  {
+    "type": "merged",
+    "rowStart": 31,
+    "colStart": 13,
+    "rowEnd": 34,
+    "colEnd": 15,
+    "content": "144\n\nRony Gabbay/Mel Davies\nx2926  \nKey Locker \n591330\n",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    }
+  },
+  {
+    "type": "merged",
+    "rowStart": 31,
+    "colStart": 16,
+    "rowEnd": 34,
+    "colEnd": 18,
+    "content": "145\n\nIshita Chatterjee\nx5654\n Key Locker \n591331",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    }
+  },
+  {
+    "type": "merged",
+    "rowStart": 31,
+    "colStart": 19,
+    "rowEnd": 34,
+    "colEnd": 21,
+    "content": "146\n\nAlison Preston\nx8164 \nKey Locker \n591332",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    }
+  },
+  {
+    "type": "merged",
+    "rowStart": 31,
+    "colStart": 25,
+    "rowEnd": 34,
+    "colEnd": 27,
+    "content": "148\nAbu Siddique x2941\nNic Groenewold\nx3345  \nJuerg Weber x2922\nKey Locker 591334",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    }
+  },
+  {
+    "type": "merged",
+    "rowStart": 31,
+    "colStart": 28,
+    "rowEnd": 34,
+    "colEnd": 30,
+    "content": "149\n\nLuciana Fiorini\nx7212   \nKey Locker \n591335\n",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    }
+  },
+  {
+    "type": "merged",
+    "rowStart": 31,
+    "colStart": 22,
+    "rowEnd": 34,
+    "colEnd": 24,
+    "content": "147\n\nShawn Chen\nx5655   \nKey Locker \n591333",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    }
+  },
+  {
+    "type": "merged",
+    "rowStart": 9,
+    "colStart": 25,
+    "rowEnd": 12,
+    "colEnd": 27,
+    "content": "107\n\nYanli Lin\nx8560  \nKey Locker \n591313",
+    "bgColor": "FFFFFF",
+    "comment": "Wendy Lumanau:\nYanli Lin - new staff starting in Aug\n",
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    }
+  },
+  {
+    "type": "merged",
+    "rowStart": 9,
+    "colStart": 28,
+    "rowEnd": 12,
+    "colEnd": 30,
+    "content": "108\n\nGirish Bahal\nx5642\nKey Locker \n591314",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    }
+  },
+  {
+    "type": "merged",
+    "rowStart": 9,
+    "colStart": 31,
+    "rowEnd": 12,
+    "colEnd": 33,
+    "content": "109\n\nInga Kristoffersen\nx4677  \nKey Locker\n591315",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    }
+  },
+  {
+    "type": "merged",
+    "rowStart": 24,
+    "colStart": 9,
+    "rowEnd": 25,
+    "colEnd": 10,
+    "content": "130G\nVACANT\n",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    }
+  },
+  {
+    "type": "merged",
+    "rowStart": 31,
+    "colStart": 31,
+    "rowEnd": 34,
+    "colEnd": 33,
+    "content": "150\n\nMichael Jetter\nx3345    \nKey Locker \n591337",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    }
+  },
+  {
+    "type": "merged",
+    "rowStart": 24,
+    "colStart": 12,
+    "rowEnd": 25,
+    "colEnd": 12,
+    "content": "130I\n Anam Fida\n",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    }
+  },
+  {
+    "type": "merged",
+    "rowStart": 24,
+    "colStart": 11,
+    "rowEnd": 25,
+    "colEnd": 11,
+    "content": "130H\nVACANT \n",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    }
+  },
+  {
+    "type": "merged",
+    "rowStart": 27,
+    "colStart": 9,
+    "rowEnd": 28,
+    "colEnd": 12,
+    "content": "131\n\nChris Parsons\nx5639  \nKey Locker \n591328",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    }
+  },
+  {
+    "type": "merged",
+    "rowStart": 9,
+    "colStart": 13,
+    "rowEnd": 12,
+    "colEnd": 15,
+    "content": "103\n\nLeandro Magnusson\nx2924 \nKey Locker \n591309",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    }
+  },
+  {
+    "type": "merged",
+    "rowStart": 9,
+    "colStart": 16,
+    "rowEnd": 12,
+    "colEnd": 18,
+    "content": "104\n\nSimon Chang\nx2893\nKey Locker\n591310",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    }
+  },
+  {
+    "type": "merged",
+    "rowStart": 9,
+    "colStart": 19,
+    "rowEnd": 12,
+    "colEnd": 21,
+    "content": "105\n\nElisa Birch\nx1444  \nKey Locker\n591311",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    }
+  },
+  {
+    "type": "merged",
+    "rowStart": 9,
+    "colStart": 22,
+    "rowEnd": 12,
+    "colEnd": 24,
+    "content": "106\n\nColin Barnett \nx2128  \nKey Locker\n591312",
+    "bgColor": "FFFFFF",
+    "comment": "Ha Le:\nTwice a week-Tue,Thu",
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    }
+  },
+  {
+    "type": "merged",
+    "rowStart": 1,
+    "colStart": 1,
+    "rowEnd": 1,
+    "colEnd": 52,
+    "content": "First Floor Pilbara and Goldfields: Economics",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": null,
+      "right": null,
+      "top": null,
+      "bottom": null
+    }
+  },
+  {
+    "type": "merged",
+    "rowStart": 3,
+    "colStart": 32,
+    "rowEnd": 4,
+    "colEnd": 32,
+    "content": "102I\n\nEman Adhi Patra\n",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    }
+  },
+  {
+    "type": "merged",
+    "rowStart": 3,
+    "colStart": 33,
+    "rowEnd": 4,
+    "colEnd": 35,
+    "content": "102J\n\nAsep Nurwanda\n x 3414",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    }
+  },
+  {
+    "type": "merged",
+    "rowStart": 3,
+    "colStart": 36,
+    "rowEnd": 4,
+    "colEnd": 38,
+    "content": "102K\n\nLana Pavlovic\n x4587",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    }
+  },
+  {
+    "type": "merged",
+    "rowStart": 3,
+    "colStart": 40,
+    "rowEnd": 6,
+    "colEnd": 42,
+    "content": "113\n\nJakob Madsen\nx7361  \nKey Locker\n 591317\n",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    }
+  },
+  {
+    "type": "merged",
+    "rowStart": 3,
+    "colStart": 43,
+    "rowEnd": 6,
+    "colEnd": 45,
+    "content": "115\n\nTushar Bharati\nx5860\n Key Locker\n 591321\n",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    }
+  },
+  {
+    "type": "merged",
+    "rowStart": 3,
+    "colStart": 46,
+    "rowEnd": 6,
+    "colEnd": 48,
+    "content": "117\n\nPratiti Chatterjee\nKey Locker 591323\n",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    }
+  },
+  {
+    "type": "merged",
+    "rowStart": 3,
+    "colStart": 50,
+    "rowEnd": 6,
+    "colEnd": 52,
+    "content": "121\nPrint Room\nKey Locker 591201 PTR 386 Printer Serial # SAA2J041015694 PTR 387 Printer Serial # SAA2J041015546",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    }
+  },
+  {
+    "type": "merged",
+    "rowStart": 5,
+    "colStart": 36,
+    "rowEnd": 6,
+    "colEnd": 38,
+    "content": "102V\n\nKuson Leawsakul\n x 5641",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    }
+  },
+  {
+    "type": "merged",
+    "rowStart": 5,
+    "colStart": 32,
+    "rowEnd": 6,
+    "colEnd": 32,
+    "content": "102T\n\nTeguh Warsito\n",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": null,
+      "bottom": "thin"
+    }
+  },
+  {
+    "type": "merged",
+    "rowStart": 5,
+    "colStart": 33,
+    "rowEnd": 6,
+    "colEnd": 35,
+    "content": "102U \n\nWisynu Wardana\nx 5636",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    }
+  },
+  {
+    "type": "merged",
+    "rowStart": 3,
+    "colStart": 22,
+    "rowEnd": 4,
+    "colEnd": 23,
+    "content": "102E\n\nXin Shao\n x1061",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    }
+  },
+  {
+    "type": "merged",
+    "rowStart": 5,
+    "colStart": 22,
+    "rowEnd": 6,
+    "colEnd": 23,
+    "content": "102P\n\nHumayun Kabir\n x 5634",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    }
+  },
+  {
+    "type": "merged",
+    "rowStart": 3,
+    "colStart": 15,
+    "rowEnd": 4,
+    "colEnd": 16,
+    "content": "102B\n\nLubna Uzair\n x 8671",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    }
+  },
+  {
+    "type": "merged",
+    "rowStart": 5,
+    "colStart": 15,
+    "rowEnd": 6,
+    "colEnd": 16,
+    "content": "102M\n\nVACANT \n x 2939",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    }
+  },
+  {
+    "type": "merged",
+    "rowStart": 3,
+    "colStart": 13,
+    "rowEnd": 4,
+    "colEnd": 14,
+    "content": "102A\n\nSiyu Ai\n x 7666 ",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    }
+  },
+  {
+    "type": "merged",
+    "rowStart": 2,
+    "colStart": 26,
+    "rowEnd": 2,
+    "colEnd": 29,
+    "content": "Made up desk - Damian Lenzo",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": null,
+      "top": null,
+      "bottom": null
+    }
+  },
+  {
+    "type": "merged",
+    "rowStart": 32,
+    "colStart": 10,
+    "rowEnd": 34,
+    "colEnd": 12,
+    "content": "PTR 384 Printer Serial \n# SAA2J041015473",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    }
+  },
+  {
+    "type": "merged",
+    "rowStart": 34,
+    "colStart": 3,
+    "rowEnd": 40,
+    "colEnd": 8,
+    "content": "Case Study Room 142\n\nSir Rod Eddington\nCase Study Room\n\nKey Locker 591201",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    }
+  },
+  {
+    "type": "merged",
+    "rowStart": 7,
+    "colStart": 51,
+    "rowEnd": 8,
+    "colEnd": 52,
+    "content": "WC",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    }
+  },
+  {
+    "type": "merged",
+    "rowStart": 35,
+    "colStart": 35,
+    "rowEnd": 36,
+    "colEnd": 35,
+    "content": "WC",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    }
+  },
+  {
+    "type": "merged",
+    "rowStart": 9,
+    "colStart": 50,
+    "rowEnd": 12,
+    "colEnd": 50,
+    "content": "Kitchen",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    }
+  },
+  {
+    "type": "merged",
+    "rowStart": 9,
+    "colStart": 37,
+    "rowEnd": 12,
+    "colEnd": 39,
+    "content": "111\n\nMichael McLure\nx2921  \nKey Locker\n 591319",
+    "bgColor": "FFFFFF",
+    "comment": "April Wen:\nMichael M retired but holds an Emeritus Professor title. Can check with Leandro if have new staff coming\nHolger Sturlik will use the office from 9/2 - 9/3 2025",
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    }
+  },
+  {
+    "type": "merged",
+    "rowStart": 9,
+    "colStart": 40,
+    "rowEnd": 12,
+    "colEnd": 42,
+    "content": "112\n\nYanrui Wu\nx3964  \nKey Locker\n 591320",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    }
+  },
+  {
+    "type": "merged",
+    "rowStart": 9,
+    "colStart": 43,
+    "rowEnd": 12,
+    "colEnd": 45,
+    "content": "114\n\nAnu Rammohan\nx5656  \nKey Locker\n 591322",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    }
+  },
+  {
+    "type": "merged",
+    "rowStart": 9,
+    "colStart": 46,
+    "rowEnd": 12,
+    "colEnd": 48,
+    "content": "116\n\nSam Tang\nx2931  \nKey Locker \n591324",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    }
+  },
+  {
+    "type": "merged",
+    "rowStart": 14,
+    "colStart": 14,
+    "rowEnd": 29,
+    "colEnd": 48,
+    "content": null,
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    }
+  },
+  {
+    "type": "merged",
+    "rowStart": 9,
+    "colStart": 34,
+    "rowEnd": 12,
+    "colEnd": 36,
+    "content": "110\n\nMichael Palmer\nx6094 \nKey Locker\n59318",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    }
+  },
+  {
+    "type": "merged",
+    "rowStart": 13,
+    "colStart": 9,
+    "rowEnd": 14,
+    "colEnd": 12,
+    "content": "127 \n\nMohammad Farhad\nKey Locker \n591325\n",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    }
+  },
+  {
+    "type": "merged",
+    "rowStart": 15,
+    "colStart": 9,
+    "rowEnd": 16,
+    "colEnd": 12,
+    "content": "128 \n\nJiaBin Han/ Hui Geng  x7361   \nKey Locker \n591326",
+    "bgColor": "FFFFFF",
+    "comment": "Vesna Pribicevic:\nYanrui Wu Visiting Student Han JiaBin Until  31-1-2025\nYongMing Miao leaving earlier than 1-11-2024",
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": null
+    }
+  },
+  {
+    "type": "merged",
+    "rowStart": 17,
+    "colStart": 9,
+    "rowEnd": 18,
+    "colEnd": 12,
+    "content": "129\n\nRod Tyers x5632\nKey Locker \n591327",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    }
+  },
+  {
+    "type": "merged",
+    "rowStart": 29,
+    "colStart": 9,
+    "rowEnd": 30,
+    "colEnd": 12,
+    "content": "132\nVisitor\nx3859  \nKey Locker \n591329",
+    "bgColor": "FFFFFF",
+    "comment": "Freya: \nAlison Preston reserves for visitor for March 2025\n\n",
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    }
+  }
+]

@@ -1,0 +1,519 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+    <link rel="stylesheet" href="style2.css">
+    <title>Ground Floor Layout</title>
+</head>
+<body>
+  <p class="h1 text-center">Ground Floor</p>
+
+  <div class="container-fluid mt-3">
+    <!-- Top row -->
+    <div class="row flex-nowrap align-items-stretch g-0">
+      <!-- Lecture Theatre Area -->
+      <div class="col-3 py-2"> 
+        <div class="room-box large-box d-flex align-items-center justify-content-center" id="lecture-theatre">
+          <p class="name">Ernst & Young Lecture Theatre</p>
+        </div>  
+      </div>
+
+      <!-- Labs, Printers, Postgrad Room Area -->
+      <div class="col-4 py-2 d-flex flex-column">
+        <!-- Labs and Printers Row -->
+        <div class="row g-2">
+          <div class="col"> 
+            <div class="room-box computer-lab" id="RG85"><span class="room">G85</span> (x91842)<br>Computer Lab 1<br><span class="key-locker-info">Key Locker 590000</span></div>
+            <div class="room-box computer-lab" id="RG86"><span class="room">G86</span> (x91843)<br>Computer Lab 2<br><span class="key-locker-info">Key Locker 590000</span></div>
+            <div class="room-box computer-lab" id="RG87"><span class="room">G87</span> (x91847)<br>Computer Lab 3<br><span class="key-locker-info">Key Locker 590000</span></div>
+          </div>
+          <div class="col-auto d-flex flex-column justify-content-start">
+             <div class="room-box printer-box" id="PTR389"><span class="room">PTR 389</span> Printer<br><span class="printer-info">Serial #<br>SAA2J041<br>015476</span></div>
+             <div class="room-box printer-box" id="PTR392"><span class="room">PTR 392</span> Printer<br><span class="printer-info">Serial #<br>SA93E04700<br>0641</span></div>
+          </div>
+        </div>
+        <!-- Postgrad Room -->
+        <div class="room-box postgrad-room" id="RG78"><span class="room">G78</span> Postgrad Room</div>
+      </div>
+
+      <!-- Courtyard Area -->
+      <div class="col-5 p-2">
+        <div class="room-box large-box d-flex align-items-center justify-content-center" id="courtyard">
+          <p class="name">BHP Billiton Courtyard</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Courtyard Top Right Box Group -->
+<div class="top-right-container" style="position: absolute; top: 20px; right: -350px; display: flex; flex-direction: column; gap: 10px; z-index: 5;">
+  
+    <!-- G51 Print Room and PTR 391 Printer -->
+    <div style="display: flex; gap: 20px; margin-bottom: 15px;">
+      <div class="office-box" style="width: 120px;">
+        <div class="room-box" id="RG51">
+          <p class="room">G51</p>
+          <p>Print Room PTR 393</p>
+          <p class="key-locker-info" style="color: red;">Printer Serial #SAA2J0410155532</p>
+        </div>
+      </div>
+    </div>
+    
+    <!-- Middle 2x2 Grid and Vertical Labels -->
+    <div style="display: flex; gap: 10px;">
+      <!-- 2x2 Grid Area -->
+      <div style="display: flex; flex-direction: column; gap: 2px;">
+        <!-- First 2x2 Group - Flatter -->
+        <div style="display: flex; flex-direction: column; margin-bottom: 10px;">
+          <!-- Top Row -->
+          <div style="display: flex; gap: 2px;">
+            <div style="width: 100px; height: 30px; border: 1px solid #000; font-size: 9px; padding: 2px;">
+              <p class="room" style="margin: 0;">G50</p>
+              <p style="margin: 0;">Luke Willmot</p>
+            </div>
+            <div style="width: 100px; height: 30px; border: 1px solid #000; font-size: 9px; padding: 2px;">
+              <p class="room" style="margin: 0;">G50</p>
+            </div>
+          </div>
+          
+          <!-- Bottom Row -->
+          <div style="display: flex; gap: 2px; margin-top: 2px;">
+            <div style="width: 100px; height: 30px; border: 1px solid #000; font-size: 9px; padding: 2px;">
+              <p class="room" style="margin: 0;">G50</p>
+            </div>
+            <div style="width: 100px; height: 30px; border: 1px solid #000; font-size: 9px; padding: 2px;">
+              <p class="room" style="margin: 0;">G50</p>
+              <p style="margin: 0;">David Hallam</p>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Second 2x2 Group - Flatter -->
+        <div style="display: flex; flex-direction: column;">
+          <!-- Top Row -->
+          <div style="display: flex; gap: 2px;">
+            <div style="width: 100px; height: 40px; border: 1px solid #000; font-size: 9px; padding: 2px;">
+              <p class="room" style="margin: 0;">G50</p>
+              <p style="margin: 0;">Bec West</p>
+            </div>
+            <div style="width: 100px; height: 40px; border: 1px solid #000; font-size: 9px; padding: 2px;">
+              <p class="room" style="margin: 0;">G50</p>
+              <p style="margin: 0;">Lisa Guo</p>
+            </div>
+          </div>
+          
+          <!-- Bottom Row -->
+          <div style="display: flex; gap: 2px; margin-top: 2px;">
+            <div style="width: 100px; height: 40px; border: 1px solid #000; font-size: 9px; padding: 2px;">
+              <p class="room" style="margin: 0;">G50</p>
+              <p style="margin: 0;">Olivia Rimmer</p>
+            </div>
+            <div style="width: 100px; height: 40px; border: 1px solid #000; font-size: 9px; padding: 2px;">
+              <p class="room" style="margin: 0;">G50</p>
+              <p style="margin: 0;">Karen Oakley</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <!-- Right Vertical Labels -->
+      <div style="position: absolute; top: 80px; right: -150px; display: flex; flex-direction: column; gap: 10px;">
+        <div style="display: flex; flex-direction: column; gap: 10px;">
+          <!-- MBA Center -->
+          <div class="room-box vertical-text" style="height: 100px; width: 40px; display: flex; align-items: center; justify-content: center;">
+            <span style="writing-mode: vertical-lr; transform: rotate(180deg); text-align: center;">MBA Center</span>
+          </div>
+          
+          <!-- UG & PG Student Counter -->
+          <div class="room-box vertical-text" style="height: 100px; width: 40px; display: flex; align-items: center; justify-content: center;">
+            <span style="writing-mode: vertical-lr; transform: rotate(180deg); text-align: center;">UG & PG Student Counter</span>
+          </div>
+        </div>
+        
+        <!-- PTR 391 Printer placed to the right of vertical labels - Removed from top area -->
+        <div class="office-box" style="width: 150px; position: absolute; left: 100px;">
+          <div class="room-box">
+            <p class="room">PTR 391</p>
+            <p class="key-locker-info" style="color: red;">Printer Serial #<br>SAF93E047000643</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+    
+    <!-- Bottom row office area -->
+    <div class="row flex-nowrap g-0 mt-2 bottom-row">
+      <!-- Office area container -->
+      <div class="col-7 px-0">
+        <div class="d-flex kitchen-office-wrapper" style="position: relative;">
+          <!-- Left blank area -->
+          <div class="kitchen-container">
+            <div class="room-box" style="height: 72px; visibility: hidden;">
+              <span>Blank</span>
+            </div>
+          </div>
+          
+          <!-- Kitchen vertical text -->
+          <div class="kitchen-container">
+            <div class="room-box vertical-text" style="height: 72px;">
+              <span>Kitchen</span>
+            </div>
+          </div>
+          
+          <!-- Blank area between kitchen and offices -->
+          <div class="kitchen-container">
+            <div class="room-box" style="height: 72px; visibility: hidden;">
+              <span>Blank</span>
+            </div>
+          </div>
+          
+          <!-- Restroom icon row -->
+          <div class="restroom-container">
+            <i class="fa-solid fa-restroom fa-2x"></i>
+          </div>
+          
+          <!-- Bottom row offices (below restroom icon) -->
+          <div class="small-offices-row" style="position: absolute; top: 200px; left: 0; display: flex; gap: 2px; z-index: 5;">
+            <!-- G77 BITS Work room (standalone) -->
+            <div class="small-office-cell" style="width: 100px; height: 190px; margin-right: 4px;">
+              <div class="room-box" id="RG77" style="height: 100%; font-size: 9px; padding: 3px;">
+                <p class="room" style="margin-bottom: 1px;">G77</p>
+                <p style="margin-bottom: 1px;">Work room for<br>BITS</p>
+                <p class="key-locker-info" style="font-size: 8px; color: green;">Key Locker 591201<span style="color: red;"> PTR<br>394 Printer<br>Serial #SAA7N047000778</span></p>
+              </div>
+            </div>
+            
+            <!-- Spacing -->
+            <div style="width: 26px;"></div>
+            
+            <!-- G70A/B vertical stack -->
+            <div class="small-office-column" style="display: flex; flex-direction: column; gap: 2px; width: 65px; margin-right: 4px;">
+              <div class="room-box" id="RG70A" style="height: 96px; font-size: 9px; padding: 2px;">
+                <p class="room" style="margin-bottom: 0px;">G70A</p>
+                <p style="margin-bottom: 0px;">{name}</p>
+              </div>
+              <div class="room-box" id="RG70B" style="height: 96px; font-size: 9px; padding: 2px;">
+                <p class="room" style="margin-bottom: 0px;">G70B</p>
+                <p style="margin-bottom: 0px;">{name}</p>
+              </div>
+            </div>
+            
+            <!-- Spacing -->
+            <div style="width: 38px;"></div>
+            
+            <!-- G70C-F offices (2x2 grid) -->
+            <div style="display: flex; flex-direction: column; gap: 2px; margin-right: 4px;">
+              <div style="display: flex; gap: 2px;">
+                <div class="room-box" id="RG70C" style="width: 65px; height: 96px; font-size: 9px; padding: 2px;">
+                  <p class="room" style="margin-bottom: 0px;">G70C</p>
+                  <p style="margin-bottom: 0px;">{name}</p>
+                </div>
+                <div class="room-box" id="RG70E" style="width: 65px; height: 96px; font-size: 9px; padding: 2px;">
+                  <p class="room" style="margin-bottom: 0px;">G70E</p>
+                  <p style="margin-bottom: 0px;">{name}</p>
+                </div>
+              </div>
+              <div style="display: flex; gap: 2px;">
+                <div class="room-box" id="RG70D" style="width: 65px; height: 96px; font-size: 9px; padding: 2px;">
+                  <p class="room" style="margin-bottom: 0px;">G70D</p>
+                  <p style="margin-bottom: 0px;">{name}</p>
+                </div>
+                <div class="room-box" id="RG70F" style="width: 65px; height: 96px; font-size: 9px; padding: 2px;">
+                  <p class="room" style="margin-bottom: 0px;">G70F</p>
+                  <p style="margin-bottom: 0px;">{name}</p>
+                </div>
+              </div>
+            </div>
+            
+            <!-- Spacing -->
+            <div style="width: 20px;"></div>
+            
+            <!-- G70G-I offices (2x2 grid) -->
+            <div style="display: flex; flex-direction: column; gap: 2px; margin-right: 4px;">
+              <div style="display: flex; gap: 2px;">
+                <div class="room-box" id="RG70G" style="width: 65px; height: 96px; font-size: 9px; padding: 2px;">
+                  <p class="room" style="margin-bottom: 0px;">G70G</p>
+                  <p style="margin-bottom: 0px;">{name}</p>
+                </div>
+                <div class="room-box" id="RG70I" style="width: 65px; height: 96px; font-size: 9px; padding: 2px;">
+                  <p class="room" style="margin-bottom: 0px;">G70I</p>
+                  <p style="margin-bottom: 0px;">{name}</p>
+                </div>
+              </div>
+              <div style="display: flex; gap: 2px;">
+                <div class="room-box" id="RG70H" style="width: 65px; height: 96px; font-size: 9px; padding: 2px;">
+                  <p class="room" style="margin-bottom: 0px;">G70H</p>
+                  <p style="margin-bottom: 0px;">{name}</p>
+                </div>
+                <div class="room-box" id="RG70J" style="width: 65px; height: 96px; font-size: 9px; padding: 2px;">
+                  <p class="room" style="margin-bottom: 0px;">G70J</p>
+                  <p style="margin-bottom: 0px;">{name}</p>
+                </div>
+              </div>
+            </div>
+            
+            <!-- Spacing -->
+            <div style="width: 33px;"></div>
+            
+            <!-- G70K-N offices (2x2 grid) -->
+            <div style="display: flex; flex-direction: column; gap: 2px; margin-right: 4px;">
+              <div style="display: flex; gap: 2px;">
+                <div class="room-box" id="RG70K" style="width: 65px; height: 96px; font-size: 9px; padding: 2px;">
+                  <p class="room" style="margin-bottom: 0px;">G70K</p>
+                  <p style="margin-bottom: 0px;">{name}</p>
+                </div>
+                <div class="room-box" id="RG70M" style="width: 65px; height: 96px; font-size: 9px; padding: 2px;">
+                  <p class="room" style="margin-bottom: 0px;">G70M</p>
+                  <p style="margin-bottom: 0px;">{name}</p>
+                </div>
+              </div>
+              <div style="display: flex; gap: 2px;">
+                <div class="room-box" id="RG70L" style="width: 65px; height: 96px; font-size: 9px; padding: 2px;">
+                  <p class="room" style="margin-bottom: 0px;">G70L</p>
+                  <p style="margin-bottom: 0px;">{name}</p>
+                </div>
+                <div class="room-box" id="RG70N" style="width: 65px; height: 96px; font-size: 9px; padding: 2px;">
+                  <p class="room" style="margin-bottom: 0px;">G70N</p>
+                  <p style="margin-bottom: 0px;">{name}</p>
+                </div>
+              </div>
+            </div>
+            
+            <!-- Spacing -->
+            <div style="width: 31px;"></div>
+            
+            <!-- G70O/P vertical stack -->
+            <div class="small-office-column" style="display: flex; flex-direction: column; gap: 2px; width: 65px;">
+              <div class="room-box" id="RG70O" style="height: 96px; font-size: 9px; padding: 2px;">
+                <p class="room" style="margin-bottom: 0px;">G70O</p>
+                <p style="margin-bottom: 0px; font-size: 7px;">{name}<br>(Chair)</p>
+              </div>
+              <div class="room-box" id="RG70P" style="height: 96px; font-size: 9px; padding: 2px;">
+                <p class="room" style="margin-bottom: 0px;">G70P</p>
+                <p style="margin-bottom: 0px;">Hotdesk</p>
+              </div>
+            </div>
+          </div>
+          <!-- G90 Meeting Room Circle -->
+          <div class="meeting-room-container" style="position: absolute; top: 195px; left: 850px; z-index: 4;">
+              <div class="room-box" id="RG90" style="width:350px; height: 200px; border-radius: 50%; display: flex; flex-direction: column; align-items: center; justify-content: center;">
+                <p class="room" style="margin-bottom: 5px;">G90 Meeting Room</p>
+                <p class="key-locker-info" style="color: green; margin-top: 60px;">Key Locker 591201</p>
+              </div>
+            </div>
+            
+            <!-- East Offices - G61, G60, G59 -->
+            <div class="east-offices" style="position: absolute; top: 210px; left: 1260px; display: flex; gap: 2px; z-index: 5;">
+              <!-- G61 Paul Flatau -->
+              <div class="office-box">
+                <div class="room-box" id="RG61" style="height: 90px;">
+                  <p class="room">G61</p>
+                  <p>{name}</p>
+                  <p class="key-locker-info" style="color: green;">Key<br>Locker 591132</p>
+                </div>
+              </div>
+              
+              <!-- G60 Leanne Lester -->
+              <div class="office-box">
+                <div class="room-box" id="RG60" style="height: 90px;">
+                  <p class="room">G60</p>
+                  <p>{name}</p>
+                  <p class="key-locker-info" style="color: green;">Key Locker<br>59120</p>
+                </div>
+              </div>
+              
+              <!-- G59 Kath Conway & Mags Martin & Hotdesk x 2 -->
+              <div class="office-box">
+                <div class="room-box" id="RG59" style="height: 90px;">
+                  <p class="room">G59</p>
+                  <p>{name} & {name}<br>{name} x 2</p>
+                  <p class="key-locker-info" style="color: green;">Key Locker 591130</p>
+                </div>
+              </div>
+            </div>
+    <!-- Offices and Waiting Area Above G59 -->
+    <div class="top-offices-stack" style="position: absolute; top: -135px; right: -945px; width: 180px; display: flex; flex-direction: column; gap: 2px; z-index: 5;">
+        <!-- First Waiting Area -->
+        <div class="office-box">
+          <div class="room-box" style="height: 45px;">
+            <p class="text-center">Waiting area</p>
+          </div>
+        </div>
+        
+        <!-- Second Waiting Area -->
+        <div class="office-box">
+          <div class="room-box" style="height: 45px;">
+            <p class="text-center">Waiting area</p>
+          </div>
+        </div>
+        
+        <!-- Spacing -->
+        <div style="height: 50px;"></div>
+    
+        <!-- G57 HOTDESK Natasha King -->
+        <div class="office-box">
+          <div class="room-box" id="RG57" style="height: 100px;">
+            <p class="room">G57 (HOTDESK)</p>
+            <p>{name} (M, T,<br>TH afternoon)</p>
+            <p class="key-locker-info" style="color: green;">Key Locker 591128</p>
+          </div>
+        </div>
+             <!-- G58 WILG Team Consult Room -->
+             <div class="office-box">
+               <div class="room-box" id="RG58" style="height: 100px;">
+                 <p class="room">G58 WILG Team</p>
+                 <p>Consult Room</p>
+                 <p class="key-locker-info" style="color: green;">Key Locker 591129</p>
+               </div>
+             </div>
+         </div> 
+          
+
+          
+          <!-- Office Container -->
+          <div class="office-container">
+            <!-- G73 Recording Studio -->
+            <div class="office-box">
+              <div class="room-box" id="RG73">
+                <p class="room">G73</p>
+                <p>Recording Studio</p>
+                <p class="key-locker-info">Key Locker 591144</p>
+              </div>
+            </div>
+            
+            <!-- G72 Donna Oxenham -->
+            <div class="office-box">
+              <div class="room-box" id="RG72">
+                <p class="room">G72</p>
+                <p>{name}</p>
+                <p class="key-locker-info">Key Locker 591143</p>
+              </div>
+            </div>
+            
+            <!-- G71 Barbara Paulson -->
+            <div class="office-box">
+              <div class="room-box" id="RG71">
+                <p class="room">G71</p>
+                <p>{name}</p>
+                <p class="key-locker-info">Key Locker 591142</p>
+              </div>
+            </div>
+            
+            <!-- G70 Zoe Callis -->
+            <div class="office-box">
+              <div class="room-box" id="RG70">
+                <p class="room">G70</p>
+                <p>{name}</p>
+                <p class="key-locker-info">Key Locker 591141</p>
+              </div>
+            </div>
+            
+            <!-- G69 Caryn Earnshaw -->
+            <div class="office-box">
+              <div class="room-box" id="RG69">
+                <p class="room">G69</p>
+                <p>{name}</p>
+                <p class="key-locker-info">Key Locker 593110</p>
+              </div>
+            </div>
+            
+            <!-- G68 Carole Katz -->
+            <div class="office-box">
+              <div class="room-box" id="RG68">
+                <p class="room">G68</p>
+                <p>{name}</p>
+                <p class="key-locker-info">Key Locker 593103</p>
+              </div>
+            </div>
+            
+            <!-- G67 Jian Zhao -->
+            <div class="office-box">
+              <div class="room-box" id="RG67">
+                <p class="room">G67</p>
+                <p>{name}</p>
+                <p class="key-locker-info">Key Locker 591139</p>
+              </div>
+            </div>
+            
+            <!-- G66 David O'Shaughnessy -->
+            <div class="office-box">
+              <div class="room-box" id="RG66">
+                <p class="room">G66</p>
+                <p>{name}</p>
+                <p class="key-locker-info">Key Locker 591138</p>
+              </div>
+            </div>
+            
+            <!-- G65 Jacinta Francis -->
+            <div class="office-box">
+              <div class="room-box" id="RG65">
+                <p class="room">G65</p>
+                <p>{name}</p>
+                <p class="key-locker-info">Key Locker 591137</p>
+              </div>
+            </div>
+            
+            <!-- G64 Mariana Atkins -->
+            <div class="office-box">
+              <div class="room-box" id="RG64">
+                <p class="room">G64</p>
+                <p>{name}</p>
+                <p class="key-locker-info">Key Locker 591136</p>
+              </div>
+            </div>
+            
+            <!-- G63 James Herbert -->
+            <div class="office-box">
+              <div class="room-box" id="RG63">
+                <p class="room">G63</p>
+                <p>{name}</p>
+                <p class="key-locker-info">Key Locker 591135</p>
+              </div>
+            </div>
+            
+            <!-- G62 Lisette Kaleveld -->
+            <div class="office-box">
+                <div class="room-box" id="RG62">
+                  <p class="room">G62</p>
+                  <p>{name}</p>
+                  <p class="key-locker-info">Key Locker 591134</p>
+                </div>
+              </div>
+              
+              <!-- G56 Phil Hancock standalone to the right of G62 -->
+              <div class="office-box">
+                <div class="room-box" id="RG56">
+                  <p class="room">G56</p>
+                  <p>{name} x1835</p>
+                  <p class="key-locker-info">Key Locker 591133</p>
+                </div>
+              </div>
+              
+              <!-- G54 and G55 above G56 container - Using absolute positioning -->
+              <div class="stacked-top-container">
+                <!-- G54 Kate Hutchinson -->
+                <div class="room-box" id="RG54">
+                  <p class="room">G54 X4737</p>
+                  <p>{name}</p>
+                  <p class="key-locker-info">Key Locker 591126</p>
+                </div>
+                
+                <!-- G55 Student Experience Consult Room -->
+                <div class="room-box green-box" id="RG55">
+                  <p class="room">G55</p>
+                  <p class="italic">Student Experience</p>
+                  <p class="italic">Consult Room</p>
+                  <p class="key-locker-info">Key</p>
+                </div>
+              </div>
+              </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/d5165f1477.js" crossorigin="anonymous"></script>
+  </body>
+  </html>

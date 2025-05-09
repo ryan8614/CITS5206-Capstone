@@ -1,0 +1,962 @@
+[
+  {
+    "type": "merged",
+    "rowStart": 26,
+    "colStart": 14,
+    "rowEnd": 27,
+    "colEnd": 16,
+    "content": "2222L\n\nMengmei Chen (Monica)\nx5882\n         ",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    }
+  },
+  {
+    "type": "merged",
+    "rowStart": 8,
+    "colStart": 37,
+    "rowEnd": 11,
+    "colEnd": 39,
+    "content": "2201\n\nNicole Ye Yang \nx5905\nKey Locker \n591630",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    }
+  },
+  {
+    "type": "merged",
+    "rowStart": 12,
+    "colStart": 19,
+    "rowEnd": 14,
+    "colEnd": 22,
+    "content": "2223\n\nLars Casper Ferm \nx5873\nKey Locker \n591627",
+    "bgColor": "FFFFFF",
+    "comment": "\n\n\n",
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    }
+  },
+  {
+    "type": "merged",
+    "rowStart": 8,
+    "colStart": 19,
+    "rowEnd": 11,
+    "colEnd": 21,
+    "content": "2212\n\nUwana Evers\n\nx5663 \nKey Locker \n591641",
+    "bgColor": "FFFFFF",
+    "comment": "Uwana - received keys\nMoving out to Daniel's office 2207",
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    }
+  },
+  {
+    "type": "merged",
+    "rowStart": 8,
+    "colStart": 22,
+    "rowEnd": 11,
+    "colEnd": 24,
+    "content": "2211\n\nStanley Yu\nx5886  \nKey Locker \n591640",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    }
+  },
+  {
+    "type": "merged",
+    "rowStart": 8,
+    "colStart": 25,
+    "rowEnd": 11,
+    "colEnd": 27,
+    "content": "2209\n\nFang \nLIU\n x3506 \nKey Locker\n 591638",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    }
+  },
+  {
+    "type": "merged",
+    "rowStart": 8,
+    "colStart": 28,
+    "rowEnd": 11,
+    "colEnd": 30,
+    "content": "2207\n\nDaniel \nSCHEPIS\nx5657 \nKey Locker \n591636",
+    "bgColor": "FFFFFF",
+    "comment": "Vesna Pribicevic:\nMOVING OUT TO 2210",
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    }
+  },
+  {
+    "type": "merged",
+    "rowStart": 13,
+    "colStart": 24,
+    "rowEnd": 32,
+    "colEnd": 38,
+    "content": "l",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    }
+  },
+  {
+    "type": "merged",
+    "rowStart": 18,
+    "colStart": 19,
+    "rowEnd": 20,
+    "colEnd": 22,
+    "content": "2225\nRosie PHAM\nx7620\nKey Locker \n591625",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    }
+  },
+  {
+    "type": "merged",
+    "rowStart": 15,
+    "colStart": 19,
+    "rowEnd": 17,
+    "colEnd": 22,
+    "content": "2224\n\nMila TARABASHKINA\nx1451 \nKey Locker \n591626",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    }
+  },
+  {
+    "type": "merged",
+    "rowStart": 8,
+    "colStart": 31,
+    "rowEnd": 11,
+    "colEnd": 33,
+    "content": "2205\n\nAntoine MUSU\nx1795\nKey Locker \n591634",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    }
+  },
+  {
+    "type": "merged",
+    "rowStart": 8,
+    "colStart": 34,
+    "rowEnd": 11,
+    "colEnd": 36,
+    "content": "2203\n\nAndreawan HONORA\nx7885  \nKey Locker \n591632",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    }
+  },
+  {
+    "type": "merged",
+    "rowStart": 21,
+    "colStart": 19,
+    "rowEnd": 23,
+    "colEnd": 22,
+    "content": "2226\n\nDave WEBB\nx7380\nKey Locker \n591624",
+    "bgColor": "FFFFFF",
+    "comment": "[线程批注]\n\n你的Excel版本可读取此线程批注; 但如果在更新版本的Excel中打开文件，则对批注所作的任何改动都将被删除。了解详细信息: https://go.microsoft.com/fwlink/?linkid=870924\n\n注释:\n    Gayri Laud is arriving in Perth March 24th \nDave Webb to move into room 2214",
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    }
+  },
+  {
+    "type": "merged",
+    "rowStart": 30,
+    "colStart": 19,
+    "rowEnd": 32,
+    "colEnd": 22,
+    "content": "2229\n\nJason Weismueller\nx6201\nKey Locker \n591620",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    }
+  },
+  {
+    "type": "merged",
+    "rowStart": 27,
+    "colStart": 19,
+    "rowEnd": 29,
+    "colEnd": 22,
+    "content": "2228\n\nSebastian VAN DOORN\nx5883 \nKey Locker \n591621",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    }
+  },
+  {
+    "type": "merged",
+    "rowStart": 24,
+    "colStart": 19,
+    "rowEnd": 26,
+    "colEnd": 22,
+    "content": "2227\n\nAva Yu\nx1414\nKey Locker  \n591623\n",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    }
+  },
+  {
+    "type": "merged",
+    "rowStart": 2,
+    "colStart": 18,
+    "rowEnd": 3,
+    "colEnd": 19,
+    "content": "2213F \n\nXiaonan Wen\nx4618",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    }
+  },
+  {
+    "type": "merged",
+    "rowStart": 2,
+    "colStart": 20,
+    "rowEnd": 3,
+    "colEnd": 21,
+    "content": "2213G\n\nEna Vejnovic\nx5684",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "medium",
+      "top": "thin",
+      "bottom": "medium"
+    }
+  },
+  {
+    "type": "merged",
+    "rowStart": 4,
+    "colStart": 18,
+    "rowEnd": 5,
+    "colEnd": 19,
+    "content": "2213I \n\nArslan Rafi -visiting\nx3976",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": null,
+      "bottom": "thin"
+    }
+  },
+  {
+    "type": "merged",
+    "rowStart": 4,
+    "colStart": 20,
+    "rowEnd": 5,
+    "colEnd": 21,
+    "content": "2213H\n\nHOANG Thi Hong Hanh \nx5880",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "medium",
+      "top": "thin",
+      "bottom": "medium"
+    }
+  },
+  {
+    "type": "merged",
+    "rowStart": 2,
+    "colStart": 5,
+    "rowEnd": 3,
+    "colEnd": 6,
+    "content": "2213A \n\nTrinitaria Marlis Putri (Tari)\n",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    }
+  },
+  {
+    "type": "merged",
+    "rowStart": 2,
+    "colStart": 25,
+    "rowEnd": 5,
+    "colEnd": 27,
+    "content": "2210\n\nDaniel SCHEPIS\nx1438   \nKey Locker\n591639",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    }
+  },
+  {
+    "type": "merged",
+    "rowStart": 2,
+    "colStart": 28,
+    "rowEnd": 5,
+    "colEnd": 30,
+    "content": "2208\n\nSharon PURCHASE\nx1812  \nKey Locker \n591637",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    }
+  },
+  {
+    "type": "merged",
+    "rowStart": 2,
+    "colStart": 31,
+    "rowEnd": 5,
+    "colEnd": 33,
+    "content": "2206\n\nRichard GRUNER\nx5876   \nKey Locker 591635",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    }
+  },
+  {
+    "type": "merged",
+    "rowStart": 5,
+    "colStart": 41,
+    "rowEnd": 7,
+    "colEnd": 44,
+    "content": "2200\n\nMeeting Room",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    }
+  },
+  {
+    "type": "merged",
+    "rowStart": 2,
+    "colStart": 37,
+    "rowEnd": 5,
+    "colEnd": 39,
+    "content": "2202\n\nJulie Lee \nx2912  \nKey Locker \n591631",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    }
+  },
+  {
+    "type": "merged",
+    "rowStart": 2,
+    "colStart": 34,
+    "rowEnd": 5,
+    "colEnd": 36,
+    "content": "2204\n\nJoanne SNEDDON\nx1727   \nKey Locker 591633",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    }
+  },
+  {
+    "type": "merged",
+    "rowStart": 21,
+    "colStart": 10,
+    "rowEnd": 22,
+    "colEnd": 12,
+    "content": "2222G \n \nLili Qiu\nx5877",
+    "bgColor": "FFFFFF",
+    "comment": "April Wen:\nHong Hanh wants to move in once LiLi finished",
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    }
+  },
+  {
+    "type": "merged",
+    "rowStart": 21,
+    "colStart": 14,
+    "rowEnd": 22,
+    "colEnd": 16,
+    "content": "2222H   \n\nEry PRIMASKARA     \nx5878",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    }
+  },
+  {
+    "type": "merged",
+    "rowStart": 31,
+    "colStart": 14,
+    "rowEnd": 32,
+    "colEnd": 16,
+    "content": "2222P \n\nYing (Hermione) Zhou\nx5871",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    }
+  },
+  {
+    "type": "merged",
+    "rowStart": 29,
+    "colStart": 10,
+    "rowEnd": 30,
+    "colEnd": 12,
+    "content": "2222M  \n\nXiaoling Guo\nx2892        \n",
+    "bgColor": "FFFFFF",
+    "comment": "[线程批注]\n\n你的Excel版本可读取此线程批注; 但如果在更新版本的Excel中打开文件，则对批注所作的任何改动都将被删除。了解详细信息: https://go.microsoft.com/fwlink/?linkid=870924\n\n注释:\n    Completes Jan 2027. NB: does not use pod",
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    }
+  },
+  {
+    "type": "merged",
+    "rowStart": 2,
+    "colStart": 4,
+    "rowEnd": 5,
+    "colEnd": 4,
+    "content": null,
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": null,
+      "top": "thin",
+      "bottom": "thin"
+    }
+  },
+  {
+    "type": "merged",
+    "rowStart": 2,
+    "colStart": 15,
+    "rowEnd": 3,
+    "colEnd": 16,
+    "content": "   2213E  \n\nMeiju Fei    \nx1872",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": null
+    }
+  },
+  {
+    "type": "merged",
+    "rowStart": 4,
+    "colStart": 15,
+    "rowEnd": 5,
+    "colEnd": 16,
+    "content": "2213J\n\nBenjamin Lau\n x5880",
+    "bgColor": "FFFFFF",
+    "comment": "[线程批注]\n\n你的Excel版本可读取此线程批注; 但如果在更新版本的Excel中打开文件，则对批注所作的任何改动都将被删除。了解详细信息: https://go.microsoft.com/fwlink/?linkid=870924\n\n注释:\n    Benjamin Lau\nBachelor of Philosophy student research placement\n19/06/2024 - 09/09/2024\nPaul Harrigan Student",
+    "border": {
+      "left": "thin",
+      "right": "medium",
+      "top": "thin",
+      "bottom": "medium"
+    }
+  },
+  {
+    "type": "merged",
+    "rowStart": 8,
+    "colStart": 5,
+    "rowEnd": 11,
+    "colEnd": 7,
+    "content": "2217\n\nOliver Rahn\nx1414  \nKey Locker \n501645",
+    "bgColor": "FFFFFF",
+    "comment": "April Wen:\n1.0 FXT contract\nBegin first week of July for 12 months\n",
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    }
+  },
+  {
+    "type": "merged",
+    "rowStart": 8,
+    "colStart": 8,
+    "rowEnd": 11,
+    "colEnd": 10,
+    "content": "2216\n\nJill Sweeney, Louise Roberts, Greg Brush \nKey Locker \n591644",
+    "bgColor": "FFFFFF",
+    "comment": "Vesna Pribicevic:\nGreg Brush is moving in with Jill and Luise and the key to the office is provided to him",
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    }
+  },
+  {
+    "type": "merged",
+    "rowStart": 8,
+    "colStart": 11,
+    "rowEnd": 11,
+    "colEnd": 13,
+    "content": "2215\n\nLlandis\nBarratt-Pugh\n x7210\n Key Locker \n591643",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    }
+  },
+  {
+    "type": "merged",
+    "rowStart": 8,
+    "colStart": 14,
+    "rowEnd": 11,
+    "colEnd": 16,
+    "content": "2214\n\nTim MAZZAROL x3981\nGeoff SOUTAR  x7885\nx5905  (old extension to move)\nKey Locker \n591642",
+    "bgColor": "FFFFFF",
+    "comment": "\n\"2201\n\nTim MAZZAROL x3981\nGeoff SOUTAR  x7885\nKey Locker \n591630\"\t\t\n\t\t\n\t\t\n\t\t",
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    }
+  },
+  {
+    "type": "merged",
+    "rowStart": 29,
+    "colStart": 14,
+    "rowEnd": 30,
+    "colEnd": 16,
+    "content": "2222N  \n\nArief Johan\nx5884\n",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    }
+  },
+  {
+    "type": "merged",
+    "rowStart": 31,
+    "colStart": 10,
+    "rowEnd": 32,
+    "colEnd": 12,
+    "content": "2222O\n  \nAlua Devine\nx5885",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    }
+  },
+  {
+    "type": "merged",
+    "rowStart": 24,
+    "colStart": 10,
+    "rowEnd": 25,
+    "colEnd": 12,
+    "content": "2222I\n\nMackenzie REYNOLDS\nx5879",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    }
+  },
+  {
+    "type": "merged",
+    "rowStart": 24,
+    "colStart": 14,
+    "rowEnd": 25,
+    "colEnd": 16,
+    "content": "2222J \n\nVACANT\nx1610",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    }
+  },
+  {
+    "type": "merged",
+    "rowStart": 26,
+    "colStart": 10,
+    "rowEnd": 27,
+    "colEnd": 12,
+    "content": "2222K\n\nKhalid Yanallah\nx5881         \n",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    }
+  },
+  {
+    "type": "merged",
+    "rowStart": 14,
+    "colStart": 10,
+    "rowEnd": 15,
+    "colEnd": 12,
+    "content": "2222A \n\nJoohee KIM        \nx5823",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    }
+  },
+  {
+    "type": "merged",
+    "rowStart": 14,
+    "colStart": 14,
+    "rowEnd": 15,
+    "colEnd": 16,
+    "content": "2222B\n  \nAnya Grobler      \nx5872",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    }
+  },
+  {
+    "type": "merged",
+    "rowStart": 16,
+    "colStart": 10,
+    "rowEnd": 17,
+    "colEnd": 12,
+    "content": "2222C    \n\nChuan He      \nx5873",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    }
+  },
+  {
+    "type": "merged",
+    "rowStart": 16,
+    "colStart": 14,
+    "rowEnd": 17,
+    "colEnd": 16,
+    "content": "2222D    \nXingyang Ma\nx5874",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    }
+  },
+  {
+    "type": "merged",
+    "rowStart": 19,
+    "colStart": 10,
+    "rowEnd": 20,
+    "colEnd": 12,
+    "content": "2222E \n\nTrieu, NGUYEN\nx5875\n         \n",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "medium",
+      "top": "thin",
+      "bottom": "medium"
+    }
+  },
+  {
+    "type": "merged",
+    "rowStart": 19,
+    "colStart": 14,
+    "rowEnd": 20,
+    "colEnd": 16,
+    "content": "2222F \n\nMasha POLSHINSKAYA\nx5623",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    }
+  },
+  {
+    "type": "merged",
+    "rowStart": 12,
+    "colStart": 14,
+    "rowEnd": 13,
+    "colEnd": 16,
+    "content": "PTR 396 Printer Serial \n# SAA2J041015388",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    }
+  },
+  {
+    "type": "merged",
+    "rowStart": 6,
+    "colStart": 1,
+    "rowEnd": 7,
+    "colEnd": 2,
+    "content": "WC",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    }
+  },
+  {
+    "type": "merged",
+    "rowStart": 2,
+    "colStart": 8,
+    "rowEnd": 3,
+    "colEnd": 9,
+    "content": "2213B\n\n Rimayanti\n",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    }
+  },
+  {
+    "type": "merged",
+    "rowStart": 2,
+    "colStart": 10,
+    "rowEnd": 3,
+    "colEnd": 11,
+    "content": "2213C\n\nZhengjia (Zoe) Tang\n ",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    }
+  },
+  {
+    "type": "merged",
+    "rowStart": 4,
+    "colStart": 8,
+    "rowEnd": 5,
+    "colEnd": 9,
+    "content": "2213M\n\nVACANT\n",
+    "bgColor": "FFFFFF",
+    "comment": "Esther W:\nPaul Harrigan Visiting PhD student Elvira Ferrer coming from June - August 2025",
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    }
+  },
+  {
+    "type": "merged",
+    "rowStart": 4,
+    "colStart": 10,
+    "rowEnd": 5,
+    "colEnd": 11,
+    "content": "2213L\n\nQing Yan\n",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    }
+  },
+  {
+    "type": "merged",
+    "rowStart": 2,
+    "colStart": 13,
+    "rowEnd": 3,
+    "colEnd": 14,
+    "content": "2213D \n\nYali HOU\n",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "medium",
+      "top": "thin",
+      "bottom": "medium"
+    }
+  },
+  {
+    "type": "merged",
+    "rowStart": 4,
+    "colStart": 13,
+    "rowEnd": 5,
+    "colEnd": 14,
+    "content": "2213K   \n\nVACANT\n x7332",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "medium",
+      "top": "thin",
+      "bottom": "medium"
+    }
+  },
+  {
+    "type": "merged",
+    "rowStart": 4,
+    "colStart": 5,
+    "rowEnd": 5,
+    "colEnd": 6,
+    "content": "2213N\n\nVACANT \nx5684",
+    "bgColor": "FFFFFF",
+    "comment": "April Wen:\nSamar Aladem will use when come back to do paper visions post thesis\n",
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    }
+  },
+  {
+    "type": "merged",
+    "rowStart": 2,
+    "colStart": 1,
+    "rowEnd": 5,
+    "colEnd": 3,
+    "content": "Print Room \n2221 Key Locker 591201 PTR 395 Printer Serial #  SAA7N047000765",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    }
+  },
+  {
+    "type": "merged",
+    "rowStart": 8,
+    "colStart": 3,
+    "rowEnd": 11,
+    "colEnd": 3,
+    "content": "Kitchen",
+    "bgColor": "FFFFFF",
+    "comment": null,
+    "border": {
+      "left": "thin",
+      "right": "thin",
+      "top": "thin",
+      "bottom": "thin"
+    }
+  }
+]
