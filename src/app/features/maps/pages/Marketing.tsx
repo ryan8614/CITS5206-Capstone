@@ -9,7 +9,7 @@ import type { CellMeta, LayoutMeta } from "@/app/features/maps/components/HotTab
 const cellData = cellDataJson as CellMeta[];
 const layoutData = layoutDataJson as LayoutMeta;
 
-export default function Marketing() {
+export default function Marketing_Map() {
   return (
     <div className="flex flex-col w-full h-full overflow-hidden">
       <h2 className="text-xl font-bold mb-4">Marketing</h2>
