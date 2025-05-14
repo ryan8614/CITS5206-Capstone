@@ -14,7 +14,7 @@ export async function POST(req: NextRequest) {
       return NextResponse.json({ status: 'error', message: 'Missing data' }, { status: 400 });
     }
 
-    const filePath = path.join(process.cwd(), 'src/app/features/contacts/data/contact_list.json');
+    const filePath = path.join(process.cwd(), 'public/data/contact_list/contact_list.json');
     const existingData = JSON.parse(fs.readFileSync(filePath, 'utf-8'));
 
     const classification = newAcademic[0]?.Classification || newResearch[0]?.Classification;

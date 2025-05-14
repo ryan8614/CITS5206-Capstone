@@ -5,7 +5,7 @@ import { HotTable } from '@handsontable/react';
 import { registerAllModules } from 'handsontable/registry';
 import { useFilteredContacts } from '@/app/features/contacts/components/useFilteredContacts';
 import { coloredRowRenderer } from '@/app/features/contacts/components/coloredRowRenderer';
-import { usePreventScrollBleed } from '@/app/features/contacts/components/usePreventScrollBleed'
+import { usePreventScrollBleed } from '@/components/usePreventScrollBleed'
 import { saveTableData } from '@/app/features/contacts/components/saveTableData';
 import 'handsontable/dist/handsontable.min.css';
 import { Button } from 'antd';
@@ -30,7 +30,7 @@ export default function AccFin() {
           type="primary"
           onClick={() => {
             console.log('Saving Accounting and Finance data');
-            saveTableData(hotRef, data, classification);
+            saveTableData(hotRef, classification);
           }}
         >
           Save Changes

@@ -13,7 +13,8 @@
       "right": "thin",
       "top": "thin",
       "bottom": "thin"
-    }
+    },
+    "room": "102G"
   },
   {
     "type": "merged",
@@ -29,7 +30,8 @@
       "right": "thin",
       "top": "thin",
       "bottom": "thin"
-    }
+    },
+    "room": "102R"
   },
   {
     "type": "merged",
@@ -45,7 +47,8 @@
       "right": "thin",
       "top": "thin",
       "bottom": "thin"
-    }
+    },
+    "room": "102H"
   },
   {
     "type": "merged",
@@ -61,7 +64,8 @@
       "right": "thin",
       "top": "thin",
       "bottom": "thin"
-    }
+    },
+    "room": "102S"
   },
   {
     "type": "merged",
@@ -77,7 +81,8 @@
       "right": "thin",
       "top": "thin",
       "bottom": "thin"
-    }
+    },
+    "room": "102C"
   },
   {
     "type": "merged",
@@ -93,7 +98,8 @@
       "right": "thin",
       "top": "thin",
       "bottom": "thin"
-    }
+    },
+    "room": "102N"
   },
   {
     "type": "merged",
@@ -109,7 +115,8 @@
       "right": "thin",
       "top": "thin",
       "bottom": "thin"
-    }
+    },
+    "room": "102D"
   },
   {
     "type": "merged",
@@ -125,7 +132,8 @@
       "right": "thin",
       "top": "thin",
       "bottom": "thin"
-    }
+    },
+    "room": "102O"
   },
   {
     "type": "merged",
@@ -141,7 +149,8 @@
       "right": "thin",
       "top": "thin",
       "bottom": "thin"
-    }
+    },
+    "room": "102F"
   },
   {
     "type": "merged",
@@ -157,7 +166,8 @@
       "right": "thin",
       "top": "thin",
       "bottom": "thin"
-    }
+    },
+    "room": "102Q"
   },
   {
     "type": "merged",
@@ -173,7 +183,8 @@
       "right": "thin",
       "top": "thin",
       "bottom": "thin"
-    }
+    },
+    "room": "102L"
   },
   {
     "type": "merged",
@@ -189,7 +200,8 @@
       "right": "thin",
       "top": "thin",
       "bottom": "thin"
-    }
+    },
+    "room": "130A"
   },
   {
     "type": "merged",
@@ -205,7 +217,8 @@
       "right": "thin",
       "top": "thin",
       "bottom": "thin"
-    }
+    },
+    "room": "130B"
   },
   {
     "type": "merged",
@@ -221,7 +234,8 @@
       "right": "thin",
       "top": "thin",
       "bottom": "thin"
-    }
+    },
+    "room": "130C"
   },
   {
     "type": "merged",
@@ -237,7 +251,8 @@
       "right": "thin",
       "top": "thin",
       "bottom": "thin"
-    }
+    },
+    "room": "130D"
   },
   {
     "type": "merged",
@@ -253,7 +268,8 @@
       "right": "thin",
       "top": "thin",
       "bottom": "thin"
-    }
+    },
+    "room": "130E"
   },
   {
     "type": "merged",
@@ -269,7 +285,8 @@
       "right": "thin",
       "top": "thin",
       "bottom": "thin"
-    }
+    },
+    "room": "130F"
   },
   {
     "type": "merged",
@@ -285,7 +302,8 @@
       "right": "thin",
       "top": "thin",
       "bottom": "thin"
-    }
+    },
+    "room": "Case Study Room 101"
   },
   {
     "type": "merged",
@@ -349,7 +367,8 @@
       "right": "thin",
       "top": "thin",
       "bottom": "thin"
-    }
+    },
+    "room": "155"
   },
   {
     "type": "merged",
@@ -365,7 +384,8 @@
       "right": "thin",
       "top": "thin",
       "bottom": "thin"
-    }
+    },
+    "room": "143J"
   },
   {
     "type": "merged",
@@ -397,7 +417,8 @@
       "right": "thin",
       "top": "thin",
       "bottom": "thin"
-    }
+    },
+    "room": "143E"
   },
   {
     "type": "merged",
@@ -413,7 +434,8 @@
       "right": "thin",
       "top": "thin",
       "bottom": "thin"
-    }
+    },
+    "room": "151"
   },
   {
     "type": "merged",
@@ -429,7 +451,8 @@
       "right": "thin",
       "top": "thin",
       "bottom": "thin"
-    }
+    },
+    "room": "143K"
   },
   {
     "type": "merged",
@@ -445,7 +468,8 @@
       "right": "thin",
       "top": "thin",
       "bottom": "thin"
-    }
+    },
+    "room": "143F"
   },
   {
     "type": "merged",
@@ -461,7 +485,8 @@
       "right": "thin",
       "top": "thin",
       "bottom": "thin"
-    }
+    },
+    "room": "143G"
   },
   {
     "type": "merged",
@@ -477,7 +502,8 @@
       "right": "thin",
       "top": "thin",
       "bottom": "thin"
-    }
+    },
+    "room": "143H"
   },
   {
     "type": "merged",
@@ -493,7 +519,8 @@
       "right": "thin",
       "top": "thin",
       "bottom": "thin"
-    }
+    },
+    "room": "143I"
   },
   {
     "type": "merged",
@@ -509,7 +536,8 @@
       "right": "thin",
       "top": "thin",
       "bottom": "thin"
-    }
+    },
+    "room": "143L"
   },
   {
     "type": "merged",
@@ -525,7 +553,8 @@
       "right": "thin",
       "top": "thin",
       "bottom": "thin"
-    }
+    },
+    "room": "143A"
   },
   {
     "type": "merged",
@@ -541,7 +570,8 @@
       "right": "thin",
       "top": "thin",
       "bottom": "thin"
-    }
+    },
+    "room": "143B"
   },
   {
     "type": "merged",
@@ -557,7 +587,8 @@
       "right": "thin",
       "top": "thin",
       "bottom": "thin"
-    }
+    },
+    "room": "143C"
   },
   {
     "type": "merged",
@@ -573,7 +604,8 @@
       "right": "thin",
       "top": "thin",
       "bottom": "thin"
-    }
+    },
+    "room": "143D"
   },
   {
     "type": "merged",
@@ -589,7 +621,8 @@
       "right": "thin",
       "top": "thin",
       "bottom": "thin"
-    }
+    },
+    "room": "Kitchen"
   },
   {
     "type": "merged",
@@ -605,7 +638,8 @@
       "right": "thin",
       "top": "thin",
       "bottom": "thin"
-    }
+    },
+    "room": "144"
   },
   {
     "type": "merged",
@@ -621,7 +655,8 @@
       "right": "thin",
       "top": "thin",
       "bottom": "thin"
-    }
+    },
+    "room": "145"
   },
   {
     "type": "merged",
@@ -637,7 +672,8 @@
       "right": "thin",
       "top": "thin",
       "bottom": "thin"
-    }
+    },
+    "room": "146"
   },
   {
     "type": "merged",
@@ -653,7 +689,8 @@
       "right": "thin",
       "top": "thin",
       "bottom": "thin"
-    }
+    },
+    "room": "148"
   },
   {
     "type": "merged",
@@ -669,7 +706,8 @@
       "right": "thin",
       "top": "thin",
       "bottom": "thin"
-    }
+    },
+    "room": "149"
   },
   {
     "type": "merged",
@@ -685,7 +723,8 @@
       "right": "thin",
       "top": "thin",
       "bottom": "thin"
-    }
+    },
+    "room": "147"
   },
   {
     "type": "merged",
@@ -701,7 +740,8 @@
       "right": "thin",
       "top": "thin",
       "bottom": "thin"
-    }
+    },
+    "room": "107"
   },
   {
     "type": "merged",
@@ -717,7 +757,8 @@
       "right": "thin",
       "top": "thin",
       "bottom": "thin"
-    }
+    },
+    "room": "108"
   },
   {
     "type": "merged",
@@ -733,7 +774,8 @@
       "right": "thin",
       "top": "thin",
       "bottom": "thin"
-    }
+    },
+    "room": "109"
   },
   {
     "type": "merged",
@@ -749,7 +791,8 @@
       "right": "thin",
       "top": "thin",
       "bottom": "thin"
-    }
+    },
+    "room": "130G"
   },
   {
     "type": "merged",
@@ -765,7 +808,8 @@
       "right": "thin",
       "top": "thin",
       "bottom": "thin"
-    }
+    },
+    "room": "150"
   },
   {
     "type": "merged",
@@ -781,7 +825,8 @@
       "right": "thin",
       "top": "thin",
       "bottom": "thin"
-    }
+    },
+    "room": "130I"
   },
   {
     "type": "merged",
@@ -797,7 +842,8 @@
       "right": "thin",
       "top": "thin",
       "bottom": "thin"
-    }
+    },
+    "room": "130H"
   },
   {
     "type": "merged",
@@ -813,7 +859,8 @@
       "right": "thin",
       "top": "thin",
       "bottom": "thin"
-    }
+    },
+    "room": "131"
   },
   {
     "type": "merged",
@@ -829,7 +876,8 @@
       "right": "thin",
       "top": "thin",
       "bottom": "thin"
-    }
+    },
+    "room": "103"
   },
   {
     "type": "merged",
@@ -845,7 +893,8 @@
       "right": "thin",
       "top": "thin",
       "bottom": "thin"
-    }
+    },
+    "room": "104"
   },
   {
     "type": "merged",
@@ -861,7 +910,8 @@
       "right": "thin",
       "top": "thin",
       "bottom": "thin"
-    }
+    },
+    "room": "105"
   },
   {
     "type": "merged",
@@ -877,23 +927,8 @@
       "right": "thin",
       "top": "thin",
       "bottom": "thin"
-    }
-  },
-  {
-    "type": "merged",
-    "rowStart": 1,
-    "colStart": 1,
-    "rowEnd": 1,
-    "colEnd": 52,
-    "content": "First Floor Pilbara and Goldfields: Economics",
-    "bgColor": "FFFFFF",
-    "comment": null,
-    "border": {
-      "left": null,
-      "right": null,
-      "top": null,
-      "bottom": null
-    }
+    },
+    "room": "106"
   },
   {
     "type": "merged",
@@ -909,7 +944,8 @@
       "right": "thin",
       "top": "thin",
       "bottom": "thin"
-    }
+    },
+    "room": "102I"
   },
   {
     "type": "merged",
@@ -925,7 +961,8 @@
       "right": "thin",
       "top": "thin",
       "bottom": "thin"
-    }
+    },
+    "room": "102J"
   },
   {
     "type": "merged",
@@ -941,7 +978,8 @@
       "right": "thin",
       "top": "thin",
       "bottom": "thin"
-    }
+    },
+    "room": "102K"
   },
   {
     "type": "merged",
@@ -957,7 +995,8 @@
       "right": "thin",
       "top": "thin",
       "bottom": "thin"
-    }
+    },
+    "room": "113"
   },
   {
     "type": "merged",
@@ -973,7 +1012,8 @@
       "right": "thin",
       "top": "thin",
       "bottom": "thin"
-    }
+    },
+    "room": "115"
   },
   {
     "type": "merged",
@@ -989,7 +1029,8 @@
       "right": "thin",
       "top": "thin",
       "bottom": "thin"
-    }
+    },
+    "room": "117"
   },
   {
     "type": "merged",
@@ -1005,7 +1046,8 @@
       "right": "thin",
       "top": "thin",
       "bottom": "thin"
-    }
+    },
+    "room": "121"
   },
   {
     "type": "merged",
@@ -1021,7 +1063,8 @@
       "right": "thin",
       "top": "thin",
       "bottom": "thin"
-    }
+    },
+    "room": "102V"
   },
   {
     "type": "merged",
@@ -1037,7 +1080,8 @@
       "right": "thin",
       "top": null,
       "bottom": "thin"
-    }
+    },
+    "room": "102T"
   },
   {
     "type": "merged",
@@ -1053,7 +1097,8 @@
       "right": "thin",
       "top": "thin",
       "bottom": "thin"
-    }
+    },
+    "room": "102U"
   },
   {
     "type": "merged",
@@ -1069,7 +1114,8 @@
       "right": "thin",
       "top": "thin",
       "bottom": "thin"
-    }
+    },
+    "room": "102E"
   },
   {
     "type": "merged",
@@ -1085,7 +1131,8 @@
       "right": "thin",
       "top": "thin",
       "bottom": "thin"
-    }
+    },
+    "room": "102P"
   },
   {
     "type": "merged",
@@ -1101,7 +1148,8 @@
       "right": "thin",
       "top": "thin",
       "bottom": "thin"
-    }
+    },
+    "room": "102B"
   },
   {
     "type": "merged",
@@ -1117,7 +1165,8 @@
       "right": "thin",
       "top": "thin",
       "bottom": "thin"
-    }
+    },
+    "room": "102M"
   },
   {
     "type": "merged",
@@ -1133,7 +1182,8 @@
       "right": "thin",
       "top": "thin",
       "bottom": "thin"
-    }
+    },
+    "room": "102A"
   },
   {
     "type": "merged",
@@ -1149,7 +1199,8 @@
       "right": null,
       "top": null,
       "bottom": null
-    }
+    },
+    "room": "Made up desk - Damian Lenzo"
   },
   {
     "type": "merged",
@@ -1165,7 +1216,8 @@
       "right": "thin",
       "top": "thin",
       "bottom": "thin"
-    }
+    },
+    "room": "PTR 384 Printer Serial"
   },
   {
     "type": "merged",
@@ -1181,7 +1233,8 @@
       "right": "thin",
       "top": "thin",
       "bottom": "thin"
-    }
+    },
+    "room": "Case Study Room 142"
   },
   {
     "type": "merged",
@@ -1197,7 +1250,8 @@
       "right": "thin",
       "top": "thin",
       "bottom": "thin"
-    }
+    },
+    "room": "WC"
   },
   {
     "type": "merged",
@@ -1213,7 +1267,8 @@
       "right": "thin",
       "top": "thin",
       "bottom": "thin"
-    }
+    },
+    "room": "WC"
   },
   {
     "type": "merged",
@@ -1229,7 +1284,8 @@
       "right": "thin",
       "top": "thin",
       "bottom": "thin"
-    }
+    },
+    "room": "Kitchen"
   },
   {
     "type": "merged",
@@ -1245,7 +1301,8 @@
       "right": "thin",
       "top": "thin",
       "bottom": "thin"
-    }
+    },
+    "room": "111"
   },
   {
     "type": "merged",
@@ -1261,7 +1318,8 @@
       "right": "thin",
       "top": "thin",
       "bottom": "thin"
-    }
+    },
+    "room": "112"
   },
   {
     "type": "merged",
@@ -1277,7 +1335,8 @@
       "right": "thin",
       "top": "thin",
       "bottom": "thin"
-    }
+    },
+    "room": "114"
   },
   {
     "type": "merged",
@@ -1293,7 +1352,8 @@
       "right": "thin",
       "top": "thin",
       "bottom": "thin"
-    }
+    },
+    "room": "116"
   },
   {
     "type": "merged",
@@ -1325,7 +1385,8 @@
       "right": "thin",
       "top": "thin",
       "bottom": "thin"
-    }
+    },
+    "room": "110"
   },
   {
     "type": "merged",
@@ -1341,7 +1402,8 @@
       "right": "thin",
       "top": "thin",
       "bottom": "thin"
-    }
+    },
+    "room": "127"
   },
   {
     "type": "merged",
@@ -1357,7 +1419,8 @@
       "right": "thin",
       "top": "thin",
       "bottom": null
-    }
+    },
+    "room": "128"
   },
   {
     "type": "merged",
@@ -1373,7 +1436,8 @@
       "right": "thin",
       "top": "thin",
       "bottom": "thin"
-    }
+    },
+    "room": "129"
   },
   {
     "type": "merged",
@@ -1389,6 +1453,7 @@
       "right": "thin",
       "top": "thin",
       "bottom": "thin"
-    }
+    },
+    "room": "132"
   }
 ]

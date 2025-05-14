@@ -13,7 +13,8 @@
       "right": "thin",
       "top": "thin",
       "bottom": "thin"
-    }
+    },
+    "room": "2222L"
   },
   {
     "type": "merged",
@@ -29,7 +30,8 @@
       "right": "thin",
       "top": "thin",
       "bottom": "thin"
-    }
+    },
+    "room": "2201"
   },
   {
     "type": "merged",
@@ -45,7 +47,8 @@
       "right": "thin",
       "top": "thin",
       "bottom": "thin"
-    }
+    },
+    "room": "2223"
   },
   {
     "type": "merged",
@@ -61,7 +64,8 @@
       "right": "thin",
       "top": "thin",
       "bottom": "thin"
-    }
+    },
+    "room": "2212"
   },
   {
     "type": "merged",
@@ -77,7 +81,8 @@
       "right": "thin",
       "top": "thin",
       "bottom": "thin"
-    }
+    },
+    "room": "2211"
   },
   {
     "type": "merged",
@@ -93,7 +98,8 @@
       "right": "thin",
       "top": "thin",
       "bottom": "thin"
-    }
+    },
+    "room": "2209"
   },
   {
     "type": "merged",
@@ -109,7 +115,8 @@
       "right": "thin",
       "top": "thin",
       "bottom": "thin"
-    }
+    },
+    "room": "2207"
   },
   {
     "type": "merged",
@@ -125,7 +132,8 @@
       "right": "thin",
       "top": "thin",
       "bottom": "thin"
-    }
+    },
+    "room": "l"
   },
   {
     "type": "merged",
@@ -141,7 +149,8 @@
       "right": "thin",
       "top": "thin",
       "bottom": "thin"
-    }
+    },
+    "room": "2225"
   },
   {
     "type": "merged",
@@ -157,7 +166,8 @@
       "right": "thin",
       "top": "thin",
       "bottom": "thin"
-    }
+    },
+    "room": "2224"
   },
   {
     "type": "merged",
@@ -173,7 +183,8 @@
       "right": "thin",
       "top": "thin",
       "bottom": "thin"
-    }
+    },
+    "room": "2205"
   },
   {
     "type": "merged",
@@ -189,7 +200,8 @@
       "right": "thin",
       "top": "thin",
       "bottom": "thin"
-    }
+    },
+    "room": "2203"
   },
   {
     "type": "merged",
@@ -199,13 +211,14 @@
     "colEnd": 22,
     "content": "2226\n\nDave WEBB\nx7380\nKey Locker \n591624",
     "bgColor": "FFFFFF",
-    "comment": "[线程批注]\n\n你的Excel版本可读取此线程批注; 但如果在更新版本的Excel中打开文件，则对批注所作的任何改动都将被删除。了解详细信息: https://go.microsoft.com/fwlink/?linkid=870924\n\n注释:\n    Gayri Laud is arriving in Perth March 24th \nDave Webb to move into room 2214",
+    "comment": null,
     "border": {
       "left": "thin",
       "right": "thin",
       "top": "thin",
       "bottom": "thin"
-    }
+    },
+    "room": "2226"
   },
   {
     "type": "merged",
@@ -221,7 +234,8 @@
       "right": "thin",
       "top": "thin",
       "bottom": "thin"
-    }
+    },
+    "room": "2229"
   },
   {
     "type": "merged",
@@ -237,7 +251,8 @@
       "right": "thin",
       "top": "thin",
       "bottom": "thin"
-    }
+    },
+    "room": "2228"
   },
   {
     "type": "merged",
@@ -253,7 +268,8 @@
       "right": "thin",
       "top": "thin",
       "bottom": "thin"
-    }
+    },
+    "room": "2227"
   },
   {
     "type": "merged",
@@ -269,7 +285,8 @@
       "right": "thin",
       "top": "thin",
       "bottom": "thin"
-    }
+    },
+    "room": "2213F"
   },
   {
     "type": "merged",
@@ -285,7 +302,8 @@
       "right": "medium",
       "top": "thin",
       "bottom": "medium"
-    }
+    },
+    "room": "2213G"
   },
   {
     "type": "merged",
@@ -301,7 +319,8 @@
       "right": "thin",
       "top": null,
       "bottom": "thin"
-    }
+    },
+    "room": "2213I"
   },
   {
     "type": "merged",
@@ -317,7 +336,8 @@
       "right": "medium",
       "top": "thin",
       "bottom": "medium"
-    }
+    },
+    "room": "2213H"
   },
   {
     "type": "merged",
@@ -333,7 +353,8 @@
       "right": "thin",
       "top": "thin",
       "bottom": "thin"
-    }
+    },
+    "room": "2213A"
   },
   {
     "type": "merged",
@@ -349,7 +370,8 @@
       "right": "thin",
       "top": "thin",
       "bottom": "thin"
-    }
+    },
+    "room": "2210"
   },
   {
     "type": "merged",
@@ -365,7 +387,8 @@
       "right": "thin",
       "top": "thin",
       "bottom": "thin"
-    }
+    },
+    "room": "2208"
   },
   {
     "type": "merged",
@@ -381,7 +404,8 @@
       "right": "thin",
       "top": "thin",
       "bottom": "thin"
-    }
+    },
+    "room": "2206"
   },
   {
     "type": "merged",
@@ -397,7 +421,8 @@
       "right": "thin",
       "top": "thin",
       "bottom": "thin"
-    }
+    },
+    "room": "2200"
   },
   {
     "type": "merged",
@@ -413,7 +438,8 @@
       "right": "thin",
       "top": "thin",
       "bottom": "thin"
-    }
+    },
+    "room": "2202"
   },
   {
     "type": "merged",
@@ -429,7 +455,8 @@
       "right": "thin",
       "top": "thin",
       "bottom": "thin"
-    }
+    },
+    "room": "2204"
   },
   {
     "type": "merged",
@@ -445,7 +472,8 @@
       "right": "thin",
       "top": "thin",
       "bottom": "thin"
-    }
+    },
+    "room": "2222G"
   },
   {
     "type": "merged",
@@ -461,7 +489,8 @@
       "right": "thin",
       "top": "thin",
       "bottom": "thin"
-    }
+    },
+    "room": "2222H"
   },
   {
     "type": "merged",
@@ -477,7 +506,8 @@
       "right": "thin",
       "top": "thin",
       "bottom": "thin"
-    }
+    },
+    "room": "2222P"
   },
   {
     "type": "merged",
@@ -487,13 +517,14 @@
     "colEnd": 12,
     "content": "2222M  \n\nXiaoling Guo\nx2892        \n",
     "bgColor": "FFFFFF",
-    "comment": "[线程批注]\n\n你的Excel版本可读取此线程批注; 但如果在更新版本的Excel中打开文件，则对批注所作的任何改动都将被删除。了解详细信息: https://go.microsoft.com/fwlink/?linkid=870924\n\n注释:\n    Completes Jan 2027. NB: does not use pod",
+    "comment": null,
     "border": {
       "left": "thin",
       "right": "thin",
       "top": "thin",
       "bottom": "thin"
-    }
+    },
+    "room": "2222M"
   },
   {
     "type": "merged",
@@ -525,7 +556,8 @@
       "right": "thin",
       "top": "thin",
       "bottom": null
-    }
+    },
+    "room": "2213E"
   },
   {
     "type": "merged",
@@ -535,13 +567,14 @@
     "colEnd": 16,
     "content": "2213J\n\nBenjamin Lau\n x5880",
     "bgColor": "FFFFFF",
-    "comment": "[线程批注]\n\n你的Excel版本可读取此线程批注; 但如果在更新版本的Excel中打开文件，则对批注所作的任何改动都将被删除。了解详细信息: https://go.microsoft.com/fwlink/?linkid=870924\n\n注释:\n    Benjamin Lau\nBachelor of Philosophy student research placement\n19/06/2024 - 09/09/2024\nPaul Harrigan Student",
+    "comment": null,
     "border": {
       "left": "thin",
       "right": "medium",
       "top": "thin",
       "bottom": "medium"
-    }
+    },
+    "room": "2213J"
   },
   {
     "type": "merged",
@@ -557,7 +590,8 @@
       "right": "thin",
       "top": "thin",
       "bottom": "thin"
-    }
+    },
+    "room": "2217"
   },
   {
     "type": "merged",
@@ -573,7 +607,8 @@
       "right": "thin",
       "top": "thin",
       "bottom": "thin"
-    }
+    },
+    "room": "2216"
   },
   {
     "type": "merged",
@@ -589,7 +624,8 @@
       "right": "thin",
       "top": "thin",
       "bottom": "thin"
-    }
+    },
+    "room": "2215"
   },
   {
     "type": "merged",
@@ -605,7 +641,8 @@
       "right": "thin",
       "top": "thin",
       "bottom": "thin"
-    }
+    },
+    "room": "2214"
   },
   {
     "type": "merged",
@@ -621,7 +658,8 @@
       "right": "thin",
       "top": "thin",
       "bottom": "thin"
-    }
+    },
+    "room": "2222N"
   },
   {
     "type": "merged",
@@ -637,7 +675,8 @@
       "right": "thin",
       "top": "thin",
       "bottom": "thin"
-    }
+    },
+    "room": "2222O"
   },
   {
     "type": "merged",
@@ -653,7 +692,8 @@
       "right": "thin",
       "top": "thin",
       "bottom": "thin"
-    }
+    },
+    "room": "2222I"
   },
   {
     "type": "merged",
@@ -669,7 +709,8 @@
       "right": "thin",
       "top": "thin",
       "bottom": "thin"
-    }
+    },
+    "room": "2222J"
   },
   {
     "type": "merged",
@@ -685,7 +726,8 @@
       "right": "thin",
       "top": "thin",
       "bottom": "thin"
-    }
+    },
+    "room": "2222K"
   },
   {
     "type": "merged",
@@ -701,7 +743,8 @@
       "right": "thin",
       "top": "thin",
       "bottom": "thin"
-    }
+    },
+    "room": "2222A"
   },
   {
     "type": "merged",
@@ -717,7 +760,8 @@
       "right": "thin",
       "top": "thin",
       "bottom": "thin"
-    }
+    },
+    "room": "2222B"
   },
   {
     "type": "merged",
@@ -733,7 +777,8 @@
       "right": "thin",
       "top": "thin",
       "bottom": "thin"
-    }
+    },
+    "room": "2222C"
   },
   {
     "type": "merged",
@@ -749,7 +794,8 @@
       "right": "thin",
       "top": "thin",
       "bottom": "thin"
-    }
+    },
+    "room": "2222D"
   },
   {
     "type": "merged",
@@ -765,7 +811,8 @@
       "right": "medium",
       "top": "thin",
       "bottom": "medium"
-    }
+    },
+    "room": "2222E"
   },
   {
     "type": "merged",
@@ -781,7 +828,8 @@
       "right": "thin",
       "top": "thin",
       "bottom": "thin"
-    }
+    },
+    "room": "2222F"
   },
   {
     "type": "merged",
@@ -797,7 +845,8 @@
       "right": "thin",
       "top": "thin",
       "bottom": "thin"
-    }
+    },
+    "room": "PTR 396 Printer Serial"
   },
   {
     "type": "merged",
@@ -813,7 +862,8 @@
       "right": "thin",
       "top": "thin",
       "bottom": "thin"
-    }
+    },
+    "room": "WC"
   },
   {
     "type": "merged",
@@ -829,7 +879,8 @@
       "right": "thin",
       "top": "thin",
       "bottom": "thin"
-    }
+    },
+    "room": "2213B"
   },
   {
     "type": "merged",
@@ -845,7 +896,8 @@
       "right": "thin",
       "top": "thin",
       "bottom": "thin"
-    }
+    },
+    "room": "2213C"
   },
   {
     "type": "merged",
@@ -861,7 +913,8 @@
       "right": "thin",
       "top": "thin",
       "bottom": "thin"
-    }
+    },
+    "room": "2213M"
   },
   {
     "type": "merged",
@@ -877,7 +930,8 @@
       "right": "thin",
       "top": "thin",
       "bottom": "thin"
-    }
+    },
+    "room": "2213L"
   },
   {
     "type": "merged",
@@ -893,7 +947,8 @@
       "right": "medium",
       "top": "thin",
       "bottom": "medium"
-    }
+    },
+    "room": "2213D"
   },
   {
     "type": "merged",
@@ -909,7 +964,8 @@
       "right": "medium",
       "top": "thin",
       "bottom": "medium"
-    }
+    },
+    "room": "2213K"
   },
   {
     "type": "merged",
@@ -925,7 +981,8 @@
       "right": "thin",
       "top": "thin",
       "bottom": "thin"
-    }
+    },
+    "room": "2213N"
   },
   {
     "type": "merged",
@@ -941,7 +998,8 @@
       "right": "thin",
       "top": "thin",
       "bottom": "thin"
-    }
+    },
+    "room": "Print Room"
   },
   {
     "type": "merged",
@@ -957,6 +1015,7 @@
       "right": "thin",
       "top": "thin",
       "bottom": "thin"
-    }
+    },
+    "room": "Kitchen"
   }
 ]

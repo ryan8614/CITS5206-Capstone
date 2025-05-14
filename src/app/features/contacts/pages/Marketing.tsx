@@ -5,7 +5,7 @@ import { HotTable } from '@handsontable/react';
 import { registerAllModules } from 'handsontable/registry';
 import { useFilteredContacts } from '@/app/features/contacts/components/useFilteredContacts';
 import { coloredRowRenderer } from '@/app/features/contacts/components/coloredRowRenderer';
-import { usePreventScrollBleed } from '@/app/features/contacts/components/usePreventScrollBleed';
+import { usePreventScrollBleed } from '@/components/usePreventScrollBleed';
 import { saveTableData } from '@/app/features/contacts/components/saveTableData';
 import 'handsontable/styles/handsontable.min.css';
 import 'handsontable/styles/ht-theme-main.min.css';
@@ -31,7 +31,7 @@ export default function Marketing() {
           type="primary"
           onClick={() => {
             console.log('Saving Marketing staff data');
-            saveTableData(hotRef, data, classification);
+            saveTableData(hotRef, classification);
           }}
         >
           Save Changes

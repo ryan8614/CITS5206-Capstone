@@ -1,5 +1,6 @@
 import Handsontable from 'handsontable';
 import { StaffEntry, ContactData } from './types';  
+
 export function groupBySource(data: StaffEntry[]): ContactData {
     const academic: Omit<StaffEntry, 'source'>[] = [];
     const research: Omit<StaffEntry, 'source'>[] = [];
@@ -23,7 +24,7 @@ export function groupBySource(data: StaffEntry[]): ContactData {
 
 export async function saveTableData(
     hotRef: React.RefObject<any>,
-    data: StaffEntry[],
+    // data: StaffEntry[],
     classification: string
     ): Promise<number> {
     const hotInstance = hotRef.current?.hotInstance as Handsontable | undefined;
@@ -55,7 +56,7 @@ export async function saveTableData(
     const grouped = groupBySource(result);
 
     try {
-        const res = await fetch('/api/save-data', {
+        const res = await fetch('/api/save-contact-data', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(grouped),
