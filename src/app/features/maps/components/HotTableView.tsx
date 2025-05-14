@@ -5,6 +5,7 @@ import React, { useEffect, useState } from "react";
 import { HotTable } from "@handsontable/react";
 import Handsontable from "handsontable";
 import "handsontable/dist/handsontable.full.min.css";
+import { convertRowHeights, convertColWidths } from "@/app/features/maps/components/convertRowHeights";
 
 export interface CellMeta {
   rowStart: number;
@@ -29,6 +30,7 @@ export interface LayoutMeta {
 interface Props {
   cellData: CellMeta[];
   layoutData: LayoutMeta;
+  onUpdate?: (cells: CellMeta[], layout: LayoutMeta) => void;
 }
 
 const HotTableView: React.FC<Props> = ({ cellData, layoutData }) => {
@@ -83,6 +85,8 @@ const HotTableView: React.FC<Props> = ({ cellData, layoutData }) => {
       comments={true}
       height="100%"
       width="100%"
+      rowHeights={layoutData ? convertRowHeights(layoutData.row_heights) : undefined}
+      colWidths={layoutData ? convertColWidths(layoutData.column_widths) : undefined}
       cells={(row, col) => cellMeta[`${row},${col}`] || {}}
     />
   );

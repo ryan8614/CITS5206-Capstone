@@ -31,79 +31,111 @@ const App: React.FC = () => {
             onClick={({ key }) => setSelectedKey(key)}
             items={[
                 {
-                key: '1',
-                icon: <FolderOutlined/>,
-                label: 'Accommodation List',
-                children: [
+                  key: '1',
+                  icon: <FolderOutlined/>,
+                  label: 'Accommodation Map',
+                  children: [
+                      {
+                        key: '11',
+                        icon: <FileExcelOutlined />,
+                        label: 'Ground Floor - CSI',
+                      },
+                      {
+                        key: '12',
+                        icon: <FileExcelOutlined />,
+                        label: 'Ground Floor - DA',
+                      },
+                      {
+                        key: '13',
+                        icon: <FileExcelOutlined />,
+                        label: 'Mgmt & Orgs',
+                      },
+                      {
+                        key: '14',
+                        icon: <FileExcelOutlined />,
+                        label: 'Economics',
+                      },
+                      {
+                        key: '15',
+                        icon: <FileExcelOutlined />,
+                        label: 'Marketing',
+                      },
+                      {
+                        key: '16',
+                        icon: <FileExcelOutlined />,
+                        label: 'Accounting & Finance',
+                      },
+                      {
+                        key: '17',
+                        icon: <FileExcelOutlined />,
+                        label: 'Deanery-LVL 2',
+                      },
+                    ]
+                },
+                {
+                  key: '2',
+                  icon: <FolderOutlined/>,
+                  label: 'Contact List',
+                  children: [
+                      {
+                        key: '21',
+                        icon: <FileTextOutlined/>,
+                        label: 'AccFin',
+                      },
+                      {
+                        key: '22',
+                        icon: <FileTextOutlined/>,
+                        label: 'Economics',
+                      },
+                      {
+                        key: '23',
+                        icon: <FileTextOutlined/>,
+                        label: 'Marketing',
+                      },
+                      {
+                        key: '24',
+                        icon: <FileTextOutlined/>,
+                        label: 'MO',
+                      },
+                      {
+                        key: '25',
+                        icon: <FileTextOutlined/>,
+                        label: 'Dean\'s Office',
+                      },
+                    ]
+                },
+                {
+                  key: '3',
+                  icon: <FolderOutlined/>,
+                  label: 'Student List',
+                  children: [
                     {
-                      key: '11',
-                      icon: <FileExcelOutlined />,
-                      label: 'Dround Floor - CSI',
-                    },
-                    {
-                      key: '12',
-                      icon: <FileExcelOutlined />,
-                      label: 'Ground Floor - DA',
-                    },
-                    {
-                      key: '13',
-                      icon: <FileExcelOutlined />,
+                      key: '31',
+                      icon: <FileTextOutlined/>,
                       label: 'Mgmt & Orgs',
                     },
                     {
-                      key: '14',
-                      icon: <FileExcelOutlined />,
+                      key: '32',
+                      icon: <FileTextOutlined/>,
                       label: 'Economics',
                     },
                     {
-                      key: '15',
-                      icon: <FileExcelOutlined />,
+                      key: '33',
+                      icon: <FileTextOutlined/>,
                       label: 'Marketing',
                     },
                     {
-                      key: '16',
-                      icon: <FileExcelOutlined />,
+                      key: '34',
+                      icon: <FileTextOutlined/>,
                       label: 'Accounting & Finance',
                     },
                     {
-                      key: '17',
-                      icon: <FileExcelOutlined />,
-                      label: 'Deanery-LVL 2',
+                      key: '35',
+                      icon: <FileTextOutlined/>,
+                      label: 'Ground Floor - DA',
                     },
                   ]
-                },
-                {
-                key: '2',
-                icon: <FolderOutlined/>,
-                label: 'Contact List',
-                children: [
-                    {
-                      key: '21',
-                      icon: <FileTextOutlined/>,
-                      label: 'AccFin',
-                    },
-                    {
-                      key: '22',
-                      icon: <FileTextOutlined/>,
-                      label: 'Economics',
-                    },
-                    {
-                      key: '23',
-                      icon: <FileTextOutlined/>,
-                      label: 'Marketing',
-                    },
-                    {
-                      key: '24',
-                      icon: <FileTextOutlined/>,
-                      label: 'MO',
-                    },
-                    {
-                      key: '25',
-                      icon: <FileTextOutlined/>,
-                      label: 'Dean\'s Office',
-                    },
-                  ]
-                },
+                }
             ]}
           />
         </Sider>

@@ -1,19 +1,19 @@
-'use client'
+'use client';
 
 import React from'react';
 import HotTableView from "@/app/features/maps/components/HotTableView";
 import type { CellMeta, LayoutMeta } from "@/app/features/maps/components/HotTableView";
 import { useState, useEffect } from "react";
 
-export default function Economics_Map() {
+export default function GF_CSI() {
 
   const [cellData, setCellData] = useState<CellMeta[] | null>(null);
     const [layoutData, setLayoutData] = useState<LayoutMeta | null>(null);
   
     useEffect(() => {
       async function loadData() {
-        const cellRes = await fetch("/data/maps/cells/economics_cells.json");
-        const layoutRes = await fetch("/data/maps/layouts/economics_layout.json");
+        const cellRes = await fetch("/data/maps/cells/gf_csi_cells.json");
+        const layoutRes = await fetch("/data/maps/layouts/gf_csi_layout.json");
   
         const cellJson = await cellRes.json();
         const layoutJson = await layoutRes.json();
@@ -32,7 +32,7 @@ export default function Economics_Map() {
           method: "POST",
           headers: { "Content-Type": "application/json" },
           body: JSON.stringify({
-            sheetName: "economics",
+            sheetName: "gf_csi",
             cellData,
             layoutData,
           }),
@@ -48,7 +48,7 @@ export default function Economics_Map() {
   return (
     <div className="flex flex-col w-full h-full overflow-hidden">
       <div className='flex justify-between items-center mb-4'>
-        <h2 className="text-xl font-bold mb-4">Economics</h2>
+        <h2 className="text-xl font-bold mb-4">Ground Floor - CSI</h2>
         <button
           onClick={handleSave}
           className="px-4 py-2 bg-blue-600 text-white rounded hover:bg-blue-700"

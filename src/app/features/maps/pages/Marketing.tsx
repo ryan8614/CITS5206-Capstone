@@ -2,22 +2,75 @@
 
 import React from'react';
 import HotTableView from "@/app/features/maps/components/HotTableView";
-import cellDataJson from "@/app/features/maps/data/Marketing_cells.json";
-import layoutDataJson from "@/app/features/maps/data/Marketing_layout.json";
 import type { CellMeta, LayoutMeta } from "@/app/features/maps/components/HotTableView";
+import { useState, useEffect } from "react";
 
-const cellData = cellDataJson as CellMeta[];
-const layoutData = layoutDataJson as LayoutMeta;
 
 export default function Marketing_Map() {
+
+  const [cellData, setCellData] = useState<CellMeta[] | null>(null);
+    const [layoutData, setLayoutData] = useState<LayoutMeta | null>(null);
+  
+    useEffect(() => {
+      async function loadData() {
+        const cellRes = await fetch("/data/maps/cells/marketing_cells.json");
+        const layoutRes = await fetch("/data/maps/layouts/marketing_layout.json");
+  
+        const cellJson = await cellRes.json();
+        const layoutJson = await layoutRes.json();
+  
+        setCellData(cellJson);
+        setLayoutData(layoutJson);
+      }
+  
+      loadData();
+    }, []);
+  
+    const handleSave = async () => {
+      if (!cellData || !layoutData) return;
+      try {
+        const res = await fetch("/api/save-map", {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({
+            sheetName: "marketing",
+            cellData,
+            layoutData,
+          }),
+        });
+        if (!res.ok) throw new Error("Failed to save data");
+        alert("Data saved successfully!");
+      } catch (err) {
+        console.error(err);
+        alert("Failed to save data. Please try again later.");
+      }
+    };
+
   return (
     <div className="flex flex-col w-full h-full overflow-hidden">
-      <h2 className="text-xl font-bold mb-4">Marketing</h2>
+      <div className='flex justify-between items-center mb-4'>
+        <h2 className="text-xl font-bold mb-4">Marketing</h2>
+        <button
+          onClick={handleSave}
+          className="px-4 py-2 bg-blue-600 text-white rounded hover:bg-blue-700"
+        >
+          Save
+        </button>
+      </div>
+    
+      {cellData && layoutData ? (
+        <HotTableView
+          cellData={cellData}
+          layoutData={layoutData}
+          onUpdate={(newCells, newLayout) => {
+            setCellData(newCells);
+            setLayoutData(newLayout);
+          }}
+        />
+      ) : (
+        <p>Loading...</p>
+      )}
 
-      <HotTableView
-        cellData={cellData}
-        layoutData={layoutData}
-      />
     </div>
   );
 }
