@@ -13,22 +13,22 @@ import { Button } from 'antd';
 registerAllModules();
 
 export default function AccFin_S() {
-  const data = useFilteredStudents('Accounting & Finance');
+  const data = useFilteredStudents('AccFin');
   const containerRef = useRef<HTMLDivElement>(null);
   const hotRef = useRef<any>(null);
 
   // prevent scroll bleed
   usePreventScrollBleed(containerRef as RefObject<HTMLDivElement>, '.ht_master .wtHolder');
-  const classification = 'Accounting & Finance'
+  const classification = 'AccFin'
 
   return (
     <div className="h-auto p-4 bg-gray-100">
       <div className="flex justify-between items-center mb-4">
-        <h2 className="text-xl font-bold">Accounting and Finance Staff</h2>
+        <h2 className="text-xl font-bold">AccFin Staff</h2>
         <Button
           type="primary"
           onClick={() => {
-            console.log('Saving Accounting and Finance data');
+            console.log('Saving AccFin data');
             saveStudentsData(hotRef, classification);
           }}
         >

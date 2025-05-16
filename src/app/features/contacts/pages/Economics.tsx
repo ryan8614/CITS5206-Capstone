@@ -15,13 +15,13 @@ import { Button } from 'antd';
 registerAllModules();
 
 export default function Economics() {
-  const data = useFilteredContacts('ECONOMICS');
+  const data = useFilteredContacts('Economics');
   const containerRef = useRef<HTMLDivElement>(null);
   const hotRef = useRef<any>(null);
 
   // prevent scroll bleed
   usePreventScrollBleed(containerRef as RefObject<HTMLDivElement>, '.ht_master .wtHolder');
-  const classification = 'ECONOMICS'
+  const classification = 'Economics'
 
   return (
     <div className="h-auto p-4 bg-gray-100">

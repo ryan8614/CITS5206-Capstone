@@ -13,13 +13,13 @@ import { Button } from 'antd';
 registerAllModules();
 
 export default function GF_DA_S() {
-  const data = useFilteredStudents('Ground Floor - DA');
+  const data = useFilteredStudents('GF-DA');
   const containerRef = useRef<HTMLDivElement>(null);
   const hotRef = useRef<any>(null);
 
   // prevent scroll bleed
   usePreventScrollBleed(containerRef as RefObject<HTMLDivElement>, '.ht_master .wtHolder');
-  const classification = 'Ground Floor - DA'
+  const classification = "GF-DA"
 
   return (
     <div className="h-auto p-4 bg-gray-100">
