@@ -1,9 +1,23 @@
-<!-- START doctoc generated TOC please keep comment here to allow auto update -->
-<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
-**Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
+# CITS5206 Capstone - Office Contacts: Sync Excels
+
+Information Technology Capstone Project -- SEM 1 2025 Group 9
+
+## Group Members
+
+| No.       | Student Name         | Student Number     |
+|:-------------|:--------------:|---------------:|
+| 1      | Ryan Chang    | 23691038   |
+| 2      | Jasmine Zhang     | 23941952 |
+| 3    | Yifei Tang  |  23254894    |
+| 4        | Chuan Wang     | 24035732|
+| 5    | Yumin Zeng  | 24073955    |
+
+
+## Table of Contents
 
 - [CITS5206 Capstone - Office Contacts: Sync Excels](#cits5206-capstone---office-contacts-sync-excels)
   - [Group Members](#group-members)
+  - [Table of Contents](#table-of-contents)
   - [Overview](#overview)
   - [System Architecture](#system-architecture)
     - [Client Side](#client-side)
@@ -34,21 +48,7 @@
   - [Learn More](#learn-more)
   - [License](#license)
 
-<!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
-# CITS5206 Capstone - Office Contacts: Sync Excels
-
-Information Technology Capstone Project -- SEM 1 2025 Group 9
-
-## Group Members
-
-| No.       | Student Name         | Student Number     |
-|:-------------|:--------------:|---------------:|
-| 1      | Ryan Chang    | 23691038   |
-| 2      | Jasmine Zhang     | 23941952 |
-| 3    | Yifei Tang  |  23254894    |
-| 4        | Chuan Wang     | 24035732|
-| 5    | Yumin Zeng  | 24073955    |
 
 ## Overview
 
@@ -138,6 +138,7 @@ yarn start
 
 ## Project Structure
 
+```bash
 📁 Auto_notify
 ├── Notebook.md                # Notes related to the auto notification process
 ├── check_notify.py           # Script for checking notification conditions
@@ -200,6 +201,7 @@ yarn start
 └── upload_route.test.tsx     # Tests for upload API endpoints
 
 📄 README.md                   # Project overview and usage instructions
+```
 
 
 ## Usage
