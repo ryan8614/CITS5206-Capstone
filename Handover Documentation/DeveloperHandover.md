@@ -79,6 +79,10 @@ yarn start
 /tests                 # Jest test files
 ```
 
+## Design Changes
+The initial plan of this project was to create the accommodation using Bootstrap and allow users to upload excel files to update the accommodation map. However, during development, we discovered that this plan is not good enough to ensure a more flexible and responsive update. So we decided to change the work flow to use JSON and Handsontable to build accommodation maps and contact lists. This allows us to create a more flexible and responsive update. More details can be found in DesignChanges.md under main branch.
+
+## Detailed Handover Documents
 Detailed handover documents of key features, components, APIs, scripts etc. are listed within each folder as below:
 ```
 Auto_notify/auto_notify.md
