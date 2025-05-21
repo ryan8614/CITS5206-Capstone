@@ -80,7 +80,13 @@ yarn start
 ```
 
 ## Design Changes
-The initial plan of this project was to create the accommodation using Bootstrap and allow users to upload excel files to update the accommodation map. However, during development, we discovered that this plan is not good enough to ensure a more flexible and responsive update. So we decided to change the work flow to use JSON and Handsontable to build accommodation maps and contact lists. This allows us to create a more flexible and responsive update. More details can be found in DesignChanges.md under main branch.
+During the initial planning phase, our approach was to build the accommodation map using Bootstrap and allow users to upload Excel files to update the map dynamically. However, as development progressed, we identified several limitations with this approach, particularly in terms of interactivity, flexibility, and maintaining responsiveness across different screen sizes.
+
+To address these challenges, we revised the workflow and adopted a new strategy using JSON data structures and Handsontable, a JavaScript-based spreadsheet component. This updated solution enables a more dynamic, interactive, and maintainable system for managing both the accommodation layout and the associated contact lists.
+
+This change significantly improves the system's scalability and user experience, particularly when handling frequent updates or custom data views.
+
+For further technical details and rationale behind this design decision, please refer to DesignChanges.md in the main branch of the repository.
 
 ## Detailed Handover Documents
 Detailed handover documents of key features, components, APIs, scripts etc. are listed within each folder as below:
@@ -113,7 +119,7 @@ tests/tests.md
 ## Troubleshooting
 - Check logs for errors.
 - Ensure database migrations are up to date.
-- For file upload issues, verify MIME types and file size limits.
+
 
 ## Further Reading
 - [Next.js Documentation](https://nextjs.org/docs)
