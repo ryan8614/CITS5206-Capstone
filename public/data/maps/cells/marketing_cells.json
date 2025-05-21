@@ -5,7 +5,8 @@
     "colStart": 14,
     "rowEnd": 27,
     "colEnd": 16,
-    "content": "2222L\n\nMengmei Chen (Monica)\nx5882\n         ",
+    "content": "",
+  	"keylocker": "",
     "bgColor": "FFFFFF",
     "comment": null,
     "border": {
@@ -22,7 +23,8 @@
     "colStart": 37,
     "rowEnd": 11,
     "colEnd": 39,
-    "content": "2201\n\nNicole Ye Yang \nx5905\nKey Locker \n591630",
+    "content": "",
+  	"keylocker": "591630",
     "bgColor": "FFFFFF",
     "comment": null,
     "border": {
@@ -39,7 +41,8 @@
     "colStart": 19,
     "rowEnd": 14,
     "colEnd": 22,
-    "content": "2223\n\nLars Casper Ferm \nx5873\nKey Locker \n591627",
+    "content": "",
+  	"keylocker": "591627",
     "bgColor": "FFFFFF",
     "comment": "\n\n\n",
     "border": {
@@ -56,7 +59,8 @@
     "colStart": 19,
     "rowEnd": 11,
     "colEnd": 21,
-    "content": "2212\n\nUwana Evers\n\nx5663 \nKey Locker \n591641",
+    "content": "",
+  	"keylocker": "591641",
     "bgColor": "FFFFFF",
     "comment": "Uwana - received keys\nMoving out to Daniel's office 2207",
     "border": {
@@ -73,7 +77,8 @@
     "colStart": 22,
     "rowEnd": 11,
     "colEnd": 24,
-    "content": "2211\n\nStanley Yu\nx5886  \nKey Locker \n591640",
+    "content": "",
+  	"keylocker": "591640",
     "bgColor": "FFFFFF",
     "comment": null,
     "border": {
@@ -90,7 +95,8 @@
     "colStart": 25,
     "rowEnd": 11,
     "colEnd": 27,
-    "content": "2209\n\nFang \nLIU\n x3506 \nKey Locker\n 591638",
+    "content": "",
+  	"keylocker": "591638",
     "bgColor": "FFFFFF",
     "comment": null,
     "border": {
@@ -107,7 +113,8 @@
     "colStart": 28,
     "rowEnd": 11,
     "colEnd": 30,
-    "content": "2207\n\nDaniel \nSCHEPIS\nx5657 \nKey Locker \n591636",
+    "content": "",
+  	"keylocker": "591636",
     "bgColor": "FFFFFF",
     "comment": "Vesna Pribicevic:\nMOVING OUT TO 2210",
     "border": {
@@ -124,7 +131,8 @@
     "colStart": 24,
     "rowEnd": 32,
     "colEnd": 38,
-    "content": "l",
+    "content": "",
+  	"keylocker": "",
     "bgColor": "FFFFFF",
     "comment": null,
     "border": {
@@ -141,7 +149,8 @@
     "colStart": 19,
     "rowEnd": 20,
     "colEnd": 22,
-    "content": "2225\nRosie PHAM\nx7620\nKey Locker \n591625",
+    "content": "",
+  	"keylocker": "591625",
     "bgColor": "FFFFFF",
     "comment": null,
     "border": {
@@ -158,7 +167,8 @@
     "colStart": 19,
     "rowEnd": 17,
     "colEnd": 22,
-    "content": "2224\n\nMila TARABASHKINA\nx1451 \nKey Locker \n591626",
+    "content": "",
+  	"keylocker": "591626",
     "bgColor": "FFFFFF",
     "comment": null,
     "border": {
@@ -175,7 +185,8 @@
     "colStart": 31,
     "rowEnd": 11,
     "colEnd": 33,
-    "content": "2205\n\nAntoine MUSU\nx1795\nKey Locker \n591634",
+    "content": "",
+  	"keylocker": "591634",
     "bgColor": "FFFFFF",
     "comment": null,
     "border": {
@@ -192,7 +203,8 @@
     "colStart": 34,
     "rowEnd": 11,
     "colEnd": 36,
-    "content": "2203\n\nAndreawan HONORA\nx7885  \nKey Locker \n591632",
+    "content": "",
+  	"keylocker": "591632",
     "bgColor": "FFFFFF",
     "comment": null,
     "border": {
@@ -209,7 +221,8 @@
     "colStart": 19,
     "rowEnd": 23,
     "colEnd": 22,
-    "content": "2226\n\nDave WEBB\nx7380\nKey Locker \n591624",
+    "content": "",
+  	"keylocker": "591624",
     "bgColor": "FFFFFF",
     "comment": null,
     "border": {
@@ -226,7 +239,8 @@
     "colStart": 19,
     "rowEnd": 32,
     "colEnd": 22,
-    "content": "2229\n\nJason Weismueller\nx6201\nKey Locker \n591620",
+    "content": "",
+  	"keylocker": "591620",
     "bgColor": "FFFFFF",
     "comment": null,
     "border": {
@@ -243,7 +257,8 @@
     "colStart": 19,
     "rowEnd": 29,
     "colEnd": 22,
-    "content": "2228\n\nSebastian VAN DOORN\nx5883 \nKey Locker \n591621",
+    "content": "",
+  	"keylocker": "591621",
     "bgColor": "FFFFFF",
     "comment": null,
     "border": {
@@ -260,7 +275,8 @@
     "colStart": 19,
     "rowEnd": 26,
     "colEnd": 22,
-    "content": "2227\n\nAva Yu\nx1414\nKey Locker  \n591623\n",
+    "content": "",
+  	"keylocker": "591623",
     "bgColor": "FFFFFF",
     "comment": null,
     "border": {
@@ -277,7 +293,8 @@
     "colStart": 18,
     "rowEnd": 3,
     "colEnd": 19,
-    "content": "2213F \n\nXiaonan Wen\nx4618",
+    "content": "",
+  	"keylocker": "",
     "bgColor": "FFFFFF",
     "comment": null,
     "border": {
@@ -294,7 +311,8 @@
     "colStart": 20,
     "rowEnd": 3,
     "colEnd": 21,
-    "content": "2213G\n\nEna Vejnovic\nx5684",
+    "content": "",
+  	"keylocker": "",
     "bgColor": "FFFFFF",
     "comment": null,
     "border": {
@@ -311,7 +329,8 @@
     "colStart": 18,
     "rowEnd": 5,
     "colEnd": 19,
-    "content": "2213I \n\nArslan Rafi -visiting\nx3976",
+    "content": "",
+  	"keylocker": "",
     "bgColor": "FFFFFF",
     "comment": null,
     "border": {
@@ -328,7 +347,8 @@
     "colStart": 20,
     "rowEnd": 5,
     "colEnd": 21,
-    "content": "2213H\n\nHOANG Thi Hong Hanh \nx5880",
+    "content": "",
+  	"keylocker": "",
     "bgColor": "FFFFFF",
     "comment": null,
     "border": {
@@ -345,7 +365,8 @@
     "colStart": 5,
     "rowEnd": 3,
     "colEnd": 6,
-    "content": "2213A \n\nTrinitaria Marlis Putri (Tari)\n",
+    "content": "",
+  	"keylocker": "",
     "bgColor": "FFFFFF",
     "comment": null,
     "border": {
@@ -362,7 +383,8 @@
     "colStart": 25,
     "rowEnd": 5,
     "colEnd": 27,
-    "content": "2210\n\nDaniel SCHEPIS\nx1438   \nKey Locker\n591639",
+    "content": "",
+  	"keylocker": "591639",
     "bgColor": "FFFFFF",
     "comment": null,
     "border": {
@@ -379,7 +401,8 @@
     "colStart": 28,
     "rowEnd": 5,
     "colEnd": 30,
-    "content": "2208\n\nSharon PURCHASE\nx1812  \nKey Locker \n591637",
+    "content": "",
+  	"keylocker": "591637",
     "bgColor": "FFFFFF",
     "comment": null,
     "border": {
@@ -396,7 +419,8 @@
     "colStart": 31,
     "rowEnd": 5,
     "colEnd": 33,
-    "content": "2206\n\nRichard GRUNER\nx5876   \nKey Locker 591635",
+    "content": "",
+  	"keylocker": "591635",
     "bgColor": "FFFFFF",
     "comment": null,
     "border": {
@@ -413,7 +437,8 @@
     "colStart": 41,
     "rowEnd": 7,
     "colEnd": 44,
-    "content": "2200\n\nMeeting Room",
+    "content": "",
+  	"keylocker": "",
     "bgColor": "FFFFFF",
     "comment": null,
     "border": {
@@ -422,7 +447,7 @@
       "top": "thin",
       "bottom": "thin"
     },
-    "room": "2200"
+    "room": "2200 Meeting Room"
   },
   {
     "type": "merged",
@@ -430,7 +455,8 @@
     "colStart": 37,
     "rowEnd": 5,
     "colEnd": 39,
-    "content": "2202\n\nJulie Lee \nx2912  \nKey Locker \n591631",
+    "content": "",
+  	"keylocker": "591631",
     "bgColor": "FFFFFF",
     "comment": null,
     "border": {
@@ -447,7 +473,8 @@
     "colStart": 34,
     "rowEnd": 5,
     "colEnd": 36,
-    "content": "2204\n\nJoanne SNEDDON\nx1727   \nKey Locker 591633",
+    "content": "",
+  	"keylocker": "591633",
     "bgColor": "FFFFFF",
     "comment": null,
     "border": {
@@ -464,7 +491,8 @@
     "colStart": 10,
     "rowEnd": 22,
     "colEnd": 12,
-    "content": "2222G \n \nLili Qiu\nx5877",
+    "content": "",
+  	"keylocker": "",
     "bgColor": "FFFFFF",
     "comment": "April Wen:\nHong Hanh wants to move in once LiLi finished",
     "border": {
@@ -481,7 +509,8 @@
     "colStart": 14,
     "rowEnd": 22,
     "colEnd": 16,
-    "content": "2222H   \n\nEry PRIMASKARA     \nx5878",
+    "content": "",
+  	"keylocker": "",
     "bgColor": "FFFFFF",
     "comment": null,
     "border": {
@@ -498,7 +527,8 @@
     "colStart": 14,
     "rowEnd": 32,
     "colEnd": 16,
-    "content": "2222P \n\nYing (Hermione) Zhou\nx5871",
+    "content": "",
+  	"keylocker": "",
     "bgColor": "FFFFFF",
     "comment": null,
     "border": {
@@ -515,7 +545,8 @@
     "colStart": 10,
     "rowEnd": 30,
     "colEnd": 12,
-    "content": "2222M  \n\nXiaoling Guo\nx2892        \n",
+    "content": "",
+  	"keylocker": "",
     "bgColor": "FFFFFF",
     "comment": null,
     "border": {
@@ -548,7 +579,8 @@
     "colStart": 15,
     "rowEnd": 3,
     "colEnd": 16,
-    "content": "   2213E  \n\nMeiju Fei    \nx1872",
+    "content": "",
+  	"keylocker": "",
     "bgColor": "FFFFFF",
     "comment": null,
     "border": {
@@ -565,7 +597,8 @@
     "colStart": 15,
     "rowEnd": 5,
     "colEnd": 16,
-    "content": "2213J\n\nBenjamin Lau\n x5880",
+    "content": "",
+  	"keylocker": "",
     "bgColor": "FFFFFF",
     "comment": null,
     "border": {
@@ -582,7 +615,8 @@
     "colStart": 5,
     "rowEnd": 11,
     "colEnd": 7,
-    "content": "2217\n\nOliver Rahn\nx1414  \nKey Locker \n501645",
+    "content": "",
+  	"keylocker": "501645",
     "bgColor": "FFFFFF",
     "comment": "April Wen:\n1.0 FXT contract\nBegin first week of July for 12 months\n",
     "border": {
@@ -599,7 +633,8 @@
     "colStart": 8,
     "rowEnd": 11,
     "colEnd": 10,
-    "content": "2216\n\nJill Sweeney, Louise Roberts, Greg Brush \nKey Locker \n591644",
+    "content": "",
+  	"keylocker": "591644",
     "bgColor": "FFFFFF",
     "comment": "Vesna Pribicevic:\nGreg Brush is moving in with Jill and Luise and the key to the office is provided to him",
     "border": {
@@ -616,7 +651,8 @@
     "colStart": 11,
     "rowEnd": 11,
     "colEnd": 13,
-    "content": "2215\n\nLlandis\nBarratt-Pugh\n x7210\n Key Locker \n591643",
+    "content": "",
+  	"keylocker": "591643",
     "bgColor": "FFFFFF",
     "comment": null,
     "border": {
@@ -633,7 +669,8 @@
     "colStart": 14,
     "rowEnd": 11,
     "colEnd": 16,
-    "content": "2214\n\nTim MAZZAROL x3981\nGeoff SOUTAR  x7885\nx5905  (old extension to move)\nKey Locker \n591642",
+    "content": "",
+  	"keylocker": "591642",
     "bgColor": "FFFFFF",
     "comment": "\n\"2201\n\nTim MAZZAROL x3981\nGeoff SOUTAR  x7885\nKey Locker \n591630\"\t\t\n\t\t\n\t\t\n\t\t",
     "border": {
@@ -650,7 +687,8 @@
     "colStart": 14,
     "rowEnd": 30,
     "colEnd": 16,
-    "content": "2222N  \n\nArief Johan\nx5884\n",
+    "content": "",
+  	"keylocker": "",
     "bgColor": "FFFFFF",
     "comment": null,
     "border": {
@@ -667,7 +705,8 @@
     "colStart": 10,
     "rowEnd": 32,
     "colEnd": 12,
-    "content": "2222O\n  \nAlua Devine\nx5885",
+    "content": "",
+  	"keylocker": "",
     "bgColor": "FFFFFF",
     "comment": null,
     "border": {
@@ -684,7 +723,8 @@
     "colStart": 10,
     "rowEnd": 25,
     "colEnd": 12,
-    "content": "2222I\n\nMackenzie REYNOLDS\nx5879",
+    "content": "",
+  	"keylocker": "",
     "bgColor": "FFFFFF",
     "comment": null,
     "border": {
@@ -701,7 +741,8 @@
     "colStart": 14,
     "rowEnd": 25,
     "colEnd": 16,
-    "content": "2222J \n\nVACANT\nx1610",
+    "content": "",
+  	"keylocker": "",
     "bgColor": "FFFFFF",
     "comment": null,
     "border": {
@@ -718,7 +759,8 @@
     "colStart": 10,
     "rowEnd": 27,
     "colEnd": 12,
-    "content": "2222K\n\nKhalid Yanallah\nx5881         \n",
+    "content": "",
+  	"keylocker": "",
     "bgColor": "FFFFFF",
     "comment": null,
     "border": {
@@ -735,7 +777,8 @@
     "colStart": 10,
     "rowEnd": 15,
     "colEnd": 12,
-    "content": "2222A \n\nJoohee KIM        \nx5823",
+    "content": "",
+  	"keylocker": "",
     "bgColor": "FFFFFF",
     "comment": null,
     "border": {
@@ -752,7 +795,8 @@
     "colStart": 14,
     "rowEnd": 15,
     "colEnd": 16,
-    "content": "2222B\n  \nAnya Grobler      \nx5872",
+    "content": "",
+  	"keylocker": "",
     "bgColor": "FFFFFF",
     "comment": null,
     "border": {
@@ -769,7 +813,8 @@
     "colStart": 10,
     "rowEnd": 17,
     "colEnd": 12,
-    "content": "2222C    \n\nChuan He      \nx5873",
+    "content": "",
+  	"keylocker": "",
     "bgColor": "FFFFFF",
     "comment": null,
     "border": {
@@ -786,7 +831,8 @@
     "colStart": 14,
     "rowEnd": 17,
     "colEnd": 16,
-    "content": "2222D    \nXingyang Ma\nx5874",
+    "content": "",
+  	"keylocker": "",
     "bgColor": "FFFFFF",
     "comment": null,
     "border": {
@@ -803,7 +849,8 @@
     "colStart": 10,
     "rowEnd": 20,
     "colEnd": 12,
-    "content": "2222E \n\nTrieu, NGUYEN\nx5875\n         \n",
+    "content": "",
+  	"keylocker": "",
     "bgColor": "FFFFFF",
     "comment": null,
     "border": {
@@ -820,7 +867,8 @@
     "colStart": 14,
     "rowEnd": 20,
     "colEnd": 16,
-    "content": "2222F \n\nMasha POLSHINSKAYA\nx5623",
+    "content": "",
+  	"keylocker": "",
     "bgColor": "FFFFFF",
     "comment": null,
     "border": {
@@ -837,7 +885,8 @@
     "colStart": 14,
     "rowEnd": 13,
     "colEnd": 16,
-    "content": "PTR 396 Printer Serial \n# SAA2J041015388",
+    "content": "PTR 396 Printer Serial # SAA2J041015388",
+  	"keylocker": "",
     "bgColor": "FFFFFF",
     "comment": null,
     "border": {
@@ -846,7 +895,7 @@
       "top": "thin",
       "bottom": "thin"
     },
-    "room": "PTR 396 Printer Serial"
+    "room": "Printer Room"
   },
   {
     "type": "merged",
@@ -854,7 +903,8 @@
     "colStart": 1,
     "rowEnd": 7,
     "colEnd": 2,
-    "content": "WC",
+    "content": "",
+  	"keylocker": "",
     "bgColor": "FFFFFF",
     "comment": null,
     "border": {
@@ -871,7 +921,8 @@
     "colStart": 8,
     "rowEnd": 3,
     "colEnd": 9,
-    "content": "2213B\n\n Rimayanti\n",
+    "content": "",
+  	"keylocker": "",
     "bgColor": "FFFFFF",
     "comment": null,
     "border": {
@@ -888,7 +939,8 @@
     "colStart": 10,
     "rowEnd": 3,
     "colEnd": 11,
-    "content": "2213C\n\nZhengjia (Zoe) Tang\n ",
+    "content": "",
+  	"keylocker": "",
     "bgColor": "FFFFFF",
     "comment": null,
     "border": {
@@ -905,7 +957,8 @@
     "colStart": 8,
     "rowEnd": 5,
     "colEnd": 9,
-    "content": "2213M\n\nVACANT\n",
+    "content": "",
+  	"keylocker": "",
     "bgColor": "FFFFFF",
     "comment": "Esther W:\nPaul Harrigan Visiting PhD student Elvira Ferrer coming from June - August 2025",
     "border": {
@@ -922,7 +975,8 @@
     "colStart": 10,
     "rowEnd": 5,
     "colEnd": 11,
-    "content": "2213L\n\nQing Yan\n",
+    "content": "",
+  	"keylocker": "",
     "bgColor": "FFFFFF",
     "comment": null,
     "border": {
@@ -939,7 +993,8 @@
     "colStart": 13,
     "rowEnd": 3,
     "colEnd": 14,
-    "content": "2213D \n\nYali HOU\n",
+    "content": "",
+  	"keylocker": "",
     "bgColor": "FFFFFF",
     "comment": null,
     "border": {
@@ -956,7 +1011,8 @@
     "colStart": 13,
     "rowEnd": 5,
     "colEnd": 14,
-    "content": "2213K   \n\nVACANT\n x7332",
+    "content": "",
+  	"keylocker": "",
     "bgColor": "FFFFFF",
     "comment": null,
     "border": {
@@ -973,7 +1029,8 @@
     "colStart": 5,
     "rowEnd": 5,
     "colEnd": 6,
-    "content": "2213N\n\nVACANT \nx5684",
+    "content": "",
+  	"keylocker": "",
     "bgColor": "FFFFFF",
     "comment": "April Wen:\nSamar Aladem will use when come back to do paper visions post thesis\n",
     "border": {
@@ -990,7 +1047,8 @@
     "colStart": 1,
     "rowEnd": 5,
     "colEnd": 3,
-    "content": "Print Room \n2221 Key Locker 591201 PTR 395 Printer Serial #  SAA7N047000765",
+    "content": "PTR 395 Printer Serial # SAA7N047000765",
+  	"keylocker": "591201",
     "bgColor": "FFFFFF",
     "comment": null,
     "border": {
@@ -999,7 +1057,7 @@
       "top": "thin",
       "bottom": "thin"
     },
-    "room": "Print Room"
+    "room": "Printer Room"
   },
   {
     "type": "merged",
@@ -1007,7 +1065,8 @@
     "colStart": 3,
     "rowEnd": 11,
     "colEnd": 3,
-    "content": "Kitchen",
+    "content": "",
+  	"keylocker": "",
     "bgColor": "FFFFFF",
     "comment": null,
     "border": {

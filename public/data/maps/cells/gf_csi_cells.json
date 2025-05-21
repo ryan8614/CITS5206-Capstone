@@ -5,7 +5,8 @@
     "colStart": 13,
     "rowEnd": 31,
     "colEnd": 14,
-    "content": " G70G\nDK",
+    "content": "DK",
+  	"keylocker": "",
     "bgColor": "FFFFFF",
     "comment": "Current desk arrangement unless desks are required. ",
     "border": {
@@ -22,7 +23,8 @@
     "colStart": 13,
     "rowEnd": 33,
     "colEnd": 14,
-    "content": "G70H\nShahnaz Rind",
+    "content": "Shahnaz Rind",
+  	"keylocker": "",
     "bgColor": "FFFFFF",
     "comment": null,
     "border": {
@@ -39,7 +41,8 @@
     "colStart": 1,
     "rowEnd": 33,
     "colEnd": 3,
-    "content": "G77\n\nWork room for BITS\nKey Locker 591201 PTR 394 Printer Serial # SAA7N047000778",
+    "content": "Work room for BITS \nPTR 394 Printer Serial # SAA7N047000778",
+  	"keylocker": "591201",
     "bgColor": "FFFFFF",
     "comment": null,
     "border": {
@@ -56,7 +59,8 @@
     "colStart": 5,
     "rowEnd": 31,
     "colEnd": 6,
-    "content": "G70A\nWinsome MacLaurin",
+    "content": "Winsome MacLaurin",
+  	"keylocker": "",
     "bgColor": "FFFFFF",
     "comment": null,
     "border": {
@@ -73,7 +77,8 @@
     "colStart": 5,
     "rowEnd": 33,
     "colEnd": 6,
-    "content": "G70B\nJason Barrow",
+    "content": "Jason Barrow",
+  	"keylocker": "",
     "bgColor": "FFFFFF",
     "comment": null,
     "border": {
@@ -90,7 +95,8 @@
     "colStart": 8,
     "rowEnd": 31,
     "colEnd": 9,
-    "content": "G70C\nBruce Davies",
+    "content": "Bruce Davies",
+  	"keylocker": "",
     "bgColor": "FFFFFF",
     "comment": null,
     "border": {
@@ -107,7 +113,8 @@
     "colStart": 8,
     "rowEnd": 33,
     "colEnd": 9,
-    "content": "G70D\nEmmanualle Dodo Balu",
+    "content": "Emmanualle Dodo Balu",
+  	"keylocker": "",
     "bgColor": "FFFFFF",
     "comment": null,
     "border": {
@@ -124,7 +131,8 @@
     "colStart": 10,
     "rowEnd": 31,
     "colEnd": 11,
-    "content": "G70E\nTim Trindle-Thomas",
+    "content": "Tim Trindle-Thomas",
+  	"keylocker": "",
     "bgColor": "FFFFFF",
     "comment": null,
     "border": {
@@ -141,7 +149,8 @@
     "colStart": 10,
     "rowEnd": 33,
     "colEnd": 11,
-    "content": "G70F\nDK\n",
+    "content": "DK",
+  	"keylocker": "",
     "bgColor": "FFFFFF",
     "comment": null,
     "border": {
@@ -158,7 +167,8 @@
     "colStart": 15,
     "rowEnd": 31,
     "colEnd": 16,
-    "content": "G70I\nLily Zsabo",
+    "content": "Lily Zsabo",
+  	"keylocker": "",
     "bgColor": "FFFFFF",
     "comment": null,
     "border": {
@@ -175,7 +185,8 @@
     "colStart": 15,
     "rowEnd": 33,
     "colEnd": 16,
-    "content": "G70J\nSyarif Abdul Sayed",
+    "content": "Syarif Abdul Sayed",
+  	"keylocker": "",
     "bgColor": "FFFFFF",
     "comment": null,
     "border": {
@@ -192,7 +203,8 @@
     "colStart": 18,
     "rowEnd": 31,
     "colEnd": 19,
-    "content": "G70K\nBen Scullin",
+    "content": "Ben Scullin",
+  	"keylocker": "",
     "bgColor": "FFFFFF",
     "comment": null,
     "border": {
@@ -209,7 +221,8 @@
     "colStart": 18,
     "rowEnd": 33,
     "colEnd": 19,
-    "content": "G70L\nYasmine Hooper",
+    "content": "Yasmine Hooper",
+  	"keylocker": "",
     "bgColor": "FFFFFF",
     "comment": null,
     "border": {
@@ -226,7 +239,8 @@
     "colStart": 38,
     "rowEnd": 33,
     "colEnd": 41,
-    "content": "G61\n\nPaul Flatau   Key Locker 591132",
+    "content": "Paul Flatau",
+  	"keylocker": "591132",
     "bgColor": "FFFFFF",
     "comment": null,
     "border": {
@@ -243,7 +257,8 @@
     "colStart": 20,
     "rowEnd": 31,
     "colEnd": 21,
-    "content": "G70M\nMcCusker Intern",
+    "content": "McCusker Intern",
+  	"keylocker": "",
     "bgColor": "FFFFFF",
     "comment": null,
     "border": {
@@ -260,7 +275,8 @@
     "colStart": 20,
     "rowEnd": 33,
     "colEnd": 21,
-    "content": "G70N\nReuben Lester",
+    "content": "Reuben Lester",
+  	"keylocker": "",
     "bgColor": "FFFFFF",
     "comment": null,
     "border": {
@@ -277,7 +293,8 @@
     "colStart": 23,
     "rowEnd": 33,
     "colEnd": 24,
-    "content": "G70P\nHotdesk\n ",
+    "content": "Hotdesk",
+  	"keylocker": "",
     "bgColor": "FFFFFF",
     "comment": null,
     "border": {
@@ -294,7 +311,8 @@
     "colStart": 42,
     "rowEnd": 33,
     "colEnd": 44,
-    "content": "G60\nLeanne Lester  Key Locker  59120",
+    "content": "Leanne Lester",
+  	"keylocker": "59120",
     "bgColor": "FFFFFF",
     "comment": null,
     "border": {
@@ -311,7 +329,8 @@
     "colStart": 45,
     "rowEnd": 33,
     "colEnd": 49,
-    "content": "G59\nKath Conway & Mags Martin & Hotdesk x 2   Key Locker 591130",
+    "content": "Kath Conway & Mags Martin & Hotdesk x 2",
+  	"keylocker": "591130",
     "bgColor": "FFFFFF",
     "comment": null,
     "border": {
@@ -328,7 +347,8 @@
     "colStart": 23,
     "rowEnd": 31,
     "colEnd": 24,
-    "content": "G70O\nAbderahman Efhialelbum  (Omar) ",
+    "content": "Abderahman Efhialelbum  (Omar) ",
+  	"keylocker": "",
     "bgColor": "FFFFFF",
     "comment": null,
     "border": {
@@ -345,7 +365,8 @@
     "colStart": 22,
     "rowEnd": 27,
     "colEnd": 24,
-    "content": "G67\nJian Zhao\nKey Locker 591139",
+    "content": "Jian Zhao",
+  	"keylocker": "591139",
     "bgColor": "FFFFFF",
     "comment": null,
     "border": {
@@ -362,7 +383,8 @@
     "colStart": 25,
     "rowEnd": 27,
     "colEnd": 27,
-    "content": "G66\n David O'Shaughnessy Key Locker 591138",
+    "content": "David O'Shaughness",
+  	"keylocker": "591138",
     "bgColor": "FFFFFF",
     "comment": null,
     "border": {
@@ -379,7 +401,8 @@
     "colStart": 28,
     "rowEnd": 27,
     "colEnd": 30,
-    "content": "G65\n\nJacinta Francis Key Locker 591137",
+    "content": "Jacinta Francis",
+  	"keylocker": "591137",
     "bgColor": "FFFFFF",
     "comment": null,
     "border": {
@@ -396,7 +419,8 @@
     "colStart": 40,
     "rowEnd": 27,
     "colEnd": 43,
-    "content": "G56\nPhil Hancock x1835  Key Locker 591133",
+    "content": "Phil Hancock x1835",
+  	"keylocker": "591133",
     "bgColor": "FFFFFF",
     "comment": null,
     "border": {
@@ -413,7 +437,8 @@
     "colStart": 46,
     "rowEnd": 26,
     "colEnd": 49,
-    "content": "G57 (HOTDESK)\nNatasha King (M, T, TH afternoon)\n Key Locker 591128",
+    "content": "G57 (HOTDESK) \nNatasha King (M, T, TH afternoon)",
+  	"keylocker": "591128",
     "bgColor": "FFFFFF",
     "comment": null,
     "border": {
@@ -430,7 +455,8 @@
     "colStart": 46,
     "rowEnd": 29,
     "colEnd": 49,
-    "content": "G58 WILG Team\nConsult Room Key Locker 591129",
+    "content": "G58 WILG Team Consult Room ",
+  	"keylocker": "591129",
     "bgColor": "FFFFFF",
     "comment": null,
     "border": {
@@ -447,7 +473,8 @@
     "colStart": 31,
     "rowEnd": 27,
     "colEnd": 33,
-    "content": "G64\n\nMariana\nAtkins Key Locker 591136",
+    "content": "Mariana Atkins",
+  	"keylocker": "591136",
     "bgColor": "FFFFFF",
     "comment": null,
     "border": {
@@ -464,7 +491,8 @@
     "colStart": 34,
     "rowEnd": 27,
     "colEnd": 36,
-    "content": "G63\nJames Herbert   Key Locker  591135",
+    "content": "James Herber",
+  	"keylocker": "591135",
     "bgColor": "FFFFFF",
     "comment": null,
     "border": {
@@ -481,7 +509,8 @@
     "colStart": 37,
     "rowEnd": 27,
     "colEnd": 39,
-    "content": "G62\nLisette Kaleveld Key Locker 591134",
+    "content": "Lisette Kaleveld",
+  	"keylocker": "591134",
     "bgColor": "FFFFFF",
     "comment": null,
     "border": {
@@ -498,7 +527,8 @@
     "colStart": 27,
     "rowEnd": 35,
     "colEnd": 35,
-    "content": "G90  Meeting Room\n\nKeyLocker 591201",
+    "content": "",
+  	"keylocker": "591201",
     "bgColor": "FFFFFF",
     "comment": null,
     "border": {
@@ -507,7 +537,7 @@
       "top": "thin",
       "bottom": "thin"
     },
-    "room": "G90"
+    "room": "G90 Meeting Room"
   },
   {
     "type": "merged",
@@ -515,7 +545,8 @@
     "colStart": 2,
     "rowEnd": 27,
     "colEnd": 2,
-    "content": "Kitchen",
+    "content": "",
+  	"keylocker": "",
     "bgColor": "FFFFFF",
     "comment": null,
     "border": {
@@ -532,7 +563,8 @@
     "colStart": 4,
     "rowEnd": 27,
     "colEnd": 6,
-    "content": "G73\n\nRecording Studio  Key Locker 591144\n",
+    "content": "",
+  	"keylocker": "591144",
     "bgColor": "FFFFFF",
     "comment": null,
     "border": {
@@ -541,7 +573,7 @@
       "top": null,
       "bottom": "thin"
     },
-    "room": "G73"
+    "room": "G73 Recording Studio"
   },
   {
     "type": "merged",
@@ -549,7 +581,8 @@
     "colStart": 7,
     "rowEnd": 27,
     "colEnd": 9,
-    "content": "G72\n\nDonna Oxenham  Key Locker 591143\n",
+    "content": "Donna Oxenham ",
+  	"keylocker": "591143",
     "bgColor": "FFFFFF",
     "comment": null,
     "border": {
@@ -566,7 +599,8 @@
     "colStart": 10,
     "rowEnd": 27,
     "colEnd": 12,
-    "content": "G71\n\nBarbara Paulson  Key Locker 591142",
+    "content": "Barbara Paulson",
+  	"keylocker": "591142",
     "bgColor": "FFFFFF",
     "comment": null,
     "border": {
@@ -583,7 +617,8 @@
     "colStart": 13,
     "rowEnd": 27,
     "colEnd": 15,
-    "content": "G70\nZoe\nCallis  Key Locker 591141",
+    "content": "Zoe Callis",
+  	"keylocker": "591141",
     "bgColor": "FFFFFF",
     "comment": null,
     "border": {
@@ -600,7 +635,8 @@
     "colStart": 11,
     "rowEnd": 23,
     "colEnd": 21,
-    "content": "G78\n\nPostgrad Room",
+    "content": "",
+  	"keylocker": "",
     "bgColor": "FFFFFF",
     "comment": null,
     "border": {
@@ -609,7 +645,7 @@
       "top": "thin",
       "bottom": "thin"
     },
-    "room": "G78"
+    "room": "G78 Postgrad Room"
   },
   {
     "type": "merged",
@@ -617,7 +653,8 @@
     "colStart": 40,
     "rowEnd": 23,
     "colEnd": 43,
-    "content": "G55\nStudent Experience Consult Room Key Locker 591127",
+    "content": "",
+  	"keylocker": "591127",
     "bgColor": "FFFFFF",
     "comment": null,
     "border": {
@@ -626,7 +663,7 @@
       "top": "thin",
       "bottom": "thin"
     },
-    "room": "G55"
+    "room": "G55 Student Experience Consult Room"
   },
   {
     "type": "merged",
@@ -634,7 +671,8 @@
     "colStart": 46,
     "rowEnd": 22,
     "colEnd": 48,
-    "content": "Waiting area",
+    "content": "",
+  	"keylocker": "",
     "bgColor": "FFFFFF",
     "comment": null,
     "border": {
@@ -651,7 +689,8 @@
     "colStart": 16,
     "rowEnd": 27,
     "colEnd": 18,
-    "content": "G69\nCaryn Earnshaw Key Locker 593110\n",
+    "content": "Caryn Earnshaw",
+  	"keylocker": "593110",
     "bgColor": "FFFFFF",
     "comment": null,
     "border": {
@@ -668,7 +707,8 @@
     "colStart": 19,
     "rowEnd": 27,
     "colEnd": 21,
-    "content": "G68\n\nCarole Katz  Key Locker 593103",
+    "content": "Carole Katz",
+  	"keylocker": "593103",
     "bgColor": "FFFFFF",
     "comment": null,
     "border": {
@@ -685,7 +725,8 @@
     "colStart": 45,
     "rowEnd": 14,
     "colEnd": 47,
-    "content": "Lisa Guo\nG50 ",
+    "content": "Lisa Guo",
+  	"keylocker": "",
     "bgColor": "FFFFFF",
     "comment": null,
     "border": {
@@ -694,7 +735,7 @@
       "top": "thin",
       "bottom": "thin"
     },
-    "room": "Lisa Guo"
+    "room": "G50"
   },
   {
     "type": "merged",
@@ -702,7 +743,8 @@
     "colStart": 11,
     "rowEnd": 20,
     "colEnd": 17,
-    "content": "G87 (x91847)\n\nComputer Lab 3  Key Locker 590000",
+    "content": "",
+  	"keylocker": "590000",
     "bgColor": "FFFFFF",
     "comment": null,
     "border": {
@@ -711,7 +753,7 @@
       "top": "thin",
       "bottom": "thin"
     },
-    "room": "G87"
+    "room": "G87 Computer Lab 3"
   },
   {
     "type": "merged",
@@ -719,7 +761,8 @@
     "colStart": 42,
     "rowEnd": 16,
     "colEnd": 44,
-    "content": "Olivia Rimmer G50 ",
+    "content": "Olivia Rimmer",
+  	"keylocker": "",
     "bgColor": "FFFFFF",
     "comment": null,
     "border": {
@@ -728,7 +771,7 @@
       "top": null,
       "bottom": "thin"
     },
-    "room": "Olivia Rimmer G50"
+    "room": "G50"
   },
   {
     "type": "merged",
@@ -736,7 +779,8 @@
     "colStart": 45,
     "rowEnd": 16,
     "colEnd": 47,
-    "content": "Karen Oakley\nG50 ",
+    "content": "Karen Oakley",
+  	"keylocker": "",
     "bgColor": "FFFFFF",
     "comment": null,
     "border": {
@@ -745,7 +789,7 @@
       "top": "thin",
       "bottom": "thin"
     },
-    "room": "Karen Oakley"
+    "room": "G50"
   },
   {
     "type": "merged",
@@ -753,7 +797,8 @@
     "colStart": 40,
     "rowEnd": 20,
     "colEnd": 43,
-    "content": "\nKate Hutchinson G54 X4737 Key Locker 591126",
+    "content": "Kate Hutchinson x4737",
+  	"keylocker": "591126",
     "bgColor": "FFFFFF",
     "comment": null,
     "border": {
@@ -762,7 +807,7 @@
       "top": "thin",
       "bottom": "thin"
     },
-    "room": "Kate Hutchinson G54 X4737 Key Locker 591126"
+    "room": "G54"
   },
   {
     "type": "merged",
@@ -770,7 +815,8 @@
     "colStart": 46,
     "rowEnd": 20,
     "colEnd": 48,
-    "content": "Waiting area",
+    "content": "",
+  	"keylocker": "",
     "bgColor": "FFFFFF",
     "comment": null,
     "border": {
@@ -788,6 +834,7 @@
     "rowEnd": 6,
     "colEnd": 20,
     "content": "PTR 389 Printer Serial \n# SAA2J041015476",
+  	"keylocker": "",
     "bgColor": "FFFFFF",
     "comment": null,
     "border": {
@@ -796,7 +843,7 @@
       "top": "thin",
       "bottom": "thin"
     },
-    "room": "PTR 389 Printer Serial"
+    "room": "Printer Room"
   },
   {
     "type": "merged",
@@ -805,6 +852,7 @@
     "rowEnd": 12,
     "colEnd": 20,
     "content": "PTR 392 Printer Seial \n#SA93E047000641",
+  	"keylocker": "",
     "bgColor": "FFFFFF",
     "comment": null,
     "border": {
@@ -813,7 +861,7 @@
       "top": "thin",
       "bottom": "thin"
     },
-    "room": "PTR 392 Printer Seial"
+    "room": "Printer Room"
   },
   {
     "type": "merged",
@@ -822,6 +870,7 @@
     "rowEnd": 8,
     "colEnd": 55,
     "content": "PTR 391 Printer Serial \n# SAE93E047000643",
+  	"keylocker": "",
     "bgColor": "FFFFFF",
     "comment": null,
     "border": {
@@ -830,7 +879,7 @@
       "top": "thin",
       "bottom": "thin"
     },
-    "room": "PTR 391 Printer Serial"
+    "room": "Printer Room"
   },
   {
     "type": "merged",
@@ -838,7 +887,8 @@
     "colStart": 1,
     "rowEnd": 29,
     "colEnd": 2,
-    "content": "WC",
+    "content": "",
+  	"keylocker": "",
     "bgColor": "FFFFFF",
     "comment": null,
     "border": {
@@ -855,7 +905,8 @@
     "colStart": 11,
     "rowEnd": 8,
     "colEnd": 17,
-    "content": "G85 (x91842)\n\nComputer Lab 1  Key Locker 590000",
+    "content": "",
+  	"keylocker": "590000",
     "bgColor": "FFFFFF",
     "comment": null,
     "border": {
@@ -864,7 +915,7 @@
       "top": "thin",
       "bottom": "thin"
     },
-    "room": "G85"
+    "room": "G85 Computer Lab 1"
   },
   {
     "type": "merged",
@@ -872,7 +923,8 @@
     "colStart": 22,
     "rowEnd": 22,
     "colEnd": 38,
-    "content": "BHP Billiton Courtyard",
+    "content": "",
+  	"keylocker": "",
     "bgColor": "FFFFFF",
     "comment": null,
     "border": {
@@ -889,7 +941,8 @@
     "colStart": 43,
     "rowEnd": 4,
     "colEnd": 46,
-    "content": "G51\nPrint Room PTR 393 Printer Serial # SAA2J0410155532",
+    "content": "PTR 393 Printer Serial # SAA2J0410155532",
+  	"keylocker": "",
     "bgColor": "FFFFFF",
     "comment": null,
     "border": {
@@ -898,7 +951,7 @@
       "top": "thin",
       "bottom": "thin"
     },
-    "room": "G51"
+    "room": "G51 Printer Room"
   },
   {
     "type": "merged",
@@ -906,7 +959,8 @@
     "colStart": 1,
     "rowEnd": 23,
     "colEnd": 10,
-    "content": "Ernst & Young Lecture Theatre",
+    "content": "",
+  	"keylocker": "",
     "bgColor": "FFFFFF",
     "comment": null,
     "border": {
@@ -923,7 +977,8 @@
     "colStart": 49,
     "rowEnd": 9,
     "colEnd": 49,
-    "content": "MBA Counter",
+    "content": "",
+  	"keylocker": "",
     "bgColor": "FFFFFF",
     "comment": null,
     "border": {
@@ -940,7 +995,8 @@
     "colStart": 42,
     "rowEnd": 9,
     "colEnd": 44,
-    "content": "\nG50 ",
+    "content": "",
+  	"keylocker": "",
     "bgColor": "FFFFFF",
     "comment": null,
     "border": {
@@ -957,7 +1013,8 @@
     "colStart": 45,
     "rowEnd": 9,
     "colEnd": 47,
-    "content": "Luke Willmot\nG50 ",
+    "content": "Luke Willmot",
+  	"keylocker": "",
     "bgColor": "FFFFFF",
     "comment": null,
     "border": {
@@ -966,7 +1023,7 @@
       "top": "thin",
       "bottom": "thin"
     },
-    "room": "Luke Willmot"
+    "room": "G50"
   },
   {
     "type": "merged",
@@ -974,7 +1031,8 @@
     "colStart": 11,
     "rowEnd": 14,
     "colEnd": 17,
-    "content": "G86 (x91843)\n\nComputer Lab 2  Key Locker 590000",
+    "content": "",
+  	"keylocker": "590000",
     "bgColor": "FFFFFF",
     "comment": null,
     "border": {
@@ -983,7 +1041,7 @@
       "top": "thin",
       "bottom": "thin"
     },
-    "room": "G86"
+    "room": "G86 Computer Lab 2"
   },
   {
     "type": "merged",
@@ -991,7 +1049,8 @@
     "colStart": 42,
     "rowEnd": 11,
     "colEnd": 44,
-    "content": "\nG50 ",
+    "content": "",
+  	"keylocker": "",
     "bgColor": "FFFFFF",
     "comment": null,
     "border": {
@@ -1008,7 +1067,8 @@
     "colStart": 45,
     "rowEnd": 11,
     "colEnd": 47,
-    "content": "David Hallam\nG50 ",
+    "content": "David Hallam",
+  	"keylocker": "",
     "bgColor": "FFFFFF",
     "comment": null,
     "border": {
@@ -1017,7 +1077,7 @@
       "top": "thin",
       "bottom": "thin"
     },
-    "room": "David Hallam"
+    "room": "G50"
   },
   {
     "type": "merged",
@@ -1025,7 +1085,8 @@
     "colStart": 49,
     "rowEnd": 17,
     "colEnd": 49,
-    "content": "UG & PG Student Counter",
+    "content": "",
+  	"keylocker": "",
     "bgColor": "FFFFFF",
     "comment": null,
     "border": {
@@ -1042,7 +1103,8 @@
     "colStart": 42,
     "rowEnd": 14,
     "colEnd": 44,
-    "content": "Bec West\nG50 ",
+    "content": "Bec West",
+  	"keylocker": "",
     "bgColor": "FFFFFF",
     "comment": null,
     "border": {
@@ -1051,6 +1113,6 @@
       "top": "thin",
       "bottom": "thin"
     },
-    "room": "Bec West"
+    "room": "G50"
   }
 ]

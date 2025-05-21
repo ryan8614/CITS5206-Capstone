@@ -21,7 +21,7 @@ export default function Deans_Office() {
 
   //prevent scroll bleed
   usePreventScrollBleed(containerRef as RefObject<HTMLDivElement>, '.ht_master .wtHolder');
-  const classification = 'Deans OfficeE';
+  const classification = 'Deans Office';
 
   return (
     <div className="h-auto p-4 bg-gray-100">

@@ -30,19 +30,23 @@ interface StudentEntry {
 }
 
 const studentColors: Record<string, string> = {
-  "PhDs": "#FFFACD",
-  "New PhD in 2025": "#E0FFFF",
+  "PhDs": "#D8E4C4",
+  "New PhD in 2025": "#DB9E91",
   "Mphil": "#F0E68C",
-  "Visiting Student": "#FFE4E1",
+  "Visiting Student": "#A78EC1",
   "Visitors": "#D3D3D3",
   "Casual Staff": "#F5F5DC",
+  "Research Assistant": "#FFA07A",
+  "HDR": "#7CB7C2",
+  "Other": "#ADD8E6",
 };
 
 const mapToStudentKey: Record<string, string> = {
   'accounting_finance': 'AccFin',
   'economics': 'Economics',
   'marketing': 'Marketing',
-  'mgmt_&_orgst': 'Mgmt & Orgs'
+  'mgmt_&_orgs': 'Mgmt & Orgs',
+  'gf_da': 'GF-DA'
 };
 
 const mapToContactKey: Record<string, string> = {
@@ -64,9 +68,17 @@ function getStudentBgColor(
   return undefined;
 }
 
+function buildSummary(entry: any): string {
+  const name = entry.Name || entry["Full Name"] || '';
+  const type = entry.Type ? ` (${entry.Type})` : '';
+  const position = entry.Position ? `\n${entry.Position}` : '';
+  const ext = entry["Ext No"] ? `\nExt: ${entry["Ext No"]}` : '';
+  return `${name}${type}${position}${ext}`;
+}
+
 export async function POST(req: NextRequest) {
   try {
-    const body = await req.json(); // ✅ 正确：只读一次
+    const body = await req.json(); 
     const mapName = body.mapName;
 
     if (!mapName) {
@@ -99,51 +111,70 @@ export async function POST(req: NextRequest) {
       contacts = await loadFilteredContacts(contactKey);
     }
 
-    if (students.length === 0 && contacts.length === 0) {
-      console.warn(`[info] No matching students or contacts found for ${mapName}. Returning original.`);
-      return NextResponse.json({ cells, layout: layoutData });
-    }
-
     const roomMap: Record<string, string[]> = {};
     const commentMap: Record<string, string> = {};
 
-    // 学生填充
     students.forEach((stu: StudentEntry) => {
       const room = String(stu["Pod No"]).trim();
-      const name = stu.Name;
-      const typeText = stu.Type ? ` (${stu.Type})` : '';
-      const summary = `${name}${typeText}`;
+      const summary = buildSummary(stu);
       if (!roomMap[room]) roomMap[room] = [];
       roomMap[room].push(summary);
-      if (stu.Comment) commentMap[room] = stu.Comment;
+
+      if (stu.Comment) {
+        commentMap[room] = stu.Comment;
+      }
     });
 
-    // 教职工填充
     contacts.forEach((person: ContactEntry) => {
       const room = String(person.Room ?? '').trim();
       if (!room) return;
 
-      const summary = `${person["Full Name"]}${person.Position ? `\n${person.Position}` : ''}${person["Ext No"] ? `\nExt: ${person["Ext No"]}` : ''}`;
+      const summary = buildSummary(person);
       if (!roomMap[room]) roomMap[room] = [];
       roomMap[room].push(summary);
     });
 
-    // 合并填入 cell
     const updatedCells = cells.map((cell) => {
       const room = String(cell.room ?? '').trim();
       const people = roomMap[room];
       const comment = commentMap[room];
-
+      const keylocker = cell.keylocker?.trim();
+    
+      let content = '';
+    
       if (people && people.length > 0) {
-        return {
-          ...cell,
-          content: people.join('\n\n'),
-          comment: comment ?? cell.comment ?? null,
-          bgColor: cell.bgColor || getStudentBgColor(students, room),
-        };
+        content = `${room}\n${people.join('\n')}`;
+      } else {
+        content = cell.content?.trim() ? `${room}\n${cell.content}` : `${room}`;
       }
+    
+      if (keylocker && keylocker !== '') {
+        content += `\nKey Locker: ${keylocker}`;
+      }
+    
+      const isStudentRoom = students.some(stu => String(stu["Pod No"]).trim() === room);
+    
+      let bgColor: string | undefined = undefined;
 
-      return cell;
+      if (isStudentRoom) {
+        bgColor = getStudentBgColor(students, room);
+      } else if (
+        (!people || people.length === 0) &&
+        (!cell.content || cell.content.trim() === '') &&
+        (!keylocker || keylocker === '') &&
+        /\d/.test(room) 
+      ) {
+        bgColor = '#E7FA03';
+      } else {
+        bgColor = cell.bgColor;
+      }
+    
+      return {
+        ...cell,
+        content,
+        comment: comment ?? cell.comment ?? null,
+        bgColor,
+      };
     });
 
     return NextResponse.json({

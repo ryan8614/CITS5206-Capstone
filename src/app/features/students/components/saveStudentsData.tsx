@@ -22,6 +22,7 @@ export async function saveStudentsData(
       "End Date": entry["End Date"] ?? null,
       Comment: entry["Comment"] ?? null,
       "Pod No": entry["Pod No"] ?? null,
+      "Ext No": entry["Ext No"] ?? null,
       Type: entry["Type"] ?? null,
     };
   });

@@ -86,42 +86,44 @@ export default function GF_CSI() {
         />
       </div>
 
-        <div
-          className="flex-grow px-4 overflow-auto"
-          ref={containerRef}
-          style={{ maxWidth: '100%', maxHeight: '100%' }}
-        >
-          {cellData && layoutData ? (
+      <div
+        className="flex-grow px-4"
+        style={{
+          overflow: 'auto',
+          maxHeight: '100%',
+          maxWidth: '100%',
+        }}
+      >
+        {cellData && layoutData ? (
+          <div style={{ width: 'fit-content', height: 'fit-content' }}>
             <div
-              className="w-full h-full"
               style={{
-                position: 'relative',
+                transform: `scale(${scale})`,
+                transformOrigin: 'top left',
+                display: 'inline-block',
               }}
             >
               <div
                 style={{
-                  transform: `scale(${scale})`,
-                  transformOrigin: 'top left',
-                  width: `${100 / scale}%`,
-                  height: `${100 / scale}%`,
+                  minWidth: '4900px',   
+                  minHeight: '700px',   
                 }}
               >
-                <div className="w-full h-full">
-                  <HotTableView
-                    cellData={cellData}
-                    layoutData={layoutData}
-                    onUpdate={(newCells, newLayout) => {
-                      setCellData(newCells);
-                      setLayoutData(newLayout);
-                    }}
-                  />
-                </div>
+                <HotTableView
+                  cellData={cellData}
+                  layoutData={layoutData}
+                  onUpdate={(newCells, newLayout) => {
+                    setCellData(newCells);
+                    setLayoutData(newLayout);
+                  }}
+                />
               </div>
             </div>
-          ) : (
-            <p className="p-4">Loading table...</p>
-          )}
-        </div>
+          </div>
+        ) : (
+          <p className="p-4">Loading table...</p>
+        )}
+      </div>
     </div>
   );
 }

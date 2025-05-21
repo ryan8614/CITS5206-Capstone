@@ -5,7 +5,8 @@
     "colStart": 15,
     "rowEnd": 25,
     "colEnd": 16,
-    "content": "G305B\n\nYini (Enid) Sheng\nX5677",
+    "content": "",
+  	"keylocker": "",
     "bgColor": "FFFFFF",
     "comment": null,
     "border": {
@@ -21,8 +22,9 @@
     "rowStart": 3,
     "colStart": 18,
     "rowEnd": 11,
-    "colEnd": 60,
-    "content": "Woodside Courtyard",
+    "colEnd": 52,
+    "content": "",
+  	"keylocker": "",
     "bgColor": "FFFFFF",
     "comment": null,
     "border": {
@@ -39,7 +41,8 @@
     "colStart": 23,
     "rowEnd": 28,
     "colEnd": 24,
-    "content": "G305L\n\nVacant\nX5815",
+    "content": "",
+  	"keylocker": "",
     "bgColor": "FFFFFF",
     "comment": null,
     "border": {
@@ -56,7 +59,8 @@
     "colStart": 20,
     "rowEnd": 28,
     "colEnd": 21,
-    "content": "G305I\n\nGarry Ellis\n",
+    "content": "",
+  	"keylocker": "",
     "bgColor": "FFFFFF",
     "comment": null,
     "border": {
@@ -73,7 +77,8 @@
     "colStart": 18,
     "rowEnd": 28,
     "colEnd": 19,
-    "content": "G305F \n\nShivom Chakravarty\n ",
+    "content": "",
+  	"keylocker": "",
     "bgColor": "FFFFFF",
     "comment": null,
     "border": {
@@ -90,7 +95,8 @@
     "colStart": 23,
     "rowEnd": 25,
     "colEnd": 24,
-    "content": "G305K\n\nKhai\nx1452",
+    "content": "",
+  	"keylocker": "",
     "bgColor": "FFFFFF",
     "comment": null,
     "border": {
@@ -107,7 +113,8 @@
     "colStart": 20,
     "rowEnd": 23,
     "colEnd": 21,
-    "content": "G305G\n\nVACANT\nX7456",
+    "content": "",
+  	"keylocker": "",
     "bgColor": "FFFFFF",
     "comment": null,
     "border": {
@@ -124,7 +131,8 @@
     "colStart": 20,
     "rowEnd": 25,
     "colEnd": 21,
-    "content": "G305H\n\nVacant\n",
+    "content": "",
+  	"keylocker": "",
     "bgColor": "FFFFFF",
     "comment": null,
     "border": {
@@ -141,7 +149,8 @@
     "colStart": 15,
     "rowEnd": 17,
     "colEnd": 19,
-    "content": "G32\n\nMehdi Asadabadi\nKey Locker \n591103\n",
+    "content": "Mehdi Asadabadi",
+  	"keylocker": "591103",
     "bgColor": "FFFFFF",
     "comment": null,
     "border": {
@@ -158,7 +167,8 @@
     "colStart": 20,
     "rowEnd": 17,
     "colEnd": 24,
-    "content": "G33\n\nRonnie Das\nKey Locker \n591104",
+    "content": "Ronnie Das",
+  	"keylocker": "591104",
     "bgColor": "FFFFFF",
     "comment": "\nVesna:\n- key has been requested and  new occupant will be Ronnie Das \n\n\n\n\n\n",
     "border": {
@@ -175,7 +185,8 @@
     "colStart": 25,
     "rowEnd": 17,
     "colEnd": 29,
-    "content": "G34\n\nMaduka Subasinghage\nKey Locker \n591105",
+    "content": "Maduka Subasinghage",
+  	"keylocker": "591105",
     "bgColor": "FFFFFF",
     "comment": null,
     "border": {
@@ -192,7 +203,8 @@
     "colStart": 30,
     "rowEnd": 17,
     "colEnd": 34,
-    "content": "G35\n\nTianyi Long\nx 4313 \nKey Locker \n591106",
+    "content": "Tianyi Long x4313 ",
+  	"keylocker": "591106",
     "bgColor": "FFFFFF",
     "comment": null,
     "border": {
@@ -209,7 +221,8 @@
     "colStart": 35,
     "rowEnd": 17,
     "colEnd": 39,
-    "content": "G36\n\nMiguel Loyola\n5680 \nKey Locker \n591107",
+    "content": "Miguel Loyola x5680",
+  	"keylocker": "591107",
     "bgColor": "FFFFFF",
     "comment": null,
     "border": {
@@ -226,7 +239,8 @@
     "colStart": 40,
     "rowEnd": 17,
     "colEnd": 44,
-    "content": "G37\n\nMeeting Room  \nKey Locker\n591201",
+    "content": "",
+  	"keylocker": "591201",
     "bgColor": "FFFFFF",
     "comment": null,
     "border": {
@@ -235,7 +249,7 @@
       "top": "thin",
       "bottom": "thin"
     },
-    "room": "G37"
+    "room": "G37 Meeting Room"
   },
   {
     "type": "merged",
@@ -243,7 +257,8 @@
     "colStart": 40,
     "rowEnd": 20,
     "colEnd": 44,
-    "content": "PTR 390 Printer Serial \n#SAA2K041019274",
+    "content": "PTR 390 Printer Serial #SAA2K041019274",
+  	"keylocker": "",
     "bgColor": "FFFFFF",
     "comment": null,
     "border": {
@@ -252,7 +267,7 @@
       "top": "thin",
       "bottom": "thin"
     },
-    "room": "PTR 390 Printer Serial"
+    "room": "Printer Room"
   },
   {
     "type": "merged",
@@ -260,7 +275,8 @@
     "colStart": 4,
     "rowEnd": 25,
     "colEnd": 12,
-    "content": "Case Study Room G42\n\nMichael Chaney Case Study Room\n\nKey Locker 591201",
+    "content": "",
+  	"keylocker": "591201",
     "bgColor": "FFFFFF",
     "comment": null,
     "border": {
@@ -269,7 +285,7 @@
       "top": "thin",
       "bottom": "thin"
     },
-    "room": "Case Study Room G42"
+    "room": "G42 Case Study Room \nMichael Chaney Case Study Room"
   },
   {
     "type": "merged",
@@ -277,7 +293,8 @@
     "colStart": 1,
     "rowEnd": 25,
     "colEnd": 2,
-    "content": "G30",
+    "content": "",
+  	"keylocker": "",
     "bgColor": "FFFFFF",
     "comment": null,
     "border": {
@@ -294,7 +311,8 @@
     "colStart": 47,
     "rowEnd": 20,
     "colEnd": 48,
-    "content": "WC",
+    "content": "",
+  	"keylocker": "",
     "bgColor": "FFFFFF",
     "comment": null,
     "border": {
@@ -311,7 +329,8 @@
     "colStart": 3,
     "rowEnd": 12,
     "colEnd": 14,
-    "content": "CAFÉ",
+    "content": "",
+  	"keylocker": "",
     "bgColor": "FFFFFF",
     "comment": null,
     "border": {
@@ -328,7 +347,8 @@
     "colStart": 35,
     "rowEnd": 28,
     "colEnd": 39,
-    "content": "G40\n\nBrett \nSmith\nx3979  \nKey Locker \n591150\n\n\n",
+    "content": "Brett Smith x3979",
+  	"keylocker": "591150",
     "bgColor": "FFFFFF",
     "comment": null,
     "border": {
@@ -345,7 +365,8 @@
     "colStart": 30,
     "rowEnd": 28,
     "colEnd": 34,
-    "content": "G39\n\nYifan Zhong\nX   \nKey Locker \n591149",
+    "content": "Yifan Zhong",
+  	"keylocker": "591149",
     "bgColor": "FFFFFF",
     "comment": null,
     "border": {
@@ -362,7 +383,8 @@
     "colStart": 25,
     "rowEnd": 28,
     "colEnd": 29,
-    "content": "G38\n\n\nDoina\nOlaru\nx3908  \nKey Locker\n 591148",
+    "content": "Doina Olaru x3908",
+  	"keylocker": "591148",
     "bgColor": "FFFFFF",
     "comment": null,
     "border": {
@@ -379,7 +401,8 @@
     "colStart": 45,
     "rowEnd": 28,
     "colEnd": 48,
-    "content": "G43\n\nMayowa Babalola\n\n\nX2192 \nKey Locker \n591152",
+    "content": "Mayowa Babalola x2192",
+  	"keylocker": "591152",
     "bgColor": "FFFFFF",
     "comment": null,
     "border": {
@@ -396,7 +419,8 @@
     "colStart": 40,
     "rowEnd": 28,
     "colEnd": 44,
-    "content": "G41\n\nPaul\nBergey\n\nX4658  \nKey Locker  \n591151",
+    "content": "Paul Bergey x4658",
+  	"keylocker": "591151",
     "bgColor": "FFFFFF",
     "comment": null,
     "border": {
@@ -413,7 +437,8 @@
     "colStart": 23,
     "rowEnd": 23,
     "colEnd": 24,
-    "content": "G305J\n\nPoming Zhang \nX5892",
+    "content": "",
+  	"keylocker": "",
     "bgColor": "FFFFFF",
     "comment": null,
     "border": {
@@ -430,7 +455,8 @@
     "colStart": 46,
     "rowEnd": 18,
     "colEnd": 46,
-    "content": "Kitchen",
+    "content": "",
+  	"keylocker": "",
     "bgColor": "FFFFFF",
     "comment": null,
     "border": {
@@ -447,7 +473,8 @@
     "colStart": 15,
     "rowEnd": 28,
     "colEnd": 16,
-    "content": "G305C\n\nMuhammad Hafiz RIANDI\n",
+    "content": "",
+  	"keylocker": "",
     "bgColor": "FFFFFF",
     "comment": null,
     "border": {
@@ -464,7 +491,8 @@
     "colStart": 18,
     "rowEnd": 23,
     "colEnd": 19,
-    "content": "G305D\n\nVacant\nX2877",
+    "content": "",
+  	"keylocker": "",
     "bgColor": "FFFFFF",
     "comment": null,
     "border": {
@@ -481,7 +509,8 @@
     "colStart": 18,
     "rowEnd": 25,
     "colEnd": 19,
-    "content": "G305E\n\nGarima\nX5661",
+    "content": "",
+  	"keylocker": "",
     "bgColor": "FFFFFF",
     "comment": null,
     "border": {
@@ -498,7 +527,8 @@
     "colStart": 15,
     "rowEnd": 23,
     "colEnd": 16,
-    "content": "G305A\n\nChao Li \nX2673\n??2767",
+    "content": "",
+  	"keylocker": "",
     "bgColor": "FFFFFF",
     "comment": null,
     "border": {
@@ -508,165 +538,5 @@
       "bottom": "thin"
     },
     "room": "G305A"
-  },
-  {
-    "type": "single",
-    "rowStart": 13,
-    "colStart": 9,
-    "rowEnd": 13,
-    "colEnd": 9,
-    "content": null,
-    "bgColor": "FFFFFF",
-    "comment": null,
-    "border": {
-      "left": "thin",
-      "right": null,
-      "top": null,
-      "bottom": null
-    }
-  },
-  {
-    "type": "single",
-    "rowStart": 14,
-    "colStart": 9,
-    "rowEnd": 14,
-    "colEnd": 9,
-    "content": null,
-    "bgColor": "FFFFFF",
-    "comment": null,
-    "border": {
-      "left": "thin",
-      "right": null,
-      "top": null,
-      "bottom": null
-    }
-  },
-  {
-    "type": "single",
-    "rowStart": 14,
-    "colStart": 10,
-    "rowEnd": 14,
-    "colEnd": 10,
-    "content": null,
-    "bgColor": "FFFFFF",
-    "comment": null,
-    "border": {
-      "left": "thin",
-      "right": "thin",
-      "top": "thin",
-      "bottom": "thin"
-    }
-  },
-  {
-    "type": "single",
-    "rowStart": 14,
-    "colStart": 12,
-    "rowEnd": 14,
-    "colEnd": 12,
-    "content": null,
-    "bgColor": "FFFFFF",
-    "comment": null,
-    "border": {
-      "left": "thin",
-      "right": "thin",
-      "top": "thin",
-      "bottom": "thin"
-    }
-  },
-  {
-    "type": "single",
-    "rowStart": 15,
-    "colStart": 9,
-    "rowEnd": 15,
-    "colEnd": 9,
-    "content": null,
-    "bgColor": "FFFFFF",
-    "comment": null,
-    "border": {
-      "left": "thin",
-      "right": null,
-      "top": null,
-      "bottom": null
-    }
-  },
-  {
-    "type": "single",
-    "rowStart": 16,
-    "colStart": 9,
-    "rowEnd": 16,
-    "colEnd": 9,
-    "content": null,
-    "bgColor": "FFFFFF",
-    "comment": null,
-    "border": {
-      "left": "thin",
-      "right": null,
-      "top": null,
-      "bottom": null
-    }
-  },
-  {
-    "type": "single",
-    "rowStart": 16,
-    "colStart": 10,
-    "rowEnd": 16,
-    "colEnd": 10,
-    "content": null,
-    "bgColor": "FFFFFF",
-    "comment": null,
-    "border": {
-      "left": "thin",
-      "right": "thin",
-      "top": "thin",
-      "bottom": "thin"
-    }
-  },
-  {
-    "type": "single",
-    "rowStart": 16,
-    "colStart": 12,
-    "rowEnd": 16,
-    "colEnd": 12,
-    "content": null,
-    "bgColor": "FFFFFF",
-    "comment": null,
-    "border": {
-      "left": "thin",
-      "right": "thin",
-      "top": "thin",
-      "bottom": "thin"
-    }
-  },
-  {
-    "type": "single",
-    "rowStart": 19,
-    "colStart": 71,
-    "rowEnd": 19,
-    "colEnd": 71,
-    "content": " ",
-    "bgColor": "FFFFFF",
-    "comment": null,
-    "border": {
-      "left": null,
-      "right": null,
-      "top": null,
-      "bottom": null
-    }
-  },
-  {
-    "type": "single",
-    "rowStart": 20,
-    "colStart": 15,
-    "rowEnd": 20,
-    "colEnd": 15,
-    "content": null,
-    "bgColor": "FFFFFF",
-    "comment": null,
-    "border": {
-      "left": null,
-      "right": null,
-      "top": null,
-      "bottom": "thin"
-    }
   }
 ]

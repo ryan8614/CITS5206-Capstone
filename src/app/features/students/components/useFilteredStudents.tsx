@@ -5,6 +5,7 @@ type Person = {
   "End Date": string | null;
   Comment: string | null;
   "Pod No": string | null;
+  "Ext No": string | null;
   Type: string | null;
 };
 
