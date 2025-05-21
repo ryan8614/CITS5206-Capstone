@@ -80,6 +80,7 @@ yarn start
 ```
 
 Detailed handover documents of key features, components, APIs, scripts etc. are listed within each folder as below:
+```
 Auto_notify/auto_notify.md
 prisma/prisma.md
 public/data/data.md
@@ -93,7 +94,7 @@ src/components/components.md
 src/lib/lib.md
 student_json/student_json.md
 tests/tests.md
-
+```
 ## Development & Maintenance
 - Install dependencies: `npm install`
 - Run dev server: `npm run dev`
