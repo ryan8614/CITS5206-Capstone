@@ -15,13 +15,13 @@ import { Button } from 'antd';
 registerAllModules();
 
 export default function Deans_Office() {
-  const data = useFilteredContacts("DEANS OFFICE");
+  const data = useFilteredContacts("Deans Office");
   const containerRef = useRef<HTMLDivElement>(null);
   const hotRef = useRef<any>(null);
 
   //prevent scroll bleed
   usePreventScrollBleed(containerRef as RefObject<HTMLDivElement>, '.ht_master .wtHolder');
-  const classification = 'DEANS OFFICE';
+  const classification = 'Deans Office';
 
   return (
     <div className="h-auto p-4 bg-gray-100">

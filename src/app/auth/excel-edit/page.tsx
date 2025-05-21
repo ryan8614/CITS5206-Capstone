@@ -63,7 +63,7 @@ const App: React.FC = () => {
                       {
                         key: '16',
                         icon: <FileExcelOutlined />,
-                        label: 'Accounting & Finance',
+                        label: 'AccFin',
                       },
                       {
                         key: '17',
@@ -127,7 +127,7 @@ const App: React.FC = () => {
                     {
                       key: '34',
                       icon: <FileTextOutlined/>,
-                      label: 'Accounting & Finance',
+                      label: 'AccFin',
                     },
                     {
                       key: '35',

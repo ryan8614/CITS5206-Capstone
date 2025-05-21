@@ -1,29 +1,39 @@
-'use client'
+'use client';
 
 import React from'react';
+import { Slider } from 'antd';
 import HotTableView from "@/app/features/maps/components/HotTableView";
 import type { CellMeta, LayoutMeta } from "@/app/features/maps/components/HotTableView";
-import { useEffect, useState  } from "react";
+import { useEffect, useState, useRef } from 'react';
 
-export default function AccAndFin() {
+export default function AccFin() {
+  const containerRef = useRef<HTMLDivElement>(null);
   const [cellData, setCellData] = useState<CellMeta[] | null>(null);
   const [layoutData, setLayoutData] = useState<LayoutMeta | null>(null);
-
+  const [scale, setScale] = useState(1);
+  
   useEffect(() => {
-    async function loadData() {
-      const cellRes = await fetch("/data/maps/cells/accounting_finance_cells.json");
-      const layoutRes = await fetch("/data/maps/layouts/accounting_finance_layout.json");
-
-      const cellJson = await cellRes.json();
-      const layoutJson = await layoutRes.json();
-
-      setCellData(cellJson);
-      setLayoutData(layoutJson);
+    async function fetchMapData() {
+      try {
+        const res = await fetch("/api/get-map-data", {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({ mapName: "accounting_finance" })
+        });
+  
+        if (!res.ok) throw new Error("Failed to fetch map data");
+  
+        const data = await res.json();
+        setCellData(data.cells);
+        setLayoutData(data.layout);
+      } catch (err) {
+        console.error(err);
+      }
     }
-
-    loadData();
+  
+    fetchMapData();
   }, []);
-
+  
   const handleSave = async () => {
     if (!cellData || !layoutData) return;
     try {
@@ -45,9 +55,14 @@ export default function AccAndFin() {
   };
 
   return (
-    <div className="flex flex-col w-full h-full overflow-hidden">
-      <div className='flex justify-between items-center mb-4'>
-        <h2 className="text-xl font-bold mb-4">Accounting & Finance</h2>
+    <div className="flex flex-col w-full border-2"
+      style={{
+        height: 'calc(90vh - 4rem)', // Limit height to 90vh - navbar height
+        overflow: 'auto',             // Allow scrolling if content exceeds height
+      }}
+    >
+      <div className='flex justify-between items-center mb-4 px-4 pt-4'>
+        <h2 className="text-xl font-bold">Accounting & Finance</h2>
         <button
           onClick={handleSave}
           className="px-4 py-2 bg-blue-600 text-white rounded hover:bg-blue-700"
@@ -55,20 +70,60 @@ export default function AccAndFin() {
           Save
         </button>
       </div>
-    
-      {cellData && layoutData ? (
-        <HotTableView
-          cellData={cellData}
-          layoutData={layoutData}
-          onUpdate={(newCells, newLayout) => {
-            setCellData(newCells);
-            setLayoutData(newLayout);
-          }}
-        />
-      ) : (
-        <p>Loading...</p>
-      )}
 
+      <div className="px-4 mb-2">
+        <Slider
+          min={0.5}
+          max={2}
+          step={0.05}
+          value={scale}
+          onChange={(value) => {
+            if (typeof value === 'number') {
+              setScale(value);
+            }
+          }}
+          tooltip={{ formatter: (value) => `${Math.round((value ?? 1) * 100)}%` }}
+        />
+      </div>
+
+      <div
+        className="flex-grow px-4"
+        style={{
+          overflow: 'auto',
+          maxHeight: '100%',
+          maxWidth: '100%',
+        }}
+      >
+        {cellData && layoutData ? (
+          <div style={{ width: 'fit-content', height: 'fit-content' }}>
+            <div
+              style={{
+                transform: `scale(${scale})`,
+                transformOrigin: 'top left',
+                display: 'inline-block',
+              }}
+            >
+              <div
+                style={{
+                  minWidth: '3500px',   
+                  minHeight: '700px',   
+                }}
+              >
+                <HotTableView
+                  cellData={cellData}
+                  layoutData={layoutData}
+                  onUpdate={(newCells, newLayout) => {
+                    setCellData(newCells);
+                    setLayoutData(newLayout);
+                  }}
+                />
+              </div>
+            </div>
+          </div>
+        ) : (
+          <p className="p-4">Loading table...</p>
+        )}
+      </div>
     </div>
   );
 }

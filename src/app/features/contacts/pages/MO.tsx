@@ -15,22 +15,22 @@ import { Button } from 'antd';
 registerAllModules();
 
 export default function MO() {
-  const data = useFilteredContacts('MANAGEMENT & ORGANISATIONS');
+  const data = useFilteredContacts('Mgmt & Orgs');
   const containerRef = useRef<HTMLDivElement>(null);
   const hotRef = useRef<any>(null);
 
   //prevent scroll bleed
   usePreventScrollBleed(containerRef as RefObject<HTMLDivElement>, '.ht_master .wtHolder');
-  const classification = 'MANAGEMENT & ORGANISATIONS'
+  const classification = 'Mgmt & Orgs';
 
   return (
     <div className="h-auto p-4 bg-gray-100">
       <div className="flex justify-between items-center mb-4">
-        <h2 className="text-xl font-bold">Management & Organisations Staff</h2>
+        <h2 className="text-xl font-bold">Mgmt & Orgs Staff</h2>
         <Button
           type="primary"
           onClick={() => {
-            console.log('Saving Management & Organisations Staff data to server');
+            console.log('Saving Mgmt & Orgs Staff data to server');
             saveTableData(hotRef, classification);
           }}
         >

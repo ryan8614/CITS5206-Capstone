@@ -3,7 +3,7 @@ import { useState, useEffect } from 'react'
 
 /**
  * Returns a filtered list of StaffEntry based on the given filter.
- * @param filter Classification name (e.g. 'ACCOUNTING AND FINANCE')
+ * @param filter Classification name (e.g. 'AccFin')
  * @returns StaffEntry[]
  */
 

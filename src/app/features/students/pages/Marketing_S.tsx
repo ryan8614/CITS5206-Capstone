@@ -45,21 +45,22 @@ export default function Marketing_S() {
           data={data}
           width="100%"
           height="100%"
-          colHeaders={['Name', 'End Date', 'Comment', 'Pod No', 'Type']}
+          colHeaders={['Name', 'End Date', 'Comment', 'Ext No','Pod No', 'Type']}
           columns={[
             { data: 'Name' },
             { data: 'End Date' },
             { data: 'Comment' },
+            { data: 'Ext No' },
             { data: 'Pod No' },
             {
               data: 'Type',
               type: 'dropdown',
-              source: ['HDR', 'New PhD in 2025', 'PhDs', 'Mphil', 'Visiting Student', 'Other'],
+              source: ['HDR', 'New PhD in 2025', 'PhDs', 'Mphil', 'Visiting Student', 'Research Assistant', 'Casual Staff', 'Other'],
               strict: true,
               allowInvalid: false
             }
           ]}
-          colWidths={[300, 200, 400, 150, 150]}
+          colWidths={[300, 200, 400, 150, 150, 150]}
           rowHeaders={true}
           contextMenu={{
             items: [

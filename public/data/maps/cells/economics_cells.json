@@ -5,7 +5,8 @@
     "colStart": 27,
     "rowEnd": 4,
     "colEnd": 28,
-    "content": "102G\n\nManh VU\n",
+    "content": "",
+  	"keylocker": "",
     "bgColor": "FFFFFF",
     "comment": null,
     "border": {
@@ -22,7 +23,8 @@
     "colStart": 27,
     "rowEnd": 6,
     "colEnd": 28,
-    "content": "102R\n\nPu Li \n",
+    "content": "",
+  	"keylocker": "",
     "bgColor": "FFFFFF",
     "comment": null,
     "border": {
@@ -39,7 +41,8 @@
     "colStart": 29,
     "rowEnd": 4,
     "colEnd": 30,
-    "content": "102H \n\nDamian Lenzo\n",
+    "content": "",
+  	"keylocker": "",
     "bgColor": "FFFFFF",
     "comment": null,
     "border": {
@@ -56,7 +59,8 @@
     "colStart": 29,
     "rowEnd": 6,
     "colEnd": 30,
-    "content": "102S\n\nAustin Wingard\n",
+    "content": "",
+  	"keylocker": "",
     "bgColor": "FFFFFF",
     "comment": null,
     "border": {
@@ -73,7 +77,8 @@
     "colStart": 17,
     "rowEnd": 4,
     "colEnd": 18,
-    "content": "102C\n\nAcwin Saputra\n x 5674",
+    "content": "",
+  	"keylocker": "",
     "bgColor": "FFFFFF",
     "comment": null,
     "border": {
@@ -90,7 +95,8 @@
     "colStart": 17,
     "rowEnd": 6,
     "colEnd": 18,
-    "content": "102N\n\nVACANT\n x91742",
+    "content": "",
+  	"keylocker": "",
     "bgColor": "FFFFFF",
     "comment": null,
     "border": {
@@ -107,7 +113,8 @@
     "colStart": 20,
     "rowEnd": 4,
     "colEnd": 21,
-    "content": "102D\n\nHao Wang \n x1079",
+    "content": "",
+  	"keylocker": "",
     "bgColor": "FFFFFF",
     "comment": null,
     "border": {
@@ -124,7 +131,8 @@
     "colStart": 20,
     "rowEnd": 6,
     "colEnd": 21,
-    "content": "102O\n\nVACANT\n x 3879",
+    "content": "",
+  	"keylocker": "",
     "bgColor": "FFFFFF",
     "comment": null,
     "border": {
@@ -141,7 +149,8 @@
     "colStart": 24,
     "rowEnd": 4,
     "colEnd": 25,
-    "content": "102F\n\nYekti Pratiwi\n",
+    "content": "",
+  	"keylocker": "",
     "bgColor": "FFFFFF",
     "comment": null,
     "border": {
@@ -158,7 +167,8 @@
     "colStart": 24,
     "rowEnd": 6,
     "colEnd": 25,
-    "content": "102Q\n\nXichen WANG\n",
+    "content": "",
+  	"keylocker": "",
     "bgColor": "FFFFFF",
     "comment": null,
     "border": {
@@ -175,7 +185,8 @@
     "colStart": 13,
     "rowEnd": 6,
     "colEnd": 14,
-    "content": "102L\n\nHenderi\n x 5397",
+    "content": "",
+  	"keylocker": "",
     "bgColor": "FFFFFF",
     "comment": "April Wen:\nEOI - move to 143H",
     "border": {
@@ -192,7 +203,8 @@
     "colStart": 9,
     "rowEnd": 21,
     "colEnd": 10,
-    "content": "130A\nVACANT\n",
+    "content": "",
+  	"keylocker": "",
     "bgColor": "FFFFFF",
     "comment": null,
     "border": {
@@ -209,7 +221,8 @@
     "colStart": 11,
     "rowEnd": 21,
     "colEnd": 11,
-    "content": "130B\nVACANT\n",
+    "content": "",
+  	"keylocker": "",
     "bgColor": "FFFFFF",
     "comment": null,
     "border": {
@@ -226,7 +239,8 @@
     "colStart": 12,
     "rowEnd": 21,
     "colEnd": 12,
-    "content": "130C\nVACANT\n",
+    "content": "",
+  	"keylocker": "",
     "bgColor": "FFFFFF",
     "comment": null,
     "border": {
@@ -243,7 +257,8 @@
     "colStart": 9,
     "rowEnd": 23,
     "colEnd": 10,
-    "content": "130D\nVACANT\n",
+    "content": "",
+  	"keylocker": "",
     "bgColor": "FFFFFF",
     "comment": null,
     "border": {
@@ -260,7 +275,8 @@
     "colStart": 11,
     "rowEnd": 23,
     "colEnd": 11,
-    "content": "130E\nVACANT\n",
+    "content": "",
+  	"keylocker": "",
     "bgColor": "FFFFFF",
     "comment": null,
     "border": {
@@ -277,7 +293,8 @@
     "colStart": 12,
     "rowEnd": 23,
     "colEnd": 12,
-    "content": "130F\nVACANT\n",
+    "content": "",
+  	"keylocker": "",
     "bgColor": "FFFFFF",
     "comment": null,
     "border": {
@@ -294,7 +311,8 @@
     "colStart": 3,
     "rowEnd": 7,
     "colEnd": 9,
-    "content": "Case Study Room 101\n\nDon Voelte & Nancy Keegan Case Study Room\n\n\nKey Locker 591201",
+    "content": "Don Voelte & Nancy Keegan Case Study Room",
+  	"keylocker": "591201",
     "bgColor": "FFFFFF",
     "comment": null,
     "border": {
@@ -359,7 +377,8 @@
     "colStart": 34,
     "rowEnd": 40,
     "colEnd": 36,
-    "content": "155\n\nMeeting Room & Print Room   Key Locker 591201 \nPTR 388\nPrinter Serial # SAA7N047000781",
+    "content": "PTR 388 Printer Serial # SAA7N047000781",
+  	"keylocker": "591201",
     "bgColor": "FFFFFF",
     "comment": null,
     "border": {
@@ -368,7 +387,7 @@
       "top": "thin",
       "bottom": "thin"
     },
-    "room": "155"
+    "room": "155 Meeting Room & Print Room"
   },
   {
     "type": "merged",
@@ -376,7 +395,8 @@
     "colStart": 27,
     "rowEnd": 40,
     "colEnd": 29,
-    "content": "143J \n\nThomas Leckie\nx 5652",
+    "content": "",
+  	"keylocker": "",
     "bgColor": "FFFFFF",
     "comment": null,
     "border": {
@@ -409,7 +429,8 @@
     "colStart": 27,
     "rowEnd": 38,
     "colEnd": 29,
-    "content": "143E\n\nKesavarajah Kesavan\n x 5647",
+    "content": "",
+  	"keylocker": "",
     "bgColor": "FFFFFF",
     "comment": null,
     "border": {
@@ -426,7 +447,8 @@
     "colStart": 31,
     "rowEnd": 40,
     "colEnd": 33,
-    "content": "151\n\nKen Clements\nx2898    \nKey Locker \n591336",
+    "content": "",
+  	"keylocker": "591336",
     "bgColor": "FFFFFF",
     "comment": null,
     "border": {
@@ -443,7 +465,8 @@
     "colStart": 12,
     "rowEnd": 40,
     "colEnd": 14,
-    "content": "143K\n\nAdhipradana Prabu Swasito\t\nx 2585",
+    "content": "",
+  	"keylocker": "",
     "bgColor": "FFFFFF",
     "comment": null,
     "border": {
@@ -460,7 +483,8 @@
     "colStart": 15,
     "rowEnd": 40,
     "colEnd": 17,
-    "content": "143F\n\nMUBIN Muhammad Khoerul \nx 5648",
+    "content": "",
+  	"keylocker": "",
     "bgColor": "FFFFFF",
     "comment": null,
     "border": {
@@ -477,7 +501,8 @@
     "colStart": 18,
     "rowEnd": 40,
     "colEnd": 20,
-    "content": "143G\n\nNugraheni Kusumaningsih\nx 5649",
+    "content": "",
+  	"keylocker": "",
     "bgColor": "FFFFFF",
     "comment": null,
     "border": {
@@ -494,7 +519,8 @@
     "colStart": 21,
     "rowEnd": 40,
     "colEnd": 23,
-    "content": "143H\n\nSineth Koralalage\nx 5650",
+    "content": "",
+  	"keylocker": "",
     "bgColor": "FFFFFF",
     "comment": "April Wen:\nHenderi will move in when Sineth finish - Michael Palmer has approved\n",
     "border": {
@@ -511,7 +537,8 @@
     "colStart": 24,
     "rowEnd": 40,
     "colEnd": 26,
-    "content": "143I\n\nErica Lukas\nx 5651",
+    "content": "",
+  	"keylocker": "",
     "bgColor": "FFFFFF",
     "comment": null,
     "border": {
@@ -528,7 +555,8 @@
     "colStart": 12,
     "rowEnd": 38,
     "colEnd": 14,
-    "content": "143L\n\nPaul Azzalini\nx2694",
+    "content": "",
+  	"keylocker": "",
     "bgColor": "FFFFFF",
     "comment": null,
     "border": {
@@ -545,7 +573,8 @@
     "colStart": 15,
     "rowEnd": 38,
     "colEnd": 17,
-    "content": "143A\n\nXian Chen\nx 5643",
+    "content": "",
+  	"keylocker": "",
     "bgColor": "FFFFFF",
     "comment": null,
     "border": {
@@ -562,7 +591,8 @@
     "colStart": 18,
     "rowEnd": 38,
     "colEnd": 20,
-    "content": "143B\n\nSania Khalil\nx 5644",
+    "content": "",
+  	"keylocker": "",
     "bgColor": "FFFFFF",
     "comment": null,
     "border": {
@@ -579,7 +609,8 @@
     "colStart": 21,
     "rowEnd": 38,
     "colEnd": 23,
-    "content": "143C\n\nYaofangshu Jin (Apphia)\nx 5645",
+    "content": "",
+  	"keylocker": "",
     "bgColor": "FFFFFF",
     "comment": null,
     "border": {
@@ -596,7 +627,8 @@
     "colStart": 24,
     "rowEnd": 38,
     "colEnd": 26,
-    "content": "143D\n\nEnni XU (Annie)\nx 5646",
+    "content": "",
+  	"keylocker": "",
     "bgColor": "FFFFFF",
     "comment": null,
     "border": {
@@ -613,7 +645,8 @@
     "colStart": 35,
     "rowEnd": 34,
     "colEnd": 35,
-    "content": "Kitchen",
+    "content": "",
+  	"keylocker": "",
     "bgColor": "FFFFFF",
     "comment": null,
     "border": {
@@ -630,7 +663,8 @@
     "colStart": 13,
     "rowEnd": 34,
     "colEnd": 15,
-    "content": "144\n\nRony Gabbay/Mel Davies\nx2926  \nKey Locker \n591330\n",
+    "content": "",
+  	"keylocker": "591330",
     "bgColor": "FFFFFF",
     "comment": null,
     "border": {
@@ -647,7 +681,8 @@
     "colStart": 16,
     "rowEnd": 34,
     "colEnd": 18,
-    "content": "145\n\nIshita Chatterjee\nx5654\n Key Locker \n591331",
+    "content": "",
+  	"keylocker": "591331",
     "bgColor": "FFFFFF",
     "comment": null,
     "border": {
@@ -664,7 +699,8 @@
     "colStart": 19,
     "rowEnd": 34,
     "colEnd": 21,
-    "content": "146\n\nAlison Preston\nx8164 \nKey Locker \n591332",
+    "content": "",
+  	"keylocker": "591332",
     "bgColor": "FFFFFF",
     "comment": null,
     "border": {
@@ -681,7 +717,8 @@
     "colStart": 25,
     "rowEnd": 34,
     "colEnd": 27,
-    "content": "148\nAbu Siddique x2941\nNic Groenewold\nx3345  \nJuerg Weber x2922\nKey Locker 591334",
+    "content": "",
+  	"keylocker": "591334",
     "bgColor": "FFFFFF",
     "comment": null,
     "border": {
@@ -698,7 +735,8 @@
     "colStart": 28,
     "rowEnd": 34,
     "colEnd": 30,
-    "content": "149\n\nLuciana Fiorini\nx7212   \nKey Locker \n591335\n",
+    "content": "",
+  	"keylocker": "591335",
     "bgColor": "FFFFFF",
     "comment": null,
     "border": {
@@ -715,7 +753,8 @@
     "colStart": 22,
     "rowEnd": 34,
     "colEnd": 24,
-    "content": "147\n\nShawn Chen\nx5655   \nKey Locker \n591333",
+    "content": "",
+  	"keylocker": "591333",
     "bgColor": "FFFFFF",
     "comment": null,
     "border": {
@@ -732,7 +771,8 @@
     "colStart": 25,
     "rowEnd": 12,
     "colEnd": 27,
-    "content": "107\n\nYanli Lin\nx8560  \nKey Locker \n591313",
+    "content": "",
+  	"keylocker": "591313",
     "bgColor": "FFFFFF",
     "comment": "Wendy Lumanau:\nYanli Lin - new staff starting in Aug\n",
     "border": {
@@ -749,7 +789,8 @@
     "colStart": 28,
     "rowEnd": 12,
     "colEnd": 30,
-    "content": "108\n\nGirish Bahal\nx5642\nKey Locker \n591314",
+    "content": "",
+  	"keylocker": "591314",
     "bgColor": "FFFFFF",
     "comment": null,
     "border": {
@@ -766,7 +807,8 @@
     "colStart": 31,
     "rowEnd": 12,
     "colEnd": 33,
-    "content": "109\n\nInga Kristoffersen\nx4677  \nKey Locker\n591315",
+    "content": "",
+  	"keylocker": "591315",
     "bgColor": "FFFFFF",
     "comment": null,
     "border": {
@@ -783,7 +825,8 @@
     "colStart": 9,
     "rowEnd": 25,
     "colEnd": 10,
-    "content": "130G\nVACANT\n",
+    "content": "",
+  	"keylocker": "",
     "bgColor": "FFFFFF",
     "comment": null,
     "border": {
@@ -800,7 +843,8 @@
     "colStart": 31,
     "rowEnd": 34,
     "colEnd": 33,
-    "content": "150\n\nMichael Jetter\nx3345    \nKey Locker \n591337",
+    "content": "",
+  	"keylocker": "591337",
     "bgColor": "FFFFFF",
     "comment": null,
     "border": {
@@ -817,7 +861,8 @@
     "colStart": 12,
     "rowEnd": 25,
     "colEnd": 12,
-    "content": "130I\n Anam Fida\n",
+    "content": "",
+  	"keylocker": "",
     "bgColor": "FFFFFF",
     "comment": null,
     "border": {
@@ -834,7 +879,8 @@
     "colStart": 11,
     "rowEnd": 25,
     "colEnd": 11,
-    "content": "130H\nVACANT \n",
+    "content": "",
+  	"keylocker": "",
     "bgColor": "FFFFFF",
     "comment": null,
     "border": {
@@ -851,7 +897,8 @@
     "colStart": 9,
     "rowEnd": 28,
     "colEnd": 12,
-    "content": "131\n\nChris Parsons\nx5639  \nKey Locker \n591328",
+    "content": "",
+  	"keylocker": "591328",
     "bgColor": "FFFFFF",
     "comment": null,
     "border": {
@@ -868,7 +915,8 @@
     "colStart": 13,
     "rowEnd": 12,
     "colEnd": 15,
-    "content": "103\n\nLeandro Magnusson\nx2924 \nKey Locker \n591309",
+    "content": "",
+  	"keylocker": "591309",
     "bgColor": "FFFFFF",
     "comment": null,
     "border": {
@@ -885,7 +933,8 @@
     "colStart": 16,
     "rowEnd": 12,
     "colEnd": 18,
-    "content": "104\n\nSimon Chang\nx2893\nKey Locker\n591310",
+    "content": "",
+  	"keylocker": "591310",
     "bgColor": "FFFFFF",
     "comment": null,
     "border": {
@@ -902,7 +951,8 @@
     "colStart": 19,
     "rowEnd": 12,
     "colEnd": 21,
-    "content": "105\n\nElisa Birch\nx1444  \nKey Locker\n591311",
+    "content": "",
+  	"keylocker": "591311",
     "bgColor": "FFFFFF",
     "comment": null,
     "border": {
@@ -919,7 +969,8 @@
     "colStart": 22,
     "rowEnd": 12,
     "colEnd": 24,
-    "content": "106\n\nColin Barnett \nx2128  \nKey Locker\n591312",
+    "content": "",
+  	"keylocker": "591312",
     "bgColor": "FFFFFF",
     "comment": "Ha Le:\nTwice a week-Tue,Thu",
     "border": {
@@ -936,7 +987,8 @@
     "colStart": 32,
     "rowEnd": 4,
     "colEnd": 32,
-    "content": "102I\n\nEman Adhi Patra\n",
+    "content": "",
+  	"keylocker": "",
     "bgColor": "FFFFFF",
     "comment": null,
     "border": {
@@ -953,7 +1005,8 @@
     "colStart": 33,
     "rowEnd": 4,
     "colEnd": 35,
-    "content": "102J\n\nAsep Nurwanda\n x 3414",
+    "content": "",
+  	"keylocker": "",
     "bgColor": "FFFFFF",
     "comment": null,
     "border": {
@@ -970,7 +1023,8 @@
     "colStart": 36,
     "rowEnd": 4,
     "colEnd": 38,
-    "content": "102K\n\nLana Pavlovic\n x4587",
+    "content": "",
+  	"keylocker": "",
     "bgColor": "FFFFFF",
     "comment": null,
     "border": {
@@ -987,7 +1041,8 @@
     "colStart": 40,
     "rowEnd": 6,
     "colEnd": 42,
-    "content": "113\n\nJakob Madsen\nx7361  \nKey Locker\n 591317\n",
+    "content": "",
+  	"keylocker": "591317",
     "bgColor": "FFFFFF",
     "comment": null,
     "border": {
@@ -1004,7 +1059,8 @@
     "colStart": 43,
     "rowEnd": 6,
     "colEnd": 45,
-    "content": "115\n\nTushar Bharati\nx5860\n Key Locker\n 591321\n",
+    "content": "",
+  	"keylocker": "591321",
     "bgColor": "FFFFFF",
     "comment": null,
     "border": {
@@ -1021,7 +1077,8 @@
     "colStart": 46,
     "rowEnd": 6,
     "colEnd": 48,
-    "content": "117\n\nPratiti Chatterjee\nKey Locker 591323\n",
+    "content": "",
+  	"keylocker": "591323",
     "bgColor": "FFFFFF",
     "comment": null,
     "border": {
@@ -1038,7 +1095,8 @@
     "colStart": 50,
     "rowEnd": 6,
     "colEnd": 52,
-    "content": "121\nPrint Room\nKey Locker 591201 PTR 386 Printer Serial # SAA2J041015694 PTR 387 Printer Serial # SAA2J041015546",
+    "content": "PTR 386 Printer Serial # SAA2J041015694 \nPTR 387 Printer Serial # SAA2J041015546",
+  	"keylocker": "591201",
     "bgColor": "FFFFFF",
     "comment": null,
     "border": {
@@ -1047,7 +1105,7 @@
       "top": "thin",
       "bottom": "thin"
     },
-    "room": "121"
+    "room": "121 Printer Room"
   },
   {
     "type": "merged",
@@ -1055,7 +1113,8 @@
     "colStart": 36,
     "rowEnd": 6,
     "colEnd": 38,
-    "content": "102V\n\nKuson Leawsakul\n x 5641",
+    "content": "",
+  	"keylocker": "",
     "bgColor": "FFFFFF",
     "comment": null,
     "border": {
@@ -1072,7 +1131,8 @@
     "colStart": 32,
     "rowEnd": 6,
     "colEnd": 32,
-    "content": "102T\n\nTeguh Warsito\n",
+    "content": "",
+  	"keylocker": "",
     "bgColor": "FFFFFF",
     "comment": null,
     "border": {
@@ -1089,7 +1149,8 @@
     "colStart": 33,
     "rowEnd": 6,
     "colEnd": 35,
-    "content": "102U \n\nWisynu Wardana\nx 5636",
+    "content": "",
+  	"keylocker": "",
     "bgColor": "FFFFFF",
     "comment": null,
     "border": {
@@ -1106,7 +1167,8 @@
     "colStart": 22,
     "rowEnd": 4,
     "colEnd": 23,
-    "content": "102E\n\nXin Shao\n x1061",
+    "content": "",
+  	"keylocker": "",
     "bgColor": "FFFFFF",
     "comment": null,
     "border": {
@@ -1123,7 +1185,8 @@
     "colStart": 22,
     "rowEnd": 6,
     "colEnd": 23,
-    "content": "102P\n\nHumayun Kabir\n x 5634",
+    "content": "",
+  	"keylocker": "",
     "bgColor": "FFFFFF",
     "comment": null,
     "border": {
@@ -1140,7 +1203,8 @@
     "colStart": 15,
     "rowEnd": 4,
     "colEnd": 16,
-    "content": "102B\n\nLubna Uzair\n x 8671",
+    "content": "",
+  	"keylocker": "",
     "bgColor": "FFFFFF",
     "comment": null,
     "border": {
@@ -1157,7 +1221,8 @@
     "colStart": 15,
     "rowEnd": 6,
     "colEnd": 16,
-    "content": "102M\n\nVACANT \n x 2939",
+    "content": "",
+  	"keylocker": "",
     "bgColor": "FFFFFF",
     "comment": null,
     "border": {
@@ -1174,7 +1239,8 @@
     "colStart": 13,
     "rowEnd": 4,
     "colEnd": 14,
-    "content": "102A\n\nSiyu Ai\n x 7666 ",
+    "content": "",
+  	"keylocker": "",
     "bgColor": "FFFFFF",
     "comment": null,
     "border": {
@@ -1191,7 +1257,8 @@
     "colStart": 26,
     "rowEnd": 2,
     "colEnd": 29,
-    "content": "Made up desk - Damian Lenzo",
+    "content": "",
+  	"keylocker": "",
     "bgColor": "FFFFFF",
     "comment": null,
     "border": {
@@ -1208,7 +1275,8 @@
     "colStart": 10,
     "rowEnd": 34,
     "colEnd": 12,
-    "content": "PTR 384 Printer Serial \n# SAA2J041015473",
+    "content": "PTR 384 Printer Serial # SAA2J041015473",
+  	"keylocker": "",
     "bgColor": "FFFFFF",
     "comment": null,
     "border": {
@@ -1217,7 +1285,7 @@
       "top": "thin",
       "bottom": "thin"
     },
-    "room": "PTR 384 Printer Serial"
+    "room": "Printer Room"
   },
   {
     "type": "merged",
@@ -1225,7 +1293,8 @@
     "colStart": 3,
     "rowEnd": 40,
     "colEnd": 8,
-    "content": "Case Study Room 142\n\nSir Rod Eddington\nCase Study Room\n\nKey Locker 591201",
+    "content": "Sir Rod Eddington",
+  	"keylocker": "591201",
     "bgColor": "FFFFFF",
     "comment": null,
     "border": {
@@ -1234,7 +1303,7 @@
       "top": "thin",
       "bottom": "thin"
     },
-    "room": "Case Study Room 142"
+    "room": "142 Case Study Room"
   },
   {
     "type": "merged",
@@ -1242,7 +1311,8 @@
     "colStart": 51,
     "rowEnd": 8,
     "colEnd": 52,
-    "content": "WC",
+    "content": "",
+  	"keylocker": "",
     "bgColor": "FFFFFF",
     "comment": null,
     "border": {
@@ -1259,7 +1329,8 @@
     "colStart": 35,
     "rowEnd": 36,
     "colEnd": 35,
-    "content": "WC",
+    "content": "",
+  	"keylocker": "",
     "bgColor": "FFFFFF",
     "comment": null,
     "border": {
@@ -1276,7 +1347,8 @@
     "colStart": 50,
     "rowEnd": 12,
     "colEnd": 50,
-    "content": "Kitchen",
+    "content": "",
+  	"keylocker": "",
     "bgColor": "FFFFFF",
     "comment": null,
     "border": {
@@ -1293,7 +1365,8 @@
     "colStart": 37,
     "rowEnd": 12,
     "colEnd": 39,
-    "content": "111\n\nMichael McLure\nx2921  \nKey Locker\n 591319",
+    "content": "",
+  	"keylocker": "591319",
     "bgColor": "FFFFFF",
     "comment": "April Wen:\nMichael M retired but holds an Emeritus Professor title. Can check with Leandro if have new staff coming\nHolger Sturlik will use the office from 9/2 - 9/3 2025",
     "border": {
@@ -1310,7 +1383,8 @@
     "colStart": 40,
     "rowEnd": 12,
     "colEnd": 42,
-    "content": "112\n\nYanrui Wu\nx3964  \nKey Locker\n 591320",
+    "content": "",
+  	"keylocker": "591320",
     "bgColor": "FFFFFF",
     "comment": null,
     "border": {
@@ -1327,7 +1401,8 @@
     "colStart": 43,
     "rowEnd": 12,
     "colEnd": 45,
-    "content": "114\n\nAnu Rammohan\nx5656  \nKey Locker\n 591322",
+    "content": "",
+  	"keylocker": "591322",
     "bgColor": "FFFFFF",
     "comment": null,
     "border": {
@@ -1344,7 +1419,8 @@
     "colStart": 46,
     "rowEnd": 12,
     "colEnd": 48,
-    "content": "116\n\nSam Tang\nx2931  \nKey Locker \n591324",
+    "content": "",
+  	"keylocker": "591324",
     "bgColor": "FFFFFF",
     "comment": null,
     "border": {
@@ -1377,7 +1453,8 @@
     "colStart": 34,
     "rowEnd": 12,
     "colEnd": 36,
-    "content": "110\n\nMichael Palmer\nx6094 \nKey Locker\n59318",
+    "content": "",
+  	"keylocker": "591318",
     "bgColor": "FFFFFF",
     "comment": null,
     "border": {
@@ -1394,7 +1471,8 @@
     "colStart": 9,
     "rowEnd": 14,
     "colEnd": 12,
-    "content": "127 \n\nMohammad Farhad\nKey Locker \n591325\n",
+    "content": "",
+  	"keylocker": "591325",
     "bgColor": "FFFFFF",
     "comment": null,
     "border": {
@@ -1411,7 +1489,8 @@
     "colStart": 9,
     "rowEnd": 16,
     "colEnd": 12,
-    "content": "128 \n\nJiaBin Han/ Hui Geng  x7361   \nKey Locker \n591326",
+    "content": "",
+  	"keylocker": "591326",
     "bgColor": "FFFFFF",
     "comment": "Vesna Pribicevic:\nYanrui Wu Visiting Student Han JiaBin Until  31-1-2025\nYongMing Miao leaving earlier than 1-11-2024",
     "border": {
@@ -1428,7 +1507,8 @@
     "colStart": 9,
     "rowEnd": 18,
     "colEnd": 12,
-    "content": "129\n\nRod Tyers x5632\nKey Locker \n591327",
+    "content": "",
+  	"keylocker": "591327",
     "bgColor": "FFFFFF",
     "comment": null,
     "border": {
@@ -1445,7 +1525,8 @@
     "colStart": 9,
     "rowEnd": 30,
     "colEnd": 12,
-    "content": "132\nVisitor\nx3859  \nKey Locker \n591329",
+    "content": "",
+  	"keylocker": "591329",
     "bgColor": "FFFFFF",
     "comment": "Freya: \nAlison Preston reserves for visitor for March 2025\n\n",
     "border": {

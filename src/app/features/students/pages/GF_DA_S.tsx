@@ -13,13 +13,13 @@ import { Button } from 'antd';
 registerAllModules();
 
 export default function GF_DA_S() {
-  const data = useFilteredStudents('Ground Floor - DA');
+  const data = useFilteredStudents('GF-DA');
   const containerRef = useRef<HTMLDivElement>(null);
   const hotRef = useRef<any>(null);
 
   // prevent scroll bleed
   usePreventScrollBleed(containerRef as RefObject<HTMLDivElement>, '.ht_master .wtHolder');
-  const classification = 'Ground Floor - DA'
+  const classification = "GF-DA"
 
   return (
     <div className="h-auto p-4 bg-gray-100">
@@ -45,21 +45,22 @@ export default function GF_DA_S() {
           data={data}
           width="100%"
           height="100%"
-          colHeaders={['Name', 'End Date', 'Comment', 'Pod No', 'Type']}
+          colHeaders={['Name', 'End Date', 'Comment', 'Ext No','Pod No', 'Type']}
           columns={[
             { data: 'Name' },
             { data: 'End Date' },
             { data: 'Comment' },
+            { data: 'Ext No' },
             { data: 'Pod No' },
             {
               data: 'Type',
               type: 'dropdown',
-              source: ['HDR', 'New PhD in 2025', 'PhDs', 'Mphil', 'Visiting Student', 'Other'],
+              source: ['HDR', 'New PhD in 2025', 'PhDs', 'Mphil', 'Visiting Student', 'Research Assistant', 'Casual Staff', 'Other'],
               strict: true,
               allowInvalid: false
             }
           ]}
-          colWidths={[300, 200, 400, 150, 150]}
+          colWidths={[300, 200, 400, 150, 150, 150]}
           rowHeaders={true}
           contextMenu={{
             items: [

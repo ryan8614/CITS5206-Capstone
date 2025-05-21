@@ -5,7 +5,8 @@
     "colStart": 42,
     "rowEnd": 36,
     "colEnd": 44,
-    "content": "175\n\nDonella Caspersz\nx2627\nKey Locker\n591405",
+    "content": "",
+  	"keylocker": "591405",
     "bgColor": "FFFFFF",
     "comment": null,
     "border": {
@@ -22,7 +23,8 @@
     "colStart": 13,
     "rowEnd": 36,
     "colEnd": 15,
-    "content": "184\n\nVisitor\nKey Locker \n591412",
+    "content": "",
+  	"keylocker": "591412",
     "bgColor": "FFFFFF",
     "comment": "Xiaochen Gao:\nReserve for Joseph and Yifan Zhong's seminar guest from April 30 - May 6",
     "border": {
@@ -39,7 +41,8 @@
     "colStart": 45,
     "rowEnd": 36,
     "colEnd": 48,
-    "content": "170\n\nVISITORS (X3) / \nOnline Tutorial Room\nX6766 \nKey Locker \n591435",
+    "content": "",
+  	"keylocker": "591435",
     "bgColor": "FFFFFF",
     "comment": null,
     "border": {
@@ -48,7 +51,7 @@
       "top": "thin",
       "bottom": "thin"
     },
-    "room": "170"
+    "room": "170 Online Tutorial Room"
   },
   {
     "type": "merged",
@@ -56,7 +59,8 @@
     "colStart": 25,
     "rowEnd": 45,
     "colEnd": 27,
-    "content": "182P \nMiaojia Huang\nx5681",
+    "content": "",
+  	"keylocker": "",
     "bgColor": "FFFFFF",
     "comment": null,
     "border": {
@@ -73,7 +77,8 @@
     "colStart": 21,
     "rowEnd": 43,
     "colEnd": 23,
-    "content": "182M\n Thilini KUMARA BANDAGE",
+    "content": "",
+  	"keylocker": "",
     "bgColor": "FFFFFF",
     "comment": null,
     "border": {
@@ -90,7 +95,8 @@
     "colStart": 21,
     "rowEnd": 45,
     "colEnd": 23,
-    "content": "182Q\n Xiaoxiao Jiang ",
+    "content": "",
+  	"keylocker": "",
     "bgColor": "FFFFFF",
     "comment": null,
     "border": {
@@ -107,7 +113,8 @@
     "colStart": 37,
     "rowEnd": 47,
     "colEnd": 44,
-    "content": "190  Staff Room\n\nKey Locker 591201",
+    "content": "",
+  	"keylocker": "591201",
     "bgColor": "FFFFFF",
     "comment": null,
     "border": {
@@ -116,7 +123,7 @@
       "top": "thin",
       "bottom": "thin"
     },
-    "room": "190"
+    "room": "190 Staff Room"
   },
   {
     "type": "merged",
@@ -125,6 +132,7 @@
     "rowEnd": 11,
     "colEnd": 3,
     "content": "Kitchen",
+  	"keylocker": "",
     "bgColor": "FFFFFF",
     "comment": null,
     "border": {
@@ -141,7 +149,8 @@
     "colStart": 28,
     "rowEnd": 8,
     "colEnd": 50,
-    "content": "Wesfarmers Lecture Theatre",
+    "content": "",
+  	"keylocker": "",
     "bgColor": "FFFFFF",
     "comment": null,
     "border": {
@@ -158,7 +167,8 @@
     "colStart": 8,
     "rowEnd": 11,
     "colEnd": 10,
-    "content": "1202\n\nRay Fells\nx2933 \nKey Locker \n591442",
+    "content": "",
+  	"keylocker": "591442",
     "bgColor": "FFFFFF",
     "comment": null,
     "border": {
@@ -175,7 +185,8 @@
     "colStart": 11,
     "rowEnd": 11,
     "colEnd": 13,
-    "content": "1201\n\nMoazzam Ali\nx3984   \nKey Locker \n91422",
+    "content": "",
+  	"keylocker": "91422",
     "bgColor": "FFFFFF",
     "comment": null,
     "border": {
@@ -192,7 +203,8 @@
     "colStart": 1,
     "rowEnd": 31,
     "colEnd": 13,
-    "content": "Ernst & Young Lecture Theatre",
+    "content": "",
+  	"keylocker": "",
     "bgColor": "FFFFFF",
     "comment": null,
     "border": {
@@ -209,7 +221,8 @@
     "colStart": 15,
     "rowEnd": 31,
     "colEnd": 17,
-    "content": "1213O \n\nVACANT\nx5821",
+    "content": "",
+  	"keylocker": "",
     "bgColor": "FFFFFF",
     "comment": null,
     "border": {
@@ -226,7 +239,8 @@
     "colStart": 18,
     "rowEnd": 31,
     "colEnd": 20,
-    "content": "1213P \n\nVACANT\nx5822",
+    "content": "",
+  	"keylocker": "",
     "bgColor": "FFFFFF",
     "comment": null,
     "border": {
@@ -243,7 +257,8 @@
     "colStart": 15,
     "rowEnd": 29,
     "colEnd": 17,
-    "content": "1213M\n\nChee Wei Loh \n x5819",
+    "content": "",
+  	"keylocker": "",
     "bgColor": "FFFFFF",
     "comment": null,
     "border": {
@@ -260,7 +275,8 @@
     "colStart": 18,
     "rowEnd": 29,
     "colEnd": 20,
-    "content": "1213N \n\nVACANT \nx5820",
+    "content": "",
+  	"keylocker": "",
     "bgColor": "FFFFFF",
     "comment": null,
     "border": {
@@ -277,7 +293,8 @@
     "colStart": 15,
     "rowEnd": 26,
     "colEnd": 17,
-    "content": "1213K\n\nAgnieszka Miller\n x5678",
+    "content": "",
+  	"keylocker": "",
     "bgColor": "FFFFFF",
     "comment": null,
     "border": {
@@ -294,7 +311,8 @@
     "colStart": 15,
     "rowEnd": 24,
     "colEnd": 17,
-    "content": "1213I \n\nBarry Curtis\n",
+    "content": "",
+  	"keylocker": "",
     "bgColor": "FFFFFF",
     "comment": null,
     "border": {
@@ -311,7 +329,8 @@
     "colStart": 18,
     "rowEnd": 24,
     "colEnd": 20,
-    "content": "1213J \n\nVACANT\nx5816",
+    "content": "",
+  	"keylocker": "",
     "bgColor": "FFFFFF",
     "comment": null,
     "border": {
@@ -328,7 +347,8 @@
     "colStart": 15,
     "rowEnd": 11,
     "colEnd": 17,
-    "content": "1204C\n\nVACANT\n x5693",
+    "content": "",
+  	"keylocker": "",
     "bgColor": "FFFFFF",
     "comment": null,
     "border": {
@@ -345,7 +365,8 @@
     "colStart": 5,
     "rowEnd": 11,
     "colEnd": 7,
-    "content": "1205\n\nPeter Van Onselen / Nick Letch / Shamit Sagger\nx2934  \nKey Locker \n591441",
+    "content": "Peter Van Onselen / Nick Letch / Shamit Sagger x2934",
+  	"keylocker": "591441",
     "bgColor": "FFFFFF",
     "comment": null,
     "border": {
@@ -362,7 +383,8 @@
     "colStart": 15,
     "rowEnd": 19,
     "colEnd": 17,
-    "content": "1213E \n\nVACANT\nx 8106",
+    "content": "",
+  	"keylocker": "",
     "bgColor": "FFFFFF",
     "comment": "April Wen:\nDonella's visisting professor Singer Hsing-Er Lin stay Sep 5, 2025 - Jan 5, 2026\nComputer deployed pod for her\n",
     "border": {
@@ -379,7 +401,8 @@
     "colStart": 15,
     "rowEnd": 14,
     "colEnd": 17,
-    "content": "1213A\n\nKaren Winter\n",
+    "content": "",
+  	"keylocker": "",
     "bgColor": "FFFFFF",
     "comment": null,
     "border": {
@@ -396,7 +419,8 @@
     "colStart": 50,
     "rowEnd": 39,
     "colEnd": 53,
-    "content": "171\nSandra Kiffin-Petersen\nx3070 \nKey Locker \n591411",
+    "content": "",
+  	"keylocker": "591411",
     "bgColor": "FFFFFF",
     "comment": null,
     "border": {
@@ -413,7 +437,8 @@
     "colStart": 3,
     "rowEnd": 43,
     "colEnd": 5,
-    "content": "189\nMeeting /\nPrint Room\nx2048 Key Locker  501201 PTR 501 Printer Serial # SAA2J041014488",
+    "content": "PTR 501 Printer Serial # SAA2J041014488",
+  	"keylocker": "501201",
     "bgColor": "FFFFFF",
     "comment": null,
     "border": {
@@ -422,7 +447,7 @@
       "top": "thin",
       "bottom": "thin"
     },
-    "room": "189"
+    "room": "189 Meeting / Print Room"
   },
   {
     "type": "merged",
@@ -430,7 +455,8 @@
     "colStart": 14,
     "rowEnd": 41,
     "colEnd": 16,
-    "content": "182F \n\nMuhammad Rifqi Hidayat\nx5870",
+    "content": "",
+  	"keylocker": "",
     "bgColor": "FFFFFF",
     "comment": null,
     "border": {
@@ -447,7 +473,8 @@
     "colStart": 30,
     "rowEnd": 36,
     "colEnd": 32,
-    "content": "179\n\nTom Barratt\nx3581\nKey Locker\n591409",
+    "content": "",
+  	"keylocker": "591409",
     "bgColor": "FFFFFF",
     "comment": null,
     "border": {
@@ -464,7 +491,8 @@
     "colStart": 33,
     "rowEnd": 36,
     "colEnd": 35,
-    "content": "178\n\nDaniel Nicholson\nx \nKey Locker \n591408",
+    "content": "",
+  	"keylocker": "591408",
     "bgColor": "FFFFFF",
     "comment": "Xiaochen Gao:\nStart from 6th Jan 2025\n",
     "border": {
@@ -481,7 +509,8 @@
     "colStart": 36,
     "rowEnd": 36,
     "colEnd": 38,
-    "content": "177\n\nLong He\nx7101 \nKey Locker 591407",
+    "content": "",
+  	"keylocker": "591407",
     "bgColor": "FFFFFF",
     "comment": null,
     "border": {
@@ -498,7 +527,8 @@
     "colStart": 39,
     "rowEnd": 36,
     "colEnd": 41,
-    "content": "176\n\nRenata Cassado\nx1583\nKey Locker \n591406",
+    "content": "",
+  	"keylocker": "591406",
     "bgColor": "FFFFFF",
     "comment": null,
     "border": {
@@ -515,7 +545,8 @@
     "colStart": 7,
     "rowEnd": 43,
     "colEnd": 9,
-    "content": "182A\n\nVACANT\n x5660",
+    "content": "",
+  	"keylocker": "",
     "bgColor": "FFFFFF",
     "comment": null,
     "border": {
@@ -532,7 +563,8 @@
     "colStart": 14,
     "rowEnd": 43,
     "colEnd": 16,
-    "content": "182G\nVACANT - hot Desk \n x5671",
+    "content": "",
+  	"keylocker": "",
     "bgColor": "FFFFFF",
     "comment": null,
     "border": {
@@ -549,7 +581,8 @@
     "colStart": 44,
     "rowEnd": 43,
     "colEnd": 46,
-    "content": "174\n\nChristine Soo\nx2829 \nKey Locker 591404",
+    "content": "",
+  	"keylocker": "591404",
     "bgColor": "FFFFFF",
     "comment": null,
     "border": {
@@ -566,7 +599,8 @@
     "colStart": 47,
     "rowEnd": 43,
     "colEnd": 49,
-    "content": "173\nRuolian Fang\nx3984             \nKey Locker  \n591403",
+    "content": "",
+  	"keylocker": "591403",
     "bgColor": "FFFFFF",
     "comment": null,
     "border": {
@@ -583,7 +617,8 @@
     "colStart": 50,
     "rowEnd": 43,
     "colEnd": 53,
-    "content": "172\n\nWoodside Chair Gillian Yeo\nx1875\nKey Locker  591402",
+    "content": "",
+  	"keylocker": "591402",
     "bgColor": "FFFFFF",
     "comment": null,
     "border": {
@@ -600,7 +635,8 @@
     "colStart": 28,
     "rowEnd": 43,
     "colEnd": 30,
-    "content": "193\n\nJoseph Carpini\nx5660 \nKey Locker \n591440",
+    "content": "",
+  	"keylocker": "591440",
     "bgColor": "FFFFFF",
     "comment": null,
     "border": {
@@ -617,7 +653,8 @@
     "colStart": 27,
     "rowEnd": 36,
     "colEnd": 29,
-    "content": "180\n\nBenita Hube\nx5679\nKey Locker \n591410",
+    "content": "",
+  	"keylocker": "591410",
     "bgColor": "FFFFFF",
     "comment": null,
     "border": {
@@ -634,7 +671,8 @@
     "colStart": 11,
     "rowEnd": 41,
     "colEnd": 13,
-    "content": "182C\n\nMenaka Rathnayaka Nudiyanselage\n x5669",
+    "content": "",
+  	"keylocker": "",
     "bgColor": "FFFFFF",
     "comment": null,
     "border": {
@@ -651,7 +689,8 @@
     "colStart": 11,
     "rowEnd": 43,
     "colEnd": 13,
-    "content": "182D\nArza Faldy PRAMESWARA\n x5696",
+    "content": "",
+  	"keylocker": "",
     "bgColor": "FFFFFF",
     "comment": null,
     "border": {
@@ -668,7 +707,8 @@
     "colStart": 22,
     "rowEnd": 3,
     "colEnd": 24,
-    "content": "1204E\n\nKate Searle\n ",
+    "content": "",
+  	"keylocker": "",
     "bgColor": "FFFFFF",
     "comment": null,
     "border": {
@@ -685,7 +725,8 @@
     "colStart": 25,
     "rowEnd": 3,
     "colEnd": 27,
-    "content": "1204F\n\nLucia Cronin\n",
+    "content": "",
+  	"keylocker": "",
     "bgColor": "FFFFFF",
     "comment": null,
     "border": {
@@ -702,7 +743,8 @@
     "colStart": 22,
     "rowEnd": 5,
     "colEnd": 24,
-    "content": "1204G\n\nSumayyah Ahmad \n ",
+    "content": "",
+  	"keylocker": "",
     "bgColor": "FFFFFF",
     "comment": null,
     "border": {
@@ -719,7 +761,8 @@
     "colStart": 25,
     "rowEnd": 5,
     "colEnd": 27,
-    "content": "1204H\n\nPenny York\n ",
+    "content": "",
+  	"keylocker": "",
     "bgColor": "FFFFFF",
     "comment": null,
     "border": {
@@ -736,7 +779,8 @@
     "colStart": 1,
     "rowEnd": 7,
     "colEnd": 2,
-    "content": "WC",
+    "content": "",
+  	"keylocker": "",
     "bgColor": "FFFFFF",
     "comment": null,
     "border": {
@@ -753,7 +797,8 @@
     "colStart": 1,
     "rowEnd": 5,
     "colEnd": 3,
-    "content": "1212\nMeeting /\nPrint Room\nx7908  \nKey Locker 591201 PTR 399  Printer Serial # SAA2J041014127",
+    "content": "PTR 399 Printer Serial # SAA2J041014127",
+  	"keylocker": "591201",
     "bgColor": "FFFFFF",
     "comment": null,
     "border": {
@@ -762,7 +807,7 @@
       "top": "thin",
       "bottom": "thin"
     },
-    "room": "1212"
+    "room": "1212 Meeting / Print Room"
   },
   {
     "type": "merged",
@@ -770,7 +815,8 @@
     "colStart": 5,
     "rowEnd": 5,
     "colEnd": 7,
-    "content": "1208\n\nCaleb Goods\nx5676 \nKey Locker \n591434",
+    "content": "",
+  	"keylocker": "591434",
     "bgColor": "FFFFFF",
     "comment": null,
     "border": {
@@ -787,7 +833,8 @@
     "colStart": 8,
     "rowEnd": 5,
     "colEnd": 10,
-    "content": "1207\n\nRon Maas\nx1066\nKey Locker \n591433",
+    "content": "",
+  	"keylocker": "591433",
     "bgColor": "FFFFFF",
     "comment": null,
     "border": {
@@ -804,7 +851,8 @@
     "colStart": 11,
     "rowEnd": 5,
     "colEnd": 13,
-    "content": "1206\n\nTristan Reed\nx2489 \nKey Locker \n591432",
+    "content": "",
+  	"keylocker": "591432",
     "bgColor": "FFFFFF",
     "comment": null,
     "border": {
@@ -821,7 +869,8 @@
     "colStart": 14,
     "rowEnd": 5,
     "colEnd": 16,
-    "content": "1203\nVACANT\nx2767  \nKey Locker \n591431",
+    "content": "",
+  	"keylocker": "591431",
     "bgColor": "FFFFFF",
     "comment": null,
     "border": {
@@ -838,7 +887,8 @@
     "colStart": 15,
     "rowEnd": 16,
     "colEnd": 17,
-    "content": "1213C\n\nElly LEUNG\n",
+    "content": "",
+  	"keylocker": "",
     "bgColor": "FFFFFF",
     "comment": "April Wen:\nCasual tutor, Lecturer\n",
     "border": {
@@ -855,7 +905,8 @@
     "colStart": 15,
     "rowEnd": 9,
     "colEnd": 17,
-    "content": "1204A\n\nVACANT\n x5687",
+    "content": "",
+  	"keylocker": "",
     "bgColor": "FFFFFF",
     "comment": null,
     "border": {
@@ -872,7 +923,8 @@
     "colStart": 22,
     "rowEnd": 8,
     "colEnd": 24,
-    "content": "1204I \n\nBen Perks\nx2917",
+    "content": "",
+  	"keylocker": "",
     "bgColor": "FFFFFF",
     "comment": null,
     "border": {
@@ -889,7 +941,8 @@
     "colStart": 25,
     "rowEnd": 8,
     "colEnd": 27,
-    "content": "1204J\n\nHan Wen\n",
+    "content": "",
+  	"keylocker": "",
     "bgColor": "FFFFFF",
     "comment": null,
     "border": {
@@ -906,7 +959,8 @@
     "colStart": 18,
     "rowEnd": 9,
     "colEnd": 20,
-    "content": "1204B\n\nVACANT\n x5692",
+    "content": "",
+  	"keylocker": "",
     "bgColor": "FFFFFF",
     "comment": null,
     "border": {
@@ -923,7 +977,8 @@
     "colStart": 18,
     "rowEnd": 16,
     "colEnd": 20,
-    "content": "1213D\n\nVACANT\n x5697",
+    "content": "",
+  	"keylocker": "",
     "bgColor": "FFFFFF",
     "comment": null,
     "border": {
@@ -940,7 +995,8 @@
     "colStart": 18,
     "rowEnd": 11,
     "colEnd": 20,
-    "content": "1204D\n\nVACANT\n x5685",
+    "content": "",
+  	"keylocker": "",
     "bgColor": "FFFFFF",
     "comment": null,
     "border": {
@@ -957,7 +1013,8 @@
     "colStart": 29,
     "rowEnd": 31,
     "colEnd": 43,
-    "content": "BHP Billiton Courtyard",
+    "content": "",
+  	"keylocker": "",
     "bgColor": "FFFFFF",
     "comment": null,
     "border": {
@@ -974,7 +1031,8 @@
     "colStart": 24,
     "rowEnd": 32,
     "colEnd": 27,
-    "content": "1220\n\nRajiv Amarnani\nx3758\nKey Locker \n591414",
+    "content": "",
+  	"keylocker": "591414",
     "bgColor": "FFFFFF",
     "comment": null,
     "border": {
@@ -991,7 +1049,8 @@
     "colStart": 24,
     "rowEnd": 14,
     "colEnd": 27,
-    "content": "1214\n\nElly Leung\nKey Locker\n591421",
+    "content": "",
+  	"keylocker": "591421",
     "bgColor": "FFFFFF",
     "comment": "Xiaochen Gao:\nRoom is allocated to Elly Leung, effective from 04 Feb",
     "border": {
@@ -1008,7 +1067,8 @@
     "colStart": 24,
     "rowEnd": 29,
     "colEnd": 27,
-    "content": "1219\n\nChristina Kum\nx6029\nKey Locker \n591415",
+    "content": "",
+  	"keylocker": "591415",
     "bgColor": "FFFFFF",
     "comment": null,
     "border": {
@@ -1025,7 +1085,8 @@
     "colStart": 24,
     "rowEnd": 17,
     "colEnd": 27,
-    "content": "1215\nJenny Hoffman\nx3070\nKey Locker \n591420",
+    "content": "",
+  	"keylocker": "591420",
     "bgColor": "FFFFFF",
     "comment": null,
     "border": {
@@ -1042,7 +1103,8 @@
     "colStart": 24,
     "rowEnd": 20,
     "colEnd": 27,
-    "content": "1216\n\nSteve Byers\nx2781\nKey Locker \n591418",
+    "content": "",
+  	"keylocker": "591418",
     "bgColor": "FFFFFF",
     "comment": null,
     "border": {
@@ -1059,7 +1121,8 @@
     "colStart": 23,
     "rowEnd": 11,
     "colEnd": 27,
-    "content": "PTR 385 Printer Serial \n# SAA2J041015456",
+    "content": "PTR 385 Printer Serial # SAA2J041015456",
+  	"keylocker": "",
     "bgColor": "FFFFFF",
     "comment": null,
     "border": {
@@ -1068,7 +1131,7 @@
       "top": "thin",
       "bottom": "thin"
     },
-    "room": "PTR 385 Printer Serial"
+    "room": "Printer Room"
   },
   {
     "type": "merged",
@@ -1076,7 +1139,8 @@
     "colStart": 18,
     "rowEnd": 19,
     "colEnd": 20,
-    "content": "1213F\nKate McGee\n x 5699",
+    "content": "",
+  	"keylocker": "",
     "bgColor": "FFFFFF",
     "comment": "Vesna Pribicevic:\nKate is current UC and requires desk for Semester 1 2025",
     "border": {
@@ -1093,7 +1157,8 @@
     "colStart": 18,
     "rowEnd": 26,
     "colEnd": 20,
-    "content": "1213L\n\nVACANT\n x5815",
+    "content": "",
+  	"keylocker": "",
     "bgColor": "FFFFFF",
     "comment": null,
     "border": {
@@ -1110,7 +1175,8 @@
     "colStart": 24,
     "rowEnd": 23,
     "colEnd": 27,
-    "content": "1217\n\nNicole Celestine\nx2081 \nKey Locker \n591417",
+    "content": "",
+  	"keylocker": "591417",
     "bgColor": "FFFFFF",
     "comment": null,
     "border": {
@@ -1127,7 +1193,8 @@
     "colStart": 24,
     "rowEnd": 26,
     "colEnd": 27,
-    "content": "1218\n\nYingnan Shi\n x5660 \nKey Locker \n591416",
+    "content": "",
+  	"keylocker": "591416",
     "bgColor": "FFFFFF",
     "comment": null,
     "border": {
@@ -1144,7 +1211,8 @@
     "colStart": 18,
     "rowEnd": 14,
     "colEnd": 20,
-    "content": "1213B\n\nBemi Soetan\nx2799  ",
+    "content": "Bemi Soetan x2799",
+  	"keylocker": "",
     "bgColor": "FFFFFF",
     "comment": null,
     "border": {
@@ -1161,7 +1229,8 @@
     "colStart": 15,
     "rowEnd": 21,
     "colEnd": 17,
-    "content": "1213G\n\nVACANT\n x5813",
+    "content": "",
+  	"keylocker": "",
     "bgColor": "FFFFFF",
     "comment": null,
     "border": {
@@ -1210,7 +1279,8 @@
     "colStart": 18,
     "rowEnd": 21,
     "colEnd": 20,
-    "content": "1213H \n\nDanyu Zhu\nx5814",
+    "content": "",
+  	"keylocker": "",
     "bgColor": "FFFFFF",
     "comment": null,
     "border": {
@@ -1227,7 +1297,8 @@
     "colStart": 16,
     "rowEnd": 36,
     "colEnd": 20,
-    "content": "183\n\nSupported Team \nX3869 \nKey Locker \n591437\n",
+    "content": "",
+  	"keylocker": "591437",
     "bgColor": "FFFFFF",
     "comment": null,
     "border": {
@@ -1244,7 +1315,8 @@
     "colStart": 7,
     "rowEnd": 45,
     "colEnd": 9,
-    "content": "182B\n\nAnis MARIS \n X4620",
+    "content": "",
+  	"keylocker": "",
     "bgColor": "FFFFFF",
     "comment": null,
     "border": {
@@ -1261,7 +1333,8 @@
     "colStart": 14,
     "rowEnd": 45,
     "colEnd": 16,
-    "content": "182H \n\nDimas Pratama\nx5670",
+    "content": "",
+  	"keylocker": "",
     "bgColor": "FFFFFF",
     "comment": null,
     "border": {
@@ -1278,7 +1351,8 @@
     "colStart": 11,
     "rowEnd": 45,
     "colEnd": 13,
-    "content": "182E\n\nRestu Khaliq Aidillah \n x1441",
+    "content": "",
+  	"keylocker": "",
     "bgColor": "FFFFFF",
     "comment": null,
     "border": {
@@ -1295,7 +1369,8 @@
     "colStart": 18,
     "rowEnd": 45,
     "colEnd": 20,
-    "content": "182K \n\nMare Stevanovski\nx5672",
+    "content": "",
+  	"keylocker": "",
     "bgColor": "FFFFFF",
     "comment": null,
     "border": {
@@ -1312,7 +1387,8 @@
     "colStart": 21,
     "rowEnd": 41,
     "colEnd": 23,
-    "content": "182L \nAlexandra Roberts\nx5673",
+    "content": "",
+  	"keylocker": "",
     "bgColor": "FFFFFF",
     "comment": "April Wen:\nAlexandra Roberts noticed may need to be reassigned if we reqruier the pod for PhD student\n",
     "border": {
@@ -1329,7 +1405,8 @@
     "colStart": 18,
     "rowEnd": 41,
     "colEnd": 20,
-    "content": "182I\n\nZhouyue Wu\n",
+    "content": "",
+  	"keylocker": "",
     "bgColor": "FFFFFF",
     "comment": null,
     "border": {
@@ -1346,7 +1423,8 @@
     "colStart": 18,
     "rowEnd": 43,
     "colEnd": 20,
-    "content": "182J\n\nAleena Shuja\n x5698",
+    "content": "",
+  	"keylocker": "",
     "bgColor": "FFFFFF",
     "comment": null,
     "border": {
@@ -1363,7 +1441,8 @@
     "colStart": 3,
     "rowEnd": 37,
     "colEnd": 4,
-    "content": "WC",
+    "content": "",
+  	"keylocker": "",
     "bgColor": "FFFFFF",
     "comment": null,
     "border": {
@@ -1380,7 +1459,8 @@
     "colStart": 7,
     "rowEnd": 36,
     "colEnd": 9,
-    "content": "185A\nJames O'Farrell    \nx8720\nKey Locker \n591436\n",
+    "content": "",
+  	"keylocker": "591436",
     "bgColor": "FFFFFF",
     "comment": "April Wen:\nMGMT5608 UC\nstay: 28/01/2025 - 14/03/2025\nKey provided",
     "border": {
@@ -1397,7 +1477,8 @@
     "colStart": 10,
     "rowEnd": 36,
     "colEnd": 12,
-    "content": "185\n\nJohn Cordery \nx2927\n Key Locker\n 591413",
+    "content": "",
+  	"keylocker": "591413",
     "bgColor": "FFFFFF",
     "comment": "Xiaochen Gao:\nJohn Cordery: Adjunct Professor",
     "border": {
@@ -1414,7 +1495,8 @@
     "colStart": 34,
     "rowEnd": 43,
     "colEnd": 37,
-    "content": "191\n\nMike Gillan\nx6729 \nKey Locker\n 591438",
+    "content": "",
+  	"keylocker": "591438",
     "bgColor": "FFFFFF",
     "comment": null,
     "border": {
@@ -1431,7 +1513,8 @@
     "colStart": 31,
     "rowEnd": 43,
     "colEnd": 33,
-    "content": "192\n\nAlex Luksyte\nx6906\nKey Locker 591439",
+    "content": "",
+  	"keylocker": "591439",
     "bgColor": "FFFFFF",
     "comment": null,
     "border": {
@@ -1448,7 +1531,8 @@
     "colStart": 24,
     "rowEnd": 36,
     "colEnd": 26,
-    "content": "181\n\nChris Perryer\nx1445\nKey Locker \n591411\n",
+    "content": "",
+  	"keylocker": "591411",
     "bgColor": "FFFFFF",
     "comment": null,
     "border": {
@@ -1465,7 +1549,8 @@
     "colStart": 25,
     "rowEnd": 41,
     "colEnd": 27,
-    "content": "182N\nEmika Howard\n",
+    "content": "",
+  	"keylocker": "",
     "bgColor": "FFFFFF",
     "comment": null,
     "border": {
@@ -1482,7 +1567,8 @@
     "colStart": 25,
     "rowEnd": 43,
     "colEnd": 27,
-    "content": "182O\nKate ARNUAUTOVIC\n x5682",
+    "content": "",
+  	"keylocker": "",
     "bgColor": "FFFFFF",
     "comment": null,
     "border": {
@@ -1499,7 +1585,8 @@
     "colStart": 5,
     "rowEnd": 36,
     "colEnd": 5,
-    "content": "Kitchen",
+    "content": "",
+  	"keylocker": "",
     "bgColor": "FFFFFF",
     "comment": null,
     "border": {
