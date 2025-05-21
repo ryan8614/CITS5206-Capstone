@@ -79,7 +79,20 @@ yarn start
 /tests                 # Jest test files
 ```
 
-Detailed handover documents of key features, components, APIs, scripts etc. are listed within each folder.
+Detailed handover documents of key features, components, APIs, scripts etc. are listed within each folder as below:
+Auto_notify/auto_notify.md
+prisma/prisma.md
+public/data/data.md
+src/app/actions/auth.md
+src/app/api/api.md
+src/app/auth/excel-edit/excel-edit.md
+src/app/auth/upload/upload.md
+src/app/features/features.md
+src/app/ui/ui.md
+src/components/components.md
+src/lib/lib.md
+student_json/student_json.md
+tests/tests.md
 
 ## Development & Maintenance
 - Install dependencies: `npm install`
