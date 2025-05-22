@@ -48,11 +48,10 @@ Used at the top of main pages to provide consistent navigation and authenticatio
 ## 3. `ContentMap.tsx`
 
 **Purpose:**  
-(Not shown in code, but referenced in the app.)  
-Presumably, this file exports a mapping of keys to content components, used for dynamic rendering in the Excel editing interface.
+A React component that renders the accommodation layout or map for a department or area, using data from the corresponding JSON files.
 
 **Usage:**  
-Imported as `content_map` in the Excel edit page to display different content based on menu selection.
+Used in the frontend to display interactive maps of rooms, staff, and facilities for each department or area.
 
 ---
 
