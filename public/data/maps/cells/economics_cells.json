@@ -311,7 +311,7 @@
     "colStart": 3,
     "rowEnd": 7,
     "colEnd": 9,
-    "content": "Don Voelte & Nancy Keegan Case Study Room",
+    "content": "",
   	"keylocker": "591201",
     "bgColor": "FFFFFF",
     "comment": null,
@@ -329,7 +329,7 @@
     "colStart": 19,
     "rowEnd": 45,
     "colEnd": 26,
-    "content": null,
+    "content": "",
     "bgColor": "FFFFFF",
     "comment": null,
     "border": {
@@ -345,7 +345,7 @@
     "colStart": 19,
     "rowEnd": 46,
     "colEnd": 26,
-    "content": null,
+    "content": "",
     "bgColor": "FFFFFF",
     "comment": null,
     "border": {
@@ -361,7 +361,7 @@
     "colStart": 19,
     "rowEnd": 47,
     "colEnd": 26,
-    "content": null,
+    "content":"",
     "bgColor": "FFFFFF",
     "comment": null,
     "border": {
@@ -413,7 +413,7 @@
     "colStart": 19,
     "rowEnd": 44,
     "colEnd": 26,
-    "content": null,
+    "content": "",
     "bgColor": "FFFFFF",
     "comment": null,
     "border": {
@@ -1293,7 +1293,7 @@
     "colStart": 3,
     "rowEnd": 40,
     "colEnd": 8,
-    "content": "Sir Rod Eddington",
+    "content": "",
   	"keylocker": "591201",
     "bgColor": "FFFFFF",
     "comment": null,
@@ -1437,7 +1437,7 @@
     "colStart": 14,
     "rowEnd": 29,
     "colEnd": 48,
-    "content": null,
+    "content": "",
     "bgColor": "FFFFFF",
     "comment": null,
     "border": {
