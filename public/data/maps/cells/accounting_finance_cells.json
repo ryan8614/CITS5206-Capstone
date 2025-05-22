@@ -1283,7 +1283,7 @@
     "colStart": 40,
     "rowEnd": 44,
     "colEnd": 42,
-    "content": null,
+    "content": "",
     "bgColor": "FFFFFF",
     "comment": null,
     "border": {
@@ -1551,7 +1551,7 @@
     "colStart": 16,
     "rowEnd": 42,
     "colEnd": 16,
-    "content": null,
+    "content": "",
     "bgColor": "FFFFFF",
     "comment": null,
     "border": {
@@ -1567,7 +1567,7 @@
     "colStart": 16,
     "rowEnd": 43,
     "colEnd": 16,
-    "content": null,
+    "content": "",
     "bgColor": "FFFFFF",
     "comment": null,
     "border": {

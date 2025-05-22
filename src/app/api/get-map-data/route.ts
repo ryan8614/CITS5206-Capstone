@@ -19,6 +19,7 @@ interface ContactEntry {
   Position?: string;
   Room?: string | number;
   "Ext No"?: string | number;
+  Source?: 'Academic' | 'Research';
 }
 
 interface StudentEntry {
@@ -65,6 +66,17 @@ function getStudentBgColor(
   if (student && student.Type && studentColors[student.Type]) {
     return studentColors[student.Type];
   }
+  return undefined;
+}
+
+function getContactBgColor(
+  contacts: ContactEntry[],
+  room: string
+): string | undefined {
+  const contact = contacts.find(c => String(c.Room ?? '').trim() === room);
+  if (!contact || !contact.Source) return undefined;
+  if (contact.Source === 'Academic') return '#FEE2E2';
+  if (contact.Source === 'Research') return '#DCFCE7';
   return undefined;
 }
 
@@ -119,16 +131,12 @@ export async function POST(req: NextRequest) {
       const summary = buildSummary(stu);
       if (!roomMap[room]) roomMap[room] = [];
       roomMap[room].push(summary);
-
-      if (stu.Comment) {
-        commentMap[room] = stu.Comment;
-      }
+      if (stu.Comment) commentMap[room] = stu.Comment;
     });
 
     contacts.forEach((person: ContactEntry) => {
       const room = String(person.Room ?? '').trim();
       if (!room) return;
-
       const summary = buildSummary(person);
       if (!roomMap[room]) roomMap[room] = [];
       roomMap[room].push(summary);
@@ -139,36 +147,54 @@ export async function POST(req: NextRequest) {
       const people = roomMap[room];
       const comment = commentMap[room];
       const keylocker = cell.keylocker?.trim();
-    
+
       let content = '';
-    
       if (people && people.length > 0) {
         content = `${room}\n${people.join('\n')}`;
       } else {
         content = cell.content?.trim() ? `${room}\n${cell.content}` : `${room}`;
       }
-    
+
       if (keylocker && keylocker !== '') {
         content += `\nKey Locker: ${keylocker}`;
       }
-    
-      const isStudentRoom = students.some(stu => String(stu["Pod No"]).trim() === room);
-    
+
+      const studentColor = getStudentBgColor(students, room);
+      const contactColor = getContactBgColor(contacts, room);
+
       let bgColor: string | undefined = undefined;
 
-      if (isStudentRoom) {
-        bgColor = getStudentBgColor(students, room);
+      const excludeRooms = new Set([
+        "CAFÉ",
+        "Kitchen",
+        "Fire Hydrant",
+        "Woodside Courtyard",
+        "Meeting Room",
+        "Printer",
+        "WC"
+      ]);
+      
+      const isValidRoomFormat =
+        /^[A-Z]+\d+[A-Z]*$/.test(room) ||  // e.g. G123, G37D
+        /^\d+[A-Z]$/.test(room) ||        // e.g. 1204A
+        /^\d+$/.test(room);               // e.g. 177
+      
+      if (studentColor) {
+        bgColor = studentColor;
+      } else if (contactColor) {
+        bgColor = contactColor;
       } else if (
         (!people || people.length === 0) &&
         (!cell.content || cell.content.trim() === '') &&
         (!keylocker || keylocker === '') &&
-        /\d/.test(room) 
+        !excludeRooms.has(room) &&
+        isValidRoomFormat
       ) {
         bgColor = '#E7FA03';
       } else {
         bgColor = cell.bgColor;
       }
-    
+      
       return {
         ...cell,
         content,
@@ -181,7 +207,6 @@ export async function POST(req: NextRequest) {
       cells: updatedCells,
       layout: layoutData,
     });
-
   } catch (error: any) {
     console.error('[populate error]', error);
     return NextResponse.json({ error: error.message }, { status: 500 });
