@@ -28,6 +28,7 @@ Located in: `src/app/features/contacts/pages/`
 
 - **AccFin.tsx**: Accounting & Finance staff contact list.
 - **Dean's_Office.tsx**: Dean's Office staff contact list.
+- **Economics.tsx**: Economics staff contact list.
 - **Marketing.tsx**: Marketing staff contact list.
 - **MO.tsx**: Management & Organisations staff contact list.
 

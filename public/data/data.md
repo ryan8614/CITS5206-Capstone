@@ -1,12 +1,12 @@
 ## Data Files Overview
 
-This directory contains JSON files representing the spatial and organizational layout of various departments and areas within the organization. Each file corresponds to a specific department or area and encodes the arrangement of rooms, offices, and shared spaces for use in mapping or visualization applications.
+This directory contains JSON files representing the spatial and organizational layout of various departments and areas within the organization. Each file corresponds to a specific department or area and encodes the arrangement of rooms and shared spaces for use in mapping or visualization applications. The data is used for mapping, staff/room lookup, and facilities management.
 
 ### File Descriptions
 
 - **accounting_finance_cells.json**
   - Contains the layout and room assignments for the Accounting & Finance department.
-  - Each entry describes a room or merged cell, including its grid position (`rowStart`, `colStart`, etc.), occupant(s), phone extension, key locker number, and any relevant comments (e.g., staff on leave, visitor allocations).
+  - Each entry describes a room or merged cell, including its grid position (`rowStart`, `colStart`, `rowEnd`, `colEnd`), occupant(s), phone extension, key locker number, and any relevant comments (e.g., staff on leave, visitor allocations).
   - Used to render the department’s map and provide details for facilities management.
 
 - **deanery_lvl_2_cells.json**
