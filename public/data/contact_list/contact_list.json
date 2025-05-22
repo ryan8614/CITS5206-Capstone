@@ -505,6 +505,153 @@
       "Room": "278A"
     },
     {
+      "Classification": "Economics",
+      "Full Name": "BAHAL Dr Girish",
+      "Position": "Senior Lecturer",
+      "Ext No": 5642,
+      "Room": 108
+    },
+    {
+      "Classification": "Economics",
+      "Full Name": "BHARATI Dr Tushar",
+      "Position": "Senior Lecturer",
+      "Ext No": 8560,
+      "Room": 115
+    },
+    {
+      "Classification": "Economics",
+      "Full Name": "BIRCH Dr Elisa",
+      "Position": "Senior Lecturer",
+      "Ext No": 1444,
+      "Room": 105
+    },
+    {
+      "Classification": "Economics",
+      "Full Name": "CHANG Dr Simon",
+      "Position": "Senior Lecturer\nSeminar Series Coordinator",
+      "Ext No": 2893,
+      "Room": 104
+    },
+    {
+      "Classification": "Economics",
+      "Full Name": "CHATTERJEE Dr Ishita",
+      "Position": "Senior Lecturer",
+      "Ext No": 5654,
+      "Room": 145
+    },
+    {
+      "Classification": "Economics",
+      "Full Name": "CHATTERJEE Dr Pratiti",
+      "Position": "Senior Lecturer",
+      "Ext No": "N/A",
+      "Room": 117
+    },
+    {
+      "Classification": "Economics",
+      "Full Name": "CHEN Dr Shawn",
+      "Position": "Senior Lecturer\nSeminar Series Coordinator",
+      "Ext No": 5655,
+      "Room": 147
+    },
+    {
+      "Classification": "Economics",
+      "Full Name": "FARHAD Dr Mohammad",
+      "Position": "Lecturer",
+      "Ext No": "N/A",
+      "Room": 127
+    },
+    {
+      "Classification": "Economics",
+      "Full Name": "FIORINI Dr Luciana",
+      "Position": "Senior Lecturer",
+      "Ext No": 7212,
+      "Room": 149
+    },
+    {
+      "Classification": "Economics",
+      "Full Name": "MADSEN Professor Jakob",
+      "Position": "Professor",
+      "Ext No": 7361,
+      "Room": 113
+    },
+    {
+      "Classification": "Economics",
+      "Full Name": "JETTER Dr Michael",
+      "Position": "Associate Professor",
+      "Ext No": 2498,
+      "Room": 150
+    },
+    {
+      "Classification": "Economics",
+      "Full Name": "KRISTOFFERSEN Dr Inga",
+      "Position": "Lecturer",
+      "Ext No": 4677,
+      "Room": 109
+    },
+    {
+      "Classification": "Economics",
+      "Full Name": "LIN Yanli",
+      "Position": "Lecturer",
+      "Ext No": "N/A",
+      "Room": 107
+    },
+    {
+      "Classification": "Economics",
+      "Full Name": "MAGNUSSON Dr Leandro",
+      "Position": "Senior Lecturer",
+      "Ext No": 2924,
+      "Room": 103
+    },
+    {
+      "Classification": "Economics",
+      "Full Name": "PALMER Dr Michael",
+      "Position": "Associate Professor",
+      "Ext No": 6094,
+      "Room": 110
+    },
+    {
+      "Classification": "Economics",
+      "Full Name": "PARSONS Dr Christopher",
+      "Position": "Associate Professor",
+      "Ext No": 5639,
+      "Room": 131
+    },
+    {
+      "Classification": "Economics",
+      "Full Name": "PRESTON Professor Alison",
+      "Position": "Professor",
+      "Ext No": 8164,
+      "Room": 146
+    },
+    {
+      "Classification": "Economics",
+      "Full Name": "RAMMOHAN Professor Anu",
+      "Position": "Professor",
+      "Ext No": 3406,
+      "Room": 114
+    },
+    {
+      "Classification": "Economics",
+      "Full Name": "TANG Dr Sam",
+      "Position": "Senior Lecturer",
+      "Ext No": 2931,
+      "Room": 116
+    },
+    {
+      "Classification": "Economics",
+      "Full Name": "WU Professor Yanrui",
+      "Position": "Professor",
+      "Ext No": 3964,
+      "Room": 112
+    },
+    {
+      "Classification": "Economics",
+      "Full Name": "N/A",
+      "Position": "Visitor Office",
+      "Ext No": 7361,
+      "Room": 128
+    },
+    {
       "Classification": "Accounting & Finance",
       "Full Name": "SUBRAAMANNIAM Dr Thanes",
       "Position": "Lecturer",
@@ -785,151 +932,11 @@
       "Room": 233
     },
     {
-      "Classification": "Economics",
-      "Full Name": "BAHAL Dr Girish",
-      "Position": "Senior Lecturer",
-      "Ext No": 5642,
-      "Room": 108
-    },
-    {
-      "Classification": "Economics",
-      "Full Name": "BHARATI Dr Tushar",
-      "Position": "Senior Lecturer",
-      "Ext No": 8560,
-      "Room": 115
-    },
-    {
-      "Classification": "Economics",
-      "Full Name": "BIRCH Dr Elisa",
-      "Position": "Senior Lecturer",
-      "Ext No": 1444,
-      "Room": 105
-    },
-    {
-      "Classification": "Economics",
-      "Full Name": "CHANG Dr Simon",
-      "Position": "Senior Lecturer\nSeminar Series Coordinator",
-      "Ext No": 2893,
-      "Room": 104
-    },
-    {
-      "Classification": "Economics",
-      "Full Name": "CHATTERJEE Dr Ishita",
-      "Position": "Senior Lecturer",
-      "Ext No": 5654,
-      "Room": 145
-    },
-    {
-      "Classification": "Economics",
-      "Full Name": "CHATTERJEE Dr Pratiti",
-      "Position": "Senior Lecturer",
-      "Ext No": "N/A",
-      "Room": 117
-    },
-    {
-      "Classification": "Economics",
-      "Full Name": "CHEN Dr Shawn",
-      "Position": "Senior Lecturer\nSeminar Series Coordinator",
-      "Ext No": 5655,
-      "Room": 147
-    },
-    {
-      "Classification": "Economics",
-      "Full Name": "FARHAD Dr Mohammad",
-      "Position": "Lecturer",
-      "Ext No": "N/A",
-      "Room": 127
-    },
-    {
-      "Classification": "Economics",
-      "Full Name": "FIORINI Dr Luciana",
-      "Position": "Senior Lecturer",
-      "Ext No": 7212,
-      "Room": 149
-    },
-    {
-      "Classification": "Economics",
-      "Full Name": "MADSEN Professor Jakob",
-      "Position": "Professor",
-      "Ext No": 7361,
-      "Room": 113
-    },
-    {
-      "Classification": "Economics",
-      "Full Name": "JETTER Dr Michael",
-      "Position": "Associate Professor",
-      "Ext No": 2498,
-      "Room": 150
-    },
-    {
-      "Classification": "Economics",
-      "Full Name": "KRISTOFFERSEN Dr Inga",
-      "Position": "Lecturer",
-      "Ext No": 4677,
-      "Room": 109
-    },
-    {
-      "Classification": "Economics",
-      "Full Name": "LIN Yanli",
-      "Position": "Lecturer",
-      "Ext No": "N/A",
-      "Room": 107
-    },
-    {
-      "Classification": "Economics",
-      "Full Name": "MAGNUSSON Dr Leandro",
-      "Position": "Senior Lecturer",
-      "Ext No": 2924,
-      "Room": 103
-    },
-    {
-      "Classification": "Economics",
-      "Full Name": "PALMER Dr Michael",
-      "Position": "Associate Professor",
-      "Ext No": 6094,
-      "Room": 110
-    },
-    {
-      "Classification": "Economics",
-      "Full Name": "PARSONS Dr Christopher",
-      "Position": "Associate Professor",
-      "Ext No": 5639,
-      "Room": 131
-    },
-    {
-      "Classification": "Economics",
-      "Full Name": "PRESTON Professor Alison",
-      "Position": "Professor",
-      "Ext No": 8164,
-      "Room": 146
-    },
-    {
-      "Classification": "Economics",
-      "Full Name": "RAMMOHAN Professor Anu",
-      "Position": "Professor",
-      "Ext No": 3406,
-      "Room": 114
-    },
-    {
-      "Classification": "Economics",
-      "Full Name": "TANG Dr Sam",
-      "Position": "Senior Lecturer",
-      "Ext No": 2931,
-      "Room": 116
-    },
-    {
-      "Classification": "Economics",
-      "Full Name": "WU Professor Yanrui",
-      "Position": "Professor",
-      "Ext No": 3964,
-      "Room": 112
-    },
-    {
-      "Classification": "Economics",
-      "Full Name": "N/A",
-      "Position": "Visitor Office",
-      "Ext No": 7361,
-      "Room": 128
+      "Classification": "Accounting & Finance",
+      "Full Name": "Ryan",
+      "Position": "dsadasd",
+      "Ext No": "dasdasd",
+      "Room": "dasdas"
     }
   ],
   "Research Fellows/Adjunct Professor": [
@@ -967,27 +974,6 @@
       "Position": "Adjunct Lecturer",
       "Ext No": 1445,
       "Room": 181
-    },
-    {
-      "Classification": "Accounting & Finance",
-      "Full Name": "IZAN W/Professor",
-      "Position": "Emeiitus Professor",
-      "Ext No": 2627,
-      "Room": 243
-    },
-    {
-      "Classification": "Accounting & Finance",
-      "Full Name": "BROWN Philip",
-      "Position": "Emeritus Professor",
-      "Ext No": 2798,
-      "Room": 243
-    },
-    {
-      "Classification": "Accounting & Finance",
-      "Full Name": "JOHNSON Adjunct Professor Paul",
-      "Position": "Adjunct Professor",
-      "Ext No": 2894,
-      "Room": 204
     },
     {
       "Classification": "Economics",
@@ -1051,6 +1037,27 @@
       "Position": "Honorary Research Fellow",
       "Ext No": 5632,
       "Room": 129
+    },
+    {
+      "Classification": "Accounting & Finance",
+      "Full Name": "IZAN W/Professor",
+      "Position": "Emeiitus Professor",
+      "Ext No": 2627,
+      "Room": 243
+    },
+    {
+      "Classification": "Accounting & Finance",
+      "Full Name": "BROWN Philip",
+      "Position": "Emeritus Professor",
+      "Ext No": 2798,
+      "Room": 243
+    },
+    {
+      "Classification": "Accounting & Finance",
+      "Full Name": "JOHNSON Adjunct Professor Paul",
+      "Position": "Adjunct Professor",
+      "Ext No": 2894,
+      "Room": 204
     }
   ]
 }
