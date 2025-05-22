@@ -63,7 +63,12 @@ export default function AccFin() {
     >
       <div className='flex justify-between items-center mb-4 px-4 pt-4'>
         <h2 className="text-xl font-bold">Accounting & Finance</h2>
-
+        <button
+          onClick={handleSave}
+          className="px-4 py-2 bg-blue-600 text-white rounded hover:bg-blue-700"
+        >
+          Save
+        </button>
       </div>
 
       <div className="px-4 mb-2">

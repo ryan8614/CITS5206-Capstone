@@ -1,0 +1,13 @@
+{
+    "functions": {
+        "src/app/api/reminder/route.ts": {
+            "runtime": "edge"
+        }
+    },
+    "cron": [
+        {
+            "path": "/api/reminder",
+            "schedule": "0 7 * * *"
+        }
+    ]
+}

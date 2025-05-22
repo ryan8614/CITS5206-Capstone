@@ -6,15 +6,8 @@ export async function loadFilteredContacts(classification: string) {
   const raw = await fs.readFile(filePath, 'utf-8');
   const data = JSON.parse(raw);
 
-  const academicStaff = (data["Academic Staff"] || []).map((entry: any) => ({
-    ...entry,
-    Source: 'Academic',
-  }));
-
-  const researchFellows = (data["Research Fellows/Adjunct Professor"] || []).map((entry: any) => ({
-    ...entry,
-    Source: 'Research',
-  }));
+  const academicStaff = data["Academic Staff"] || [];
+  const researchFellows = data["Research Fellows/Adjunct Professor"] || [];
 
   const combined = [...academicStaff, ...researchFellows];
 
