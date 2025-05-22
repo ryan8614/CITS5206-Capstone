@@ -26,14 +26,17 @@ Information Technology Capstone Project -- SEM 1 2025 Group 9
   - [Installation Guide](#installation-guide)
     - [1. Clone the Repository](#1-clone-the-repository)
     - [2. Install Dependencies](#2-install-dependencies)
-    - [3. Start Development Server](#3-start-development-server)
-    - [4. Build for Production](#4-build-for-production)
+    - [3. Set Up the Database](#3-set-up-the-database)
+    - [4. Start Development Server](#4-start-development-server)
+    - [5. Build for Production](#5-build-for-production)
+    - [6.Terminate the Server](#6terminate-the-server)
   - [Project Structure](#project-structure)
   - [Usage](#usage)
   - [Troubleshooting](#troubleshooting)
     - [Installation Issues](#installation-issues)
       - [Node.js Version Compatibility](#nodejs-version-compatibility)
       - [Dependency Installation Failures](#dependency-installation-failures)
+      - [Database Connection Problems](#database-connection-problems)
       - [Build Errors](#build-errors)
     - [Authentication Problems](#authentication-problems)
       - [Login Failures](#login-failures)
@@ -107,8 +110,40 @@ Or using yarn:
 ```bash
 yarn install
 ```
+### 3. Set Up the Database 
+a. Create a .env file in the project root with the following content:
 
-### 3. Start Development Server
+DATABASE_URL="postgresql://USER:PASSWORD@HOST:PORT/DATABASE"
+
+Replace `USER`, `PASSWORD`, `HOST`, `PORT`, and `DATABASE` with your PostgreSQL credentials.
+
+> **Note:** The project is configured to use PostgreSQL by default. If you wish to use SQLite for local development, you must update the `provider` in `prisma/schema.prisma` to `"sqlite"` and set `DATABASE_URL="file:./prisma/dev.db"` in your `.env` file.
+
+In `.env`
+```
+DATABASE_URL="file:./prisma/dev.db"
+```
+
+In `prisma/schema.prisma`
+```
+datasource db {
+  provider = "sqlite"
+  url      = env("DATABASE_URL")
+}
+```
+
+b. Run Prisma Migrations to set up the database schema:
+```
+npx prisma migrate dev --name init
+```
+This will create the necessary tables and columns as defined in prisma/schema.prisma .
+
+ c. (Optional) Generate Prisma Client:
+```
+npx prisma generate
+```
+
+### 4. Start Development Server
 
 ```bash
 npm run dev
@@ -122,7 +157,7 @@ yarn dev
 
 The application will be available at [http://localhost:3000](http://localhost:3000)
 
-### 4. Build for Production
+### 5. Build for Production
 
 ```bash
 npm run build
@@ -135,81 +170,98 @@ Or using yarn:
 yarn build
 yarn start
 ```
+### 6.Terminate the Server
+Press Ctrl + C in the terminal to stop the process.
 
 ## Project Structure
 
 ```bash
-📁 Auto_notify
-├── Notebook.md                # Notes related to the auto notification process
-├── check_notify.py           # Script for checking notification conditions
-├── config.py                 # Configuration file for notification settings
-├── students_data.json        # Student data used in notification logic
-├── test.json                 # Sample test data for development
+📁 Auto_notify                # Python scripts for automated email notifications
+├── auto_notify.md            # Documentation for the auto notification process
+├── check_notify.py           # Script to check notification conditions
+├── config.py                 # Configuration for notification settings
+├── students_data.json        # Student data for notification logic
+├── test.json                 # Sample test data
+└── __pycache__/              # Python bytecode cache
 
-📁 prisma
-├── dev.db                    # SQLite database file
-└── migrations/
-    └── 20250422050751_init/
-        └── migration.sql     # Initial database schema
+📁 prisma                     # Prisma ORM configuration and migrations
+├── dev.db                    # SQLite database file (local development)
+├── migrations/               # Database migration history
+│   ├── ...                   # Individual migration folders
+│   └── migration_lock.toml   # Migration lock file
+├── prisma/                   # (May contain generated Prisma client code)
+├── schema.prisma             # Prisma schema definition
 
-📁 public
-├── data/
-    ├── contact_list/
-    │   └── contact_list.json # JSON contact list used in frontend rendering
-    └── maps/
-        ├── cells/
-        │   ├── accounting_finance_cells.json
-        │   ├── deanery_lvl_2_cells.json
-        │   ├── economics_cells.json
-        │   ├── gf_csi_cells.json
-        │   ├── gf_da_cells.json
-        │   ├── marketing_cells.json
-        │   └── mgmt_&_orgs_cells.json
-        │       # Define grid cell data for layout visualization
-        ├── layouts/
-        │   ├── accounting_finance_layout.json
-        │   ├── deanery_lvl_2_layout.json
-        │   ├── economics_layout.json
-        │   ├── gf_csi_layout.json
-        │   ├── gf_da_layout.json
-        │   ├── marketing_layout.json
-        │   └── mgmt_&_orgs_layout.json
-        │       # Define the layout metadata for room arrangements
-        └── students.json     # PhD student completion and allocation data
+📁 public                     # Static assets and public data
+├── favicon.ico               # Website favicon
+├── file.svg                  # SVG assets
+├── globe.svg
+├── next.svg
+├── vercel.svg
+├── window.svg
+├── data/                     # Data used by the frontend
+│   ├── contact_list/         # Contact list JSONs
+│   └── maps/                 # Accommodation map data
+├── documentation/            # Project documentation files
+│   ├── DesignChanges.md
+│   ├── DeveloperHandover.md
+│   ├── UserManual.md
+│   ├── api.md
+│   ├── auth.md
+│   ├── components.md
+│   ├── data.md
+│   ├── excel-edit.md
+│   ├── features.md
+│   ├── lib.md
+│   ├── prisma.md
+│   ├── student_json.md
+│   ├── tests.md
+│   ├── ui.md
+│   └── upload.md
 
-📁 src
-├── components/
-│   ├── ContentMap.tsx            # Renders the accommodation layout
-│   ├── UploadDragger.tsx         # Upload interface for Excel/JSON files
-│   ├── header.tsx                # Page header UI
-│   └── usePreventScrollBleed.ts # Custom hook for UX improvement
-├── lib/
-│   ├── definitions.ts            # Shared types and constants
-│   ├── parseExcelAndSave.ts     # Parses uploaded Excel files to JSON
-│   └── session.tsx              # Handles session-related functionality
-└── middleware.ts                # Middleware for API/session handling
+📁 src                        # Main application source code
+├── app/                      # Next.js app directory
+│   ├── actions/              # Server actions (API logic)
+│   ├── api/                  # API route handlers
+│   ├── auth/                 # Authentication logic
+│   ├── features/             # Feature-specific modules
+│   ├── globals.css           # Global CSS
+│   ├── layout.tsx            # App layout component
+│   ├── not-found.tsx         # 404 page
+│   ├── page.tsx              # Main entry page
+│   ├── signin/               # Sign-in page/components
+│   ├── signup/               # Sign-up page/components
+│   └── ui/                   # Shared UI components
+├── components/               # Reusable React components
+│   ├── ContentMap.tsx
+│   ├── UploadDragger.tsx
+│   ├── header.tsx
+│   └── usePreventScrollBleed.ts
+├── lib/                      # Utility libraries and helpers
+│   ├── definitions.ts
+│   ├── loadFilteredContacts.ts
+│   ├── loadFilteredStudents.ts
+│   ├── parseExcelAndSave.ts
+│   └── session.tsx
+└── middleware.ts             # Next.js middleware
 
-📁 student_json
-├── data_transfer.py           # Script for converting raw Excel to JSON
-└── raw_data.xlsx              # Original spreadsheet for room or student data
+📁 student_json                # Scripts and data for student JSON processing
+├── data_transfer.py           # Script for data transfer
+└── raw_data.xlsx              # Raw Excel data
 
-📁 tests
-├── auth.test.tsx             # Test for authentication features
-├── middleware.test.tsx       # Test for backend middleware
-├── session.test.tsx          # Unit tests for session logic
-├── session_route.test.tsx    # API route tests for session
-└── upload_route.test.tsx     # Tests for upload API endpoints
+📁 tests                       # Automated test suites (Jest)
+├── auth.test.tsx              # Authentication tests
+├── middleware.test.tsx        # Middleware tests
+├── session.test.tsx           # Session management tests
+├── session_route.test.tsx     # Session API route tests
+└── upload_route.test.tsx      # Upload API route tests
 
-📄 README.md                   # Project overview and usage instructions
-
-📄 DesignChanges.md                   # Project design changes during the implemente process
+README.md                      # Project documentation (this file)
 ```
-
-
 ## Usage
 
 **Open the website**: 
-1. Use the deployed link to open the website
+1. Open the website: https://cits-5206-capstone.vercel.app
 2. Or run the application using the commands provided above to open the website.
 
 **Sign Up**: 
@@ -269,6 +321,22 @@ yarn start
 - Reinstall dependencies: `npm install`
 - If specific packages fail, try installing them individually with exact versions from package.json
 
+#### Database Connection Problems
+
+**Problem**: Errors such as `Environment variable not found: DATABASE_URL` or `PrismaClientInitializationError`.
+
+**Solution**:
+- Ensure you have created a `.env` file in the project root with a valid `DATABASE_URL` for PostgreSQL.
+- If using a local PostgreSQL instance, verify that the database server is running and accessible.
+- Double-check your credentials and connection string format.
+- If you wish to use SQLite for local development, update both your `.env` and `prisma/schema.prisma` as described above.
+- After any changes to the database or schema, re-run `npx prisma migrate dev` and `npx prisma generate`.
+
+**Problem**: `prisma.user.findUnique()` or other Prisma queries fail.
+
+**Solution**:
+- This is usually due to an incorrect or missing `DATABASE_URL`, or the database schema not being migrated. Follow the steps above to resolve.
+- 
 #### Build Errors
 
 **Problem**: `npm run build` fails with TypeScript or compilation errors.
@@ -373,6 +441,25 @@ Tests run in a Node.js environment with Jest. The test environment uses:
 - Mocked authentication and session management
 - Isolated API route testing
 
+## Future Enhancements
+
+- **Input Validation**  
+  Introduce constraints on input fields to prevent the submission of invalid or inconsistent data during editing.
+
+- **Search Functionality**  
+  Implement a robust search feature to quickly locate room or staff information.
+
+- **Integrated Navigation**  
+  Enable clickable links between the accommodation map and the contact list, allowing users to easily navigate between related information in both views.
+
+- **Printable Contact List**  
+  Refine the formatting of the contact list to enhance readability and ensure it is print-ready.
+
+- **Role-Based Access Control (RBAC)**  
+  Implement a permission management system to assign different levels of access based on user roles (e.g., admin, staff, viewer), ensuring data security and appropriate usage.
+
+
+
 ## Learn More
 
 To learn more about Next.js, take a look at the following resources:
@@ -397,4 +484,6 @@ This repository contains confidential data and proprietary code developed for in
 🚫 **Do not copy, distribute, or disclose any part of this repository without prior written consent.**
 
 All names, office locations, and contact details are considered sensitive information and must be handled in accordance with applicable privacy and data protection laws.
+
+
 
