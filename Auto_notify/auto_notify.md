@@ -36,19 +36,31 @@ The `Auto_notify` system is designed to automate email notifications for student
 
 ## Setup & Configuration
 
-1. **Email Setup**
-   - Use a Gmail account for sending emails.
-   - Enable "App Passwords" in Gmail security settings and use the generated password in `config.py`.
-   - Set `SYSTEM_EMAIL` and `ADMIN_EMAIL` accordingly.
+### Create App Password for System Email
 
-2. **Data Files**
-   - Place the relevant JSON data file (`students_data.json` or `test.json`) in the same directory as the script.
-   - Ensure the data format matches the expected schema.
+If you're using Gmail (or another provider with 2FA):
 
-3. **PythonAnywhere Deployment**
-   - Upload all files (`check_notify.py`, `config.py`, and data files) to your PythonAnywhere account.
-   - Set up a scheduled task (e.g., daily) to run `check_notify.py`.
-   - Ensure the working directory is correct and all file paths are valid.
+1. Go to your Google Account > **Security**.
+2. Enable **2-Step Verification** if not already on.
+3. Go to **App passwords**.
+4. Generate an **App Password** for "Mail".
+5. Copy the password. You’ll use this instead of your Gmail password in your script.
+
+Example config in Auto_notify/config.py`:
+
+```python
+# Email account used to send the notifications
+SYSTEM_EMAIL = os.environ.get("SYSTEM_EMAIL", "PUT THE SYSTEM MAILBOX HERE")
+
+# App password for the sending email (never use your real email password)
+SYSTEM_PASSWORD = os.environ.get("SYSTEM_PASSWORD", "REPLACE WITH THE APP PASSWORD")
+
+# Target/recipient email for receiving the notifications
+ADMIN_EMAIL = os.environ.get("ADMIN_EMAIL", "PUT THE TARGET MAILBOX HERE")
+```
+
+By now, you should be able to finish the email settings and could receive the reminder.
+
 
 ## Running the Script
 
@@ -59,6 +71,7 @@ The `Auto_notify` system is designed to automate email notifications for student
   This will process today's departures and send emails as needed.
 
 - Scheduled Run : Use PythonAnywhere's "Tasks" feature to schedule the script to run daily.
+
 ## Customization & Maintenance
 - Changing Data Source : Modify the file path in check_notify.py to switch between test.json and students_data.json .
 - Adding/Removing Recipients : Update ADMIN_EMAIL in config.py to change the notification recipient.
