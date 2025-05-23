@@ -50,14 +50,45 @@ https://cits-5206-capstone.vercel.app
 
 ## 7. Download Updated Contact List
 
-1. Navigate to the **Download** section in the top menu.
-2. Select the desired file to download.
-3. The file will be saved to your device with the latest changes applied.
+Click the **Download** section in the top menu, the contact list file will be saved to your device with the latest changes applied.
 
 ## 8. Email notification
 
-1.  <confirm the email auto process here>
-2.
+Flask Reminder System on PythonAnywhere
 
-For support or further assistance, please contact the development team at:
-📧 [your-support-email@example.com]
+This manual explains how to set up, configure, and use a Flask-based reminder system hosted on PythonAnywhere. The system reads a `.json` file (such as a list of students or staff) and sends notifications (e.g., email) when specific conditions are met (such as dates matching today's date).
+
+### 🧩 Overview
+
+This 3rd-party based system includes:
+
+- A Flask web app (for web access or API triggering)
+- A JSON data file (e.g., `students_data.json`, will be stored on cloud)
+- A reminder function that checks the data and triggers email alerts
+- A scheduled task (cron job) to run the check daily
+- An email system to notify target users
+
+### 🛠️ Email Setup
+#### Create App Password for System Email
+
+If you're using Gmail (or another provider with 2FA):
+
+1. Go to your Google Account > **Security**.
+2. Enable **2-Step Verification** if not already on.
+3. Go to **App passwords**.
+4. Generate an **App Password** for "Mail".
+5. Copy the password. You’ll use this instead of your Gmail password in your script.
+
+Example config in config.py`:
+```python
+# Email account used to send the notifications
+SYSTEM_EMAIL = os.environ.get("SYSTEM_EMAIL", "PUT THE SYSTEM MAILBOX HERE")
+
+# App password for the sending email (never use your real email password)
+SYSTEM_PASSWORD = os.environ.get("SYSTEM_PASSWORD", "REPLACE WITH THE APP PASSWORD")
+
+# Target/recipient email for receiving the notifications
+ADMIN_EMAIL = os.environ.get("ADMIN_EMAIL", "PUT THE TARGET MAILBOX HERE")
+```
+
+By now, you should be able to finish the email settings and could receive the reminder. 
