@@ -79,7 +79,7 @@ If you're using Gmail (or another provider with 2FA):
 4. Generate an **App Password** for "Mail".
 5. Copy the password. You’ll use this instead of your Gmail password in your script.
 
-Example config in config.py`:
+Example config in `Auto_notify/config.py`:
 ```python
 # Email account used to send the notifications
 SYSTEM_EMAIL = os.environ.get("SYSTEM_EMAIL", "PUT THE SYSTEM MAILBOX HERE")
