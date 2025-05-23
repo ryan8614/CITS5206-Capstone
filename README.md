@@ -260,23 +260,23 @@ README.md                      # Project documentation (this file)
 ```
 ## Usage
 
-**Open the website**: 
+### Open the website: 
 1. Open the website: https://cits-5206-capstone.vercel.app
 2. Or run the application using the commands provided above to open the website.
 
-**Sign Up**: 
+### Sign Up: 
 1. Navigate to the Sign Up page by clicking the "Sign up" button on the homepage.
 2. Enter your username, email address, and create a secure password.
 3. Click the "Register" button to create your account.
 4. Upon successful registration, you'll be automatically redirected to the Sign In page.
 
-**Login**: 
+### Login: 
 1. Navigate to the Login page by clicking the "Sign in" button on the homepage.
 2. Enter your username and password.
 3. Click the "Sign in" button to access your account.
 4. Once logged in, you'll have access to the Excel synchronization features.
 
-**Edit**: 
+### Edit: 
 1. After logging in, click on the "Edit" option in the navigation menu.
 2. From the sidebar menu, select the Excel file you wish to edit.
 3. Use the spreadsheet interface to make changes to your data:
@@ -284,16 +284,55 @@ README.md                      # Project documentation (this file)
    - Edit cell values directly by clicking on them
    - Use dropdown menus to choose the source type “Academic” or “Research”
 
-**Save Changes**: 
+### Save Changes: 
 1. After making edits to your spreadsheet, click the "Save Changes" button located at the top of the editing interface.
 2. The system will automatically synchronize your changes across all related files.
 3. A success notification will appear when your changes have been saved successfully.
 
-**Download**:
+### Download:
 1. To download your synchronized Excel files, click on the "Download" option in the navigation menu.
 2. Select the file you wish to download from the available options.
 3. The file will be downloaded to your device with all the latest changes applied.
 
+### Email Notification
+Flask Reminder System on PythonAnywhere
+
+This manual explains how to set up, configure, and use a Flask-based reminder system hosted on PythonAnywhere. The system reads a `.json` file (such as a list of students or staff) and sends notifications (e.g., email) when specific conditions are met (such as dates matching today's date).
+
+#### 🧩 Overview
+
+This 3rd-party based system includes:
+
+- A Flask web app (for web access or API triggering)
+- A JSON data file (e.g., `students_data.json`, will be stored on cloud)
+- A reminder function that checks the data and triggers email alerts
+- A scheduled task (cron job) to run the check daily
+- An email system to notify target users
+
+#### 🛠️ Email Setup
+###### Create App Password for System Email
+
+If you're using Gmail (or another provider with 2FA):
+
+1. Go to your Google Account > **Security**.
+2. Enable **2-Step Verification** if not already on.
+3. Go to **App passwords**.
+4. Generate an **App Password** for "Mail".
+5. Copy the password. You’ll use this instead of your Gmail password in your script.
+
+Example config in Auto_notify/config.py`:
+```python
+# Email account used to send the notifications
+SYSTEM_EMAIL = os.environ.get("SYSTEM_EMAIL", "PUT THE SYSTEM MAILBOX HERE")
+
+# App password for the sending email (never use your real email password)
+SYSTEM_PASSWORD = os.environ.get("SYSTEM_PASSWORD", "REPLACE WITH THE APP PASSWORD")
+
+# Target/recipient email for receiving the notifications
+ADMIN_EMAIL = os.environ.get("ADMIN_EMAIL", "PUT THE TARGET MAILBOX HERE")
+```
+
+By now, you should be able to finish the email settings and could receive the reminder. 
 
 ## Troubleshooting
 
